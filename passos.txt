@@ -1,0 +1,2 @@
+git config --global user.name AninhaMel
+git config --global user.email ana.silva5134@etec.sp.gov.br

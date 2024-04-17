@@ -1,9 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AAETravel.Models
+namespace AAETravel.Models;
 [Table("Pais")]
-public class Pais
 
     public class Pais
     {

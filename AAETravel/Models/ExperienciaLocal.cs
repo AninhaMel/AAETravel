@@ -11,4 +11,8 @@ namespace AAETravel.Models;
    public int LocalId { get; set; }
         [ForeignKey("Local")]
         public Lista Local { get; set; }
+
+           public int ExperienciaId { get; set; }
+        [ForeignKey("Experiencia")]
+        public Lista Experiencia { get; set; }
     }

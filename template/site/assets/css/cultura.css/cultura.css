@@ -1,0 +1,318 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../../img/outros/fundos/fundo-cultura.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    & nav {
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 25px;
+        align-items: center;
+
+        & .logo {
+            width: 150px;
+            height: 100%;
+        }
+
+        & h3 {
+            color: white;
+            font-size: 20pt;
+        }
+
+        & .user {
+            width: 50px;
+            height: 100%;
+            margin: 20px;
+
+            & img {
+                border-radius: 50%
+            }
+        }
+    }
+
+    & .caixa {
+        margin-top: 100px;
+        width: 100vw;
+
+        & h1 {
+            color: white;
+            font-size: 30pt;
+            margin-bottom: 45px;
+            margin-left: 50px;
+        }
+
+        & a {
+            padding: 10px 80px;
+            background-color: #DFD1C6;
+            color: white;
+            border-radius: 30px;
+            font-size: 16pt;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+/* Locais */
+
+section {
+    width: 100vw;
+    min-height: 100vh;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    padding: 80px;
+    gap: 15px;
+}
+
+.lugares {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    &:hover{
+        transition: 0.3s;
+        box-shadow: 0 0 10px 4px #DFD1C6;
+        & img{
+            transition: 0.3s;
+            box-shadow: 0 4px 10px 4px #DFD1C6;
+        }
+    }
+
+
+    & img {
+        width: 100%;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+
+    & a {
+        color: black;
+        background-color: #DFD1C6;
+        padding: 5px 80px;
+        border-radius: 30px;
+        font-size: 14pt;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: #DFD1C6;
+
+    & .inf-adicionais {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        color: #fff;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    & nav {
+        display: flex;
+        width: 25%;
+        justify-content: space-evenly;
+        gap: 10px;
+
+        & a {
+            text-decoration: none;
+
+            & .i1:hover {
+                color: rgb(7, 155, 241);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & .i2:hover {
+                color: rgb(255, 0, 132);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & .i3:hover {
+                color: rgb(0, 255, 21);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & .i4:hover {
+                color: rgb(255, 0, 0);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & .i5:hover {
+                color: rgb(255, 255, 255);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & .i6:hover {
+                color: rgb(208, 255, 0);
+                transform: scale(1.1);
+                transition: 0.05s;
+            }
+
+            & i {
+                transition: 0.3s;
+                font-size: 25px;
+            }
+        }
+
+    }
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    background: black;
+
+    & img {
+        width: 50vw;
+        margin: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.273);
+    }
+
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    & .primeira-parte {
+        width: 40%;
+        height: 100%;
+
+        & h1 {
+            text-align: start;
+            text-decoration: underline #DFD1C6;
+            margin: 20px 0
+        }
+
+        & p {
+            text-align: justify;
+        }
+    }
+
+    & .contatos {
+        width: 20%;
+        height: 100%;
+
+        & h1 {
+            text-align: start;
+            text-decoration: underline #DFD1C6;
+            margin: 20px 0
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            list-style: none;
+
+            & li i {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    & .explore {
+        height: 100%;
+        width: 20%;
+
+        & h1 {
+            text-align: start;
+            text-decoration: underline #DFD1C6;
+            margin: 20px 0
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            & a {
+                color: #fff;
+
+                &:hover {
+                    text-decoration: underline #DFD1C6;
+                }
+
+                &:hover i {
+                    color: #DFD1C6;
+                }
+
+                & i {
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

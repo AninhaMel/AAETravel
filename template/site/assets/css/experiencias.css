@@ -18,11 +18,12 @@ body {
 }
 
 body {
-    background-image: url(../../img/outros/fundos/fundo.png);
+    background-image: url(../img/outros/fundos/fundo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    filter: drop-shadow(0 0 50px #7748CF);
 }
 
 header {
@@ -83,6 +84,7 @@ header {
     text-align: center;
     font-weight: 800;
     color: white;
+    filter: drop-shadow(0 0 50px #7748CF);
 }
 
 
@@ -105,6 +107,8 @@ section {
         font-weight: 600;
         text-decoration: underline #7748CF;
         text-shadow: 0 0 0 4px #7748CF;
+        filter: drop-shadow(0 0 50px #7748CF);
+
     }
 
     & h3 {
@@ -126,24 +130,13 @@ section {
     gap: 30px;
 }
 
-.conainer-paises {
+.conainer-paises-natureza {
 
     width: 400px;
     height: 230px;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
     transition: 0.3s;
-
-    &:hover {
-        transition: 0.3s;
-        box-shadow: 0 0 10px 4px #7748CF;
-
-        & a {
-            transition: 0.3s;
-            box-shadow: 0 0 10px 4px #7748CF;
-        }
-    }
-
 
     & img {
         width: 100%;
@@ -163,6 +156,7 @@ section {
     }
 
     a {
+        background-color: #076437;
         position: relative;
         bottom: 150px;
         color: white;
@@ -174,6 +168,301 @@ section {
         font-weight: 700;
         transition: 0.3s;
         box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #076437;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #076437;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #074929;
+            transition: 0.3s;
+        }
+    }
+}
+
+.conainer-paises-restaurante {
+
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+    transition: 0.3s;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        filter: brightness(50%);
+    }
+
+    & h1 {
+        position: relative;
+        bottom: 165px;
+        text-align: center;
+        color: white;
+        font-size: 20pt;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    a {
+        background-color: #E5B712;
+        position: relative;
+        bottom: 150px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px 60px 5px 60px;
+        left: 110px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #E5B712;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #E5B712;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #a88400;
+            transition: 0.3s;
+        }
+    }
+}
+
+.conainer-paises-vida-noturna {
+
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+    transition: 0.3s;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        filter: brightness(50%);
+    }
+
+    & h1 {
+        position: relative;
+        bottom: 165px;
+        text-align: center;
+        color: white;
+        font-size: 20pt;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    a {
+        background-color: #A12BA4;
+        position: relative;
+        bottom: 150px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px 60px 5px 60px;
+        left: 110px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #A12BA4;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #A12BA4;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #740f75;
+            transition: 0.3s;
+        }
+    }
+}
+
+.conainer-paises-espiritualidade {
+
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+    transition: 0.3s;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        filter: brightness(50%);
+    }
+
+    & h1 {
+        position: relative;
+        bottom: 165px;
+        text-align: center;
+        color: white;
+        font-size: 20pt;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    a {
+        background-color: #8A6C47;
+        position: relative;
+        bottom: 150px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px 60px 5px 60px;
+        left: 110px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #8A6C47;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #8A6C47;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #685134;
+            transition: 0.3s;
+        }
+    }
+}
+
+.conainer-paises-compras {
+
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+    transition: 0.3s;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        filter: brightness(50%);
+    }
+
+    & h1 {
+        position: relative;
+        bottom: 165px;
+        text-align: center;
+        color: white;
+        font-size: 20pt;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    a {
+        background-color: #4B778A;
+        position: relative;
+        bottom: 150px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px 60px 5px 60px;
+        left: 110px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #4B778A;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #4B778A;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #254553;
+            transition: 0.3s;
+        }
+    }
+}
+
+.conainer-paises-cultura {
+
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+    transition: 0.3s;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        filter: brightness(50%);
+    }
+
+    & h1 {
+        position: relative;
+        bottom: 165px;
+        text-align: center;
+        color: white;
+        font-size: 20pt;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    a {
+        background-color: #DFD1C6;
+        position: relative;
+        bottom: 150px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px 60px 5px 60px;
+        left: 110px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
+
+        &:hover {
+            color: #DFD1C6;
+            background: black;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 0 10px 5px #DFD1C6;
+        transition: 0.3s;
+
+        & a {
+            box-shadow: 0 0 10px 5px #918982;
+            transition: 0.3s;
+        }
     }
 }
 
@@ -207,6 +496,7 @@ footer {
 
         & a {
             text-decoration: none;
+            color: rgba(255, 255, 255, 0.523);
 
             & .i1:hover {
                 color: rgb(7, 155, 241);
@@ -468,6 +758,7 @@ footer {
             font-size: 12pt;
         }
     }
+
     footer .inf-adicionais {
         margin-top: -100px;
         padding-right: 170px;

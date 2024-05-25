@@ -47,21 +47,19 @@ header {
         color: #C7CDD5;
         font-size: 15pt;
         font-weight: 600;
+        &:hover i{
+            color: #7748CF;
+            transition: 0.3s;
+        }
+        &:hover {
+            color: white;
+        }
     }
 
     & i {
         font-size: 18pt;
         transition: 0.2s;
     }
-}
-
-a:hover i {
-    color: #7748CF;
-    transition: 0.3s;
-}
-
-a:hover {
-    color: white;
 }
 
 
@@ -457,9 +455,15 @@ footer {
             gap: 15px;
             list-style: none;
 
+            a {
+                color: white;
+
+            }
+
             & li i {
                 font-size: 20px;
                 margin-right: 10px;
+                transition: 0.3s;
             }
         }
     }

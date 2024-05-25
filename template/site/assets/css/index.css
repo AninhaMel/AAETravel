@@ -18,11 +18,13 @@ body {
 }
 
 body {
-    background-image: url(../../img/outros/fundos/fundo.png);
+    background-image: url(../img/outros/fundos/fundo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    filter: drop-shadow(0 0 50px #7748CF);
+
 }
 
 header {
@@ -68,6 +70,12 @@ header {
     max-height: 170px;
     margin-top: 60px;
     margin-top: 100px;
+    filter: drop-shadow(0 0 4px #7748CF);
+    transition: 0.3s;
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
 }
 
 
@@ -84,6 +92,7 @@ header {
     text-align: center;
     font-weight: 800;
     color: white;
+    filter: drop-shadow(0 0 50px #7748CF);
 }
 
 /* Seção dos Países */
@@ -106,6 +115,8 @@ section {
         margin-top: 50px;
         text-decoration: underline #7748CF;
         text-shadow: 0 0 0 4px #7748CF;
+        filter: drop-shadow(0 0 50px #7748CF);
+
     }
 
     & h3 {
@@ -305,6 +316,7 @@ a {
         border-radius: 30px;
         width: 200px;
         height: 200px;
+        transition: 0.3s;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
@@ -458,16 +470,24 @@ footer {
             a {
                 color: white;
 
+                &:hover {
+                    text-decoration: underline #7748CF;
+                    transition: 0.1s;
+
+                    & i {
+                        color: #7748CF;
+                    }
+                }
+
             }
 
             & li i {
                 font-size: 20px;
                 margin-right: 10px;
-                transition: 0.3s;
+                transition: 0.1s;
             }
         }
     }
-
     & .explore {
         height: 100%;
         width: 20%;

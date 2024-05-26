@@ -37,6 +37,7 @@ main {
 
     & img {
         width: 400px;
+        filter: drop-shadow(0 0 4px #7748CF);
     }
 }
 
@@ -54,7 +55,7 @@ a {
 
 
 h1 {
-    color: #0097B2;
+    color: #7748CF;
 }
 
 input {
@@ -75,9 +76,8 @@ input {
 
     &[type=submit] {
         cursor: pointer;
-        background: #0097B2;
+        background: #7748CF;
         color: white;
-        box-shadow: 0px 0px 1px white;
         transition: 0.3s;
 
         &:active {
@@ -85,7 +85,9 @@ input {
         }
 
         &:hover {
-            box-shadow: 0 0 10px white;
+            background: black;
+            color: #7748CF;
+            box-shadow: 0 0 5px #7748CF;
         }
     }
 }

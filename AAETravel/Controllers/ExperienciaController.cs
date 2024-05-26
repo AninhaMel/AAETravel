@@ -4,16 +4,16 @@ using AAETravel.Models;
 
 namespace AAETravel.Controllers;
 
-public class HomeController : Controller
+public class ExperienciaController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ExperienciaController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public ExperienciaController(ILogger<ExperienciaController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Experiencia()
     {
         return View();
     }

@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    filter: drop-shadow(0 0 50px #7748CF);
+    filter: drop-shadow(0 0 80px rgb(0, 0, 0));
 }
 
 header {
@@ -84,7 +84,7 @@ header {
     text-align: center;
     font-weight: 800;
     color: white;
-    filter: drop-shadow(0 0 50px #7748CF);
+    filter: drop-shadow(0 0 50px white);
 }
 
 

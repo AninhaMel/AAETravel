@@ -83,12 +83,12 @@ public AppDbSeed(ModelBuilder builder)
                 Id = 4,
                 Nome = "Inglaterra",
                 Foto = "img/imgexperiencia/cultura.jpeg"
-            }
+            },
             new Pais() {
                 Id = 5,
                 Nome = "Itália",
                 Foto = "img/imgexperiencia/cultura.jpeg"
-            }
+            },
             new Pais() {
                 Id = 6,
                 Nome = "Portugal",

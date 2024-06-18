@@ -5,6 +5,9 @@ using AAETravel.Models;
 namespace AAETravel.Data;
 
 public class AppDbSeed;
+public AppDbSeed(ModelBuilder builder)
+{
+
 
 
         #region Experiencia
@@ -13,24 +16,24 @@ public class AppDbSeed;
                 Id = 1,
                 Nome = "Natureza",
                 Foto = @"img/imgexperiencia/natureza.jpeg",
-		        Cor = "#00BF63",
+                        Cor = "#00BF63",
                 Fundo = ""
             },
             new Experiencia() {
                 Id = 2,
                 Nome = "Restaurantes",
                 Foto = @"img/imgexperiencia/restaurantes.jpeg",
-		        Cor = "#E5B712",
+                        Cor = "#E5B712",
                 Fundo = ""
- 
+
             },
             new Experiencia() {
                 Id = 3,
                 Nome = "Vida Noturna",
                 Foto = @"img/imgexperiencia/vidanoturna.jpeg",
-		        Cor = "#A12BA4",
+                        Cor = "#A12BA4",
                 Fundo = ""
-    
+
             },
             new Experiencia() {
                 Id = 4,
@@ -50,7 +53,7 @@ public class AppDbSeed;
                 Id = 6,
                 Nome = "Cultura",
                 Foto = "img/imgexperiencia/cultura.jpeg",
-		        Cor= "#DFD1C6",
+                        Cor= "#DFD1C6",
                 Fundo = ""
             }
 
@@ -64,7 +67,7 @@ public class AppDbSeed;
                 Id = 1,
                 Nome = "Argentina",
                 Foto = "img/imgexperiencia/cultura.jpeg"
-                
+
             },
             new Pais() {
                 Id = 2,
@@ -146,7 +149,7 @@ public class AppDbSeed;
                         telefone = "+54 348 443-6980",
                         HorarioFuncionamento= "Abre a semana inteira das 10:00 as 19:00",
                         Descricao = "Não é um zoológico e nem é um jardim botânico, também não é uma fazenda e tampouco um museu de história natural. O Temaikén, distante cerca de 40 minutos de Buenos Aires, é uma mistura de tudo isso e um pouco mais. Um bioparque para viver a natureza de distintas maneiras e, sobretudo, com muita diversão, especialmente para a criançada.",
-                        Foto = "",   
+                        Foto = "",
                         PaisId=1
                 },
                 new Local() {
@@ -462,7 +465,7 @@ public class AppDbSeed;
                         telefone = "+54 221 425-7744",
                         HorarioFuncionamento= "De Segunda até Quinta das 9:00 até as 13:00, sexta das 13:00 até as 17:00 e Domingo das 16:00 até as 20:00.",
                         descriçao = "O Ocupam um importante edifício construído na década de 1920. O Museo de Bellas Artes dedica-se à exposição de uma importante coleção de pintura argentina do final do século XIX ao XX. Já o MAC conta com 6 salas de exposições e possui um grande terraço e jardins que circundam o edifício, onde regularmente se programam concertos, espetáculos, peças de teatro, entre outros.",
-                        Foto = "",	
+                        Foto = "",
                         PaisId=1
                 },
                 new Local() {
@@ -471,7 +474,7 @@ public class AppDbSeed;
                         localizaçao ="Av. Dr. Eduardo María Gallo s/n.",
                         telefone = "+54 221 425-7744",
                         HorarioFuncionamento= "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
-                        Foto = "",	
+                        Foto = "",
                         PaisId=1
                 },
                 #endregion
@@ -488,7 +491,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 9 =00 até 17 =00",
                         Descricao = "O Parque Nacional de Everglades é um parque nacional norte-americano localizado no estado da Flórida, e que serve de proteção a 20% da área original de Everglades. Nos Estados Unidos, é a maior zona tropical, e a maior de qualquer tipo a este do rio Mississipi, e recebe uma média de um milhão de visitantes por ano.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
                 new local () {
                         Id = 38,
@@ -498,7 +501,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 10 =00 até 16 =30",
                         Descricao = "O Zoológico do Bronx é um famoso zoológico localizado no Bronx Park, no Bronx, em Nova Iorque. É o maior zoológico urbano dos Estados Unidos, compreende 107 hectares de parques e habitações naturais às margens do rio Bronx. O Zoológico do Bronx está situado ao sul do Jardim Botânico de Nova Iorque.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
                 new local () {
                         Id = 39,
@@ -508,7 +511,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias 24h",
                         Descricao = "O Parque Nacional de Yellowstone é um parque nacional norte-americano localizado nos estados de Wyoming, Montana e Idaho. É o mais antigo parque nacional no mundo, e um marco na história das áreas protegidas. Foi inaugurado a 1 de março de 1872 e cobre uma área de 8 980 km², estando a maior parte dele no condado de Park, no noroeste do Wyoming. O parque é famoso por, entre outras atrações, seus gêiseres, suas fontes termais e por sua variedade de vida selvagem, na qual incluem-se ursos mansos, lobos, bisontes, alces, e outros animais. É o centro do grande ecossistema de Yellowstone, que é um dos maiores ecossistemas de clima temperado ainda restantes no planeta. O gêiser mais famoso do mundo, denominado Old Faithful, encontra-se neste parque. A cidade mais próxima do parque Yellowstone é Billings, Montana.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
                 new local () {
                         Id = 40,
@@ -518,7 +521,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Segunda até Domingo das 9 =00 até as 17 =00",
                         Descricao = "O Zoológico de San Diego é um zoológico em Balboa Park, San Diego, Califórnia, que abriga mais de 3 700 animais de mais de 650 espécies e subespécies.Sua organização mãe, a San Diego Zoo Global, é a maior associação zoológica do mundo, com mais de 250 mil famílias membros e 130 mil crianças afiliadas, representando mais de meio milhão de pessoas. O Zoológico de San Diego foi pioneiro no conceito de exibições ao ar livre sem jaulas que recriam habitats naturais dos animais. Ele é um dos poucos zoológicos no mundo que abriga o panda-gigante. Em 2013, o zoológico incluiu uma nova Koalafornia Adventure, oferecendo uma experiência australiana.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -529,7 +532,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Segunda até Domingo das 7 =00 até as 19 =00",
                         Descricao = "O Parque Nacional do Grand Canyon, no Arizona, engloba grande parte do imenso Grand Canyon, com as formações de rocha vermelha em camadas, que revelam milhões de anos de história geológica. Os miradouros incluem Mather Point, a estação de observação de Yavapai e o Lookout Studio e a Torre de Vigia Desert View, da arquiteta Mary Colter. Lipan Point permite vistas amplas do desfiladeiro e do rio Colorado e é popular, sobretudo ao nascer e pôr-do-sol.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -540,7 +543,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias 24h",
                         Descricao = "A fresca e nevoenta floresta Hoh abriga uma incrível variedade de árvores. O bordo e o amieiro são comuns, mas são as altas coníferas que dominam a paisagem. Entre as mais altas estão os pinheiros e os abetos, inclusive o que é conhecido como abeto de Douglas. Essas árvores gigantescas atingem até 90 metros de altura, e seus troncos chegam a medir 6 metros de diâmetro. Caminhe por uma das trilhas bem sinalizadas que há sob esses gigantes de centenas de anos de idade.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
         #endregion
 
@@ -553,7 +556,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Sábado e sexta, 10 =00–22 =00/ domingo, 11 =00–20 =00/ segunda-feira e terça, 10 =00–21 =00/ quarta-feira e quinta, 10 =00–21 =00",
                         Descricao = "O Grove, ou Bosque, é encantador. Muito além de um simples shopping, o espaço é ótimo para passear ao ar livre. A praça central, coberta de grama, fontes, coretos, pontes e árvores, é um convite a relaxar em meio à confusão de Los Angeles. ",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -564,7 +567,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 08 =00 até as 21 =00",
                         Descricao = "Entre as diversas atrações na região do Chelsea, o charmoso mercado gastronômico Chelsea Market é o que mais chama atenção dos turistas. Inaugurado em 1997, antes funcionava a antiga fábrica da Nabisco, onde a bolacha Oreo foi inventada e produzida. No térreo do prédio você vai encontrar 59 lojas e restaurantes, nos andares superiores do edifício estão as sedes de grandes empresas como Google, YouTube, EMI Music, MLB.com entre outras grandes empresas.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -575,7 +578,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 10 =00 até as 11 =00",
                         Descricao = "Disney Springs, antigamente chamada de Downtown Disney é um centro de compras, restaurantes, teatro e outros tipos de entretenimento pertencente à Walt Disney Company e localizado no complexo Walt Disney World. Situa-se na cidade de Bay Lake, Flórida, próxima de Orlando.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -586,7 +589,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 06 =00 até as 23 =00",
                         Descricao = "Esteja você procurando móveis novos para renovar sua casa ou uma bicicleta novinha em folha para levá-lo do ponto A ao ponto B, você pode fazer todas as suas compras em uma viagem fácil ao Walmart. De brinquedos e videogames a roupas da moda e sapatos combinando para toda a família, sua Albany Walmart Superstore tem de tudo.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -597,7 +600,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 10 =00 até as 21 =30",
                         Descricao = "Aventura Mall é um shopping localizado em Aventura, Flórida. É o terceiro maior shopping dos Estados Unidos em metros quadrados totais de área de varejo e o maior shopping da Flórida. O shopping oferece JCPenney, Macy's, Nordstrom e Bloomingdale's, além de cinemas AMC com 24 telas.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -608,7 +611,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De segunda até sábado das 10 =00 até as 20 =00 e de domingo das 12 =00 até as 18 =00",
                         Descricao = "Criada à imagem e semelhança da Macy's, uma das mais antigas e importantes rede de lojas de departamento dos EUA, a Neiman Marcus foi fundada em 1907, no Texas, e rapidamente se tornou uma das redes mais badaladas do mercado americano.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
         #endregion
 
@@ -621,7 +624,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de Domingo, quarta, sexta e sábado das 22 =00 até as 04 =00",
                         Descricao = "Ótima balada, casa muito bonita e bem frequentada. Local animado e as atrações agitam bastante o público. Uma das melhores boates que já fui em NY. Noite super animada, pessoas bonitas e simpáticas de todos os cantos do mundo.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -632,7 +635,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 19 =00 até as 02 =00",
                         Descricao = "O Varnish foi inaugurado em 2009 e recebeu elogios, incluindo o Melhor Bar Americano do Spirited Awards e um lugar na lista dos 50 Melhores Bares do Mundo. Mesmo com sua pequena lista de coquetéis práticos de estilo clássico, o bar conseguiu permanecer no radar de todos os bebedores de Los Angeles, durante toda a moda do farm-to-glass, o movimento de mixologia molecular e até mesmo o atual frenesi do brilho do Instagram. O Varnish foi inaugurado em 2009 e recebeu elogios, incluindo o Melhor Bar Americano do Spirited Awards e um lugar na lista dos 50 Melhores Bares do Mundo. Mesmo com sua pequena lista de coquetéis práticos de estilo clássico, o bar conseguiu permanecer no radar de todos os bebedores de Los Angeles, durante toda a moda do farm-to-glass, o movimento de mixologia molecular e até mesmo o atual frenesi do brilho do Instagram. ",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -643,7 +646,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 16 =00 até as 22 =00 e de quarta feira das 16 =00 até as 23 =00",
                         Descricao = "O Acessos muito práticos, wc em excelentes condições e sempre limpos. Zona de fumadores ao livre. Grande variedade de bebidas e acesso à area de merchandise. Excelente para concertos.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -654,7 +657,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 16 =00 até as 22 =00 e de quarta feira das 16 =00 até as 23 =00",
                         Descricao = "O Acessos muito práticos, wc em excelentes condições e sempre limpos. Zona de fumadores ao livre. Grande variedade de bebidas e acesso à area de merchandise. Excelente para concertos.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -665,7 +668,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 16 =00 até as 04 =00",
                         Descricao = "O Green Mill é um lendário clube de jazz localizado no bairro de Uptown, em Chicago, Illinois. Fundado em 1907, o Green Mill é conhecido por sua rica história e por ser um dos poucos locais que sobreviveram à era da Lei Seca nos Estados Unidos. O clube era frequentado por gangsters famosos, como Al Capone, e ainda mantém seu charme e atmosfera de época. O Green Mill continua a ser um dos principais destinos para os amantes do jazz em Chicago, apresentando músicos locais e internacionais em um ambiente intimista e acolhedor.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -676,7 +679,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 16 =00 até as 04 =00",
                         Descricao = "O Output era uma casa noturna e clube de música eletrônica localizado em Williamsburg, Brooklyn. Conhecido por sua programação eclética de DJs e artistas internacionais, o Output era um destino popular para os amantes da música eletrônica em Nova York. O clube apresentava um sistema de som de alta qualidade e uma pista de dança espaçosa, criando uma experiência imersiva para os frequentadores. Infelizmente, o Output encerrou suas atividades em 2019, mas deixou uma marca duradoura na cena noturna de Nova York. ",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
         #endregion
 
@@ -689,7 +692,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 10 =00 até as 17 =00 e de Domingo das 11 =00 até as 12 =00 e das 12 =30 até as 17 =00",
                         Descricao = "A Old North Church é uma igreja missionária episcopal localizada no bairro North End de Boston. A igreja, construída em 1723, é a igreja mais antiga de Boston e um marco histórico nacional. A Old North Church é famosa por seu papel no passeio noturno de Paul Revere em 18 de abril de 1775.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -700,7 +703,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de segunda até sexta das 10 =00 até as 17 =00 e de final de semana das 08 =00 até as 18 =00",
                         Descricao = "A Catedral Nacional de Washington, oficialmente conhecida como Catedral Nacional da Igreja Episcopal de São Pedro e São Paulo, é uma das maiores catedrais do mundo e um marco histórico e arquitetônico importante em Washington, DC. A construção da catedral começou em 1907 e levou várias décadas para ser concluída. A catedral é conhecida por sua arquitetura gótica impressionante, vitrais deslumbrantes e por ser o local de muitos eventos religiosos e culturais significativos. A catedral também abriga uma variedade de artefatos e obras de arte preciosas, tornando-a um local de interesse não apenas para os fiéis, mas também para os entusiastas da história e da arquitetura. ional.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -711,7 +714,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias da semana das 09 =00 até as 17 =00",
                         Descricao = "A Igreja Batista da 16th Street foi organizada como a Primeira Igreja Batista de Cor de Birmingham em 1873. Foi a primeira igreja negra a se organizar em Birmingham, fundada apenas dois anos antes. As primeiras reuniões foram realizadas em um pequeno prédio na 12th Street com a Fourth Avenue North. Logo foi adquirido um terreno na 3ª Avenida Norte, entre as ruas 19 e 20, para um edifício dedicado. Em 1880, a igreja vendeu aquela propriedade e construiu uma nova igreja no local atual na 16th Street com a 6th Avenue North.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -722,7 +725,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 16 =00",
                         Descricao = "San Xavier Del Bac, também conhecida como A Igreja Branca do Deserto, é uma igreja católica histórica localizada na reserva indígena Tohono O odham em Tucson, Arizona. A construção da igreja começou em 1783 e foi concluída em 1797. A igreja é conhecida por sua arquitetura barroca espanhola impressionante, sua fachada branca brilhante e seus detalhes decorativos elaborados. San Xavier Del Bac é um importante local de peregrinação e é considerada uma das igrejas mais bonitas e bem preservadas do sudoeste dos Estados Unidos.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -733,7 +736,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 06 =30 até as 20 =45",
                         Descricao = "A Catedral de São Patrício é a maior catedral católica dos Estados Unidos e um dos marcos mais famosos de Nova York. Construída em estilo neogótico, a catedral é conhecida por suas impressionantes torres e vitrais. A catedral também é conhecida por abrigar o túmulo de muitos arcebispos de Nova York e por sediar eventos religiosos importantes. A catedral é um importante centro de peregrinação e turismo em Nova York, atraindo visitantes de todo o mundo.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -744,7 +747,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos de segunda a sexta das 07 =00 até as 18 =00 e de final de semana das 08 =00 até as 16 =00",
                         Descricao = "A Trinity Church é uma igreja episcopal localizada no distrito financeiro de Manhattan, em Nova York. Fundada em 1697, a igreja é conhecida por sua arquitetura neogótica impressionante e por sua rica história. A Trinity Church desempenhou um papel importante na história de Nova York e é um marco histórico importante na cidade. Além de ser um local de culto, a igreja também é conhecida por suas atividades comunitárias e de caridade. A igreja também abriga um cemitério histórico onde estão enterradas várias figuras proeminentes da história americana.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
         #endregion
 
@@ -757,7 +760,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos de terça a Domingo das 11 =00 até as 15 =00",
                         Descricao = "Longas filas se formam cedo para comprar briskets, carnes suína e outras opções defumadas neste local movimentado.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -768,7 +771,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre segunda até quinta feira das 11 =00 até as 22 =00, de sexta e sábado abre das 11 =30 as 23 =00 e de Domingo das 11 =30 até as 21 =00",
                         Descricao = "Joe's Stone Crab é um restaurante icônico localizado em Miami Beach, Flórida. Especializado em frutos do mar, com ênfase especial no caranguejo de pedra, o Joe's é conhecido por sua atmosfera animada e sua comida deliciosa. O restaurante é frequentemente visitado por moradores locais e turistas que buscam uma experiência gastronômica única.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -779,7 +782,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de terça até sábado das 18 =30 até as 22 =00",
                         Descricao = "A Lavanderia Francesa é um restaurante requintado de culinária francesa e californiana com três estrelas Michelin. Fundado em 1994 pelo chef Thomas Keller, o restaurante é conhecido por seus menus degustação sazonais, que apresentam ingredientes frescos e da estação.expand_more A Lavanderia Francesa também possui uma extensa carta de vinhos, com mais de 1.000 rótulos de todo o mundo.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -790,7 +793,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de terça até sábado das 17 =30 até as 22 =00",
                         Descricao = "O Per Se é um restaurante requintado de culinária francesa moderna com três estrelas Michelin. Fundado em 2004 pelo chef Thomas Keller, o restaurante é conhecido por seus menus degustação sazonais, que apresentam ingredientes frescos e da estação. O Per Se também possui uma extensa carta de vinhos, com mais de 1.000 rótulos de todo o mundo.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -801,7 +804,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de segunda a domingo, das 11h até as 23h",
                         Descricao = "Restaurante simples e espaçoso com buffet de comida brasileira, incluindo ensopados em algumas noites.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -812,7 +815,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de segunda a sexta, das 12h até as 22h, sábado e domingo, das 10h até as 23h",
                         Descricao = "Comida americana regional, incluindo ostras e frango frito muito elogiado, em um ambiente animado e moderno.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
                 #endregion
 
@@ -825,7 +828,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 17 =00",
                         Descricao = "O Independence National Historical Park é um parque histórico nacional que preserva vários locais associados à Revolução Americana e à história da fundação dos Estados Unidos. O parque abriga o Independence Hall, onde a Declaração da Independência e a Constituição dos Estados Unidos foram debatidas e adotadas.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -836,7 +839,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 17 =00",
                         Descricao = "A Ilha de Alcatraz é uma ilha rochosa localizada na Baía de São Francisco, na Califórnia. A ilha já foi um forte militar, uma prisão federal e agora é um parque nacional. A prisão de Alcatraz é uma das atrações turísticas mais populares de São Francisco.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -847,7 +850,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre de segunda até sábado das 09 =00 até as 17 =00 e de Domingo das 12 =00 até as 17 =00",
                         Descricao = "O Museu Nacional dos Direitos Civis é um museu dedicado à história do movimento dos direitos civis nos Estados Unidos. O museu está localizado em Memphis, Tennessee, no local do Lorraine Motel, onde o Dr. Martin Luther King Jr. foi assassinado em 1968.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -858,7 +861,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 08 =00 até as 17 =00",
                         Descricao = "O Parque Militar Nacional de Gettysburg preserva o campo de batalha da Batalha de Gettysburg, travada de 1 a 3 de julho de 1863, durante a Guerra Civil Americana. A batalha foi a mais sangrenta da guerra e um ponto de virada no conflito. O parque abrange mais de 6.000 acres de campos de batalha, monumentos e memoriais.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -869,7 +872,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 05 =00 até as 00 =00",
                         Descricao = "O Monte Rushmore é um monumento esculpido em uma montanha de granito no estado americano de Dakota do Sul. O monumento apresenta os rostos de quatro presidentes dos Estados Unidos = George Washington, Thomas Jefferson, Theodore Roosevelt e Abraham Lincoln.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
 
                 new local () {
@@ -880,7 +883,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Abre todos os dias das 07 =00 até as 17 =00",
                         Descricao = "Pearl Harbor é um porto natural na ilha de Oahu, no Havaí. Foi o local do ataque japonês aos Estados Unidos em 7 de dezembro de 1941, que precipitou a entrada dos Estados Unidos na Segunda Guerra Mundial. O porto abriga agora várias instalações militares, bem como o USS Arizona Memorial, o USS Missouri Memorial e o Pearl Harbor Aviation Museum.",
                         Foto = "",
-                        PaisId = 2, 
+                        PaisId = 2,
                 },
                 #endregion
         #endregion
@@ -2102,7 +2105,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Novembro a fevereiro das 10h às 18h (última entrada às 17h) e de Março a outubro das 10h às 19h (última entrada às 18h)",
                         Descricao = "O Jardim Zoológico de Lisboa, fundado em 1884, é um dos mais antigos da Europa. Abriga cerca de 2000 animais de 300 espécies diferentes, em habitats recriados para simular seus ambientes naturais. O zoológico também desenvolve programas de conservação e investigação científica.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2113,7 +2116,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Não abre de segunda e terça e nos outros dias abre das 10h até as 17h.",
                         Descricao = "O Zoomarine Algarve é um parque temático que combina diversão com educação ambiental. Abriga uma grande variedade de animais, incluindo golfinhos, focas, leões marinhos, aves de rapina e tubarões. O parque oferece shows com animais, apresentações educativas, atrações aquáticas e muito mais. ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2124,7 +2127,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Aberto todos os dias 24h.",
                         Descricao = "A Mata Nacional do Buçaco é uma floresta nacional localizada na Serra do Buçaco, no município da Mealhada, em Portugal. A mata foi originalmente plantada por monges carmelitas no século XVII e é agora um Monumento Nacional. A Mata Nacional do Buçaco é conhecida por sua beleza natural, com uma variedade de árvores e plantas, incluindo o famoso cedro-do-Buçaco. A mata também abriga uma variedade de animais selvagens, como veados, javalis e raposas.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                         new local () {
@@ -2135,7 +2138,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Terça a sexta das 9h às 18h, Sábado e domingo das 10h às 19h e Fechado de Segundas-feiras, 1º de janeiro, 1º de maio e 25 de dezembro",
                         Descricao = "O Parque Biológico de Gaia é um centro de educação ambiental que promove a compreensão da natureza e da importância da sua preservação. O parque possui uma área de 35 hectares, onde se podem encontrar diversos habitats naturais, como bosques, carvalhais, pinhais, lagos e ribeiros. O parque também abriga uma grande variedade de animais selvagens, como aves, répteis e mamíferos.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2146,7 +2149,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Todos os dias das 10h às 20h (última entrada às 19h), 25 de dezembro das 13h às 18h e 1º de janeiro das 12h às 18h",
                         Descricao = "O Oceanário de Lisboa é um dos maiores aquários da Europa. Abriga mais de 8.000 animais marinhos de 500 espécies diferentes, de todos os oceanos do mundo. O Oceanário está dividido em quatro habitats: Atlântico Norte, Pacífico, Índico e Antártida. Os visitantes podem observar os animais através de grandes painéis de vidro, aprender sobre a importância da preservação dos oceanos e participar em diversas atividades educativas.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2157,7 +2160,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Aberto todos os dias 24h.",
                         Descricao = "O Parque Natural do Alvão é uma área protegida localizada na região do Alto Douro, em Portugal. O parque foi criado em 1983 e abrange uma área de cerca de 72 km². O parque é conhecido por sua beleza natural, com paisagens montanhosas, florestas densas e rios cristalinos. O parque também abriga uma grande variedade de animais selvagens, como lobos, veados e aves de rapina.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
                 #endregion
 
@@ -2170,7 +2173,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Segunda a sexta das 10h às 23h e de Sábado, domingo e feriados das 10h às 22h",
                 Descricao = "O Centro Comercial Colombo é o maior centro comercial da Península Ibérica em número total de lojas. Abriga mais de 340 lojas, restaurantes e cafés, além de um cinema, um bowling e um parque infantil. O centro comercial está localizado em Benfica, próximo ao Estádio da Luz.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2181,7 +2184,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Segunda a sábado das 10h às 23h e de Domingo e feriados das10h às 22h",
                 Descricao = "O Algarve Shopping é um centro comercial moderno e espaçoso, com mais de 120 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Algarve Shopping também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2192,7 +2195,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Segunda a sábado das 10h às 23h e de Domingo e feriados das10h às 22h",
                 Descricao = "O Forum Algarve é um centro comercial moderno e espaçoso, com mais de 100 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Forum Algarve também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2203,7 +2206,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Segunda a sexta das 10h às 23h e Sábado, domingo e feriados das 10h às 22h",
                 Descricao = "O Aqua Portimão é um centro comercial moderno e espaçoso, com mais de 100 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Aqua Portimão também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2214,7 +2217,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Segunda a sábado das 10h às 23h e de Domingo e feriados das 10h às 22h",
                 Descricao = "O El Corte Inglés de Lisboa é um gigante comercial vibrante, pronto para atender a todos os seus desejos. Explore os diversos departamentos, desde a moda e beleza até a tecnologia e lazer, e encontre tudo o que precisa e muito mais. Saboreie uma deliciosa refeição no restaurante ou relaxe com um café e um lanche na cafeteria. A loja também oferece uma gama de serviços convenientes, como salão de beleza, lavanderia e estacionamento gratuito.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2225,7 +2228,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "10:00 ás 22:00",
                 Descricao = "Situado em Alcochete, a apenas 30 minutos de Lisboa e com passagem por uma das mais belas pontes da Europa, a ponte Vasco da Gama, o Freeport Lisboa Fashion Outlet é o local perfeito para um dia em cheio. Com mais de 150 marcas com descontos até 70% durante todo o ano, é o destino de shopping ideal para quem procura grandes marcas nacionais e internacionais. Aqui pode encontrar vestuário para homem, senhora e criança, acessórios de moda, perfumarias e uma excelência de serviços que contribuirão para tornar a sua experiência inesquecível. No Freeport Lisboa Fashion Outlet, a tradição e a modernidade dão origem a um lugar especial. A arquitetura eclética onde o traçado contemporâneo está em harmonia com o tradicional, as áreas de repouso e lazer, os espaços relvados e as zonas de água dão origem a um espaço comercial com caraterísticas únicas." ,
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
                 #endregion
 
@@ -2238,7 +2241,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Aberto todos os dias 24h. ",
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2249,7 +2252,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Segunda a sábado das 10h às 23h e de Domingo e feriados das 10h às 22h",
                         Descricao = "O Cinco Lounge está situado no coração da Avenida António Augusto Aguiar, em Lisboa, e oferece um ambiente elegante e relaxante para desfrutar de uma bebida ou uma refeição leve.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2260,7 +2263,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Aberto todos os dias das 12h até as 23h",
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2271,7 +2274,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Sexta-feira das 23h às 6h e de Sábado das 23h às 6h",
                         Descricao = "O USAxe Club é uma discoteca vibrante e moderna, localizada no coração do Porto. O clube oferece uma experiência de festa única, com música de alta qualidade, DJs internacionais e uma pista de dança espaçosa.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2282,7 +2285,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "Aberto todos os dias 24h",
                         Descricao = "O Largo da Oliveira é uma praça histórica e monumental situada no centro histórico de Guimarães, Portugal. A praça é considerada o berço da nacionalidade portuguesa, pois foi neste local que D. Afonso Henriques, o primeiro rei de Portugal, proclamou a independência do país em 1143.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2293,7 +2296,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Segunda a quinta das18h às 02h e de Sexta a domingo das 18h às 03h",
                         Descricao = "O Sky Bar Lisboa by SEEN é um bar rooftop elegante e sofisticado, situado no topo do Tivoli Avenida Liberdade Hotel. O bar oferece uma vista panorâmica deslumbrante da cidade de Lisboa, cocktails criativos e uma atmosfera vibrante.",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
                 #endregion
 
@@ -2306,7 +2309,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
                     Descricao = "O Mosteiro da Batalha é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi mandado construir pelo rei D. João I em 1386, em cumprimento de uma promessa feita à Virgem Maria pela vitória na Batalha de Aljubarrota. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
 
                 new local () {
@@ -2317,7 +2320,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
                     Descricao = "O Mosteiro de Alcobaça é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi fundado em 1153 por D. Afonso Henriques, o primeiro rei de Portugal, e D. Bernardo de Claraval, fundador da Ordem de Cister. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
 
                 new local () {
@@ -2328,7 +2331,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "De Segunda a sexta das 9h às 19h, Sábado das 9h às 12h30 e depois das 14h às 19h e de Domingo das 14h às 19h",
                     Descricao = "A Sé do Porto, também conhecida como Catedral do Porto, é um dos principais monumentos da cidade do Porto e um dos mais importantes monumentos religiosos de Portugal. A sua construção iniciou-se no século XII e, ao longo dos séculos, sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque para o românico, o gótico e o barroco.",
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
 
                 new local () {
@@ -2339,7 +2342,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "De Segunda a sexta das 9h às 13h e depois das 15h às 19h, Sábado das  9h às 13h e 14h às 18h e de Domingo das 14h às 18h ",
                     Descricao = "A Basílica da Estrela, também conhecida como Real Basílica e Convento do Santíssimo Coração de Jesus, é um dos mais importantes monumentos religiosos de Lisboa. A sua construção iniciou-se no final do século XVIII em estilo barroco e neoclássico. ",
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
 
                 new local () {
@@ -2350,7 +2353,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "De Segunda a sexta das 9h às 12h30 e depois das 14h às 18h, Sábado das 9h às 12h30 e de Domingo das 14h às 18h ",
                     Descricao = "A Catedral de Évora, também conhecida como Sé de Évora, é um dos mais importantes monumentos religiosos de Portugal e a maior catedral medieval do país. A sua construção iniciou-se no século XII em estilo românico, mas ao longo dos séculos sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque também para o gótico e o barroco. ",
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
 
                 new local () {
@@ -2361,7 +2364,7 @@ public class AppDbSeed;
                     HorarioFuncionamento = "Todos os dias das 08h até as 19h ",
                     Descricao = "A Basílica da Santíssima Trindade é a mais recente construção do complexo do Santuário de Fátima. A sua construção iniciou-se em 2004 e foi concluída em 2007. A igreja é dedicada à Santíssima Trindade e tem capacidade para 8.633 pessoas sentadas. "
                     Foto = "",
-                    PaisId = 6, 
+                    PaisId = 6,
                 },
                 #endregion
 
@@ -2374,7 +2377,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Terça a sexta das 12h30 às 15h30 e depois das 19h30 às 22h30, Sábado das 12h30 às 15h30 e depois das 19h30 às 23h00 e de Domingo e Segunda é Fechado  ",
                         Descricao = "O Restaurante Delfina é um restaurante português tradicional localizado no coração de Lisboa. O restaurante é conhecido pela sua comida deliciosa, ambiente acolhedor e serviço atencioso.  ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2385,7 +2388,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Segunda a sexta das 8h30 às 20h e de Sábado e domingo das 8h30 às 19h   ",
                         Descricao = "A Confeitaria Nacional é a confeitaria mais antiga de Lisboa, fundada em 1829. A confeitaria é conhecida pelos seus doces tradicionais portugueses, como os pastéis de nata, os travesseiros de Sintra e os bolos de arroz.  ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
 
@@ -2397,7 +2400,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Terça a sexta das 12h30 às 15h30 e depois das 19h30 às 22h30, Sábado das 12h30 às 15h30 e depois das 19h30 às 23h00 e de Domingo e Segunda é Fechado  ",
                         Descricao = "O Restaurante O Melro é um restaurante português tradicional, com foco em pratos regionais do Ribatejo. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso. ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2419,7 +2422,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Terça a sábado das 12h30 às 15h30 e depois das 19h30 às 22h30 e de Domingo e Segunda é Fechado ",
                         Descricao = "O Restaurante Ramila é um restaurante tradicional português, especializado em pratos regionais do Minho. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso.   ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
 
                 new local () {
@@ -2430,7 +2433,7 @@ public class AppDbSeed;
                         HorarioFuncionamento = "De Quarta a sábado das 19h30 às 22h30 e de Domingo a terça é Fechado ",
                         Descricao = "O Restaurante 7 Saias é um restaurante de alta gastronomia em Faro, Algarve. O restaurante é conhecido pela sua comida criativa e inovadora, ambiente elegante e serviço impecável.   ",
                         Foto = "",
-                        PaisId = 6, 
+                        PaisId = 6,
                 },
                 #endregion
 
@@ -2443,7 +2446,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Terça a domingo das 9h às 18h (última entrada às 17h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
                 Descricao = "O Palácio Nacional de Mafra é um conjunto monumental barroco do século XVIII, situado na cidade de Mafra, a cerca de 30 km de Lisboa. O conjunto inclui o Palácio, a Basílica, o Convento e a Tapada Nacional de Mafra.  ",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2454,7 +2457,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De segunda a sexta das 9h até as 18h ",
                 Descricao = "A Universidade de Coimbra (UC) é a mais antiga universidade de Portugal e uma das mais antigas da Europa. Foi fundada em 1290 e está classificada como Património Mundial da UNESCO desde 2013.   ",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2465,7 +2468,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Outubro a abril das 10h às 18h (última entrada às 17h), Maio a setembro das 10h às 19h (última entrada às 18h)e  Fechado em 25 de dezembro e 1 de janeiro ",
                 Descricao = "O Palácio da Pena é um palácio romântico do século XIX, situado no topo da Serra de Sintra, a cerca de 30 km de Lisboa. O palácio foi mandado construir pelo rei D. Fernando II e é considerado um dos mais belos exemplos da arquitetura romântica do século XIX.",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2476,7 +2479,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Terça a domingo das 10h às 18h (última entrada às 17h30) e Fechado em 1 de janeiro, Domingo de Páscoa, 1 de maio e 25 de dezembro ",
                 Descricao = "A Torre de Belém é uma torre fortificada do século XVI, situada na margem direita do rio Tejo, em Lisboa. A torre foi mandada construir pelo rei D. Manuel I e é considerada um dos mais importantes monumentos da arquitetura manuelina.    ",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2487,7 +2490,7 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Novembro a abril das 9h às 18h (última entrada às 17h30), Maio a outubro das 9h às 19h (última entrada às 18h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
                 Descricao = "O Convento de Cristo é um monumento religioso e militar do século XII, situado na cidade de Tomar, a cerca de 130 km de Lisboa. O convento foi fundado pelos Templários e é considerado um dos mais importantes monumentos da arquitetura portuguesa     ",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
 
                 new local () {
@@ -2498,9 +2501,10 @@ public class AppDbSeed;
                 HorarioFuncionamento = "De Novembro a abril das 10h às 17h30 (última entrada às 17h), Maio a outubro das 10h às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1 de janeiro  ",
                 Descricao = "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ",
                 Foto = "",
-                PaisId = 6, 
+                PaisId = 6,
                 },
                 #endregion
         #endregion
         };
-       
+
+}

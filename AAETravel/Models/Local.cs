@@ -21,4 +21,6 @@ public class Local
         public int PaisId { get; set; }
         [ForeignKey("Pais")]
         public Local Pais { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
 }

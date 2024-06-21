@@ -106,7 +106,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre no verão de 1º de setembro a 30 de abril das 8h às 18h e no Inverno de 1 de maio a 31 de agosto das 9h às 16h.",
                         Descricao = "O Parque Nacional Los Glaciares localiza-se na região da Patagônia Argentina no sudoeste da Província de Santa Cruz, Argentina, sendo o segundo maior do país. O parque foi instituído pelo governo em 1937, e batizado Los Glaciares pois a área do parque nacional abriga inúmeros glaciares. ",
                         Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Los Glaciales (Provícia de Santa Cruz).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -50.33052817623086,
+                        Longitude =  -73.23418011349693
                 },
                 new Local() {
                         Id = 2,
@@ -116,7 +118,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Semana inteira/ 09:00 até 19:00",
                         Descricao = "O parque é o mais antigo dos parques nacionais argentinos. Foi criado em 1934, sobre a base da doação de três léguas quadradas (225.000 ha) feita por Francisco Pascasio Moreno em 1903 para sua criação.",
                         Foto = "/imgpaises/imgArgentina/Natureza/Parque-Nacional-nahuel-huapi.png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -40.938009,
+                        Longitude = -71.613046
                 },
                 new Local() {
                         Id = 3,
@@ -126,7 +130,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Semana inteira/ 08:00 até 20:00",
                         Descricao = "O que mais chama a atenção dentro do parque é a topografia montanhosa, além da enorme quantidade de áreas verdes, dos lagos, dos bosques e da paisagem natural como um todo. Ainda que o parque esteja em território argentino, parte dele está em território chileno, então algumas montanhas que se vê dentro do parque pertencem ao Chile. O lugar também é famoso por ser o final da Ruta N3, que faz parte do sistema de rodovias panamericanas.",
                         Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Tierra del Fuego (Ushuaia).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -54.83475225751397,
+                        Longitude = -68.44648384449509
                 },
                 new Local() {
                         Id = 4,
@@ -136,7 +142,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre de Terça a Domingo das 11:00 até as 18:00 ",
                         Descricao = "Na entrada do Jardim Zoológico é possível comprar comida para os animal. Assim, quando você entrar, poderá alimentar diversas espécies e observar inúmeros bichos que não vemos no dia a dia.",
                         Foto = "/imgpaises/imgArgentina/Natureza/Jardim Zoológico de Buenos Aires (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.55930431288427,
+                        Longitude = -59.01872631599637 
                 },
                 new Local() {
                         Id = 5,
@@ -146,7 +154,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre a semana inteira das 10:00 as 19:00",
                         Descricao = "Não é um zoológico e nem é um jardim botânico, também não é uma fazenda e tampouco um museu de história natural. O Temaikén, distante cerca de 40 minutos de Buenos Aires, é uma mistura de tudo isso e um pouco mais. Um bioparque para viver a natureza de distintas maneiras e, sobretudo, com muita diversão, especialmente para a criançada.",
                         Foto = "/imgpaises/imgArgentina/Natureza/Bioparque Temaikén (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.3402469529864,
+                        Longitude = -58.80869862129423
                 },
                 new Local() {
                         Id = 6,
@@ -156,7 +166,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias das 08:00 as 18:00",
                         Descricao = "O Parque Nacional Iguazú é uma área protegida, criada na Argentina no ano 1934 com o objetivo de conservar as Cataratas do Iguaçu e a biodiversidade que as rodeia. Localizado no norte da província de Misiones, o parque conta com uma superfície aproximada de 67.000 hectares e a sua entrada está a 7 km de Puerto Iguazú.",
                         Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Iguazú (Missiones- Puerto Iguazú).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -25.660018284382353,
+                        Longitude = -54.444980587863554
                 },
                 #endregion
 
@@ -169,7 +181,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Domingo das 10:00 até as 17:00",
                         Descricao = "Há mais de 40 anos, San Telmo, bairro localizado ao sul de Buenos Aires, recebe pessoas da Argentina e do mundo inteiro que visitam o bairro aos domingos para conhecer a famosa Feira de San Telmo. Além dos diversos produtos de antiguidade, a feira também vende artesanato local, produtos com temas da cidade, livros, discos, camisetas, óculos, chapéus, cartões, fotografias, CDs, pôsteres, roupas, calçados e muito mais!",
                         Foto = "/imgpaises/imgArgentina/Compras/Feira de San Telmo (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.62027522831933,
+                        Longitude = -58.37120491914526
                 },
                 new Local() {
                         Id = 8,
@@ -179,7 +193,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "Aos falar de compras em Buenos Aires um dos primeiros lugares que surgem na mente são as Galerias Pacífico. O edifício do centro comercial é do fim do século XIX e sua cúpula central foi pintada em 1946. O shopping é tão bonito e bem decorado que recomendamos a visita não apenas a quem deseja fazer compras como a quem procura apenas um lugar para bater perna e quer ver coisas bonitas. O charme da arquitetura das Galerias é ímpar, cheio de murais, colunas e um teto lindíssimo. A arquitetura do shopping é tão imponente que o edifício é considerado monumento histórico nacional.",
                         Foto = "/imgpaises/imgArgentina/Compras/Galerias Pacífico (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.599132908132724,
+                        Longitude = -58.374832153552276 
                 },
                 new Local() {
                         Id = 9,
@@ -189,7 +205,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
                         Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.58041196612808,
+                        Longitude = -58.427866749837804 
                 },
                 new Local() {
                         Id = 10,
@@ -199,7 +217,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
                         Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha)",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -32.955524323926134,
+                        Longitude = -68.85890340338014
                 },
                 new Local() {
                         Id = 11,
@@ -209,7 +229,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "A 15km do centro de Mendoza você encontrará uma boa maneira de resolver suas compras em um só lugar. No Palmares Open Mall é possível encontrar de vestuário a artigos de artesanato, passando pelos vinhos, claro! Se você não resiste a uma voltinha em um grande centro comercial, essa pode ser uma boa pedida. O shopping é bem ao estilo brasileiro: são 120 lojas que vão de grandes marcas a pequenas boutiques. Prático para uma volta e uma refeição rápida. Destaque para o restaurante Don Mario, que serve uma das mais famosas parrilladas da cidade.",
                         Foto = "/imgpaises/imgArgentina/Compras/Palmares Open Mall (Godoy Cruz).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.588693988159875,
+                        Longitude = -58.38404467632539
                 },
                 new Local() {
                         Id = 12,
@@ -219,7 +241,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00 ",
                         Descricao = "Patio Olmos é uma galeria comercial de grande importância arquitetônica em Córdoba, Argentina, e a mais importante da cidade.",
                         Foto = "/imgpaises/imgArgentina/Compras/Patio Olmos (Córdoba).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -31.41958968115592,
+                        Longitude = -64.18824068140034
                 },
                 #endregion    
 
@@ -232,7 +256,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias 24 horas por dia",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno. Nos finais de semana, compradores lotam essa área que é famosa pelos cafés descolados e lojas de design exclusivo. Já Palermo Hollywood, conhecida por contar com um grande número de restaurantes, bares e boates, é o lugar preferido dos viajantes que querem se divertir à noite e comemorar ocasiões especiais.",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Niceto Club (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.58703506886908,
+                        Longitude = -58.43886607446898
                 },
                 new Local() {
                         Id = 14,
@@ -242,7 +268,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 20:00 até as 00:00",
                         Descricao = "Considerada uma das melhores casas de tango de Buenos Aires, o Señor Tango oferece um espetáculo inesquecível e muito emocionante. O show é envolvente do início ao fim, apresentando belas coreografias – algumas com certo toque acrobático – que encantam a todo o tipo de público. A apresentação ainda conta com a participação de ótimos cantores e músicos que, em alguns momentos do espetáculo, interagem com a plateia.",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Senor Tango (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -34.56926698554936,
+                        Longitude = -58.42052953214304
                 },
                 new Local() {
                         Id = 15,
@@ -252,7 +280,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 14:00 até a 00:00",
                         Descricao = "No Ice Bar Puerto Iguazú tudo é feito de gelo: as paredes, os móveis, a decoração e, inclusive, os copos. E, para manter tudo congelado, a temperatura do bar é de -10ºC. Uma grande diferença para o clima da cidade, que pode passar dos 30° no verão.",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Icebar Iguazu (Puerto Iguazú).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -34.65251488742655,
+                        Longitude = -58.37593927446579
                 },
                 new Local() {
                         Id = 16,
@@ -262,7 +292,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre de sexta, sábado e domingo da 00:00 até as 07:00",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -25.619359092794305,
+                        Longitude = -54.55500692088276
                 },
                 new Local() {
                         Id = 17,
@@ -272,7 +304,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 09:00 até a 11:00",
                         Descricao = "O Café de los Angelitos é um recinto imponente com mais de cem anos de história, por onde desfilaram grandes personalidades do mundo político e artístico de Buenos Aires. Hoje em dia, é palco de um dos mais refinados e elegantes shows de tango da cidade, diversas vezes aclamado pela crítica local.",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Cafe de los Angelitos  (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.60946892791383,
+                        Longitude = -58.396186547487716
                 },
                 new Local() {
                         Id = 18,
@@ -282,7 +316,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre terça, quarta, quinta, sexta e sábado das 14:00 até as 22:00",
                         Descricao = "Vinology é um lugar incrível para se conhecer os bons vinhos da Argentina. É uma vinoteca diferenciada, que tem etiquetas de bodegas especialmente boas, funciona como bar de vinhos com comidinhas deliciosas.",
                         Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.570552378227354,
+                        Longitude = -58.434845818652846
                 },
                 #endregion
 
@@ -295,7 +331,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De segunda a sexta das 7:30 até as 18:45 e de final de semana das 9:00 até as 18:45.",
                         Descricao = "A Catedral Metropolitano de Buenos Aires é a principal igreja católica em Buenos Aires, capital da Argentina. Localiza-se no centro da cidade, diante da Praça de Maio, na esquina das ruas San Martín e Rivadavia, no bairro de San Nicolás. É a igreja-mãe da Arquidiocese de Buenos Aires",
                         Foto = "/imgpaises/imgArgentina/Fe/Catedral Metropolitana de Buenos Aires (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.6073662714273,
+                        Longitude = -58.37330031865107
                 },
                 new Local() {
                         Id = 20,
@@ -305,7 +343,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias das 9:00 até as 18:00",
                         Descricao = "A Basílica Menor de Nossa Senhora de Luján é uma igreja católica romana em Luján, Buenos Aires, Argentina. Construída em estilo neogótico, é dedicada a Nossa Senhora de Luján, padroeira da Argentina. Muitas pessoas confundem esta igreja com uma catedral.",
                         Foto = "/imgpaises/imgArgentina/Fe/Basílica de Nuestra Señora de Luján (Luján).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.569093609091354,
+                        Longitude = -58.44020886390422
                 },
                 new Local() {
                         Id = 21,
@@ -315,7 +355,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias das 8:30 até as 20:30, no Domingo das 8:30 até as 12:00 e das 18:00 até as 21:00",
                         Descricao = "Esta magnífica Basílica Menor, construída em terreno doado por Hernando de Lerma, em 1582, com destaque para as cores poderosas terracota, ouro e marfim que cobrem. Ele pertence à ordem franciscana e foi reconstruído várias vezes após vários incêndios.",
                         Foto = "/imgpaises/imgArgentina/Fe/Igreja de San Francisco (Salta).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -24.790006713060023,
+                        Longitude = -65.40821649021966
                 },
                 new Local() {
                         Id = 22,
@@ -325,7 +367,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De segunda até sábado das 8:30 até as 9:30",
                         Descricao = "A Mesquita-Catedral de Córdova oficialmente conhecida pelo seu nome eclesiástico, a Catedral de Nossa Senhora da Assunção em espanhol: Catedral de Nuestra Señora de la Asunción é a catedral da Diocese Católica Romana de Córdoba dedicada à Assunção de Maria e localizado na região espanhola da Andaluzia.",
                         Foto = "/imgpaises/imgArgentina/Fe/Catedral de Córdoba (Córdoba).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -28.470207963157378,
+                        Longitude = -65.35529771321596
                 },
                 new Local() {
                         Id = 23,
@@ -335,7 +379,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Quarta-feira, 11:00–13:00, 18:00–20:00, quinta-feira, 11:00–13:00, 18:00–20:00, sexta-feira, 11:00–13:00, 18:00–20:00, sábado, 18:30–20:00, domingo, 09:00–12:30, 17:30–20:30, segunda-feira, 11:00–13:00, 18:00–20:00, terça-feira, 11:00–13:00, 18:00–20:00.",
                         Descricao = "A Basílica do Santísimo Sacramento é uma das igrejas mais bonitas de Buenos Aires. O templo luxuosamente decorado apresenta uma grande custódia de ouro e prata, vitrais importantes e ornamentos de mármore, granito azul, bronze e mosaico veneziano.",
                         Foto = "/imgpaises/imgArgentina/Fe/Basílica del Santísimo Sacramento (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.59546334232072,
+                        Longitude = -58.37423653771114 
                 },
                 new Local() {
                         Id = 24,
@@ -345,7 +391,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De segunda a sexta das 9:00 até as 12:00 e das 17:00 até 21:00.",
                         Descricao = "A Catedral de San Carlos de Bariloche é o principal templo católico da cidade de San Carlos de Bariloche, na Argentina. Encontra-se na interseção das ruas Almirante Ou’Connor e Beschtedt, rodeada por duas praças com formosos jardins. É a sé episcopal da Diocese de Bariloche, sufragânea da Arquidiocese de Bahía Blanca.",
                         Foto = "/imgpaises/imgArgentina/Fe/Catedral de Nuestra Señora del Nahuel Huapi (Bariloche).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -41.13291181780236,
+                        Longitude = -71.30234644530549
                 },
                 #endregion
 
@@ -358,7 +406,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias das 11:30 até as 16:00 e depois das 19:00 até as 1:00",
                         Descricao = "Reservar uma mesa no restaurante Don Julio já virou uma atração turística imperdível em Buenos Aires. Os reconhecimentos ajudam: é atualmente o restaurante argentino mais bem colocado entre os 50 melhores do mundo e foi eleito neste ano como a melhor casa de carnes do mundo. As filas que se formam na porta todos os dias são outro medidor do sucesso.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/Don Julio (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.58613638501554,
+                        Longitude = -58.4242476186521
                 },
                 new Local() {
                         Id = 26,
@@ -368,7 +418,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Domingo das 12:30 até as 16:00, Segunda das 11:30 até as 16:00 e das 6:30 até as 12:30, de terça, quarta e quinta das 6:30 até as 12:30 e de sexta e sábado das 12:30 até as 16:00 e das 6:30 até as 1:00.",
                         Descricao = "O La Cabrebra é especialista em cortes de carnes, acompanhamentos saborosos e, claro, com muita fartura. É mais um restaurante que figura entre os melhores de Buenos Aires, pelo atendimento, pelo ambiente clássico e pela qualidade das carnes. Nove entre dez brasileiros que visitam a capital, fazem questão de passar no La Cabrera e aproveitar o almoço, happy hour ou jantar.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/La Cabrera (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.588799061101504,
+                        Longitude = -58.43325444563225
                 },
                 new Local() {
                         Id = 27,
@@ -378,7 +430,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De terça até Domingo das 19:00 até as 21:30",
                         Descricao = "A poucos minutos do centro - na Bodega Escorihuela -, o elegante 1884, chefiado por Francis Mallmann, carrega a fama de ser o melhor restaurante da cidade. Se não for o melhor, certamente está na lista dos imperdíveis.O ambiente é refinado e clássico, com salões externos e internos. A culinária, tipicamente portenha, vai das empanadas aos melhores cortes de carne.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/1884 Restaurante Francis Mallmann (Mendonza).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -32.91212429424235,
+                        Longitude = -68.84302357268902
                 },
                 new Local() {
                         Id = 28,
@@ -388,7 +442,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De terça até Sábado das 10:30 até as 20:00.",
                         Descricao = "O Oviedo é o restaurante mais tradicional de Buenos Aires quando o assunto é peixe! Os pescados servidos no restaurante estão sempre super frescos, pois o restaurante recebe mercadoria duas vezes ao dia, além disso toda matéria prima servida é de altíssima qualidade e fresca, o que garante um prato muito mais saboroso! O que achamos incrível é que tudo que sai da cozinha parece verdadeira obra de arte, isto porque o chef Martin Rebaudino estudou belas artes para deixar seus pratos mais bonitos e também chegou a trabalhar no El Bulli.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo (Rosário).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -32.95622585219165,
+                        Longitude = -60.64688716233088
                 },
                 new Local() {
                         Id = 29,
@@ -398,7 +454,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda até Sábado das 20:00 até as 00:00.",
                         Descricao = "Entre pescados, massas e assados, bem elaborados em um ambiente simples e elegante, você percorrerá um longo e saboroso caminho pelo melhor da comida argentina.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/Siete Cocinas (Salta) melhorado.png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -3.487697620654168, 
+                        Longitude = -76.51273403305537
                 },
                 new Local() {
                         Id = 30,
@@ -408,7 +466,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias das 7:45 até as 10:30, apenas de segunda das 7:45 até as 10:00.",
                         Descricao = "Estabelecimento é um omakase de carnes com reservas disputadas. Com uma recepção acolhedora no bairro de Palermo Viejo, em Buenos Aires, o Fogón Asado é um omakase de carnes que oferece uma experiência de 10 passos (US$ 80). Para ir ao Fogón é preciso estar com fome, pois os 10 tempos são substanciosos.",
                         Foto = "/imgpaises/imgArgentina/Restaurantes/Fogón Asado (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.58829224205065,
+                        Longitude = -58.43371108123645
                 },
                 #endregion
 
@@ -421,7 +481,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De terça até domingo das 11:00 até as 20:00",
                         Descricao = "Museo Nacional de Bellas Artes. O Museu exibe mais de 40 pinturas a óleo e aquarelas do artista, 200 anos após seu nascimento. A exposição reúne cerca de 90 pinturas, desenhos e documentos dos primeiros anos da carreira de Jorge Gumier Maier (1953-2021).",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu Nacional de Belas Artes (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                        Latitude = -34.5838215458417,
+                        Longitude = -58.3930473186523
                 },
                 new Local() {
                         Id = 32,
@@ -431,7 +493,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Abre todos os dias menos de Terça das 11:00 até as 20:00",
                         Descricao = "Conheça o Museu de Arte Latino Americana (MALBA) de Buenos Aires. Localizado no famoso bairro Palermo, o MALBA é um dos melhores museus em Buenos Aires. Ele tem a intenção de promover a arte da América Latina a partir do século 20, e por isso lá você vai encontrar desdes artistas famosos e renomados, até aqueles mais novos que ainda estão buscando seu espaço no meio artístico. Confira abaixo mais informações sobre o Museu de Arte Latino Americana. ",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Latino-Americana de Buenos Aires (MALBA) (Buenos Aires).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -34.576721381507,
+                        Longitude = -58.403494562835725
                 },
                 new Local() {
                         Id = 33,
@@ -441,7 +505,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De terça até Domingo das 9:00 até as 21:00 e excessão de do Domingo das 9:00 até as 15:00.",
                         Descricao = "O Museu de Belas Artes de Córdoba é um museu de arte estatal localizado na cidade espanhola de Córdoba. ",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Pré-Colombiana e Arte Popular (Córdoba).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -40.2823238777987,
+                        Longitude = -5.179755649099501
                 },
                 new Local() {
                         Id = 34,
@@ -451,7 +517,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Quarta até Domingo das 10:00 até as 18:00.",
                         Descricao = "O museu apresenta em torno de 3.000.000 de objetos em sua coleção, e só uma pequena parte dos mesmos se encontram em exibição. Em grande parte, o prestígio do museu descansa em sua coleção de grandes mamíferos fósseis dos pampas sul-americanos das eras Terciária e Quaternária. Também se destacam as coleções de trilobites do período Cambriano e de graptólitos do período Silúrico da Argentina. O museu conta também com salas de Zoologia, Entomologia, e Botânica.",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de La Plata (La Plata).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -34.579509537505956,
+                        Longitude = -58.405005476325684
                 },
                 new Local() {
                         Id = 35,
@@ -461,7 +529,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda até Quinta das 9:00 até as 13:00, sexta das 13:00 até as 17:00 e Domingo das 16:00 até as 20:00.",
                         Descricao = "O Ocupam um importante edifício construído na década de 1920. O Museo de Bellas Artes dedica-se à exposição de uma importante coleção de pintura argentina do final do século XIX ao XX. Já o MAC conta com 6 salas de exposições e possui um grande terraço e jardins que circundam o edifício, onde regularmente se programam concertos, espetáculos, peças de teatro, entre outros.",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Contemporânea de Bahía Blanca (Bahía Blanca).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -38.712929512680304,
+                        Longitude = -62.26223254543124 
                 },
                 new Local() {
                         Id = 36,
@@ -470,7 +540,9 @@ public class AppDbSeed
                         Telefone = "+54 221 425-7744",
                         HorarioFuncionamento= "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de História Nacional (Rosário).png",
-                        PaisId=1
+                        PaisId=1,
+                         Latitude = -34.62680174739552,
+                        Longitude = -58.37054628795715
                 },
                 #endregion
         #endregion
@@ -487,6 +559,8 @@ public class AppDbSeed
                         Descricao = "O Parque Nacional de Everglades é um parque nacional norte-americano localizado no estado da Flórida, e que serve de proteção a 20% da área original de Everglades. Nos Estados Unidos, é a maior zona tropical, e a maior de qualquer tipo a este do rio Mississipi, e recebe uma média de um milhão de visitantes por ano.",
                         Foto = "/imgpaises/imgEUA/Natureza/Parque Evergales (Flórida);.png",
                         PaisId = 2,
+                        Latitude = -25.306024577107607,
+                        Longitude = -80.89282923617047 
                 },
                 new Local () {
                         Id = 38,
@@ -497,6 +571,8 @@ public class AppDbSeed
                         Descricao = "O Zoológico do Bronx é um famoso zoológico localizado no Bronx Park, no Bronx, em Nova Iorque. É o maior zoológico urbano dos Estados Unidos, compreende 107 hectares de parques e habitações naturais às margens do rio Bronx. O Zoológico do Bronx está situado ao sul do Jardim Botânico de Nova Iorque.",
                         Foto = "/imgpaises/imgEUA/Natureza/Zoológico do Bronx (NY);.png",
                         PaisId = 2,
+                        Latitude = -40.85038496567785,
+                        Longitude = -73.87685044602321
                 },
                 new Local () {
                         Id = 39,
@@ -507,6 +583,8 @@ public class AppDbSeed
                         Descricao = "O Parque Nacional de Yellowstone é um parque nacional norte-americano localizado nos estados de Wyoming, Montana e Idaho. É o mais antigo parque nacional no mundo, e um marco na história das áreas protegidas. Foi inaugurado a 1 de março de 1872 e cobre uma área de 8 980 km², estando a maior parte dele no condado de Park, no noroeste do Wyoming. O parque é famoso por, entre outras atrações, seus gêiseres, suas fontes termais e por sua variedade de vida selvagem, na qual incluem-se ursos mansos, lobos, bisontes, alces, e outros animais. É o centro do grande ecossistema de Yellowstone, que é um dos maiores ecossistemas de clima temperado ainda restantes no planeta. O gêiser mais famoso do mundo, denominado Old Faithful, encontra-se neste parque. A cidade mais próxima do parque Yellowstone é Billings, Montana.",
                         Foto = "/imgpaises/imgEUA/Natureza/Yellowstone (Wyoming);.png",
                         PaisId = 2,
+                        Latitude = -44.654356927387575,
+                        Longitude = -110.56717507431897 
                 },
                 new Local () {
                         Id = 40,
@@ -517,6 +595,8 @@ public class AppDbSeed
                         Descricao = "O Zoológico de San Diego é um zoológico em Balboa Park, San Diego, Califórnia, que abriga mais de 3 700 animais de mais de 650 espécies e subespécies.Sua organização mãe, a San Diego Zoo Global, é a maior associação zoológica do mundo, com mais de 250 mil famílias membros e 130 mil crianças afiliadas, representando mais de meio milhão de pessoas. O Zoológico de San Diego foi pioneiro no conceito de exibições ao ar livre sem jaulas que recriam habitats naturais dos animais. Ele é um dos poucos zoológicos no mundo que abriga o panda-gigante. Em 2013, o zoológico incluiu uma nova Koalafornia Adventure, oferecendo uma experiência australiana.",
                         Foto = "/imgpaises/imgEUA/Natureza/Zoológico de San Diego (California).png",
                         PaisId = 2,
+                        Latitude = -32.73666104361093,
+                        Longitude = -117.15086363584145
                 },
 
                 new Local () {
@@ -528,6 +608,8 @@ public class AppDbSeed
                         Descricao = "O Parque Nacional do Grand Canyon, no Arizona, engloba grande parte do imenso Grand Canyon, com as formações de rocha vermelha em camadas, que revelam milhões de anos de história geológica. Os miradouros incluem Mather Point, a estação de observação de Yavapai e o Lookout Studio e a Torre de Vigia Desert View, da arquiteta Mary Colter. Lipan Point permite vistas amplas do desfiladeiro e do rio Colorado e é popular, sobretudo ao nascer e pôr-do-sol.",
                         Foto = "/imgpaises/imgEUA/Natureza/Grand Canyon (Arizona);.png",
                         PaisId = 2,
+                        Latitude = -36.10190066562183,
+                        Longitude = -112.11293869457225
                 },
 
                 new Local () {
@@ -539,6 +621,8 @@ public class AppDbSeed
                         Descricao = "A fresca e nevoenta floresta Hoh abriga uma incrível variedade de árvores. O bordo e o amieiro são comuns, mas são as altas coníferas que dominam a paisagem. Entre as mais altas estão os pinheiros e os abetos, inclusive o que é conhecido como abeto de Douglas. Essas árvores gigantescas atingem até 90 metros de altura, e seus troncos chegam a medir 6 metros de diâmetro. Caminhe por uma das trilhas bem sinalizadas que há sob esses gigantes de centenas de anos de idade.",
                         Foto = "/imgpaises/imgEUA/Natureza/Trilha Hoh Rain Forest (Washington).png",
                         PaisId = 2,
+                        Latitude = -47.86076318846287,
+                        Longitude = -123.9347339963421
                 },
         #endregion
 
@@ -552,6 +636,8 @@ public class AppDbSeed
                         Descricao = "O Grove, ou Bosque, é encantador. Muito além de um simples shopping, o espaço é ótimo para passear ao ar livre. A praça central, coberta de grama, fontes, coretos, pontes e árvores, é um convite a relaxar em meio à confusão de Los Angeles. ",
                         Foto = "/imgpaises/imgEUA/Compras/The Grove (Los Angeles).png",
                         PaisId = 2,
+                        Latitude = -34.072249556862126,
+                        Longitude = -118.35749003148823
                 },
 
                 new Local () {
@@ -563,6 +649,8 @@ public class AppDbSeed
                         Descricao = "Entre as diversas atrações na região do Chelsea, o charmoso mercado gastronômico Chelsea Market é o que mais chama atenção dos turistas. Inaugurado em 1997, antes funcionava a antiga fábrica da Nabisco, onde a bolacha Oreo foi inventada e produzida. No térreo do prédio você vai encontrar 59 lojas e restaurantes, nos andares superiores do edifício estão as sedes de grandes empresas como Google, YouTube, EMI Music, MLB.com entre outras grandes empresas.",
                         Foto = "/imgpaises/imgEUA/Compras/Chelsea Market (Nova York).png",
                         PaisId = 2,
+                        Latitude = -40.742772546354566,
+                        Longitude = -74.00613581718825
                 },
 
                 new Local () {
@@ -574,6 +662,8 @@ public class AppDbSeed
                         Descricao = "Disney Springs, antigamente chamada de Downtown Disney é um centro de compras, restaurantes, teatro e outros tipos de entretenimento pertencente à Walt Disney Company e localizado no complexo Walt Disney World. Situa-se na cidade de Bay Lake, Flórida, próxima de Orlando.",
                         Foto = "/imgpaises/imgEUA/Compras/Disney Springs (orlando).png",
                         PaisId = 2,
+                        Latitude = -28.371019076866045,
+                        Longitude = -81.51933837544016
                 },
 
                 new Local () {
@@ -585,6 +675,8 @@ public class AppDbSeed
                         Descricao = "Esteja você procurando móveis novos para renovar sua casa ou uma bicicleta novinha em folha para levá-lo do ponto A ao ponto B, você pode fazer todas as suas compras em uma viagem fácil ao Walmart. De brinquedos e videogames a roupas da moda e sapatos combinando para toda a família, sua Albany Walmart Superstore tem de tudo.",
                         Foto = "/imgpaises/imgEUA/Compras/Walmart (Albany, NY).png",
                         PaisId = 2,
+                        Latitude = -42.69543550778833,
+                        Longitude = -73.84711562526202
                 },
 
                 new Local () {
@@ -596,6 +688,8 @@ public class AppDbSeed
                         Descricao = "Aventura Mall é um shopping localizado em Aventura, Flórida. É o terceiro maior shopping dos Estados Unidos em metros quadrados totais de área de varejo e o maior shopping da Flórida. O shopping oferece JCPenney, Macy's, Nordstrom e Bloomingdale's, além de cinemas AMC com 24 telas.",
                         Foto = "/imgpaises/imgEUA/Compras/Aventura Mall (Mimi).png",
                         PaisId = 2,
+                        Latitude = -25.957219503652013, 
+                        Longitude = -80.14270392930834
                 },
 
                 new Local () {
@@ -607,6 +701,8 @@ public class AppDbSeed
                         Descricao = "Criada à imagem e semelhança da Macy's, uma das mais antigas e importantes rede de lojas de departamento dos EUA, a Neiman Marcus foi fundada em 1907, no Texas, e rapidamente se tornou uma das redes mais badaladas do mercado americano.",
                         Foto = "/imgpaises/imgEUA/Compras/Neiman Marous(Dallas).png",
                         PaisId = 2,
+                        Latitude = -32.78122160895094,
+                        Longitude = -96.79715947107249
                 },
         #endregion
 
@@ -620,6 +716,8 @@ public class AppDbSeed
                         Descricao = "Ótima balada, casa muito bonita e bem frequentada. Local animado e as atrações agitam bastante o público. Uma das melhores boates que já fui em NY. Noite super animada, pessoas bonitas e simpáticas de todos os cantos do mundo.",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/Marquee Nightclub (Nevada).png",
                         PaisId = 2,
+                        Latitude = -36.11012002671051,
+                        Longitude = -115.174144496593
                 },
 
                 new Local () {
@@ -631,6 +729,8 @@ public class AppDbSeed
                         Descricao = "O Varnish foi inaugurado em 2009 e recebeu elogios, incluindo o Melhor Bar Americano do Spirited Awards e um lugar na lista dos 50 Melhores Bares do Mundo. Mesmo com sua pequena lista de coquetéis práticos de estilo clássico, o bar conseguiu permanecer no radar de todos os bebedores de Los Angeles, durante toda a moda do farm-to-glass, o movimento de mixologia molecular e até mesmo o atual frenesi do brilho do Instagram. O Varnish foi inaugurado em 2009 e recebeu elogios, incluindo o Melhor Bar Americano do Spirited Awards e um lugar na lista dos 50 Melhores Bares do Mundo. Mesmo com sua pequena lista de coquetéis práticos de estilo clássico, o bar conseguiu permanecer no radar de todos os bebedores de Los Angeles, durante toda a moda do farm-to-glass, o movimento de mixologia molecular e até mesmo o atual frenesi do brilho do Instagram. ",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/The Varnish (Los Angeles).png",
                         PaisId = 2,
+                        Latitude = -34.04498032170264,
+                        Longitude = -118.24956176438316 
                 },
 
                 new Local () {
@@ -642,6 +742,8 @@ public class AppDbSeed
                         Descricao = "O Acessos muito práticos, wc em excelentes condições e sempre limpos. Zona de fumadores ao livre. Grande variedade de bebidas e acesso à area de merchandise. Excelente para concertos.",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/House Of Blues (Boston).png",
                         PaisId = 2,
+                        Latitude = -42.34763475441212,
+                        Longitude = -71.0957312021085
                 },
 
                 new Local () {
@@ -653,6 +755,8 @@ public class AppDbSeed
                         Descricao = "O Acessos muito práticos, wc em excelentes condições e sempre limpos. Zona de fumadores ao livre. Grande variedade de bebidas e acesso à area de merchandise. Excelente para concertos.",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/Lafitte's Blacksmith Shop Bar (Nova Orleans).png",
                         PaisId = 2,
+                        Latitude = -29.961427885615436,
+                        Longitude = -90.06349185432349
                 },
 
                 new Local () {
@@ -664,6 +768,8 @@ public class AppDbSeed
                         Descricao = "O Green Mill é um lendário clube de jazz localizado no bairro de Uptown, em Chicago, Illinois. Fundado em 1907, o Green Mill é conhecido por sua rica história e por ser um dos poucos locais que sobreviveram à era da Lei Seca nos Estados Unidos. O clube era frequentado por gangsters famosos, como Al Capone, e ainda mantém seu charme e atmosfera de época. O Green Mill continua a ser um dos principais destinos para os amantes do jazz em Chicago, apresentando músicos locais e internacionais em um ambiente intimista e acolhedor.",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/The Green Mill (Illinois).png",
                         PaisId = 2,
+                        Latitude = -41.969349346834655,
+                        Longitude = -87.65996760171761
                 },
 
                 new Local () {
@@ -675,6 +781,8 @@ public class AppDbSeed
                         Descricao = "O Output era uma casa noturna e clube de música eletrônica localizado em Williamsburg, Brooklyn. Conhecido por sua programação eclética de DJs e artistas internacionais, o Output era um destino popular para os amantes da música eletrônica em Nova York. O clube apresentava um sistema de som de alta qualidade e uma pista de dança espaçosa, criando uma experiência imersiva para os frequentadores. Infelizmente, o Output encerrou suas atividades em 2019, mas deixou uma marca duradoura na cena noturna de Nova York. ",
                         Foto = "/imgpaises/imgEUA/VidaNoturna/Output (Brooklyn).png",
                         PaisId = 2,
+                        Latitude = -40.72239522095071,
+                        Longitude = -73.95789761498503 
                 },
         #endregion
 
@@ -688,6 +796,8 @@ public class AppDbSeed
                         Descricao = "A Old North Church é uma igreja missionária episcopal localizada no bairro North End de Boston. A igreja, construída em 1723, é a igreja mais antiga de Boston e um marco histórico nacional. A Old North Church é famosa por seu papel no passeio noturno de Paul Revere em 18 de abril de 1775.",
                         Foto = "/imgpaises/imgEUA/Fe/Old Noren Church (Massachussets).png",
                         PaisId = 2,
+                        Latitude = -42.44572879469477,
+                        Longitude = -71.3154315560684
                 },
 
                 new Local () {
@@ -699,6 +809,8 @@ public class AppDbSeed
                         Descricao = "A Catedral Nacional de Washington, oficialmente conhecida como Catedral Nacional da Igreja Episcopal de São Pedro e São Paulo, é uma das maiores catedrais do mundo e um marco histórico e arquitetônico importante em Washington, DC. A construção da catedral começou em 1907 e levou várias décadas para ser concluída. A catedral é conhecida por sua arquitetura gótica impressionante, vitrais deslumbrantes e por ser o local de muitos eventos religiosos e culturais significativos. A catedral também abriga uma variedade de artefatos e obras de arte preciosas, tornando-a um local de interesse não apenas para os fiéis, mas também para os entusiastas da história e da arquitetura. ional.",
                         Foto = "/imgpaises/imgEUA/Fe/Catedral Nacional De Washignion (Washington).png",
                         PaisId = 2,
+                        Latitude = -38.930895056961006,
+                        Longitude = -77.0708022576138
                 },
 
                 new Local () {
@@ -710,6 +822,8 @@ public class AppDbSeed
                         Descricao = "A Igreja Batista da 16th Street foi organizada como a Primeira Igreja Batista de Cor de Birmingham em 1873. Foi a primeira igreja negra a se organizar em Birmingham, fundada apenas dois anos antes. As primeiras reuniões foram realizadas em um pequeno prédio na 12th Street com a Fourth Avenue North. Logo foi adquirido um terreno na 3ª Avenida Norte, entre as ruas 19 e 20, para um edifício dedicado. Em 1880, a igreja vendeu aquela propriedade e construiu uma nova igreja no local atual na 16th Street com a 6th Avenue North.",
                         Foto = "/imgpaises/imgEUA/Fe/166n Street Baptist (Birmigan).png",
                         PaisId = 2,
+                        Latitude = -33.55641833007963,
+                        Longitude = -86.65924951291068
                 },
 
                 new Local () {
@@ -721,6 +835,8 @@ public class AppDbSeed
                         Descricao = "San Xavier Del Bac, também conhecida como A Igreja Branca do Deserto, é uma igreja católica histórica localizada na reserva indígena Tohono O odham em Tucson, Arizona. A construção da igreja começou em 1783 e foi concluída em 1797. A igreja é conhecida por sua arquitetura barroca espanhola impressionante, sua fachada branca brilhante e seus detalhes decorativos elaborados. San Xavier Del Bac é um importante local de peregrinação e é considerada uma das igrejas mais bonitas e bem preservadas do sudoeste dos Estados Unidos.",
                         Foto = "/imgpaises/imgEUA/Fe/San Xavier Del Bac (Tuuson).png",
                         PaisId = 2,
+                        Latitude = -32.107457292025,
+                        Longitude = -111.00871185927468 
                 },
 
                 new Local () {
@@ -732,6 +848,8 @@ public class AppDbSeed
                         Descricao = "A Catedral de São Patrício é a maior catedral católica dos Estados Unidos e um dos marcos mais famosos de Nova York. Construída em estilo neogótico, a catedral é conhecida por suas impressionantes torres e vitrais. A catedral também é conhecida por abrigar o túmulo de muitos arcebispos de Nova York e por sediar eventos religiosos importantes. A catedral é um importante centro de peregrinação e turismo em Nova York, atraindo visitantes de todo o mundo.",
                         Foto = "/imgpaises/imgEUA/Fe/São Patricio (NY).png",
                         PaisId = 2,
+                        Latitude = -40.758775680936296,
+                        Longitude = -73.9762399873193
                 },
 
                 new Local () {
@@ -743,6 +861,8 @@ public class AppDbSeed
                         Descricao = "A Trinity Church é uma igreja episcopal localizada no distrito financeiro de Manhattan, em Nova York. Fundada em 1697, a igreja é conhecida por sua arquitetura neogótica impressionante e por sua rica história. A Trinity Church desempenhou um papel importante na história de Nova York e é um marco histórico importante na cidade. Além de ser um local de culto, a igreja também é conhecida por suas atividades comunitárias e de caridade. A igreja também abriga um cemitério histórico onde estão enterradas várias figuras proeminentes da história americana.",
                         Foto = "/imgpaises/imgEUA/Fe/Trinity Church (NY).png",
                         PaisId = 2,
+                        Latitude = -40.76289629852705,
+                        Longitude = -73.96416251400898
                 },
         #endregion
 
@@ -756,6 +876,8 @@ public class AppDbSeed
                         Descricao = "Longas filas se formam cedo para comprar briskets, carnes suína e outras opções defumadas neste local movimentado.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/Franklin Barbeyou (Austin).png",
                         PaisId = 2,
+                        Latitude = -30.27032096781963,
+                        Longitude = -97.73137578358993
                 },
 
                 new Local () {
@@ -767,6 +889,8 @@ public class AppDbSeed
                         Descricao = "Joe's Stone Crab é um restaurante icônico localizado em Miami Beach, Flórida. Especializado em frutos do mar, com ênfase especial no caranguejo de pedra, o Joe's é conhecido por sua atmosfera animada e sua comida deliciosa. O restaurante é frequentemente visitado por moradores locais e turistas que buscam uma experiência gastronômica única.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/Joe's Stone Crab (Miami Beach).png",
                         PaisId = 2,
+                        Latitude = -25.769332721797984,
+                        Longitude =  -80.13509683061656
                 },
 
                 new Local () {
@@ -778,6 +902,8 @@ public class AppDbSeed
                         Descricao = "A Lavanderia Francesa é um restaurante requintado de culinária francesa e californiana com três estrelas Michelin. Fundado em 1994 pelo chef Thomas Keller, o restaurante é conhecido por seus menus degustação sazonais, que apresentam ingredientes frescos e da estação.expand_more A Lavanderia Francesa também possui uma extensa carta de vinhos, com mais de 1.000 rótulos de todo o mundo.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/French Laundry (Yountville).png",
                         PaisId = 2,
+                        Latitude = -38.404672556142536,
+                        Longitude = -122.36513570963119 
                 },
 
                 new Local () {
@@ -789,6 +915,8 @@ public class AppDbSeed
                         Descricao = "O Per Se é um restaurante requintado de culinária francesa moderna com três estrelas Michelin. Fundado em 2004 pelo chef Thomas Keller, o restaurante é conhecido por seus menus degustação sazonais, que apresentam ingredientes frescos e da estação. O Per Se também possui uma extensa carta de vinhos, com mais de 1.000 rótulos de todo o mundo.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/Per Se (NY).png",
                         PaisId = 2,
+                        Latitude = -40.76845715651663,
+                        Longitude = -73.98317348115653
                 },
 
                 new Local () {
@@ -800,6 +928,8 @@ public class AppDbSeed
                         Descricao = "Restaurante simples e espaçoso com buffet de comida brasileira, incluindo ensopados em algumas noites.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/Camila's.png",
                         PaisId = 2,
+                        Latitude = -40.76158606813773,
+                        Longitude = -73.9818736684916
                 },
 
                 new Local () {
@@ -811,6 +941,8 @@ public class AppDbSeed
                         Descricao = "Comida americana regional, incluindo ostras e frango frito muito elogiado, em um ambiente animado e moderno.",
                         Foto = "/imgpaises/imgEUA/Restaurantes/The dutch.png",
                         PaisId = 2,
+                        Latitude = -41.91393000087764,
+                        Longitude = -87.64806430544648
                 },
                 #endregion
 
@@ -824,6 +956,8 @@ public class AppDbSeed
                         Descricao = "O Independence National Historical Park é um parque histórico nacional que preserva vários locais associados à Revolução Americana e à história da fundação dos Estados Unidos. O parque abriga o Independence Hall, onde a Declaração da Independência e a Constituição dos Estados Unidos foram debatidas e adotadas.",
                         Foto = "/imgpaises/imgEUA/Cultura/Independece National Historical Park (Filadelfía).png",
                         PaisId = 2,
+                        Latitude = -40.49968903347103,
+                        Longitude = -75.16705952368153
                 },
 
                 new Local () {
@@ -835,6 +969,8 @@ public class AppDbSeed
                         Descricao = "A Ilha de Alcatraz é uma ilha rochosa localizada na Baía de São Francisco, na Califórnia. A ilha já foi um forte militar, uma prisão federal e agora é um parque nacional. A prisão de Alcatraz é uma das atrações turísticas mais populares de São Francisco.",
                         Foto = "/imgpaises/imgEUA/Cultura/Alcatraz Island (São Francisco).png",
                         PaisId = 2,
+                        Latitude = -32.68402996216141,
+                        Longitude = -104.26023604562027
                 },
 
                 new Local () {
@@ -846,6 +982,8 @@ public class AppDbSeed
                         Descricao = "O Museu Nacional dos Direitos Civis é um museu dedicado à história do movimento dos direitos civis nos Estados Unidos. O museu está localizado em Memphis, Tennessee, no local do Lorraine Motel, onde o Dr. Martin Luther King Jr. foi assassinado em 1968.",
                         Foto = "/imgpaises/imgEUA/Cultura/National Civil Right Museum (Tenesse).png",
                         PaisId = 2,
+                        Latitude = -35.134766014551566,
+                        Longitude = -90.05780276313489
                 },
 
                 new Local () {
@@ -857,6 +995,8 @@ public class AppDbSeed
                         Descricao = "O Parque Militar Nacional de Gettysburg preserva o campo de batalha da Batalha de Gettysburg, travada de 1 a 3 de julho de 1863, durante a Guerra Civil Americana. A batalha foi a mais sangrenta da guerra e um ponto de virada no conflito. O parque abrange mais de 6.000 acres de campos de batalha, monumentos e memoriais.",
                         Foto = "/imgpaises/imgEUA/Cultura/Gettysburg National Military Park (Pensilvania).png",
                         PaisId = 2,
+                        Latitude = -39.80554670925124,
+                        Longitude = -77.24211138949524
                 },
 
                 new Local () {
@@ -868,6 +1008,8 @@ public class AppDbSeed
                         Descricao = "O Monte Rushmore é um monumento esculpido em uma montanha de granito no estado americano de Dakota do Sul. O monumento apresenta os rostos de quatro presidentes dos Estados Unidos = George Washington, Thomas Jefferson, Theodore Roosevelt e Abraham Lincoln.",
                         Foto = "/imgpaises/imgEUA/Cultura/Mount Rushmore (Reystone).png",
                         PaisId = 2,
+                        Latitude = -43.88066836781004,
+                        Longitude = -103.4538637851712
                 },
 
                 new Local () {
@@ -879,6 +1021,8 @@ public class AppDbSeed
                         Descricao = "Pearl Harbor é um porto natural na ilha de Oahu, no Havaí. Foi o local do ataque japonês aos Estados Unidos em 7 de dezembro de 1941, que precipitou a entrada dos Estados Unidos na Segunda Guerra Mundial. O porto abriga agora várias instalações militares, bem como o USS Arizona Memorial, o USS Missouri Memorial e o Pearl Harbor Aviation Museum.",
                         Foto = "/imgpaises/imgEUA/Cultura/Pearl Harbour (Havaí).png",
                         PaisId = 2,
+                        Latitude = -21.356943711342474,
+                        Longitude = -157.9804704615852
                 },
                 #endregion
         #endregion
@@ -895,6 +1039,8 @@ public class AppDbSeed
                         Descricao = "O Parque Nacional de Écrins é um parque nacional francês localizado nos Alpes franceses. É o maior parque nacional da França, com uma área de 918.000 hectares. O parque abriga uma variedade de paisagens, incluindo montanhas, geleiras, lagos e florestas. O parque também abriga uma variedade de vida selvagem, incluindo íbex, cabras selvagens, marmotas e aves de rapina.",
                         Foto = "/imgpaises/imgFranca/Natureza/Parque Nacional de Ecrins (Alpes Franceses).png",
                         PaisId = 3,
+                        Latitude = -44.92145154850825,
+                        Longitude = -6.335895541146967
                 },
 
                         new Local() {
@@ -906,6 +1052,8 @@ public class AppDbSeed
                         Descricao = "O Parc Zoologique de Paris, também conhecido como Zoo de Vincennes, é um parque zoológico localizado no 12º arrondissement de Paris, França. É um dos maiores zoos da Europa, com mais de 2.000 animais de 250 espécies diferentes. O zoo está dividido em cinco biozonas: Patagônia, Europa, Madagascar, Planície Africana e Amazônia-Guiana.",
                         Foto = "/imgpaises/imgFranca/Natureza/Parc Zoologique de Paris (Paris).png",
                         PaisId = 3,
+                        Latitude = -48.83356464087311,
+                        Longitude = -2.414438883604537
                 },
 
                         new Local() {
@@ -917,6 +1065,8 @@ public class AppDbSeed
                         Descricao = "O Parc de la Tête d'Or é um parque urbano exuberante e extenso situado no coração de Lyon, França. Com seus 117 hectares de área verde, oferece um refúgio natural para os habitantes da cidade e visitantes, proporcionando uma variedade de atividades para todos os gostos e idades.",
                         Foto = "/imgpaises/imgFranca/Natureza/Parc de la Tête d'Or (Lyon).png",
                         PaisId = 3,
+                        Latitude = -45.77732937604459,
+                        Longitude = -4.854969737402913
                 },
 
                         new Local() {
@@ -928,6 +1078,8 @@ public class AppDbSeed
                         Descricao = "O Parque Natural Regional de Camargue é uma área úmida protegida localizada no sul da França, na região da Provença-Alpes-Costa Azul. O parque abriga uma variedade de paisagens, incluindo pântanos, salinas, dunas e florestas. O parque também é o lar de uma grande variedade de vida selvagem, incluindo flamingos, cavalos selvagens e touros negros.",
                         Foto = "/imgpaises/imgFranca/Natureza/Parque Natural Regional de Camargue (Provença-Alpes-Costa Azul).png",
                         PaisId = 3,
+                        Latitude = -43.5260403794442,
+                        Longitude = -4.6080163027644625
                 },
 
                         new Local() {
@@ -939,6 +1091,8 @@ public class AppDbSeed
                         Descricao = "O Jardim Botânico de Bordéus é um jardim botânico público com uma área de 11 hectares. Fundado em 1629, é um dos mais antigos jardins botânicos da França. O jardim abriga uma coleção de mais de 3.000 espécies de plantas de todo o mundo, incluindo plantas tropicais, subtropicais e temperadas. O jardim também possui um herbário com mais de 100.000 espécimes de plantas.",
                         Foto = "/imgpaises/imgFranca/Natureza/Jardim Botânico de Bordéus  (Bordéus).png",
                         PaisId = 3,
+                        Latitude = -44.84989373271244,
+                        Longitude = -0.580033335018285
                 },
 
                 new Local() {
@@ -950,6 +1104,8 @@ public class AppDbSeed
                         Descricao = "O Parc Zoologique de La Palmyre é um zoológico particular com uma área de 18 hectares. Fundado em 1966, é um dos maiores zoológicos da França. O zoológico abriga uma coleção de mais de 1.600 animais de 115 espécies diferentes, incluindo mamíferos, aves, répteis e anfíbios. O zoológico também possui um parque aquático com shows de leões marinhos e focas.",
                         Foto = "/imgpaises/imgFranca/Natureza/Parc Zoologique de La Palmyre (Royan).png",
                         PaisId = 3,
+                        Latitude = -45.686120937739126,
+                        Longitude = -1.1667513390495499
                 },
                 #endregion
 
@@ -963,6 +1119,8 @@ public class AppDbSeed
                         Descricao = "As Halles de Lyon - Paul Bocuse, um mercado gastronômico coberto com mais de 13.000 m², é um dos principais pontos turísticos de Lyon e um paraíso para os amantes da gastronomia. Inaugurado em 1859 e reaberto em 2006 após uma extensa reforma, o mercado recebeu o nome do famoso chef francês Paul Bocuse, um frequentador assíduo e defensor da culinária local.",
                         Foto = "/imgpaises/imgFranca/Compras/Les Halles de Lyon - Paul Bocuse (Lyon).png",
                         PaisId = 3,
+                        Latitude = -45.76288641199138,
+                        Longitude = -4.850205254605206
                 },
 
                 new Local() {
@@ -974,6 +1132,8 @@ public class AppDbSeed
                         Descricao = "O Centre Commercial Val d'Europe é um dos maiores centros comerciais da Europa, com mais de 190 lojas e 30 restaurantes. Localizado em Marne-la-Vallée, a apenas 5 minutos de Disneyland Paris, o centro comercial é um destino popular para compras, alimentação e entretenimento.",
                         Foto = "/imgpaises/imgFranca/Compras/Centre Commercial Val d'Europe (Marne-la-Vallée).png",
                         PaisId = 3,
+                        Latitude = -48.85524003682555,
+                        Longitude = -2.7780312394225404
                 },
 
                 new Local() {
@@ -985,6 +1145,8 @@ public class AppDbSeed
                         Descricao = "O Marché de la Bastille é um mercado de rua tradicional que acontece no Boulevard Richard Lenoir, em frente à Place de la Bastille, em Paris. O mercado existe desde o século XIX e é um dos maiores mercados de rua da cidade.",
                         Foto = "/imgpaises/imgFranca/Compras/Marché de la Bastille (Paris).png",
                         PaisId = 3,
+                        Latitude = -48.9189737896989,
+                        Longitude = -2.3816819888970446
                 },
 
                 new Local() {
@@ -996,6 +1158,8 @@ public class AppDbSeed
                         Descricao = "O Parque Nacional de Écrins é um parque nacional francês localizado nos Alpes franceses. É o maior parque nacional da França, com uma área de 918.000 hectares. O parque abriga uma variedade de paisagens, incluindo montanhas, geleiras, lagos e florestas. O parque também abriga uma variedade de vida selvagem, incluindo íbex, cabras selvagens, marmotas e aves de rapina.",
                         Foto = "/imgpaises/imgFranca/Compras/Passage Pommeraye (Nantes).png",
                         PaisId = 3,
+                        Latitude = -47.21367708932783,
+                        Longitude =  -1.5596807029923423
                 },
 
                 new Local() {
@@ -1007,6 +1171,8 @@ public class AppDbSeed
                         Descricao = "Les Docks Village é um centro comercial e de lazer localizado no coração de Marselha, na França. O centro comercial está situado em um antigo armazém portuário do século XIX, que foi completamente renovado e modernizado.",
                         Foto = "/imgpaises/imgFranca/Compras/Les Docks Village (Marselha).png",
                         PaisId = 3,
+                        Latitude = -43.307171894237776,
+                        Longitude = -5.366295967971776
                 },
 
                 new Local() {
@@ -1018,6 +1184,8 @@ public class AppDbSeed
                         Descricao = "O Village Royal é um centro comercial de luxo localizado no coração de Paris, na França. O centro comercial está situado em um antigo convento do século XVII, que foi completamente renovado e modernizado. ",
                         Foto = "/imgpaises/imgFranca/Compras/Village Royal (Paris).png",
                         PaisId = 3,
+                        Latitude = -48.8695121149803,
+                        Longitude = -2.3223143682599248
                 },
                 #endregion
 
@@ -1031,6 +1199,8 @@ public class AppDbSeed
                         Descricao = "Montmartre é um bairro conhecido por sua atmosfera boêmia e artística. A Basílica do Sacré-Coeur, localizada no topo da colina de Montmartre, é um dos principais pontos turísticos do bairro. Outros pontos de interesse incluem o Moulin Rouge, o Museu de Montmartre e a Place du Tertre.  ",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/Montmarte e Pigalle (Paris).png",
                         PaisId = 3,
+                        Latitude = -48.85110946488163,
+                        Longitude = -2.344838839643606
                 },
 
                 new Local() {
@@ -1042,6 +1212,8 @@ public class AppDbSeed
                         Descricao = "La Cité du Vin é um museu cultural e centro de exposições dedicado ao vinho, localizado em Bordeaux, França. Inaugurado em 2016, o museu oferece uma experiência imersiva e sensorial, explorando a história, a produção e o impacto cultural do vinho em todo o mundo.",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/La Cité du Vin (Bordeaux).png",
                         PaisId = 3,
+                         Latitude = -44.86253144963628,
+                        Longitude = -0.5505678589308564
                 },
 
                 new Local() {
@@ -1053,6 +1225,8 @@ public class AppDbSeed
                         Descricao = "L'Usine, em Istres, é mais do que um centro cultural. É um espaço vibrante e acolhedor que pulsa com a energia da cultura e das artes em todas as suas formas. Mais do que um local para eventos, L'Usine é uma comunidade vibrante que conecta artistas, criadores e público em um ambiente único e inspirador. ",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/L'Usine (Istres).png",
                         PaisId = 3,
+                         Latitude = -43.4915355251203,
+                        Longitude = -4.969446696817481
                 },
 
                 new Local() {
@@ -1064,6 +1238,8 @@ public class AppDbSeed
                         Descricao = "Os Grands Boulevards são uma área vibrante e movimentada de Paris, com uma grande variedade de lojas, restaurantes, cafés, teatros e cinemas. A área é um popular destino turístico, especialmente para quem gosta de fazer compras, observar as pessoas e experimentar a cultura parisiense. ",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/Grands Boulevards (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.87033683447378,
+                        Longitude = -2.3465661888531213
                 },
 
                 new Local() {
@@ -1075,6 +1251,8 @@ public class AppDbSeed
                         Descricao = "Le Batofar é um barco-clube e sala de concertos flutuante no Rio Sena, em Paris. A embarcação, que já foi um farol holandês, oferece uma experiência única de música ao vivo e DJs em um ambiente descontraído e alternativo. ",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/Le Batofar (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.833458854372715,
+                        Longitude = -2.3790488970946067
                 },
 
                 new Local() {
@@ -1086,6 +1264,8 @@ public class AppDbSeed
                         Descricao = "A Champs-Élysées é uma das avenidas mais famosas do mundo, conhecida por suas lojas luxuosas, cafés charmosos, monumentos históricos e atmosfera vibrante. É um local popular para turistas e parisienses, oferecendo uma variedade de atividades para todos os gostos.  ",
                         Foto = "/imgpaises/imgFranca/VidaNoturna/Champs-Élysées (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.873143644833625,
+                        Longitude = -2.297884783606711
                 },
                 #endregion
 
@@ -1099,6 +1279,8 @@ public class AppDbSeed
                         Descricao = "A Catedral de Notre-Dame de Paris é uma das catedrais góticas mais famosas do mundo. Construída entre os séculos XII e XIII, é considerada uma obra-prima da arquitetura gótica e um símbolo da cultura francesa. A catedral é dedicada à Virgem Maria e é um importante local de peregrinação católica.  ",
                         Foto = "/imgpaises/imgFranca/Fe/Catedral de Notre-Dame de Paris (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.85311642072675,
+                        Longitude = -2.349869910585774,
                 },
 
                 new Local() {
@@ -1110,6 +1292,8 @@ public class AppDbSeed
                         Descricao = "A Catedral de Chartres é uma catedral gótica francesa considerada Patrimônio Mundial da UNESCO. Construída entre os séculos XII e XIII, é um dos mais belos exemplos da arquitetura gótica e um importante local de peregrinação mariana. ",
                         Foto = "/imgpaises/imgFranca/Fe/Catedral de Chartres (Chartres).png",
                         PaisId = 3,
+                         Latitude = -48.447944900267856,
+                        Longitude = -1.487772724053863
                 },
 
                 new Local() {
@@ -1121,6 +1305,8 @@ public class AppDbSeed
                         Descricao = "A Basílica de Saint-Denis é uma igreja gótica francesa e necrópole real, considerada Patrimônio Mundial da UNESCO. Construída entre os séculos XII e XIII, é um dos primeiros exemplos da arquitetura gótica e o local de sepultamento de 43 reis e 32 rainhas da França. ",
                         Foto = "/imgpaises/imgFranca/Fe/Basílica de Saint-Denis (Saint-Denis).png",
                         PaisId = 3,
+                         Latitude = -48.93582777999544,
+                        Longitude = -2.3590846105902665
                 },
 
                 new Local() {
@@ -1132,6 +1318,8 @@ public class AppDbSeed
                         Descricao = "A Abadia do Monte Saint-Michel é um mosteiro beneditino e um importante local de peregrinação, situado em uma ilha rochosa na costa da Normandia, França. A abadia foi fundada no século VIII e é um dos exemplos mais notáveis da arquitetura românica e gótica. ",
                         Foto = "/imgpaises/imgFranca/Fe/Abadia de Mont Saint-Michel (Mont Saint-Michel).png",
                         PaisId = 3,
+                         Latitude = -48.63604195188945,
+                        Longitude = -1.511686858732928
                 },
 
                 new Local() {
@@ -1143,6 +1331,8 @@ public class AppDbSeed
                         Descricao = "A Catedral de Saint-Pierre de Beauvais é uma catedral gótica francesa, considerada Patrimônio Mundial da UNESCO. Começada no século XIII, é a catedral mais alta da França e a segunda mais alta do mundo, com coro a 48,5 metros de altura. A catedral é um importante local de peregrinação mariana.  ",
                         Foto = "/imgpaises/imgFranca/Fe/Catedral de Saint-Pierre de Beauvais (Beauvais).png",
                         PaisId = 3,
+                         Latitude = -49.43265650035901,
+                        Longitude = -2.081505198983873 
                 },
 
                 new Local() {
@@ -1154,6 +1344,8 @@ public class AppDbSeed
                         Descricao = "A Basílica de Saint-Sernin é uma igreja românica francesa, considerada Patrimônio Mundial da UNESCO. Construída entre os séculos XI e XIII, é a maior igreja românica conservada na Europa e um importante local de peregrinação no Caminho de Santiago.  ",
                         Foto = "/imgpaises/imgFranca/Fe/Basílica de Saint-Sernin (Toulouse).png",
                         PaisId = 3,
+                         Latitude = -43.60840879240253,
+                        Longitude = -1.4417931679865859
                 },
                 #endregion
 
@@ -1167,6 +1359,8 @@ public class AppDbSeed
                         Descricao = "A Ladurée é uma confeitaria francesa fundada em 1862, famosa por seus macarons coloridos e deliciosos. A loja da Champs-Élysées é a mais famosa da marca e oferece uma grande variedade de doces, chocolates, chás e outros produtos gourmet.  ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/Ladurée (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.87305617486467,
+                        Longitude = -2.302579633390368
                 },
 
                 new Local() {
@@ -1178,6 +1372,8 @@ public class AppDbSeed
                         Descricao = "O Bustronome Paris é um restaurante único que oferece uma experiência gastronômica com vista para os principais pontos turísticos da cidade. A bordo de um ônibus de dois andares com teto de vidro, você pode desfrutar de um menu gourmet enquanto aprecia a vista da Torre Eiffel, do Arco do Triunfo, da Catedral de Notre Dame e de muitos outros lugares.  ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/Bustronome Paris.png",
                         PaisId = 3,
+                         Latitude = -48.87290790540156,
+                        Longitude = -2.293862239423501
                 },
 
                 new Local() {
@@ -1189,6 +1385,8 @@ public class AppDbSeed
                         Descricao = "A La Crêperie de la Dentellière é uma creperia tradicional francesa localizada na charmosa cidade medieval de Dinan. A creperia oferece uma grande variedade de crepes doces e salgados, feitos com ingredientes frescos e de alta qualidade. ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/La Crêperie de la Dentellière (Dinan).png",
                         PaisId = 3,
+                         Latitude = -48.45355315541805,
+                        Longitude = -2.043992710599298
                 },
 
                 new Local() {
@@ -1200,6 +1398,8 @@ public class AppDbSeed
                         Descricao = "Le Petit Nice é um restaurante com estrela Michelin, situado em uma bela vila à beira-mar em Marselha. O restaurante oferece uma vista deslumbrante da Baía de Marselha e do Château d'If. A cozinha é comandada pelo chef Gérald Passedat, que utiliza ingredientes frescos e sazonais do Mediterrâneo para criar pratos inovadores e saborosos.  ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/Le Petit Nice (Marseille).png",
                         PaisId = 3,
+                         Latitude = -43.28021845307651,
+                        Longitude = -5.352078581460569 
                 },
 
                 new Local() {
@@ -1211,6 +1411,8 @@ public class AppDbSeed
                         Descricao = "A Maison de la Truffe é uma loja especializada em trufas, localizada na charmosa cidade de Sarlat-la-Canéda, na região da Dordonha, na França. A loja oferece uma grande variedade de produtos à base de trufas, incluindo trufas frescas, conservas, óleos, cremes e chocolates.   ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/Maison de la Truffe (Sarlat-la-Canéda).png",
                         PaisId = 3,
+                         Latitude = -44.88168570451867,
+                        Longitude = -1.2171629257235212
                 },
 
                 new Local() {
@@ -1222,6 +1424,8 @@ public class AppDbSeed
                         Descricao = "O Chez Dumonet é um restaurante tradicional francês, localizado no charmoso bairro de Montmartre em Paris. O restaurante oferece uma atmosfera acolhedora e um menu clássico de pratos franceses, como confit de canard, boeuf bourguignon e ratatouille. ",
                         Foto = "/imgpaises/imgFranca/Restaurantes/Chez Dumonet (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.84596688395662,
+                        Longitude = -2.3198274817487
                 },
                 #endregion
 
@@ -1235,6 +1439,8 @@ public class AppDbSeed
                         Descricao = "O Palácio de Versalhes é um dos maiores e mais opulentos palácios do mundo. Foi a residência oficial dos reis da França de 1682 a 1789 e é um símbolo do poder e da riqueza da monarquia francesa. O palácio está situado em uma vasta propriedade que inclui jardins, parques e florestas.  ",
                         Foto = "/imgpaises/imgFranca/Cultura/Palácio de Versalhes (Versalhes).png",
                         PaisId = 3,
+                         Latitude = -48.80502739563556,
+                        Longitude = -2.1203124817464847 
                 },
 
                 new Local() {
@@ -1246,6 +1452,8 @@ public class AppDbSeed
                         Descricao = "A Torre Eiffel é um dos monumentos mais emblemáticos do mundo. Construída em 1889 para a Exposição Universal, a torre é uma estrutura de ferro forjado com 324 metros de altura. A Torre Eiffel oferece uma vista panorâmica de Paris e é um dos pontos turísticos mais visitados do mundo.   ",
                         Foto = "/imgpaises/imgFranca/Cultura/Torre Eiffel (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.8585747744802,
+                        Longitude = -2.294438381749423
                 },
 
                 new Local() {
@@ -1257,6 +1465,8 @@ public class AppDbSeed
                         Descricao = "A Abadia do Monte Saint-Michel é uma abadia beneditina medieval localizada na ilha rochosa de Mont Saint-Michel, na Normandia, França. A abadia foi fundada no século VIII e é um importante local de peregrinação. A abadia é um Patrimônio Mundial da UNESCO e um dos monumentos mais visitados da França.   ",
                         Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel (Mont Saint-Michel).png",
                         PaisId = 3,
+                         Latitude = -48.63613412235854,
+                        Longitude = -1.5117297740794853
                 },
 
                 new Local() {
@@ -1268,6 +1478,8 @@ public class AppDbSeed
                         Descricao = "O Museu Picasso é um museu de arte em Paris, França, dedicado à obra de Pablo Picasso. O museu está situado no Hôtel Salé, uma mansão do século XVII no Marais. A coleção do museu inclui mais de 5.000 obras de Picasso, incluindo pinturas, esculturas, desenhos e gravuras.  ",
                         Foto = "/imgpaises/imgFranca/Cultura/Museu Picasso (Paris).png",
                         PaisId = 3,
+                         Latitude = -48.85983918111525,
+                        Longitude = -2.3625479796456488
                 },
 
                 new Local() {
@@ -1279,6 +1491,8 @@ public class AppDbSeed
                         Descricao = "O Château de Chambord é um dos maiores e mais opulentos castelos do mundo. Foi a residência oficial dos reis da França de 1682 a 1789 e é um símbolo do poder e da riqueza da monarquia francesa. O castelo está situado em uma vasta propriedade que inclui jardins, parques e florestas.  ",
                         Foto = "/imgpaises/imgFranca/Cultura/Château de Chambord (Vale do Loire).png",
                         PaisId = 3,
+                         Latitude = -47.6159318200371,
+                        Longitude = -1.5168437951725504 
                 },
 
                 new Local() {
@@ -1290,6 +1504,8 @@ public class AppDbSeed
                         Descricao = "O Museu de Belas Artes de Lyon é um dos museus de arte mais importantes da França. Fundado em 1801, o museu possui uma vasta coleção de obras de arte que datam da Antiguidade até o século XXI. A coleção inclui pinturas, esculturas, desenhos, gravuras e artes decorativas.   ",
                         Foto = "/imgpaises/imgFranca/Cultura/Museu de Belas Artes de Lyon (Lyon).png",
                         PaisId = 3,
+                         Latitude = -45.767304259530945,
+                        Longitude = -4.833586910422204
                 },
                 #endregion
         #endregion        
@@ -1305,7 +1521,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias 24h",
                         Descricao = "Hyde Park é um dos maiores parques do centro de Londres, Inglaterra. É um local popular para caminhadas, piqueniques, passeios de barco e apresentações musicais. O Hyde Park foi criado em 1637 e originalmente era usado como terreno de caça pelo rei Henrique VIII. O parque foi aberto ao público no século XIX e rapidamente se tornou um local popular para os londrinos relaxarem e desfrutarem do ar livre.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/Hyde Park - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -51.50768388123743,
+                        Longitude = -0.16419937413436145
                 },
                 new Local() {
                         Id = 110,
@@ -1315,7 +1533,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias 24h",
                         Descricao = "O Peak District National Park é um parque nacional no condado de Derbyshire, Inglaterra. Foi criado em 1951 e é o primeiro parque nacional da Inglaterra. O parque cobre uma área de 1.437 quilômetros quadrados e é conhecido por suas paisagens montanhosas, incluindo planaltos calcários, vales e cavernas.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/Peak District National Park - Derbyshire.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.29962121418865,
+                        Longitude = -1.8018637039512835
                 },
                 new Local() {
                         Id = 111,
@@ -1325,7 +1545,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto todos os dias das 9h30 às 18h (última entrada às 16h) e Fechado em 24-25 de dezembro",
                         Descricao = "O Eden Project é um jardim botânico e uma atração educacional localizada em Cornwall, Inglaterra. É a maior estufa do mundo e abriga uma vasta coleção de plantas de todo o mundo. O Eden Project está situado em uma antiga mina de argila da China e foi inaugurado em 2001.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/Eden Project - Cornwall.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -50.360517239437605,
+                        Longitude = -4.7447607607623095
                 },
                 new Local() {
                         Id = 112,
@@ -1335,7 +1557,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto todos os dias das 10h às 16h (última entrada às 15h)",
                         Descricao = "O Chester Zoo é um jardim zoológico localizado em Chester, Inglaterra. É um dos maiores e mais populares zoológicos do Reino Unido. O zoológico abriga mais de 35.000 animais de mais de 1.200 espécies.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/Chester Zoo - Chester.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.22650887063973,
+                        Longitude = -2.882974258565565
                 },
                 new Local() {
                         Id = 113,
@@ -1345,7 +1569,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias 24h",
                         Descricao = "O Lake District National Park é um parque nacional na Cumbria, Inglaterra. É o maior parque nacional da Inglaterra e é conhecido por suas paisagens montanhosas, incluindo lagos glaciais, montanhas acidentadas e associações literárias históricas.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/Lake District National Park - Cumbria.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -54.48223080852181,
+                        Longitude = -3.0713231790123063 
                 },
                 new Local() {
                         Id = 114,
@@ -1355,7 +1581,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias 24h",
                         Descricao = "O Yorkshire Dales National Park é um parque nacional em Yorkshire, Inglaterra. Foi criado em 1954 e é conhecido por suas paisagens montanhosas, incluindo vales calcários, rios e cachoeiras. O Yorkshire Dales National Park cobre uma área de 2.179 quilômetros quadrados e abriga uma variedade de vida selvagem, incluindo ovelhas, vacas e aves de rapina.",
                         Foto = "/imgpaises/img Inglaterra/Natureza/The Yorkshire Dales - Yorkshire.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -54.2674157328136,
+                        Longitude = -2.0850373612648996
                 },
                 #endregion
 
@@ -1368,7 +1596,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 22h e de Domingo das 12h às 18h",
                         Descricao = "O Westfield London é um dos maiores centros comerciais da Europa, com mais de 300 lojas, restaurantes e cafés. Localizado em White City, Londres, o centro comercial é um destino popular para compras, alimentação e entretenimento.",
                         Foto = "/imgpaises/img Inglaterra/Compras/Westfield London - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.50802613358743,
+                        Longitude = -0.22111961364599422
                 },
                 new Local() {
                         Id = 116,
@@ -1378,7 +1608,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 20h e de Domingo das 11h às 17h",
                         Descricao = "O Bullring & Grand Central é um dos maiores centros comerciais do Reino Unido, com mais de 300 lojas, restaurantes e cafés. Localizado em Birmingham, o centro comercial é um destino popular para compras, alimentação e entretenimento.",
                         Foto = "/imgpaises/img Inglaterra/Compras/Bullring - Birmingham.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -52.477774845046504,
+                        Longitude = -1.894371828049406
                 },
                 new Local() {
                         Id = 117,
@@ -1388,7 +1620,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 20h e de Domingo das 11h às 17h",
                         Descricao = "Liverpool ONE é um centro comercial a céu aberto no centro de Liverpool, Inglaterra. É um destino popular para compras, alimentação e entretenimento, com mais de 170 lojas, restaurantes e bares.",
                         Foto = "/imgpaises/img Inglaterra/Compras/Liverpool ONE - Liverpool.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.404039570225514,
+                        Longitude = -2.986988019189587 
                 },
                 new Local() {
                         Id = 118,
@@ -1398,7 +1632,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Todos os dias 24h",
                         Descricao = "The Lanes é um labirinto de ruas estreitas e sinuosas com lojas, restaurantes, pubs e cafés peculiares. É um destino popular para compras, alimentação e passeios turísticos. ",
                         Foto = "/imgpaises/img Inglaterra/Compras/The Lanes - Brighton.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -50.82298147793488,
+                        Longitude = -0.1416908676958653
                 },
                 new Local() {
                         Id = 119,
@@ -1408,7 +1644,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 20h e de Domingo das 10h às 18h ",
                         Descricao = "O Cheshire Oaks Designer Outlet é o maior outlet do Reino Unido, com mais de 145 lojas de grife. Localizado em Ellesmere Port, Cheshire, o outlet é um destino popular para compras com descontos de até 60%.",
                         Foto = "/imgpaises/img Inglaterra/Compras/Cheshire Oaks Designer Outlet - Ellesmere Port.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.26579018404187,
+                        Longitude = -2.8814931346667803 
                 },
                 new Local() {
                         Id = 120,
@@ -1418,7 +1656,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 9h30 às 20h e de Domingo das 11h às 17h ",
                         Descricao = "O Cabot Circus é um centro comercial coberto em Bristol, Inglaterra. É adjacente a Broadmead, um bairro comercial no centro da cidade de Bristol. A área de desenvolvimento do Cabot Circus contém lojas, escritórios, um hotel, 250 apartamentos e antigamente um cinema. ",
                         Foto = "/imgpaises/img Inglaterra/Compras/Cabot Circus - Bristol.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.459029140747006,
+                        Longitude = -2.5852566136931094 
                 },
                 #endregion
 
@@ -1431,7 +1671,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Sexta-feira das 23h às 6h e de Sábado das 23h às 6h ",
                         Descricao = "O Fabric é uma boate noturna em Londres, Inglaterra, conhecida por sua música eletrônica underground. Fundado em 1999, o clube já foi eleito o melhor clube do mundo pela revista DJ Magazine em várias ocasiões. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/Fabric - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.52003421394557,
+                        Longitude = -0.10261289033996089 
                 },
                 new Local() {
                         Id = 122,
@@ -1441,7 +1683,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 23h e de Domingo das 12h às 22h ",
                         Descricao = "O Cavern Club é um clube de música ao vivo em Liverpool, Inglaterra, famoso por ser o local onde os Beatles tocaram pela primeira vez em 1961. O clube é um marco histórico e um destino popular para turistas de todo o mundo. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/The Cavern Club - Liverpool.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -53.66608218144352,
+                        Longitude = -3.0877024993674143
                 },
                 new Local() {
                         Id = 123,
@@ -1451,7 +1695,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 11h às 23h e de  Domingo das 12h às 22h ",
                         Descricao = "The Haunt é um pub e local de música ao vivo em Brighton, Inglaterra. É conhecido por sua música alternativa e indie, e já recebeu shows de bandas como The Smiths, The Cure e Radiohead. O Haunt possui duas salas: a sala principal e a sala Basement. A sala principal é a maior sala e é onde se apresentam as bandas principais. A sala Basement é uma sala menor que apresenta bandas novas e emergentes. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/The Haunt - Brighton.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -50.82080816855798,
+                        Longitude = -0.13912651345095
                 },
                 new Local() {
                         Id = 124,
@@ -1461,7 +1707,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Varia de acordo com o evento ",
                         Descricao = "O Warehouse Project (WHP) é um dos clubes mais famosos do Reino Unido, conhecido por sua programação de DJs internacionais de música eletrônica underground. O clube fica em Manchester, Inglaterra, e funciona em um antigo armazém convertido, o que contribui para sua atmosfera única. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/The Warehouse Project - Manchester.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -53.47599643937941,
+                        Longitude = -2.225467388436286
                 },
                 new Local() {
                         Id = 125,
@@ -1471,7 +1719,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Varia de acordo com o evento ",
                         Descricao = "O Thekla é um barco-clube noturno e local de música ao vivo em Bristol, Inglaterra. É um barco de carga convertido que está ancorado no porto de Bristol. O Thekla é conhecido por sua programação eclética de música ao vivo, que inclui bandas indie, DJs de música eletrônica e apresentações de comédia. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/Thekla - Bristol.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -51.44938942685273,
+                        Longitude = -2.5940763290433217
                 },
                 new Local() {
                         Id = 126,
@@ -1481,7 +1731,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Varia de acordo com o evento ",
                         Descricao = "A O2 Academy Birmingham é uma casa de shows em Birmingham, Inglaterra, com capacidade para 3.000 pessoas. É conhecida por sua programação de shows de música ao vivo, que inclui artistas internacionais e nacionais de diversos gêneros musicais. ",
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/O2 Academy - Birmingham.png",
-                        PaisId=4
+                        PaisId=4,
+                         Latitude = -51.53127730827401,
+                        Longitude = -2.5912643961407835
                 },
                 #endregion
 
@@ -1494,7 +1746,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sexta das 9h30 às 17h30, Sábado das 9h30 às 15h30 e de Domingo é Fechado ",
                         Descricao = "A Catedral de Canterbury é uma catedral gótica em Canterbury, Inglaterra. É a sede do Arcebispo de Canterbury, o líder espiritual da Igreja da Inglaterra. A catedral foi fundada em 597 d.C. e é um Patrimônio Mundial da UNESCO. ",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de Canterbury (Cantebury).png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.280414063213094,
+                        Longitude = -1.0829285014767407
                 },
                 new Local() {
                         Id = 128,
@@ -1504,7 +1758,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 9h30 às 17h30 (última entrada às 16h45) e de Domingo é Fechado ",
                         Descricao = "A Catedral de York Minster é uma catedral gótica em York, Inglaterra. É a sede do Arcebispo de York, o segundo líder espiritual mais importante da Igreja da Inglaterra. A catedral foi fundada em 627 d.C. e é um Patrimônio Mundial da UNESCO. A Catedral de York Minster é uma das maiores catedrais góticas da Europa. É um local de peregrinação há séculos e é um dos destinos turísticos mais populares do país. ",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de York Minster - York.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.962757970452664,
+                        Longitude = -1.0821780339784322
                 },
                 new Local() {
                         Id = 129,
@@ -1514,7 +1770,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sexta das 10h às 17h (última entrada às 16h30), Sábado das 9h30 às 17h (última entrada às 16h30) e de Domingo das 12h30 às 14h30 (última entrada às 14h) ",
                         Descricao = "A Catedral de Durham é uma catedral normanda em Durham, Inglaterra. É a sede do Bispo de Durham e um Patrimônio Mundial da UNESCO. A catedral foi fundada em 1093 e é considerada um dos melhores exemplos da arquitetura normanda na Europa. ",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de Durham - Durham.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -54.77387606712855,
+                        Longitude = -1.57600590305344
                 },
                 new Local() {
                         Id = 130,
@@ -1524,7 +1782,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 17h (última entrada às 16h) e de Domingo é Fechado ",
                         Descricao = "A Catedral de Salisbury é uma catedral gótica em Salisbury, Inglaterra. É conhecida por sua torre de 123 metros de altura, a mais alta do Reino Unido, e por sua bela arquitetura gótica. A catedral foi fundada em 1220 e é considerada um dos melhores exemplos da arquitetura gótica inglesa. ",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de Salisbury - Salisbury.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.065579976062445,
+                        Longitude = -1.7974322907751776 
                 },
                 new Local() {
                         Id = 131,
@@ -1534,7 +1794,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 8h30 às 16h30 (última entrada às 16h) e fechado de Domingo ",
                         Descricao = "A Catedral de St. Paul é uma catedral anglicana em Londres, Inglaterra. É a sede do Bispo de Londres e uma das maiores igrejas do Reino Unido. A catedral foi projetada por Sir Christopher Wren e construída entre 1675 e 1710. A Catedral de St. Paul é um dos edifícios mais emblemáticos de Londres. É um local de grande importância histórica e religiosa, e é um dos destinos turísticos mais populares da cidade.",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de St. Paul - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.51451252696512,
+                        Longitude = -0.09830772898106742
                 },
                 new Local() {
                         Id = 132,
@@ -1544,7 +1806,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sábado das 10h às 17h30 (última entrada às 16h45) e de Domingo é Fechado ",
                         Descricao = "A Catedral de Winchester é uma catedral gótica em Winchester, Inglaterra. É a maior catedral gótica da Europa em termos de área e é um Patrimônio Mundial da UNESCO. A catedral foi fundada em 1079 e é considerada um dos melhores exemplos da arquitetura gótica inglesa. ",
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de Winchester - Winchester.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.06147093344404,
+                        Longitude = -1.313368421461494
                 },
                 #endregion
 
@@ -1557,7 +1821,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Terça a sábado das 12h às 14h30 e depois das18h30 às 21h30 e de Domingo das 12h às 14h30 e fechado de segunda ",
                         Descricao = "The Sportsman é um pub gastronômico premiado com uma estrela Michelin, situado na vila costeira de Seasalter, em Kent, Inglaterra. É conhecido por sua culinária inovadora e sazonal, que destaca os melhores ingredientes locais. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/The Sportsman, Seasalter.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.34432244898336,
+                        Longitude = -0.9589331708559281
                 },
                 new Local() {
                         Id = 134,
@@ -1567,7 +1833,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sexta das 12h às 23h30, Sábado das 11h às 23h30 e de Domingo é Fechado ",
                         Descricao = "O Sketch é um restaurante e bar requintado em Londres, famoso por seu interior luxuoso e sua cozinha inovadora. O restaurante é dividido em vários espaços distintos, cada um com seu próprio tema e atmosfera. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/Sketch - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.51319999798596,
+                        Longitude = -0.14144321364106205
                 },
                 new Local() {
                         Id = 135,
@@ -1577,7 +1845,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Segunda a sexta das 12h às 14h30 e depois das 17h30 às 22h30, Sábado das12h às 22h30 e de Domingo é Fechado ",
                         Descricao = "O Gordon Ramsay Bar & Grill é um restaurante elegante e contemporâneo em Edimburgo, com vista para o Castelo de Edimburgo. O restaurante é conhecido por sua cozinha clássica com um toque moderno e por seu serviço impecável. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/Gordon Ramsay Bar & Grill - Edimburgo.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.515654432669805,
+                        Longitude = -0.1511448122342247
                 },
                 new Local() {
                         Id = 136,
@@ -1587,7 +1857,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "DeSegunda a sexta das 12h às 14h30 e depois das 17h30 às 22h30, Sábado das 12h às 22h30 e Domingo é Fechado ",
                         Descricao = "O The Ivy Manchester é um restaurante elegante e luxuoso em Manchester, situado no histórico Midland Hotel. O restaurante é conhecido por sua cozinha clássica britânica com um toque moderno e por seu ambiente sofisticado. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/The Ivy - Manchester.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.520937652903115,
+                        Longitude = -0.1638478986090502
                 },
                 new Local() {
                         Id = 137,
@@ -1597,7 +1869,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Almoço de Segunda a sexta, das 12h30 às 14h, Jantar de Segunda a sábado, das 19h às 21h30 e Fechado de Domingos e feriados ",
                         Descricao = "O Waterside Inn é um restaurante com três estrelas Michelin em Bray, Berkshire, Inglaterra. É conhecido por sua culinária clássica francesa com um toque moderno e por seu ambiente elegante e sofisticado. O restaurante é comandado pelo chef Alain Roux, que assumiu o comando do restaurante de seu pai, Michel Roux, em 1992. Alain Roux manteve a tradição de excelência do restaurante, e o Waterside Inn continua a ser um dos restaurantes mais aclamados do mundo. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/The Waterside Inn - Bray, Berkshire.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.50947410902787,
+                        Longitude = -0.6998825363733905
                 },
                 new Local() {
                         Id = 138,
@@ -1607,7 +1881,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Fechado de Terça-feira e Quarta-feira, Almoço de Quinta a Segunda, das 12h30 às 14h e Jantar de Quinta a Segunda, das 19h às 21h30",
                         Descricao = "O Ledbury é um restaurante com duas estrelas Michelin em Notting Hill, Londres, Inglaterra. É conhecido por sua culinária moderna europeia com foco em ingredientes sazonais e de alta qualidade. O restaurante é comandado pelo chef Brett Graham, que assumiu o comando em 2011. Graham manteve a tradição de excelência do restaurante, e o Ledbury continua a ser um dos restaurantes mais aclamados de Londres. ",
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/The Ledbury - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.51713524848876,
+                        Longitude = -0.20014887500168768 
                 },
                 #endregion
 
@@ -1620,7 +1896,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto diariamente das 10h às 17h30, Fechado das 24, 25 e 26 de dezembro e 1º de janeiro ",
                         Descricao = "O Museu Britânico é um dos maiores e mais importantes museus do mundo. Ele abriga uma vasta coleção de artefatos da história e da cultura humana, desde a pré-história até o presente. O museu foi fundado em 1753 e está situado em Bloomsbury, Londres. O edifício principal do museu é uma estrutura imponente em estilo neoclássico. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Museu Britânico - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.520053741705155,
+                        Longitude = -0.12687081363462369 
                 },
                 new Local() {
                         Id = 140,
@@ -1630,7 +1908,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto todos os dias 24h",
                         Descricao = "O Palácio de Buckingham é a residência oficial do monarca do Reino Unido em Londres. É um dos maiores e mais luxuosos palácios do mundo. O palácio foi construído em 1703 e foi originalmente a casa do Duque de Buckingham. Em 1762, o rei George III o adquiriu para a Coroa Britânica. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Palacio de Buckingham - Londres.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.501817695437175,
+                        Longitude = -0.14163255228754965 
                 },
                 new Local() {
                         Id = 141,
@@ -1640,7 +1920,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto ao público em 22 de julho a 2 de outubro de 2023, de Segunda a sábado das 10h às 17h15 (última entrada às 16h15) e de Domingo das 12h15 às 17h15 (última entrada às 16h15) ",
                         Descricao = "O Castelo de Windsor é a maior e mais antiga fortaleza habitada do mundo. É a residência oficial da Rainha Elizabeth II no Reino Unido. O castelo foi fundado por Guilherme, o Conquistador, no século XI. Ao longo dos séculos, o castelo foi ampliado e reformado por vários monarcas ingleses. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Castelo de Windsor - Windsor.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.484775461096895,
+                        Longitude = -0.6047031517386197
                 },
                 new Local() {
                         Id = 142,
@@ -1650,7 +1932,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto diariamente das 9h às 17h (última entrada às 16h) e Fechado em 24, 25 e 26 de dezembro ",
                         Descricao = "Os Banhos Romanos são um complexo de ruínas romanas bem preservadas em Bath, Inglaterra. Eles foram construídos no século I d.C. e eram um importante centro social e religioso para os romanos. Os banhos são compostos por uma série de piscinas, salas de vapor e saunas. As piscinas eram aquecidas por um sistema de hipocausto, que usava o calor do fogo subterrâneo.",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Banhos Romanos - Bath.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -51.382137297061554,
+                        Longitude = -2.365456493335392
                 },
                 new Local() {
                         Id = 143,
@@ -1660,7 +1944,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "Aberto diariamente das 10h às 17h e Fechado em 24, 25 e 26 de dezembro ",
                         Descricao = "O Museu Mundial de Liverpool é um dos maiores museus nacionais do Reino Unido. Ele abriga uma vasta coleção de artefatos da história e da cultura humana, desde a pré-história até o presente. O museu foi fundado em 1851 e está situado no centro de Liverpool. O edifício principal do museu é uma estrutura imponente em estilo neoclássico. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Museu da Liverpool World Museum - Liverpool.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.406785826577334,
+                        Longitude = -2.9876937727547936
                 },
                 new Local() {
                         Id = 144,
@@ -1670,7 +1956,9 @@ public class AppDbSeed
                         HorarioFuncionamento= "De Terça a sábado das 10h às 17h, Domingo das 12h às 17h e Fechado em 24, 25 e 26 de dezembro ",
                         Descricao = "O Museu de História de Manchester é um museu que narra a história da cidade e da região, desde a pré-história até os dias atuais. Ele abriga uma vasta coleção de artefatos, incluindo roupas, ferramentas, armas, documentos e fotografias. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Museu de História de Manchester - Manchester.png",
-                        PaisId=4
+                        PaisId=4,
+                        Latitude = -53.4668769105683, 
+                        Longitude = -2.23442360378653 
                 },
                 #endregion
         #endregion

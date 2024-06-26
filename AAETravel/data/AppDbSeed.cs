@@ -2299,8 +2299,8 @@ public class AppDbSeed
                         Descricao = "Osteria Francescana é um restaurante com três estrelas Michelin em Modena, Itália. É propriedade e operado pelo chef Massimo Bottura. O restaurante é considerado um dos melhores do mundo e foi nomeado o melhor restaurante do mundo em 2016 e 2018 pelo The World's 50 Best Restaurants.",
                         Foto = "/imgpaises/img Itália/Restaurantes/Osteria Francescana - Modena.png",
                         PaisId = 4,
-                        Latitude =
-                        Longitude =
+                        Latitude = -44.64574053911844,
+                        Longitude = -10.921229314649926
                         },
 
                         new Local () {
@@ -2312,8 +2312,8 @@ public class AppDbSeed
                         Descricao = "Trattoria da Romano é um restaurante tradicional veneziano em Veneza, Itália. É um restaurante familiar que serve pratos venezianos autênticos há mais de 50 anos. O restaurante está localizado em um beco tranquilo no centro histórico de Veneza. O interior é acolhedor e rústico, com paredes de tijolos expostos e mesas de madeira.",
                         Foto = "/imgpaises/img Itália/Restaurantes/Trattoria da Romano - Veneza.png",
                         PaisId = 4,
-                        Latitude =
-                        Longitude =
+                        Latitude = -45.4861839962346,
+                        Longitude = -12.418251571887863
                         },
 
                         new Local () {
@@ -2325,8 +2325,8 @@ public class AppDbSeed
                         Descricao = "Dal Pescatore é um restaurante com três estrelas Michelin em Canneto sull'Oglio, Itália. É propriedade e operado pelos chefs Nadia Santini, Giovanni Santini e Bruna Santini. O restaurante é considerado um dos melhores da Itália e foi nomeado o 48º melhor restaurante do mundo em 2009 pelo The World's 50 Best Restaurants.",
                         Foto = "/imgpaises/img Itália/Restaurantes/Dal Pescatore - Canneto sull'Oglio.png",
                         PaisId = 4,
-                        Latitude =
-                        Longitude =
+                        Latitude = -45.17227493537136,
+                        Longitude = -10.357242478405302
                         },
 
                         new Local () {
@@ -2338,8 +2338,8 @@ public class AppDbSeed
                         Descricao = "A Enoteca Pinchiorri é um restaurante com três estrelas Michelin em Florença, Itália. É propriedade e operado pelos chefs Annie Féolde e Giorgio Pinchiorri. O restaurante é considerado um dos melhores do mundo e foi nomeado o 32º melhor restaurante do mundo em 2008 pela revista British Restaurant.",
                         Foto = "/imgpaises/img Itália/Restaurantes/Enoteca Pinchiorri - Florença.png",
                         PaisId = 4,
-                        Latitude =
-                        Longitude =
+                        Latitude = -43.77074190882861,
+                        Longitude = -11.261363626632706
                         },
 
                         new Local () {
@@ -2351,8 +2351,8 @@ public class AppDbSeed
                         Descricao = " La Pergola é um restaurante com três estrelas Michelin em Roma, Itália. É propriedade e operado pelo chef Heinz Beck. O restaurante é considerado um dos melhores do mundo e foi nomeado o 18º melhor restaurante do mundo em 2023 pela revista The World's 50 Best Restaurants.",
                         Foto = "/imgpaises/img Itália/Restaurantes/La Pergola - Roma.png",
                         PaisId = 4,
-                        Latitude =
-                        Longitude =
+                        Latitude = -41.91989097355584,
+                        Longitude = -12.44605951057047
                         },
 
                         new Local () {
@@ -2363,9 +2363,9 @@ public class AppDbSeed
                         HorarioFuncionamento = "De Segunda a sábado das 12h30 às 14h30 e depois das 19h30 às 22h30, Domingo das 12h30 às 14h30 e Feriados das 12h30 às 14h30 (mediante reserva)",
                         Descricao = "Antica Corte Pallavicina é um restaurante com uma estrela Michelin em Polesine Parmense, Itália. É propriedade e operado pela família Spigaroli. O restaurante está situado em um antigo castelo do século XIV, às margens do rio Po.",
                         Foto = "/imgpaises/img Itália/Restaurantes/Antica Corte Pallavicina - Polesine Parmense.png",
-                        PaisId = 4
-                        Latitude =
-                        Longitude =
+                        PaisId = 4,
+                        Latitude = -45.02267235453517,
+                        Longitude = -10.08574894704006 
                         },
                 #endregion
 
@@ -2379,6 +2379,8 @@ public class AppDbSeed
                         Descricao = "Os Museus do Vaticano abrigam uma das maiores e mais importantes coleções de arte do mundo. Os museus estão localizados na Cidade do Vaticano, a menor cidade do mundo, e são a casa da Capela Sistina, que é considerada um dos mais importantes locais religiosos e artísticos do mundo.",
                         Foto = "/imgpaises/img Itália/Cultura/Museu do Vaticano e Capela Sistina - Roma.png",
                         PaisId = 4,
+                        Latitude = -41.906839101819514,
+                        Longitude = -12.453579559497973
                         },
 
                         new Local () {
@@ -2390,6 +2392,8 @@ public class AppDbSeed
                         Descricao = "O Coliseu é um anfiteatro oval em Roma, Itália. É o maior anfiteatro do mundo e foi construído no século I d.C. pelo imperador Vespasiano. O Coliseu foi usado para combates de gladiadores, execuções e outros eventos públicos. O Coliseu é um Patrimônio Mundial da UNESCO e uma das atrações turísticas mais populares da Itália. O Coliseu está aberto ao público para visitas guiadas e autoguiadas.",
                         Foto = "/imgpaises/img Itália/Cultura/Coliseu - Roma.png",
                         PaisId = 4,
+                        Latitude = -41.9068708106922,
+                        Longitude = -12.45364393136315 
                         },
 
                         new Local () {
@@ -2401,6 +2405,8 @@ public class AppDbSeed
                         Descricao = "A Galleria degli Uffizi é um museu de arte em Florença, Itália. É um dos museus mais importantes do mundo e abriga uma vasta coleção de pinturas e esculturas do Renascimento italiano.",
                         Foto = "/imgpaises/img Itália/Cultura/Museu Uffizi - Florença.png",
                         PaisId = 4,
+                        Latitude = -43.769643198347396,
+                        Longitude = -11.25539636411926
                         },
 
                         new Local () {
@@ -2412,6 +2418,8 @@ public class AppDbSeed
                         Descricao = "Pompeia é uma antiga cidade romana que foi enterrada por uma erupção do Vesúvio em 79 d.C. A cidade está localizada na Itália, perto de Nápoles. As ruínas de Pompéia são um Patrimônio Mundial da UNESCO e um destino turístico popular.",
                         Foto = "/imgpaises/img Itália/Cultura/Pompeia.png",
                         PaisId = 4,
+                        Latitude = -40.75097322205805,
+                        Longitude = -14.501137636010677
                         },
 
                         new Local () {
@@ -2423,6 +2431,8 @@ public class AppDbSeed
                         Descricao = "O Palazzo Ducale (Palácio Ducal) é um dos edifícios mais emblemáticos de Veneza, Itália. Foi a sede do governo da República de Veneza durante séculos e é um dos maiores e mais impressionantes palácios góticos do mundo.",
                         Foto = "/imgpaises/img Itália/Cultura/Palazzo Ducale (Palácio Ducal) - Veneza.png",
                         PaisId = 4,
+                        Latitude = -45.434063029429126,
+                        Longitude = -12.339959987562988 
                         },
 
                         new Local () {
@@ -2434,6 +2444,8 @@ public class AppDbSeed
                         Descricao = "A Piazza del Campo é a principal praça de Siena, Itália. É uma das praças mais famosas da Itália e é conhecida por sua forma de concha e por sua beleza arquitetônica. A praça é o lar de vários edifícios históricos, incluindo o Palazzo Pubblico, a Torre del Mangia e a Fonte Gaia.",
                         Foto = "/imgpaises/img Itália/Cultura/Piazza del Campo e Palazzo Pubblico - Siena.png",
                         PaisId = 4,
+                         Latitude = -43.31825623772815,
+                        Longitude = -11.331932240398123
                         },
                 #endregion
         #endregion
@@ -2450,6 +2462,8 @@ public class AppDbSeed
                         Descricao = "O Jardim Zoológico de Lisboa, fundado em 1884, é um dos mais antigos da Europa. Abriga cerca de 2000 animais de 300 espécies diferentes, em habitats recriados para simular seus ambientes naturais. O zoológico também desenvolve programas de conservação e investigação científica.",
                         Foto = "/imgpaises/img Portugal/Natureza/Zoológico de Lisboa (Lisboa).png",
                         PaisId = 6,
+                        Latitude = -38.743250364769374,
+                        Longitude = -9.169150259221473
                 },
 
                 new Local () {
@@ -2461,6 +2475,8 @@ public class AppDbSeed
                         Descricao = "O Zoomarine Algarve é um parque temático que combina diversão com educação ambiental. Abriga uma grande variedade de animais, incluindo golfinhos, focas, leões marinhos, aves de rapina e tubarões. O parque oferece shows com animais, apresentações educativas, atrações aquáticas e muito mais. ",
                         Foto = "/imgpaises/img Portugal/Natureza/Zoomarine Algarve (Albufeira).png",
                         PaisId = 6,
+                        Latitude = -37.12725446163808,
+                        Longitude = -8.314391226306187
                 },
 
                 new Local () {
@@ -2472,6 +2488,8 @@ public class AppDbSeed
                         Descricao = "A Mata Nacional do Buçaco é uma floresta nacional localizada na Serra do Buçaco, no município da Mealhada, em Portugal. A mata foi originalmente plantada por monges carmelitas no século XVII e é agora um Monumento Nacional. A Mata Nacional do Buçaco é conhecida por sua beleza natural, com uma variedade de árvores e plantas, incluindo o famoso cedro-do-Buçaco. A mata também abriga uma variedade de animais selvagens, como veados, javalis e raposas.",
                         Foto = "/imgpaises/img Portugal/Natureza/Mata Nacional do Bussaco (Luso).png",
                         PaisId = 6,
+                         Latitude = -40.377267388811504,
+                        Longitude = -8.36691894751412
                 },
 
                         new Local () {
@@ -2483,6 +2501,8 @@ public class AppDbSeed
                         Descricao = "O Parque Biológico de Gaia é um centro de educação ambiental que promove a compreensão da natureza e da importância da sua preservação. O parque possui uma área de 35 hectares, onde se podem encontrar diversos habitats naturais, como bosques, carvalhais, pinhais, lagos e ribeiros. O parque também abriga uma grande variedade de animais selvagens, como aves, répteis e mamíferos.",
                         Foto = "/imgpaises/img Portugal/Natureza/Parque Biológico de Gaia (Vila Nova de Gaia).png",
                         PaisId = 6,
+                         Latitude = -41.0975290451504, 
+                        Longitude = -8.554217159114284 
                 },
 
                 new Local () {
@@ -2494,6 +2514,8 @@ public class AppDbSeed
                         Descricao = "O Oceanário de Lisboa é um dos maiores aquários da Europa. Abriga mais de 8.000 animais marinhos de 500 espécies diferentes, de todos os oceanos do mundo. O Oceanário está dividido em quatro habitats: Atlântico Norte, Pacífico, Índico e Antártida. Os visitantes podem observar os animais através de grandes painéis de vidro, aprender sobre a importância da preservação dos oceanos e participar em diversas atividades educativas.",
                         Foto = "/imgpaises/img Portugal/Natureza/Lisboa Oceanarium (Lisboa).png",
                         PaisId = 6,
+                         Latitude = -38.76375261307688,
+                        Longitude = -9.093698588057261
                 },
 
                 new Local () {
@@ -2505,6 +2527,8 @@ public class AppDbSeed
                         Descricao = "O Parque Natural do Alvão é uma área protegida localizada na região do Alto Douro, em Portugal. O parque foi criado em 1983 e abrange uma área de cerca de 72 km². O parque é conhecido por sua beleza natural, com paisagens montanhosas, florestas densas e rios cristalinos. O parque também abriga uma grande variedade de animais selvagens, como lobos, veados e aves de rapina.",
                         Foto = "/imgpaises/img Portugal/Natureza/Parque Natural do Alvão (região do Alto Douro).png",
                         PaisId = 6,
+                         Latitude = -41.3656874920189,
+                        Longitude = -7.817695730265091
                 },
                 #endregion
 
@@ -2518,6 +2542,8 @@ public class AppDbSeed
                 Descricao = "O Centro Comercial Colombo é o maior centro comercial da Península Ibérica em número total de lojas. Abriga mais de 340 lojas, restaurantes e cafés, além de um cinema, um bowling e um parque infantil. O centro comercial está localizado em Benfica, próximo ao Estádio da Luz.",
                 Foto = "/imgpaises/img Portugal/Compras/Centro Comercial Colombo (Lisboa).png",
                 PaisId = 6,
+                 Latitude = -38.75373640825004,
+                 Longitude = -9.188423589914175
                 },
 
                 new Local () {
@@ -2529,6 +2555,8 @@ public class AppDbSeed
                 Descricao = "O Algarve Shopping é um centro comercial moderno e espaçoso, com mais de 120 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Algarve Shopping também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "/imgpaises/img Portugal/Compras/Algarve Shopping (Albufeira).png",
                 PaisId = 6,
+                 Latitude = -37.127768674366706,
+                Longitude = -8.280230847658009
                 },
 
                 new Local () {
@@ -2540,6 +2568,8 @@ public class AppDbSeed
                 Descricao = "O Forum Algarve é um centro comercial moderno e espaçoso, com mais de 100 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Forum Algarve também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "/imgpaises/img Portugal/Compras/Forum Algarve (Faro).png",
                 PaisId = 6,
+                 Latitude = -37.02893134981553,
+                Longitude = -7.945094188132468
                 },
 
                 new Local () {
@@ -2551,6 +2581,8 @@ public class AppDbSeed
                 Descricao = "O Aqua Portimão é um centro comercial moderno e espaçoso, com mais de 100 lojas, restaurantes e cafés. O centro comercial oferece uma grande variedade de opções de compras, desde lojas de roupas e acessórios até lojas de eletrônicos e artigos para o lar. O Aqua Portimão também possui um cinema, um bowling e um parque infantil, o que o torna um ótimo lugar para se divertir com a família ou amigos.",
                 Foto = "/imgpaises/img Portugal/Compras/Aqua Portimao (Portimão).png",
                 PaisId = 6,
+                 Latitude = -37.147922603471706,
+                Longitude = -8.543617889983876
                 },
 
                 new Local () {
@@ -2562,6 +2594,8 @@ public class AppDbSeed
                 Descricao = "O El Corte Inglés de Lisboa é um gigante comercial vibrante, pronto para atender a todos os seus desejos. Explore os diversos departamentos, desde a moda e beleza até a tecnologia e lazer, e encontre tudo o que precisa e muito mais. Saboreie uma deliciosa refeição no restaurante ou relaxe com um café e um lanche na cafeteria. A loja também oferece uma gama de serviços convenientes, como salão de beleza, lavanderia e estacionamento gratuito.",
                 Foto = "/imgpaises/img Portugal/Compras/El Corte Inglés (Lisboa).png",
                 PaisId = 6,
+                 Latitude = -38.73338957143639,
+                Longitude = -9.153756845731863 
                 },
 
                 new Local () {
@@ -2573,6 +2607,8 @@ public class AppDbSeed
                 Descricao = "Situado em Alcochete, a apenas 30 minutos de Lisboa e com passagem por uma das mais belas pontes da Europa, a ponte Vasco da Gama, o Freeport Lisboa Fashion Outlet é o local perfeito para um dia em cheio. Com mais de 150 marcas com descontos até 70% durante todo o ano, é o destino de shopping ideal para quem procura grandes marcas nacionais e internacionais. Aqui pode encontrar vestuário para homem, senhora e criança, acessórios de moda, perfumarias e uma excelência de serviços que contribuirão para tornar a sua experiência inesquecível. No Freeport Lisboa Fashion Outlet, a tradição e a modernidade dão origem a um lugar especial. A arquitetura eclética onde o traçado contemporâneo está em harmonia com o tradicional, as áreas de repouso e lazer, os espaços relvados e as zonas de água dão origem a um espaço comercial com caraterísticas únicas." ,
                 Foto = "/imgpaises/img Portugal/Compras/Freeport Lisboa Fashion Outlet - Alcochete.jpg",
                 PaisId = 6,
+                 Latitude = -38.752079911052874,
+                Longitude = -8.939183147587533
                 },
                 #endregion
 
@@ -2586,6 +2622,8 @@ public class AppDbSeed
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Fábrica Braço de Prata (Lisboa).png",
                         PaisId = 6,
+                         Latitude = -38.74389138745578,
+                        Longitude = -9.101252932241328
                 },
 
                 new Local () {
@@ -2597,6 +2635,8 @@ public class AppDbSeed
                         Descricao = "O Cinco Lounge está situado no coração da Avenida António Augusto Aguiar, em Lisboa, e oferece um ambiente elegante e relaxante para desfrutar de uma bebida ou uma refeição leve.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Cinco Lounge (Lisboa).png",
                         PaisId = 6,
+                         Latitude = -38.7142904434252,
+                        Longitude = -9.149672159222808
                 },
 
                 new Local () {
@@ -2608,6 +2648,8 @@ public class AppDbSeed
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Cocktail Garden  (Carvoeiro).png",
                         PaisId = 6,
+                         Latitude = -37.0982379061237,
+                        Longitude = -8.473858845802814
                 },
 
                 new Local () {
@@ -2619,6 +2661,8 @@ public class AppDbSeed
                         Descricao = "O USAxe Club é uma discoteca vibrante e moderna, localizada no coração do Porto. O clube oferece uma experiência de festa única, com música de alta qualidade, DJs internacionais e uma pista de dança espaçosa.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/USAxe Club (Porto).png",
                         PaisId = 6,
+                         Latitude = -38.70315114506938, 
+                        Longitude = -9.179124447589672 
                 },
 
                 new Local () {
@@ -2630,6 +2674,8 @@ public class AppDbSeed
                         Descricao = "O Largo da Oliveira é uma praça histórica e monumental situada no centro histórico de Guimarães, Portugal. A praça é considerada o berço da nacionalidade portuguesa, pois foi neste local que D. Afonso Henriques, o primeiro rei de Portugal, proclamou a independência do país em 1143.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Largo da oliveira (Guimarães).png",
                         PaisId = 6,
+                         Latitude = -41.44316263594313,
+                        Longitude = -8.292889705137778
                 },
 
                 new Local () {
@@ -2641,6 +2687,8 @@ public class AppDbSeed
                         Descricao = "O Sky Bar Lisboa by SEEN é um bar rooftop elegante e sofisticado, situado no topo do Tivoli Avenida Liberdade Hotel. O bar oferece uma vista panorâmica deslumbrante da cidade de Lisboa, cocktails criativos e uma atmosfera vibrante.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Sky Bar (Lisboa).png",
                         PaisId = 6,
+                         Latitude = -38.72199282418489,
+                        Longitude = -9.147618176632783
                 },
                 #endregion
 
@@ -2654,6 +2702,8 @@ public class AppDbSeed
                     Descricao = "O Mosteiro da Batalha é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi mandado construir pelo rei D. João I em 1386, em cumprimento de uma promessa feita à Virgem Maria pela vitória na Batalha de Aljubarrota. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
                     Foto = "/imgpaises/img Portugal/Fe/Mosteiro da Batalha (Batalha).png",
                     PaisId = 6,
+                    Latitude = -39.659348443140594,
+                    Longitude = -8.825486259180503 
                 },
 
                 new Local () {
@@ -2665,6 +2715,8 @@ public class AppDbSeed
                     Descricao = "O Mosteiro de Alcobaça é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi fundado em 1153 por D. Afonso Henriques, o primeiro rei de Portugal, e D. Bernardo de Claraval, fundador da Ordem de Cister. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
                     Foto = "/imgpaises/img Portugal/Fe/Mosteiro de Alcobaça (Alcobaça).png",
                     PaisId = 6,
+                     Latitude = -39.54840762063766,
+                        Longitude = -8.979553059185564 
                 },
 
                 new Local () {
@@ -2676,6 +2728,8 @@ public class AppDbSeed
                     Descricao = "A Sé do Porto, também conhecida como Catedral do Porto, é um dos principais monumentos da cidade do Porto e um dos mais importantes monumentos religiosos de Portugal. A sua construção iniciou-se no século XII e, ao longo dos séculos, sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque para o românico, o gótico e o barroco.",
                     Foto = "/imgpaises/img Portugal/Fe/Sé do Porto (Porto).png",
                     PaisId = 6,
+                     Latitude = -41.143014662751,
+                        Longitude = -8.611062859112177 
                 },
 
                 new Local () {
@@ -2687,6 +2741,8 @@ public class AppDbSeed
                     Descricao = "A Basílica da Estrela, também conhecida como Real Basílica e Convento do Santíssimo Coração de Jesus, é um dos mais importantes monumentos religiosos de Lisboa. A sua construção iniciou-se no final do século XVIII em estilo barroco e neoclássico. ",
                     Foto = "/imgpaises/img Portugal/Fe/Basílica da Estrela (Lisboa).png",
                     PaisId = 6,
+                     Latitude = -38.7135403492057,
+                        Longitude = -9.160819688059483
                 },
 
                 new Local () {
@@ -2698,6 +2754,8 @@ public class AppDbSeed
                     Descricao = "A Catedral de Évora, também conhecida como Sé de Évora, é um dos mais importantes monumentos religiosos de Portugal e a maior catedral medieval do país. A sua construção iniciou-se no século XII em estilo românico, mas ao longo dos séculos sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque também para o gótico e o barroco. ",
                     Foto = "/imgpaises/img Portugal/Fe/Catedral de Évora (Évora).png",
                     PaisId = 6,
+                     Latitude = -38.57191515748675,
+                        Longitude = -7.906867532248952 
                 },
 
                 new Local () {
@@ -2709,6 +2767,8 @@ public class AppDbSeed
                     Descricao = "A Basílica da Santíssima Trindade é a mais recente construção do complexo do Santuário de Fátima. A sua construção iniciou-se em 2004 e foi concluída em 2007. A igreja é dedicada à Santíssima Trindade e tem capacidade para 8.633 pessoas sentadas. ",
                     Foto = "/imgpaises/img Portugal/Fe/Basílica da Santíssima Trindade (Fátima).png",
                     PaisId = 6,
+                     Latitude = -39.62983053474812,
+                        Longitude = -8.675358962894771 
                 },
                 #endregion
 
@@ -2722,6 +2782,8 @@ public class AppDbSeed
                         Descricao = "O Restaurante Delfina é um restaurante português tradicional localizado no coração de Lisboa. O restaurante é conhecido pela sua comida deliciosa, ambiente acolhedor e serviço atencioso.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Delfina Restaurant.png",
                         PaisId = 6,
+                         Latitude = -38.708326353903175,
+                        Longitude = -9.139260545732979
                 },
 
                 new Local () {
@@ -2733,6 +2795,8 @@ public class AppDbSeed
                         Descricao = "A Confeitaria Nacional é a confeitaria mais antiga de Lisboa, fundada em 1829. A confeitaria é conhecida pelos seus doces tradicionais portugueses, como os pastéis de nata, os travesseiros de Sintra e os bolos de arroz.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Confeitaria Nacional (Lisboa).png",
                         PaisId = 6,
+                         Latitude = -38.71336187443325,
+                        Longitude = -9.137872301549589
                 },
 
 
@@ -2745,6 +2809,8 @@ public class AppDbSeed
                         Descricao = "O Restaurante O Melro é um restaurante português tradicional, com foco em pratos regionais do Ribatejo. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso. ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante o melro (Almeirim).png",
                         PaisId = 6,
+                         Latitude = -39.26567801431487,
+                        Longitude = -8.696338847564643
                 },
 
                 new Local () {
@@ -2756,6 +2822,8 @@ public class AppDbSeed
                         Descricao = "O Café Progresso é um café histórico e tradicional em Ponta Delgada, Açores. O café foi fundado em 1875 e é conhecido pela sua decoração Art Déco, ambiente acolhedor e serviço atencioso.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Café Progresso (Ponta Delgada).png",
                         PaisId = 6,
+                         Latitude = -39.43746539335501,
+                        Longitude = -8.303329305230193 
                 },
 
                 new Local () {
@@ -2767,6 +2835,8 @@ public class AppDbSeed
                         Descricao = "O Restaurante Ramila é um restaurante tradicional português, especializado em pratos regionais do Minho. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso.   ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante Ramila (Guimarães).png",
                         PaisId = 6,
+                         Latitude = -39.60102095899064,
+                        Longitude = -8.609053332255911 
                 },
 
                 new Local () {
@@ -2777,7 +2847,9 @@ public class AppDbSeed
                         HorarioFuncionamento = "De Quarta a sábado das 19h30 às 22h30 e de Domingo a terça é Fechado ",
                         Descricao = "O Restaurante 7 Saias é um restaurante de alta gastronomia em Faro, Algarve. O restaurante é conhecido pela sua comida criativa e inovadora, ambiente elegante e serviço impecável.   ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante 7 Saias (Faro).png",
-                        PaisId = 6,
+                        PaisId = 6, 
+                        Latitude = -39.59742204290333,
+                        Longitude = -9.071464847549697
                 },
                 #endregion
 
@@ -2791,6 +2863,8 @@ public class AppDbSeed
                 Descricao = "O Palácio Nacional de Mafra é um conjunto monumental barroco do século XVIII, situado na cidade de Mafra, a cerca de 30 km de Lisboa. O conjunto inclui o Palácio, a Basílica, o Convento e a Tapada Nacional de Mafra.  ",
                 Foto = "/imgpaises/img Portugal/Cultura/Palácio Nacional de Mafra (Mafra).png",
                 PaisId = 6,
+                 Latitude = -38.937150613254424,
+                        Longitude = -9.326058449435786
                 },
 
                 new Local () {
@@ -2802,6 +2876,8 @@ public class AppDbSeed
                 Descricao = "A Universidade de Coimbra (UC) é a mais antiga universidade de Portugal e uma das mais antigas da Europa. Foi fundada em 1290 e está classificada como Património Mundial da UNESCO desde 2013.   ",
                 Foto = "/imgpaises/img Portugal/Cultura/Universidade de Coimbra (Coimbra).png",
                 PaisId = 6,
+                 Latitude = -40.20787698890864,
+                        Longitude = -8.426114661012006
                 },
 
                 new Local () {
@@ -2813,6 +2889,8 @@ public class AppDbSeed
                 Descricao = "O Palácio da Pena é um palácio romântico do século XIX, situado no topo da Serra de Sintra, a cerca de 30 km de Lisboa. O palácio foi mandado construir pelo rei D. Fernando II e é considerado um dos mais belos exemplos da arquitetura romântica do século XIX.",
                 Foto = "/imgpaises/img Portugal/Cultura/Palácio da Pena (Sintra).png",
                 PaisId = 6,
+                 Latitude = -38.78770215149572,
+                        Longitude = -9.39066254758596 
                 },
 
                 new Local () {
@@ -2824,6 +2902,8 @@ public class AppDbSeed
                 Descricao = "A Torre de Belém é uma torre fortificada do século XVI, situada na margem direita do rio Tejo, em Lisboa. A torre foi mandada construir pelo rei D. Manuel I e é considerada um dos mais importantes monumentos da arquitetura manuelina.    ",
                 Foto = "/imgpaises/img Portugal/Cultura/Torre de Belém (Lisboa).png",
                 PaisId = 6,
+                 Latitude = -38.6918097719828,
+                        Longitude = -9.215880743877257
                 },
 
                 new Local () {
@@ -2835,6 +2915,8 @@ public class AppDbSeed
                 Descricao = "O Convento de Cristo é um monumento religioso e militar do século XII, situado na cidade de Tomar, a cerca de 130 km de Lisboa. O convento foi fundado pelos Templários e é considerado um dos mais importantes monumentos da arquitetura portuguesa     ",
                 Foto = "/imgpaises/img Portugal/Cultura/Convento de Cristo (Tomar).png",
                 PaisId = 6,
+                 Latitude = -39.60354709860397, 
+                        Longitude = -8.418917072673116 
                 },
 
                 new Local () {
@@ -2846,6 +2928,8 @@ public class AppDbSeed
                 Descricao = "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ",
                 Foto = "/imgpaises/img Portugal/Cultura/Fortaleza de Sagres (Sagres).png",
                 PaisId = 6,
+                 Latitude = -37.000957964034804,
+                        Longitude = -8.94824723231687
                 }
                 #endregion
         #endregion

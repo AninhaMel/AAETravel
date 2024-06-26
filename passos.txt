@@ -1,2 +1,4 @@
 git config --global user.name AninhaMel
 git config --global user.email ana.silva5134@etec.sp.gov.br
+git config --global user.name EduardoDametto25
+git config --global user.email damettoed@gmail.com

@@ -14,7 +14,7 @@ public class Cidade
         [StringLength(300)]
         public string Foto { get; set; }
 
-        public int? PaisId { get; set; }
+        public int PaisId { get; set; }
         [ForeignKey("PaisId")]
-        public Cidade Pais { get; set; }
+        public Pais Pais { get; set; }
 }

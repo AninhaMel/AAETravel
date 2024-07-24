@@ -10,7 +10,7 @@ public class Agencia
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Nome { get; set; }
-     public string Descricao { get; set; }
+        public string Descricao { get; set; }
 
         [StringLength(300)]
         public string Foto { get; set; }

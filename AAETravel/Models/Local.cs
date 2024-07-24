@@ -19,8 +19,10 @@ public class Local
         public string Foto { get; set; }
 
         public int PaisId { get; set; }
-        [ForeignKey("Pais")]
-        public Local Pais { get; set; }
+        [ForeignKey("PaisId")]
+        public Pais Pais { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
+        public List<ExperienciaLocal> ExperienciasLocais { get; set; }
+        public List<Lista> Listas { get; set; }
 }

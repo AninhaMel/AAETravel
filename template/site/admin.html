@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Admin - area</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo" onclick="toggleSidebar()">
+        <img src="assets/img/outros/logo.png" alt="AAE Travel Logo" />
+      </div>
+      <div class="perfil">
+        <img src="assets/img/outros/icon-user.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="first-table">
+        <div class="nomes">
+          <h2>Agências:</h2>
+          <h2>Acessos:</h2>
+        </div>
+        <div class="agencia">
+          <img src="assets/img/experiencias/agencias/Booking.png" />
+          <h3>Booking.com</h3>
+          <h3>200K</h3>
+        </div>
+        <div class="agencia">
+          <img src="assets/img/experiencias/agencias/Expedia.png" />
+          <h3>Expedia</h3>
+          <h3>200K</h3>
+        </div>
+        <div class="agencia">
+          <img src="assets/img/experiencias/agencias/STA Travel.png" />
+          <h3>STA Travel</h3>
+          <h3>200K</h3>
+        </div>
+        <div class="agencia">
+          <img src="assets/img/experiencias/agencias/TripAdvisor.png" />
+          <h3>TripAdvisor</h3>
+          <h3>200K</h3>
+        </div>
+      </div>
+
+      <div class="secoes-tables">
+        <div class="table">
+          
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-logo" onclick="toggleSidebar()"><b>AAE</b> Travel</div>
+    <div class="menu">
+      <button>
+        <i class="bi bi-journal-richtext"></i>
+        Dashboard
+      </button>
+      <button>
+        <i class="bi bi-gear"></i>
+        Alterações
+      </button>
+      <button>
+        <i class="bi bi-table"></i>
+        Tabelas
+      </button>
+      <button>
+        <i class="bi bi-person"></i>
+        Perfil
+      </button>
+    </div>
+    <button>
+      <i class="bi bi-door-open"></i>
+      Sair
+    </button>
+  </div>
+  <script src="assets/js/adimin.js"></script>
+</html>

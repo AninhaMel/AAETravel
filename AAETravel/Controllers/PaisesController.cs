@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AAETravel.Data;
 using AAETravel.Models;
 
-namespace AAETravel.Controllers
+namespace AAETravel.controllers
 {
     public class PaisesController : Controller
     {

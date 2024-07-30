@@ -18,10 +18,11 @@ body {
 }
 
 body {
-    background-image: url(../../img/outros/fundos/fundo.png);
+    background-image: url(../img/outros/fundos/fundo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {

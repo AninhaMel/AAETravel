@@ -538,10 +538,11 @@ public class AppDbSeed
                         Nome = "Museu de História Nacional (Rosário)",
                         Localizacao ="Av. Dr. Eduardo María Gallo s/n.",
                         Telefone = "+54 221 425-7744",
-                        HorarioFuncionamento= "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
+                        Descricao = "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
+                        HorarioFuncionamento= "Segunda a Sexta, das 9:00 até 16:00",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de História Nacional (Rosário).png",
                         PaisId=1,
-                         Latitude = -34.62680174739552,
+                        Latitude = -34.62680174739552,
                         Longitude = -58.37054628795715
                 },
                 #endregion

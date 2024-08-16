@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AAETravel.Models;
+using Microsoft.EntityFrameworkCore;
+using AAETravel.ViewModels;
 
 namespace AAETravel.Controllers;
 
@@ -15,7 +17,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        HomeVM home = new()
+        {
+           Paises = DbSet<Pais>.Paises.ToList(),
+            Agencias = DbSet<Agencia>.Agencias.ToList()
+        };
+        return View(home);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

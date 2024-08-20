@@ -47,7 +47,6 @@ public class AppDbContext : IdentityDbContext
             .HasOne(el => el.Local)
             .WithMany(l => l.Listas)
             .HasForeignKey(el => el.LocalId);
-
     }
 
 }

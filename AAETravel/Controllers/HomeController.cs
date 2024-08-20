@@ -3,24 +3,32 @@ using Microsoft.AspNetCore.Mvc;
 using AAETravel.Models;
 using Microsoft.EntityFrameworkCore;
 using AAETravel.ViewModels;
+using AAETravel.Data;
 
 namespace AAETravel.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, AppDbContext context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
         HomeVM home = new()
         {
-           Paises = DbSet<Pais>.Paises.ToList(),
-            Agencias = DbSet<Agencia>.Agencias.ToList()
+            Paises = _context.Paises
+            .AsNoTracking()
+            .ToList(),
+
+            Agencias = _context.Agencias
+            .AsNoTracking()
+            .ToList(),
         };
         return View(home);
     }

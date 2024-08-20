@@ -106,6 +106,7 @@ section {
     align-items: center;
     justify-content: space-evenly;
     animation: fade .4s linear;
+    padding-bottom: 5%;
 
     & h1 {
         color: white;
@@ -131,7 +132,7 @@ section {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 85%;
     height: 100%;
     gap: 30px;
     justify-content: space-evenly;

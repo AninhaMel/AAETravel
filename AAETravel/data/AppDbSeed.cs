@@ -6,10 +6,10 @@ namespace AAETravel.Data;
 
 public class AppDbSeed
 {
-    public AppDbSeed(ModelBuilder builder)
-    {
-        #region Experiencia
-        List<Experiencia> experiencias = new(){
+        public AppDbSeed(ModelBuilder builder)
+        {
+                #region Experiencia
+                List<Experiencia> experiencias = new(){
             new Experiencia() {
                     Id = 1,
                     Nome = "Natureza",
@@ -55,46 +55,83 @@ public class AppDbSeed
                     Fundo = ""
             }
         };
-        builder.Entity<Experiencia>().HasData(experiencias);
-        #endregion
+                builder.Entity<Experiencia>().HasData(experiencias);
+                #endregion
 
-        #region Pais
-        List<Pais> paises = new() {
+                List<Agencia> agencias = new(){
+                new Agencia() {
+                        Id = 1,
+                        Nome = "Booking.com",
+                        Descricao = "nao sei",
+                        Foto = "/img/experiencias/agencias/Booking.png",
+                        Link = "https://www.booking.com/?aid=348858&label=gx-br-booking-booking-sd-nhvs",
+                        Cor = "#4C8CB7",
+                },
+                new Agencia() {
+                        Id = 2,
+                        Nome = "Expedia",
+                        Descricao = "nao sei",
+                        Foto = "/img/experiencias/agencias/Expedia.png",
+                        Link = "https://www.expedia.com.br/?locale=pt_BR&siteid=69&semcid=BR.B.BING.BT-c-PT.GT&semdtl=a1686369326.b11322714033213817.g1kwd-82670466053188.e1c.m1ab46ac5af65f1b662a4dca08af7b5eb5.r184009ff3402fd6a93a30e8f5d7b5a1cca5430f54f9df56f741e2a4a84089cfd9.c1Cm6dAowtvW27WbJtvR_5Vw.j1147720.k1.d182669875489872.h1e.i1.l1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&msclkid=ab46ac5af65f1b662a4dca08af7b5eb5",
+                        Cor = "#E4C34E",
+                },
+                new Agencia() {
+                        Id = 3,
+                        Nome = "STA Travel",
+                        Descricao = "nao sei",
+                        Foto = "/img/experiencias/agencias/STA Travel.png",
+                        Link = "https://us.jetcost.com/en?&msclkid=e1b5099fa5b612965fdb6fcdfc044c18&utm_source=bing&utm_medium=cpc&utm_campaign=US-EN_B1_F_S_JC_Comp_Global-EXT_mixed&utm_term=sta%20travel%20com&utm_content=Sta%20Travel&gclid=e1b5099fa5b612965fdb6fcdfc044c18&gclsrc=3p.ds",
+                        Cor = "#8FB6C8",
+                },
+                new Agencia() {
+                        Id = 4,
+                        Nome = "TripAdvisor",
+                        Descricao = "nao sei",
+                        Foto = "/img/experiencias/agencias/TripAdvisor.png",
+                        Link = "https://www.tripadvisor.com.br/",
+                        Cor = "#00BF63",
+                }
+        };
+                builder.Entity<Agencia>().HasData(agencias);
+
+
+                #region Pais
+                List<Pais> paises = new() {
             new Pais() {
                 Id = 1,
                 Nome = "Argentina",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/Argentina.png"
             },
             new Pais() {
                 Id = 2,
                 Nome = "EUA",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/EUA.png"
             },
             new Pais() {
                 Id = 3,
                 Nome = "França",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/França.png"
             },
             new Pais() {
                 Id = 4,
                 Nome = "Inglaterra",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/Inglaterra.png"
             },
             new Pais() {
                 Id = 5,
                 Nome = "Itália",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/Italia.png"
             },
             new Pais() {
                 Id = 6,
                 Nome = "Portugal",
-                Foto = "img/imgexperiencia/cultura.jpeg"
+                Foto = "/img/pais/Portugal.png"
             }
         };
-        builder.Entity<Pais>().HasData(paises);
-        #endregion
+                builder.Entity<Pais>().HasData(paises);
+                #endregion
 
-        List<Local> locais = new() {
+                List<Local> locais = new() {
         #region Argentina
                 // 1 a 36   
                 #region AG Natureza
@@ -105,7 +142,7 @@ public class AppDbSeed
                         Telefone = "542902491005",
                         HorarioFuncionamento= "Abre no verão de 1º de setembro a 30 de abril das 8h às 18h e no Inverno de 1 de maio a 31 de agosto das 9h às 16h.",
                         Descricao = "O Parque Nacional Los Glaciares localiza-se na região da Patagônia Argentina no sudoeste da Província de Santa Cruz, Argentina, sendo o segundo maior do país. O parque foi instituído pelo governo em 1937, e batizado Los Glaciares pois a área do parque nacional abriga inúmeros glaciares. ",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Los Glaciales (Provícia de Santa Cruz).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/ParqueNacionalLosGlaciales(ProvíciaeSantaCruz).png",
                         PaisId=1,
                         Latitude = -50.33052817623086,
                         Longitude =  -73.23418011349693
@@ -129,7 +166,7 @@ public class AppDbSeed
                         Telefone = "+54 2901 57-7931",
                         HorarioFuncionamento= "Semana inteira/ 08:00 até 20:00",
                         Descricao = "O que mais chama a atenção dentro do parque é a topografia montanhosa, além da enorme quantidade de áreas verdes, dos lagos, dos bosques e da paisagem natural como um todo. Ainda que o parque esteja em território argentino, parte dele está em território chileno, então algumas montanhas que se vê dentro do parque pertencem ao Chile. O lugar também é famoso por ser o final da Ruta N3, que faz parte do sistema de rodovias panamericanas.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Tierra del Fuego (Ushuaia).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/ParqueNacionalTierradelFuego(Ushuaia).png",
                         PaisId=1,
                         Latitude = -54.83475225751397,
                         Longitude = -68.44648384449509
@@ -141,10 +178,10 @@ public class AppDbSeed
                         Telefone = "+54 11 5091-7200",
                         HorarioFuncionamento= "Abre de Terça a Domingo das 11:00 até as 18:00 ",
                         Descricao = "Na entrada do Jardim Zoológico é possível comprar comida para os animal. Assim, quando você entrar, poderá alimentar diversas espécies e observar inúmeros bichos que não vemos no dia a dia.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Jardim Zoológico de Buenos Aires (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/JardimZoológicodeBuenosAires(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.55930431288427,
-                        Longitude = -59.01872631599637 
+                        Longitude = -59.01872631599637
                 },
                 new Local() {
                         Id = 5,
@@ -153,7 +190,7 @@ public class AppDbSeed
                         Telefone = "+54 348 443-6980",
                         HorarioFuncionamento= "Abre a semana inteira das 10:00 as 19:00",
                         Descricao = "Não é um zoológico e nem é um jardim botânico, também não é uma fazenda e tampouco um museu de história natural. O Temaikén, distante cerca de 40 minutos de Buenos Aires, é uma mistura de tudo isso e um pouco mais. Um bioparque para viver a natureza de distintas maneiras e, sobretudo, com muita diversão, especialmente para a criançada.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Bioparque Temaikén (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/BioparqueTemaikén(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.3402469529864,
                         Longitude = -58.80869862129423
@@ -165,7 +202,7 @@ public class AppDbSeed
                         Telefone = "+54 9 3757 67-4714",
                         HorarioFuncionamento= "Todos os dias das 08:00 as 18:00",
                         Descricao = "O Parque Nacional Iguazú é uma área protegida, criada na Argentina no ano 1934 com o objetivo de conservar as Cataratas do Iguaçu e a biodiversidade que as rodeia. Localizado no norte da província de Misiones, o parque conta com uma superfície aproximada de 67.000 hectares e a sua entrada está a 7 km de Puerto Iguazú.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Iguazú (Missiones- Puerto Iguazú).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacionalguazú(Missiones-PuertoIguazú).png",
                         PaisId=1,
                         Latitude = -25.660018284382353,
                         Longitude = -54.444980587863554
@@ -180,7 +217,7 @@ public class AppDbSeed
                         Telefone = "+54 9 3757 67-4714",
                         HorarioFuncionamento= "Domingo das 10:00 até as 17:00",
                         Descricao = "Há mais de 40 anos, San Telmo, bairro localizado ao sul de Buenos Aires, recebe pessoas da Argentina e do mundo inteiro que visitam o bairro aos domingos para conhecer a famosa Feira de San Telmo. Além dos diversos produtos de antiguidade, a feira também vende artesanato local, produtos com temas da cidade, livros, discos, camisetas, óculos, chapéus, cartões, fotografias, CDs, pôsteres, roupas, calçados e muito mais!",
-                        Foto = "/imgpaises/imgArgentina/Compras/Feira de San Telmo (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/FeiradeSanTelmo(Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.62027522831933,
                         Longitude = -58.37120491914526
@@ -192,10 +229,10 @@ public class AppDbSeed
                         Telefone = "+54 11 5555-5110",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "Aos falar de compras em Buenos Aires um dos primeiros lugares que surgem na mente são as Galerias Pacífico. O edifício do centro comercial é do fim do século XIX e sua cúpula central foi pintada em 1946. O shopping é tão bonito e bem decorado que recomendamos a visita não apenas a quem deseja fazer compras como a quem procura apenas um lugar para bater perna e quer ver coisas bonitas. O charme da arquitetura das Galerias é ímpar, cheio de murais, colunas e um teto lindíssimo. A arquitetura do shopping é tão imponente que o edifício é considerado monumento histórico nacional.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Galerias Pacífico (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/GaleriasPacífico(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.599132908132724,
-                        Longitude = -58.374832153552276 
+                        Longitude = -58.374832153552276
                 },
                 new Local() {
                         Id = 9,
@@ -204,10 +241,10 @@ public class AppDbSeed
                         Telefone = "+54 800-222-2299",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires",
+                        Foto = "/imgpaises/imgArgentina/Compras/Distrito ArcosBuenosaires",
                         PaisId=1,
                         Latitude = -34.58041196612808,
-                        Longitude = -58.427866749837804 
+                        Longitude = -58.427866749837804
                 },
                 new Local() {
                         Id = 10,
@@ -216,7 +253,7 @@ public class AppDbSeed
                         Telefone = "+54 800-222-2299",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha)",
+                        Foto = "/imgpaises/imgArgentina/Compras/PatioBullrich(Marselha)",
                         PaisId=1,
                         Latitude = -32.955524323926134,
                         Longitude = -68.85890340338014
@@ -228,7 +265,7 @@ public class AppDbSeed
                         Telefone = "+54 261 348-1200",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "A 15km do centro de Mendoza você encontrará uma boa maneira de resolver suas compras em um só lugar. No Palmares Open Mall é possível encontrar de vestuário a artigos de artesanato, passando pelos vinhos, claro! Se você não resiste a uma voltinha em um grande centro comercial, essa pode ser uma boa pedida. O shopping é bem ao estilo brasileiro: são 120 lojas que vão de grandes marcas a pequenas boutiques. Prático para uma volta e uma refeição rápida. Destaque para o restaurante Don Mario, que serve uma das mais famosas parrilladas da cidade.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Palmares Open Mall (Godoy Cruz).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/PalmaresOpenMall(GodoyCruz).png",
                         PaisId=1,
                         Latitude = -34.588693988159875,
                         Longitude = -58.38404467632539
@@ -240,7 +277,7 @@ public class AppDbSeed
                         Telefone = "+54 351 570-4199",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00 ",
                         Descricao = "Patio Olmos é uma galeria comercial de grande importância arquitetônica em Córdoba, Argentina, e a mais importante da cidade.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Patio Olmos (Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/PatioOlmos(Córdoba).png",
                         PaisId=1,
                         Latitude = -31.41958968115592,
                         Longitude = -64.18824068140034
@@ -255,7 +292,7 @@ public class AppDbSeed
                         Telefone = "+54 351 570-4199",
                         HorarioFuncionamento= "Abre todos os dias 24 horas por dia",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno. Nos finais de semana, compradores lotam essa área que é famosa pelos cafés descolados e lojas de design exclusivo. Já Palermo Hollywood, conhecida por contar com um grande número de restaurantes, bares e boates, é o lugar preferido dos viajantes que querem se divertir à noite e comemorar ocasiões especiais.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Niceto Club (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/NicetoClub(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.58703506886908,
                         Longitude = -58.43886607446898
@@ -267,7 +304,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "Abre todos os dias das 20:00 até as 00:00",
                         Descricao = "Considerada uma das melhores casas de tango de Buenos Aires, o Señor Tango oferece um espetáculo inesquecível e muito emocionante. O show é envolvente do início ao fim, apresentando belas coreografias – algumas com certo toque acrobático – que encantam a todo o tipo de público. A apresentação ainda conta com a participação de ótimos cantores e músicos que, em alguns momentos do espetáculo, interagem com a plateia.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Senor Tango (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/SenorTango(BuenosAires).png",
                         PaisId=1,
                          Latitude = -34.56926698554936,
                         Longitude = -58.42052953214304
@@ -279,7 +316,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4778-1500 ",
                         HorarioFuncionamento= "Abre todos os dias das 14:00 até a 00:00",
                         Descricao = "No Ice Bar Puerto Iguazú tudo é feito de gelo: as paredes, os móveis, a decoração e, inclusive, os copos. E, para manter tudo congelado, a temperatura do bar é de -10ºC. Uma grande diferença para o clima da cidade, que pode passar dos 30° no verão.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Icebar Iguazu (Puerto Iguazú).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/IcebarIguazu(PuertoIguazú).png",
                         PaisId=1,
                          Latitude = -34.65251488742655,
                         Longitude = -58.37593927446579
@@ -291,7 +328,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "Abre de sexta, sábado e domingo da 00:00 até as 07:00",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar(BuenosAires).png",
                         PaisId=1,
                         Latitude = -25.619359092794305,
                         Longitude = -54.55500692088276
@@ -303,7 +340,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4952-2320",
                         HorarioFuncionamento= "Abre todos os dias das 09:00 até a 11:00",
                         Descricao = "O Café de los Angelitos é um recinto imponente com mais de cem anos de história, por onde desfilaram grandes personalidades do mundo político e artístico de Buenos Aires. Hoje em dia, é palco de um dos mais refinados e elegantes shows de tango da cidade, diversas vezes aclamado pela crítica local.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Cafe de los Angelitos  (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/CafedelosAngelitos(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.60946892791383,
                         Longitude = -58.396186547487716
@@ -315,7 +352,7 @@ public class AppDbSeed
                         Telefone = "+54 9 11 3100-2433",
                         HorarioFuncionamento= "Abre terça, quarta, quinta, sexta e sábado das 14:00 até as 22:00",
                         Descricao = "Vinology é um lugar incrível para se conhecer os bons vinhos da Argentina. É uma vinoteca diferenciada, que tem etiquetas de bodegas especialmente boas, funciona como bar de vinhos com comidinhas deliciosas.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.570552378227354,
                         Longitude = -58.434845818652846
@@ -330,7 +367,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "De segunda a sexta das 7:30 até as 18:45 e de final de semana das 9:00 até as 18:45.",
                         Descricao = "A Catedral Metropolitano de Buenos Aires é a principal igreja católica em Buenos Aires, capital da Argentina. Localiza-se no centro da cidade, diante da Praça de Maio, na esquina das ruas San Martín e Rivadavia, no bairro de San Nicolás. É a igreja-mãe da Arquidiocese de Buenos Aires",
-                        Foto = "/imgpaises/imgArgentina/Fe/Catedral Metropolitana de Buenos Aires (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/CatedralMetropolitanadeBuenosAires(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.6073662714273,
                         Longitude = -58.37330031865107
@@ -342,7 +379,7 @@ public class AppDbSeed
                         Telefone = "+54 2323 42-1070.",
                         HorarioFuncionamento= "Todos os dias das 9:00 até as 18:00",
                         Descricao = "A Basílica Menor de Nossa Senhora de Luján é uma igreja católica romana em Luján, Buenos Aires, Argentina. Construída em estilo neogótico, é dedicada a Nossa Senhora de Luján, padroeira da Argentina. Muitas pessoas confundem esta igreja com uma catedral.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Basílica de Nuestra Señora de Luján (Luján).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Basílica de NuestraSeñoradeLuján(Luján).png",
                         PaisId=1,
                         Latitude = -34.569093609091354,
                         Longitude = -58.44020886390422
@@ -354,7 +391,7 @@ public class AppDbSeed
                         Telefone = "+54 387 512-4311",
                         HorarioFuncionamento= "Todos os dias das 8:30 até as 20:30, no Domingo das 8:30 até as 12:00 e das 18:00 até as 21:00",
                         Descricao = "Esta magnífica Basílica Menor, construída em terreno doado por Hernando de Lerma, em 1582, com destaque para as cores poderosas terracota, ouro e marfim que cobrem. Ele pertence à ordem franciscana e foi reconstruído várias vezes após vários incêndios.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Igreja de San Francisco (Salta).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/IgrejadeSanFrancisco(Salta).png",
                         PaisId=1,
                         Latitude = -24.790006713060023,
                         Longitude = -65.40821649021966
@@ -366,7 +403,7 @@ public class AppDbSeed
                         Telefone = "+34 957 47 0512. ",
                         HorarioFuncionamento= "De segunda até sábado das 8:30 até as 9:30",
                         Descricao = "A Mesquita-Catedral de Córdova oficialmente conhecida pelo seu nome eclesiástico, a Catedral de Nossa Senhora da Assunção em espanhol: Catedral de Nuestra Señora de la Asunción é a catedral da Diocese Católica Romana de Córdoba dedicada à Assunção de Maria e localizado na região espanhola da Andaluzia.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Catedral de Córdoba (Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/CatedraleCórdoba(Córdoba).png",
                         PaisId=1,
                         Latitude = -28.470207963157378,
                         Longitude = -65.35529771321596
@@ -378,10 +415,10 @@ public class AppDbSeed
                         Telefone = "+54 11 4311-0391.",
                         HorarioFuncionamento= "Quarta-feira, 11:00–13:00, 18:00–20:00, quinta-feira, 11:00–13:00, 18:00–20:00, sexta-feira, 11:00–13:00, 18:00–20:00, sábado, 18:30–20:00, domingo, 09:00–12:30, 17:30–20:30, segunda-feira, 11:00–13:00, 18:00–20:00, terça-feira, 11:00–13:00, 18:00–20:00.",
                         Descricao = "A Basílica do Santísimo Sacramento é uma das igrejas mais bonitas de Buenos Aires. O templo luxuosamente decorado apresenta uma grande custódia de ouro e prata, vitrais importantes e ornamentos de mármore, granito azul, bronze e mosaico veneziano.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Basílica del Santísimo Sacramento (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/BasílicadelSantísimoSacramento(Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.59546334232072,
-                        Longitude = -58.37423653771114 
+                        Longitude = -58.37423653771114
                 },
                 new Local() {
                         Id = 24,
@@ -390,7 +427,7 @@ public class AppDbSeed
                         Telefone = "+54 294 443-4084 ",
                         HorarioFuncionamento= "De segunda a sexta das 9:00 até as 12:00 e das 17:00 até 21:00.",
                         Descricao = "A Catedral de San Carlos de Bariloche é o principal templo católico da cidade de San Carlos de Bariloche, na Argentina. Encontra-se na interseção das ruas Almirante Ou’Connor e Beschtedt, rodeada por duas praças com formosos jardins. É a sé episcopal da Diocese de Bariloche, sufragânea da Arquidiocese de Bahía Blanca.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Catedral de Nuestra Señora del Nahuel Huapi (Bariloche).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/CatedraldeNuestraSeñoradelNahuelHuapi(Bariloche).png",
                         PaisId=1,
                         Latitude = -41.13291181780236,
                         Longitude = -71.30234644530549
@@ -405,7 +442,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4832-6058",
                         HorarioFuncionamento= "Abre todos os dias das 11:30 até as 16:00 e depois das 19:00 até as 1:00",
                         Descricao = "Reservar uma mesa no restaurante Don Julio já virou uma atração turística imperdível em Buenos Aires. Os reconhecimentos ajudam: é atualmente o restaurante argentino mais bem colocado entre os 50 melhores do mundo e foi eleito neste ano como a melhor casa de carnes do mundo. As filas que se formam na porta todos os dias são outro medidor do sucesso.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/Don Julio (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/DonJulio(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.58613638501554,
                         Longitude = -58.4242476186521
@@ -417,7 +454,7 @@ public class AppDbSeed
                         Telefone = "+54 11 5586-1435.",
                         HorarioFuncionamento= "Domingo das 12:30 até as 16:00, Segunda das 11:30 até as 16:00 e das 6:30 até as 12:30, de terça, quarta e quinta das 6:30 até as 12:30 e de sexta e sábado das 12:30 até as 16:00 e das 6:30 até as 1:00.",
                         Descricao = "O La Cabrebra é especialista em cortes de carnes, acompanhamentos saborosos e, claro, com muita fartura. É mais um restaurante que figura entre os melhores de Buenos Aires, pelo atendimento, pelo ambiente clássico e pela qualidade das carnes. Nove entre dez brasileiros que visitam a capital, fazem questão de passar no La Cabrera e aproveitar o almoço, happy hour ou jantar.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/La Cabrera (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/LaCabrera(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.588799061101504,
                         Longitude = -58.43325444563225
@@ -429,7 +466,7 @@ public class AppDbSeed
                         Telefone = "+54 261 424-2698",
                         HorarioFuncionamento= "De terça até Domingo das 19:00 até as 21:30",
                         Descricao = "A poucos minutos do centro - na Bodega Escorihuela -, o elegante 1884, chefiado por Francis Mallmann, carrega a fama de ser o melhor restaurante da cidade. Se não for o melhor, certamente está na lista dos imperdíveis.O ambiente é refinado e clássico, com salões externos e internos. A culinária, tipicamente portenha, vai das empanadas aos melhores cortes de carne.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/1884 Restaurante Francis Mallmann (Mendonza).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/1884RestauranterancisMallmann(Mendonza).png",
                         PaisId=1,
                         Latitude = -32.91212429424235,
                         Longitude = -68.84302357268902
@@ -441,7 +478,7 @@ public class AppDbSeed
                         Telefone = "+34 984 03 40 14",
                         HorarioFuncionamento= "De terça até Sábado das 10:30 até as 20:00.",
                         Descricao = "O Oviedo é o restaurante mais tradicional de Buenos Aires quando o assunto é peixe! Os pescados servidos no restaurante estão sempre super frescos, pois o restaurante recebe mercadoria duas vezes ao dia, além disso toda matéria prima servida é de altíssima qualidade e fresca, o que garante um prato muito mais saboroso! O que achamos incrível é que tudo que sai da cozinha parece verdadeira obra de arte, isto porque o chef Martin Rebaudino estudou belas artes para deixar seus pratos mais bonitos e também chegou a trabalhar no El Bulli.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo (Rosário).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo(Rosário).png",
                         PaisId=1,
                         Latitude = -32.95622585219165,
                         Longitude = -60.64688716233088
@@ -453,9 +490,9 @@ public class AppDbSeed
                         Telefone = "+34 984 03 40 14.",
                         HorarioFuncionamento= "De Segunda até Sábado das 20:00 até as 00:00.",
                         Descricao = "Entre pescados, massas e assados, bem elaborados em um ambiente simples e elegante, você percorrerá um longo e saboroso caminho pelo melhor da comida argentina.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/Siete Cocinas (Salta) melhorado.png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/SieteCocinas(Salta)melhorado.png",
                         PaisId=1,
-                        Latitude = -3.487697620654168, 
+                        Latitude = -3.487697620654168,
                         Longitude = -76.51273403305537
                 },
                 new Local() {
@@ -465,7 +502,7 @@ public class AppDbSeed
                         Telefone = "+54 11 2142-2936.",
                         HorarioFuncionamento= "Todos os dias das 7:45 até as 10:30, apenas de segunda das 7:45 até as 10:00.",
                         Descricao = "Estabelecimento é um omakase de carnes com reservas disputadas. Com uma recepção acolhedora no bairro de Palermo Viejo, em Buenos Aires, o Fogón Asado é um omakase de carnes que oferece uma experiência de 10 passos (US$ 80). Para ir ao Fogón é preciso estar com fome, pois os 10 tempos são substanciosos.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/Fogón Asado (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/FogónAsado(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.58829224205065,
                         Longitude = -58.43371108123645
@@ -480,7 +517,7 @@ public class AppDbSeed
                         Telefone = "+54 11 5288-9900",
                         HorarioFuncionamento= "De terça até domingo das 11:00 até as 20:00",
                         Descricao = "Museo Nacional de Bellas Artes. O Museu exibe mais de 40 pinturas a óleo e aquarelas do artista, 200 anos após seu nascimento. A exposição reúne cerca de 90 pinturas, desenhos e documentos dos primeiros anos da carreira de Jorge Gumier Maier (1953-2021).",
-                        Foto = "/imgpaises/imgArgentina/Cultura/Museu Nacional de Belas Artes (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/MuseuNacionaldeBelasArtes(BuenosAires).png",
                         PaisId=1,
                         Latitude = -34.5838215458417,
                         Longitude = -58.3930473186523
@@ -492,7 +529,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4808-6500",
                         HorarioFuncionamento= "Abre todos os dias menos de Terça das 11:00 até as 20:00",
                         Descricao = "Conheça o Museu de Arte Latino Americana (MALBA) de Buenos Aires. Localizado no famoso bairro Palermo, o MALBA é um dos melhores museus em Buenos Aires. Ele tem a intenção de promover a arte da América Latina a partir do século 20, e por isso lá você vai encontrar desdes artistas famosos e renomados, até aqueles mais novos que ainda estão buscando seu espaço no meio artístico. Confira abaixo mais informações sobre o Museu de Arte Latino Americana. ",
-                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Latino-Americana de Buenos Aires (MALBA) (Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeArteLatino-AmericanadeBuenosires(MALBA)(Buenos Aires).png",
                         PaisId=1,
                          Latitude = -34.576721381507,
                         Longitude = -58.403494562835725
@@ -504,7 +541,7 @@ public class AppDbSeed
                         Telefone = "+34 957 01 58 58.",
                         HorarioFuncionamento= "De terça até Domingo das 9:00 até as 21:00 e excessão de do Domingo das 9:00 até as 15:00.",
                         Descricao = "O Museu de Belas Artes de Córdoba é um museu de arte estatal localizado na cidade espanhola de Córdoba. ",
-                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Pré-Colombiana e Arte Popular (Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeArtePré-ColombianaeArtePopular(Córdoba).png",
                         PaisId=1,
                          Latitude = -40.2823238777987,
                         Longitude = -5.179755649099501
@@ -516,7 +553,7 @@ public class AppDbSeed
                         Telefone = "+54 221 425-7744.",
                         HorarioFuncionamento= "De Quarta até Domingo das 10:00 até as 18:00.",
                         Descricao = "O museu apresenta em torno de 3.000.000 de objetos em sua coleção, e só uma pequena parte dos mesmos se encontram em exibição. Em grande parte, o prestígio do museu descansa em sua coleção de grandes mamíferos fósseis dos pampas sul-americanos das eras Terciária e Quaternária. Também se destacam as coleções de trilobites do período Cambriano e de graptólitos do período Silúrico da Argentina. O museu conta também com salas de Zoologia, Entomologia, e Botânica.",
-                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de La Plata (La Plata).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeLaPlata(LaPlata).png",
                         PaisId=1,
                          Latitude = -34.579509537505956,
                         Longitude = -58.405005476325684
@@ -528,10 +565,10 @@ public class AppDbSeed
                         Telefone = "+54 221 425-7744",
                         HorarioFuncionamento= "De Segunda até Quinta das 9:00 até as 13:00, sexta das 13:00 até as 17:00 e Domingo das 16:00 até as 20:00.",
                         Descricao = "O Ocupam um importante edifício construído na década de 1920. O Museo de Bellas Artes dedica-se à exposição de uma importante coleção de pintura argentina do final do século XIX ao XX. Já o MAC conta com 6 salas de exposições e possui um grande terraço e jardins que circundam o edifício, onde regularmente se programam concertos, espetáculos, peças de teatro, entre outros.",
-                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Contemporânea de Bahía Blanca (Bahía Blanca).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/MuseueArteContemporâneaeBahíaBlanca(Bahía Blanca).png",
                         PaisId=1,
                          Latitude = -38.712929512680304,
-                        Longitude = -62.26223254543124 
+                        Longitude = -62.26223254543124
                 },
                 new Local() {
                         Id = 36,
@@ -561,7 +598,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgEUA/Natureza/Parque Evergales (Flórida);.png",
                         PaisId = 2,
                         Latitude = -25.306024577107607,
-                        Longitude = -80.89282923617047 
+                        Longitude = -80.89282923617047
                 },
                 new Local () {
                         Id = 38,
@@ -585,7 +622,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgEUA/Natureza/Yellowstone (Wyoming);.png",
                         PaisId = 2,
                         Latitude = -44.654356927387575,
-                        Longitude = -110.56717507431897 
+                        Longitude = -110.56717507431897
                 },
                 new Local () {
                         Id = 40,
@@ -689,7 +726,7 @@ public class AppDbSeed
                         Descricao = "Aventura Mall é um shopping localizado em Aventura, Flórida. É o terceiro maior shopping dos Estados Unidos em metros quadrados totais de área de varejo e o maior shopping da Flórida. O shopping oferece JCPenney, Macy's, Nordstrom e Bloomingdale's, além de cinemas AMC com 24 telas.",
                         Foto = "/imgpaises/imgEUA/Compras/Aventura Mall (Mimi).png",
                         PaisId = 2,
-                        Latitude = -25.957219503652013, 
+                        Latitude = -25.957219503652013,
                         Longitude = -80.14270392930834
                 },
 
@@ -731,7 +768,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgEUA/VidaNoturna/The Varnish (Los Angeles).png",
                         PaisId = 2,
                         Latitude = -34.04498032170264,
-                        Longitude = -118.24956176438316 
+                        Longitude = -118.24956176438316
                 },
 
                 new Local () {
@@ -783,7 +820,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgEUA/VidaNoturna/Output (Brooklyn).png",
                         PaisId = 2,
                         Latitude = -40.72239522095071,
-                        Longitude = -73.95789761498503 
+                        Longitude = -73.95789761498503
                 },
         #endregion
 
@@ -834,10 +871,10 @@ public class AppDbSeed
                         Telefone = "(520) 294-2624",
                         HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 16 =00",
                         Descricao = "San Xavier Del Bac, também conhecida como A Igreja Branca do Deserto, é uma igreja católica histórica localizada na reserva indígena Tohono O odham em Tucson, Arizona. A construção da igreja começou em 1783 e foi concluída em 1797. A igreja é conhecida por sua arquitetura barroca espanhola impressionante, sua fachada branca brilhante e seus detalhes decorativos elaborados. San Xavier Del Bac é um importante local de peregrinação e é considerada uma das igrejas mais bonitas e bem preservadas do sudoeste dos Estados Unidos.",
-                        Foto = "/imgpaises/imgEUA/Fe/San Xavier Del Bac (Tuuson).png",
+                        Foto = "/imgpaises/imgEUA/Fe/SanXavierDelBac(Tuuson).png",
                         PaisId = 2,
                         Latitude = -32.107457292025,
-                        Longitude = -111.00871185927468 
+                        Longitude = -111.00871185927468
                 },
 
                 new Local () {
@@ -847,7 +884,7 @@ public class AppDbSeed
                         Telefone = "(212) 753-2261",
                         HorarioFuncionamento = "Abre todos os dias das 06 =30 até as 20 =45",
                         Descricao = "A Catedral de São Patrício é a maior catedral católica dos Estados Unidos e um dos marcos mais famosos de Nova York. Construída em estilo neogótico, a catedral é conhecida por suas impressionantes torres e vitrais. A catedral também é conhecida por abrigar o túmulo de muitos arcebispos de Nova York e por sediar eventos religiosos importantes. A catedral é um importante centro de peregrinação e turismo em Nova York, atraindo visitantes de todo o mundo.",
-                        Foto = "/imgpaises/imgEUA/Fe/São Patricio (NY).png",
+                        Foto = "/imgpaises/imgEUA/Fe/SãoPatricioNY).png",
                         PaisId = 2,
                         Latitude = -40.758775680936296,
                         Longitude = -73.9762399873193
@@ -860,7 +897,7 @@ public class AppDbSeed
                         Telefone = "(212) 602-0800",
                         HorarioFuncionamento = "Abre todos de segunda a sexta das 07 =00 até as 18 =00 e de final de semana das 08 =00 até as 16 =00",
                         Descricao = "A Trinity Church é uma igreja episcopal localizada no distrito financeiro de Manhattan, em Nova York. Fundada em 1697, a igreja é conhecida por sua arquitetura neogótica impressionante e por sua rica história. A Trinity Church desempenhou um papel importante na história de Nova York e é um marco histórico importante na cidade. Além de ser um local de culto, a igreja também é conhecida por suas atividades comunitárias e de caridade. A igreja também abriga um cemitério histórico onde estão enterradas várias figuras proeminentes da história americana.",
-                        Foto = "/imgpaises/imgEUA/Fe/Trinity Church (NY).png",
+                        Foto = "/imgpaises/imgEUA/Fe/TrinityChurch(NY).png",
                         PaisId = 2,
                         Latitude = -40.76289629852705,
                         Longitude = -73.96416251400898
@@ -888,7 +925,7 @@ public class AppDbSeed
                         Telefone = "+1 305-673-036",
                         HorarioFuncionamento = "Abre segunda até quinta feira das 11 =00 até as 22 =00, de sexta e sábado abre das 11 =30 as 23 =00 e de Domingo das 11 =30 até as 21 =00",
                         Descricao = "Joe's Stone Crab é um restaurante icônico localizado em Miami Beach, Flórida. Especializado em frutos do mar, com ênfase especial no caranguejo de pedra, o Joe's é conhecido por sua atmosfera animada e sua comida deliciosa. O restaurante é frequentemente visitado por moradores locais e turistas que buscam uma experiência gastronômica única.",
-                        Foto = "/imgpaises/imgEUA/Restaurantes/Joe's Stone Crab (Miami Beach).png",
+                        Foto = "cbvbcvb",
                         PaisId = 2,
                         Latitude = -25.769332721797984,
                         Longitude =  -80.13509683061656
@@ -904,7 +941,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgEUA/Restaurantes/French Laundry (Yountville).png",
                         PaisId = 2,
                         Latitude = -38.404672556142536,
-                        Longitude = -122.36513570963119 
+                        Longitude = -122.36513570963119
                 },
 
                 new Local () {
@@ -1333,7 +1370,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgFranca/Fe/Catedral de Saint-Pierre de Beauvais (Beauvais).png",
                         PaisId = 3,
                          Latitude = -49.43265650035901,
-                        Longitude = -2.081505198983873 
+                        Longitude = -2.081505198983873
                 },
 
                 new Local() {
@@ -1400,7 +1437,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgFranca/Restaurantes/Le Petit Nice (Marseille).png",
                         PaisId = 3,
                          Latitude = -43.28021845307651,
-                        Longitude = -5.352078581460569 
+                        Longitude = -5.352078581460569
                 },
 
                 new Local() {
@@ -1441,7 +1478,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgFranca/Cultura/Palácio de Versalhes (Versalhes).png",
                         PaisId = 3,
                          Latitude = -48.80502739563556,
-                        Longitude = -2.1203124817464847 
+                        Longitude = -2.1203124817464847
                 },
 
                 new Local() {
@@ -1464,7 +1501,7 @@ public class AppDbSeed
                         Telefone = "+33 233601414" ,
                         HorarioFuncionamento= "Aberto de Abril a setembro das 9h às 19h (última entrada às 18h), Outubro a março das 9h30 às 18h (última entrada às 17h) e Fechado das 1º de janeiro, 1º de maio e 25 de dezembro ",
                         Descricao = "A Abadia do Monte Saint-Michel é uma abadia beneditina medieval localizada na ilha rochosa de Mont Saint-Michel, na Normandia, França. A abadia foi fundada no século VIII e é um importante local de peregrinação. A abadia é um Patrimônio Mundial da UNESCO e um dos monumentos mais visitados da França.   ",
-                        Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel (Mont Saint-Michel).png",
+                        Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel(Mont Saint-Michel).png",
                         PaisId = 3,
                          Latitude = -48.63613412235854,
                         Longitude = -1.5117297740794853
@@ -1493,7 +1530,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/imgFranca/Cultura/Château de Chambord (Vale do Loire).png",
                         PaisId = 3,
                          Latitude = -47.6159318200371,
-                        Longitude = -1.5168437951725504 
+                        Longitude = -1.5168437951725504
                 },
 
                 new Local() {
@@ -1572,7 +1609,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Natureza/Lake District National Park - Cumbria.png",
                         PaisId=4,
                         Latitude = -54.48223080852181,
-                        Longitude = -3.0713231790123063 
+                        Longitude = -3.0713231790123063
                 },
                 new Local() {
                         Id = 114,
@@ -1623,7 +1660,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Compras/Liverpool ONE - Liverpool.png",
                         PaisId=4,
                         Latitude = -53.404039570225514,
-                        Longitude = -2.986988019189587 
+                        Longitude = -2.986988019189587
                 },
                 new Local() {
                         Id = 118,
@@ -1647,7 +1684,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Compras/Cheshire Oaks Designer Outlet - Ellesmere Port.png",
                         PaisId=4,
                         Latitude = -53.26579018404187,
-                        Longitude = -2.8814931346667803 
+                        Longitude = -2.8814931346667803
                 },
                 new Local() {
                         Id = 120,
@@ -1659,7 +1696,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Compras/Cabot Circus - Bristol.png",
                         PaisId=4,
                         Latitude = -51.459029140747006,
-                        Longitude = -2.5852566136931094 
+                        Longitude = -2.5852566136931094
                 },
                 #endregion
 
@@ -1674,7 +1711,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/VidaNoturna/Fabric - Londres.png",
                         PaisId=4,
                         Latitude = -51.52003421394557,
-                        Longitude = -0.10261289033996089 
+                        Longitude = -0.10261289033996089
                 },
                 new Local() {
                         Id = 122,
@@ -1785,7 +1822,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Fe/Catedral de Salisbury - Salisbury.png",
                         PaisId=4,
                         Latitude = -51.065579976062445,
-                        Longitude = -1.7974322907751776 
+                        Longitude = -1.7974322907751776
                 },
                 new Local() {
                         Id = 131,
@@ -1884,7 +1921,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Restaurantes/The Ledbury - Londres.png",
                         PaisId=4,
                         Latitude = -51.51713524848876,
-                        Longitude = -0.20014887500168768 
+                        Longitude = -0.20014887500168768
                 },
                 #endregion
 
@@ -1899,7 +1936,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Cultura/Museu Britânico - Londres.png",
                         PaisId=4,
                         Latitude = -51.520053741705155,
-                        Longitude = -0.12687081363462369 
+                        Longitude = -0.12687081363462369
                 },
                 new Local() {
                         Id = 140,
@@ -1911,7 +1948,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Inglaterra/Cultura/Palacio de Buckingham - Londres.png",
                         PaisId=4,
                         Latitude = -51.501817695437175,
-                        Longitude = -0.14163255228754965 
+                        Longitude = -0.14163255228754965
                 },
                 new Local() {
                         Id = 141,
@@ -1958,8 +1995,8 @@ public class AppDbSeed
                         Descricao = "O Museu de História de Manchester é um museu que narra a história da cidade e da região, desde a pré-história até os dias atuais. Ele abriga uma vasta coleção de artefatos, incluindo roupas, ferramentas, armas, documentos e fotografias. ",
                         Foto = "/imgpaises/img Inglaterra/Cultura/Museu de História de Manchester - Manchester.png",
                         PaisId=4,
-                        Latitude = -53.4668769105683, 
-                        Longitude = -2.23442360378653 
+                        Latitude = -53.4668769105683,
+                        Longitude = -2.23442360378653
                 },
                 #endregion
         #endregion
@@ -2016,7 +2053,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Natureza/Zoo Safari Fasano - Puglia.png",
                         PaisId = 4,
                         Latitude = -40.83260550757396,
-                        Longitude = -17.340702823670295 
+                        Longitude = -17.340702823670295
                         },
 
                         new Local () {
@@ -2029,7 +2066,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Natureza/Parco Nazionale d'Abruzzo, Lazio e Molise.png",
                         PaisId = 4,
                          Latitude = -41.80901479266633,
-                        Longitude = -13.790006594879545 
+                        Longitude = -13.790006594879545
                         },
 
                         new Local () {
@@ -2042,7 +2079,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Natureza/Parco del Valentino - Turim.png",
                         PaisId = 4,
                          Latitude = -45.05496813761726,
-                        Longitude = -7.686607350856017 
+                        Longitude = -7.686607350856017
                         },
                 #endregion
 
@@ -2097,7 +2134,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Compras/La Rinascente - Florença.png",
                         PaisId = 4,
                         Latitude = -43.771456681396316,
-                        Longitude = -11.254698198687759 
+                        Longitude = -11.254698198687759
                         },
 
                         new Local () {
@@ -2164,7 +2201,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/VidaNoturna/Yab Discoteca - Florença.png",
                         PaisId = 4,
                         Latitude = -43.77105116164101,
-                        Longitude = -11.252713911719718 
+                        Longitude = -11.252713911719718
                         },
 
 
@@ -2218,7 +2255,7 @@ public class AppDbSeed
                         HorarioFuncionamento = "De 1º de abril a 30 de setembro é Aberto das 7h às 19h De 1º de outubro a 31 de março é  Aberto das 7h às 18h30 das 8h às 17h",
                         Descricao = "A Basílica de São Pedro é uma das maiores igrejas do mundo e um dos locais religiosos mais importantes do cristianismo. Ela está localizada na Cidade do Vaticano, a menor nação do mundo, e é a sede do Papa.",
                         Foto = "/imgpaises/img Itália/Fe/Basílica de São Pedro - Vaticano (Roma).png",
-                        PaisId = 4, 
+                        PaisId = 4,
                         Latitude = -41.90312309115027,
                         Longitude = -12.453764763905507
                         },
@@ -2366,7 +2403,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Restaurantes/Antica Corte Pallavicina - Polesine Parmense.png",
                         PaisId = 4,
                         Latitude = -45.02267235453517,
-                        Longitude = -10.08574894704006 
+                        Longitude = -10.08574894704006
                         },
                 #endregion
 
@@ -2394,7 +2431,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Cultura/Coliseu - Roma.png",
                         PaisId = 4,
                         Latitude = -41.9068708106922,
-                        Longitude = -12.45364393136315 
+                        Longitude = -12.45364393136315
                         },
 
                         new Local () {
@@ -2433,7 +2470,7 @@ public class AppDbSeed
                         Foto = "/imgpaises/img Itália/Cultura/Palazzo Ducale (Palácio Ducal) - Veneza.png",
                         PaisId = 4,
                         Latitude = -45.434063029429126,
-                        Longitude = -12.339959987562988 
+                        Longitude = -12.339959987562988
                         },
 
                         new Local () {
@@ -2502,8 +2539,8 @@ public class AppDbSeed
                         Descricao = "O Parque Biológico de Gaia é um centro de educação ambiental que promove a compreensão da natureza e da importância da sua preservação. O parque possui uma área de 35 hectares, onde se podem encontrar diversos habitats naturais, como bosques, carvalhais, pinhais, lagos e ribeiros. O parque também abriga uma grande variedade de animais selvagens, como aves, répteis e mamíferos.",
                         Foto = "/imgpaises/img Portugal/Natureza/Parque Biológico de Gaia (Vila Nova de Gaia).png",
                         PaisId = 6,
-                         Latitude = -41.0975290451504, 
-                        Longitude = -8.554217159114284 
+                         Latitude = -41.0975290451504,
+                        Longitude = -8.554217159114284
                 },
 
                 new Local () {
@@ -2596,7 +2633,7 @@ public class AppDbSeed
                 Foto = "/imgpaises/img Portugal/Compras/El Corte Inglés (Lisboa).png",
                 PaisId = 6,
                  Latitude = -38.73338957143639,
-                Longitude = -9.153756845731863 
+                Longitude = -9.153756845731863
                 },
 
                 new Local () {
@@ -2623,7 +2660,7 @@ public class AppDbSeed
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Fábrica Braço de Prata (Lisboa).png",
                         PaisId = 6,
-                         Latitude = -38.74389138745578,
+                        Latitude = -38.74389138745578,
                         Longitude = -9.101252932241328
                 },
 
@@ -2636,7 +2673,7 @@ public class AppDbSeed
                         Descricao = "O Cinco Lounge está situado no coração da Avenida António Augusto Aguiar, em Lisboa, e oferece um ambiente elegante e relaxante para desfrutar de uma bebida ou uma refeição leve.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Cinco Lounge (Lisboa).png",
                         PaisId = 6,
-                         Latitude = -38.7142904434252,
+                        Latitude = -38.7142904434252,
                         Longitude = -9.149672159222808
                 },
 
@@ -2649,7 +2686,7 @@ public class AppDbSeed
                         Descricao = "O Cocktail Garden é um bar elegante e relaxante, situado no coração de Carvoeiro. O bar oferece uma grande variedade de cocktails clássicos e contemporâneos, além de uma seleção de vinhos, cervejas e outras bebidas. O Cocktail Garden também oferece uma variedade de petiscos e snacks, perfeitos para acompanhar a sua bebida.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Cocktail Garden  (Carvoeiro).png",
                         PaisId = 6,
-                         Latitude = -37.0982379061237,
+                        Latitude = -37.0982379061237,
                         Longitude = -8.473858845802814
                 },
 
@@ -2662,8 +2699,8 @@ public class AppDbSeed
                         Descricao = "O USAxe Club é uma discoteca vibrante e moderna, localizada no coração do Porto. O clube oferece uma experiência de festa única, com música de alta qualidade, DJs internacionais e uma pista de dança espaçosa.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/USAxe Club (Porto).png",
                         PaisId = 6,
-                         Latitude = -38.70315114506938, 
-                        Longitude = -9.179124447589672 
+                        Latitude = -38.70315114506938,
+                        Longitude = -9.179124447589672
                 },
 
                 new Local () {
@@ -2675,7 +2712,7 @@ public class AppDbSeed
                         Descricao = "O Largo da Oliveira é uma praça histórica e monumental situada no centro histórico de Guimarães, Portugal. A praça é considerada o berço da nacionalidade portuguesa, pois foi neste local que D. Afonso Henriques, o primeiro rei de Portugal, proclamou a independência do país em 1143.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Largo da oliveira (Guimarães).png",
                         PaisId = 6,
-                         Latitude = -41.44316263594313,
+                        Latitude = -41.44316263594313,
                         Longitude = -8.292889705137778
                 },
 
@@ -2688,88 +2725,88 @@ public class AppDbSeed
                         Descricao = "O Sky Bar Lisboa by SEEN é um bar rooftop elegante e sofisticado, situado no topo do Tivoli Avenida Liberdade Hotel. O bar oferece uma vista panorâmica deslumbrante da cidade de Lisboa, cocktails criativos e uma atmosfera vibrante.",
                         Foto = "/imgpaises/img Portugal/VidaNoturna/Sky Bar (Lisboa).png",
                         PaisId = 6,
-                         Latitude = -38.72199282418489,
+                        Latitude = -38.72199282418489,
                         Longitude = -9.147618176632783
                 },
                 #endregion
 
                 #region PT Espiritualidade
                 new Local () {
-                    Id = 199,
-                    Nome = "Mosteiro da Batalha (Batalha)",
-                    Localizacao = "Largo da Batalha, 2440-406 Batalha",
-                    Telefone = "+351 244766200",
-                    HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
-                    Descricao = "O Mosteiro da Batalha é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi mandado construir pelo rei D. João I em 1386, em cumprimento de uma promessa feita à Virgem Maria pela vitória na Batalha de Aljubarrota. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
-                    Foto = "/imgpaises/img Portugal/Fe/Mosteiro da Batalha (Batalha).png",
-                    PaisId = 6,
-                    Latitude = -39.659348443140594,
-                    Longitude = -8.825486259180503 
+                        Id = 199,
+                        Nome = "Mosteiro da Batalha (Batalha)",
+                        Localizacao = "Largo da Batalha, 2440-406 Batalha",
+                        Telefone = "+351 244766200",
+                        HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
+                        Descricao = "O Mosteiro da Batalha é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi mandado construir pelo rei D. João I em 1386, em cumprimento de uma promessa feita à Virgem Maria pela vitória na Batalha de Aljubarrota. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
+                        Foto = "/imgpaises/img Portugal/Fe/Mosteiro da Batalha (Batalha).png",
+                        PaisId = 6,
+                        Latitude = -39.659348443140594,
+                        Longitude = -8.825486259180503
                 },
 
                 new Local () {
-                    Id = 200,
-                    Nome = "Mosteiro de Alcobaça (Alcobaça)",
-                    Localizacao = "Largo Dom Afonso Henriques, 2400-001 Alcobaça",
-                    Telefone = "+351 262590274",
-                    HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
-                    Descricao = "O Mosteiro de Alcobaça é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi fundado em 1153 por D. Afonso Henriques, o primeiro rei de Portugal, e D. Bernardo de Claraval, fundador da Ordem de Cister. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
-                    Foto = "/imgpaises/img Portugal/Fe/Mosteiro de Alcobaça (Alcobaça).png",
-                    PaisId = 6,
-                     Latitude = -39.54840762063766,
-                        Longitude = -8.979553059185564 
+                        Id = 200,
+                        Nome = "Mosteiro de Alcobaça (Alcobaça)",
+                        Localizacao = "Largo Dom Afonso Henriques, 2400-001 Alcobaça",
+                        Telefone = "+351 262590274",
+                        HorarioFuncionamento = "De Outubro a abril das 9h às 18h (última entrada às 17h30), Maio a setembro das 9h às 19h (última entrada às 18h30) e Encerrado em 25 de dezembro e 1 de janeiro",
+                        Descricao = "O Mosteiro de Alcobaça é um dos mais importantes monumentos religiosos e históricos de Portugal. O mosteiro foi fundado em 1153 por D. Afonso Henriques, o primeiro rei de Portugal, e D. Bernardo de Claraval, fundador da Ordem de Cister. O mosteiro é um exemplar da arquitetura gótica portuguesa, com elementos manuelinos e renascentistas.",
+                        Foto = "/imgpaises/img Portugal/Fe/Mosteiro de Alcobaça (Alcobaça).png",
+                        PaisId = 6,
+                        Latitude = -39.54840762063766,
+                        Longitude = -8.979553059185564
                 },
 
                 new Local () {
-                    Id = 201,
-                    Nome = "Sé do Porto (Porto)",
-                    Localizacao = "Terreiro da Sé, 4050-573 Porto",
-                    Telefone = "+351 222002754",
-                    HorarioFuncionamento = "De Segunda a sexta das 9h às 19h, Sábado das 9h às 12h30 e depois das 14h às 19h e de Domingo das 14h às 19h",
-                    Descricao = "A Sé do Porto, também conhecida como Catedral do Porto, é um dos principais monumentos da cidade do Porto e um dos mais importantes monumentos religiosos de Portugal. A sua construção iniciou-se no século XII e, ao longo dos séculos, sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque para o românico, o gótico e o barroco.",
-                    Foto = "/imgpaises/img Portugal/Fe/Sé do Porto (Porto).png",
-                    PaisId = 6,
-                     Latitude = -41.143014662751,
-                        Longitude = -8.611062859112177 
+                        Id = 201,
+                        Nome = "Sé do Porto (Porto)",
+                        Localizacao = "Terreiro da Sé, 4050-573 Porto",
+                        Telefone = "+351 222002754",
+                        HorarioFuncionamento = "De Segunda a sexta das 9h às 19h, Sábado das 9h às 12h30 e depois das 14h às 19h e de Domingo das 14h às 19h",
+                        Descricao = "A Sé do Porto, também conhecida como Catedral do Porto, é um dos principais monumentos da cidade do Porto e um dos mais importantes monumentos religiosos de Portugal. A sua construção iniciou-se no século XII e, ao longo dos séculos, sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque para o românico, o gótico e o barroco.",
+                        Foto = "/imgpaises/img Portugal/Fe/Sé do Porto (Porto).png",
+                        PaisId = 6,
+                        Latitude = -41.143014662751,
+                        Longitude = -8.611062859112177
                 },
 
                 new Local () {
-                    Id = 202,
-                    Nome = "Basílica da Estrela (Lisboa)",
-                    Localizacao = "Praça da Estrela, 1200-669 Lisboa ",
-                    Telefone = "+351 213962434",
-                    HorarioFuncionamento = "De Segunda a sexta das 9h às 13h e depois das 15h às 19h, Sábado das  9h às 13h e 14h às 18h e de Domingo das 14h às 18h ",
-                    Descricao = "A Basílica da Estrela, também conhecida como Real Basílica e Convento do Santíssimo Coração de Jesus, é um dos mais importantes monumentos religiosos de Lisboa. A sua construção iniciou-se no final do século XVIII em estilo barroco e neoclássico. ",
-                    Foto = "/imgpaises/img Portugal/Fe/Basílica da Estrela (Lisboa).png",
-                    PaisId = 6,
-                     Latitude = -38.7135403492057,
+                        Id = 202,
+                        Nome = "Basílica da Estrela (Lisboa)",
+                        Localizacao = "Praça da Estrela, 1200-669 Lisboa ",
+                        Telefone = "+351 213962434",
+                        HorarioFuncionamento = "De Segunda a sexta das 9h às 13h e depois das 15h às 19h, Sábado das  9h às 13h e 14h às 18h e de Domingo das 14h às 18h ",
+                        Descricao = "A Basílica da Estrela, também conhecida como Real Basílica e Convento do Santíssimo Coração de Jesus, é um dos mais importantes monumentos religiosos de Lisboa. A sua construção iniciou-se no final do século XVIII em estilo barroco e neoclássico. ",
+                        Foto = "/imgpaises/img Portugal/Fe/Basílica da Estrela (Lisboa).png",
+                        PaisId = 6,
+                        Latitude = -38.7135403492057,
                         Longitude = -9.160819688059483
                 },
 
                 new Local () {
-                    Id = 203,
-                    Nome = "Catedral de Évora (Évora)",
-                    Localizacao = "Largo Marquês de Marialva, 7000-586 Évora  ",
-                    Telefone = "+351 266742422",
-                    HorarioFuncionamento = "De Segunda a sexta das 9h às 12h30 e depois das 14h às 18h, Sábado das 9h às 12h30 e de Domingo das 14h às 18h ",
-                    Descricao = "A Catedral de Évora, também conhecida como Sé de Évora, é um dos mais importantes monumentos religiosos de Portugal e a maior catedral medieval do país. A sua construção iniciou-se no século XII em estilo românico, mas ao longo dos séculos sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque também para o gótico e o barroco. ",
-                    Foto = "/imgpaises/img Portugal/Fe/Catedral de Évora (Évora).png",
-                    PaisId = 6,
-                     Latitude = -38.57191515748675,
-                        Longitude = -7.906867532248952 
+                        Id = 203,
+                        Nome = "Catedral de Évora (Évora)",
+                        Localizacao = "Largo Marquês de Marialva, 7000-586 Évora  ",
+                        Telefone = "+351 266742422",
+                        HorarioFuncionamento = "De Segunda a sexta das 9h às 12h30 e depois das 14h às 18h, Sábado das 9h às 12h30 e de Domingo das 14h às 18h ",
+                        Descricao = "A Catedral de Évora, também conhecida como Sé de Évora, é um dos mais importantes monumentos religiosos de Portugal e a maior catedral medieval do país. A sua construção iniciou-se no século XII em estilo românico, mas ao longo dos séculos sofreu diversas remodelações, o que resultou numa mistura de estilos arquitetónicos, com destaque também para o gótico e o barroco. ",
+                        Foto = "/imgpaises/img Portugal/Fe/Catedral de Évora (Évora).png",
+                        PaisId = 6,
+                        Latitude = -38.57191515748675,
+                        Longitude = -7.906867532248952
                 },
 
                 new Local () {
-                    Id = 204,
-                    Nome = "Basílica da Santíssima Trindade (Fátima)",
-                    Localizacao = "Santuário de Fátima, 2495-400 Fátima ",
-                    Telefone = "+351 249539600",
-                    HorarioFuncionamento = "Todos os dias das 08h até as 19h ",
-                    Descricao = "A Basílica da Santíssima Trindade é a mais recente construção do complexo do Santuário de Fátima. A sua construção iniciou-se em 2004 e foi concluída em 2007. A igreja é dedicada à Santíssima Trindade e tem capacidade para 8.633 pessoas sentadas. ",
-                    Foto = "/imgpaises/img Portugal/Fe/Basílica da Santíssima Trindade (Fátima).png",
-                    PaisId = 6,
-                     Latitude = -39.62983053474812,
-                        Longitude = -8.675358962894771 
+                        Id = 204,
+                        Nome = "Basílica da Santíssima Trindade (Fátima)",
+                        Localizacao = "Santuário de Fátima, 2495-400 Fátima ",
+                        Telefone = "+351 249539600",
+                        HorarioFuncionamento = "Todos os dias das 08h até as 19h ",
+                        Descricao = "A Basílica da Santíssima Trindade é a mais recente construção do complexo do Santuário de Fátima. A sua construção iniciou-se em 2004 e foi concluída em 2007. A igreja é dedicada à Santíssima Trindade e tem capacidade para 8.633 pessoas sentadas. ",
+                        Foto = "/imgpaises/img Portugal/Fe/Basílica da Santíssima Trindade (Fátima).png",
+                        PaisId = 6,
+                        Latitude = -39.62983053474812,
+                        Longitude = -8.675358962894771
                 },
                 #endregion
 
@@ -2783,7 +2820,7 @@ public class AppDbSeed
                         Descricao = "O Restaurante Delfina é um restaurante português tradicional localizado no coração de Lisboa. O restaurante é conhecido pela sua comida deliciosa, ambiente acolhedor e serviço atencioso.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Delfina Restaurant.png",
                         PaisId = 6,
-                         Latitude = -38.708326353903175,
+                        Latitude = -38.708326353903175,
                         Longitude = -9.139260545732979
                 },
 
@@ -2796,7 +2833,7 @@ public class AppDbSeed
                         Descricao = "A Confeitaria Nacional é a confeitaria mais antiga de Lisboa, fundada em 1829. A confeitaria é conhecida pelos seus doces tradicionais portugueses, como os pastéis de nata, os travesseiros de Sintra e os bolos de arroz.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Confeitaria Nacional (Lisboa).png",
                         PaisId = 6,
-                         Latitude = -38.71336187443325,
+                        Latitude = -38.71336187443325,
                         Longitude = -9.137872301549589
                 },
 
@@ -2810,7 +2847,7 @@ public class AppDbSeed
                         Descricao = "O Restaurante O Melro é um restaurante português tradicional, com foco em pratos regionais do Ribatejo. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso. ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante o melro (Almeirim).png",
                         PaisId = 6,
-                         Latitude = -39.26567801431487,
+                        Latitude = -39.26567801431487,
                         Longitude = -8.696338847564643
                 },
 
@@ -2823,8 +2860,8 @@ public class AppDbSeed
                         Descricao = "O Café Progresso é um café histórico e tradicional em Ponta Delgada, Açores. O café foi fundado em 1875 e é conhecido pela sua decoração Art Déco, ambiente acolhedor e serviço atencioso.  ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Café Progresso (Ponta Delgada).png",
                         PaisId = 6,
-                         Latitude = -39.43746539335501,
-                        Longitude = -8.303329305230193 
+                        Latitude = -39.43746539335501,
+                        Longitude = -8.303329305230193
                 },
 
                 new Local () {
@@ -2836,8 +2873,8 @@ public class AppDbSeed
                         Descricao = "O Restaurante Ramila é um restaurante tradicional português, especializado em pratos regionais do Minho. O restaurante é conhecido pela sua comida deliciosa, ambiente familiar e serviço atencioso.   ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante Ramila (Guimarães).png",
                         PaisId = 6,
-                         Latitude = -39.60102095899064,
-                        Longitude = -8.609053332255911 
+                        Latitude = -39.60102095899064,
+                        Longitude = -8.609053332255911
                 },
 
                 new Local () {
@@ -2848,7 +2885,7 @@ public class AppDbSeed
                         HorarioFuncionamento = "De Quarta a sábado das 19h30 às 22h30 e de Domingo a terça é Fechado ",
                         Descricao = "O Restaurante 7 Saias é um restaurante de alta gastronomia em Faro, Algarve. O restaurante é conhecido pela sua comida criativa e inovadora, ambiente elegante e serviço impecável.   ",
                         Foto = "/imgpaises/img Portugal/Restaurantes/Restaurante 7 Saias (Faro).png",
-                        PaisId = 6, 
+                        PaisId = 6,
                         Latitude = -39.59742204290333,
                         Longitude = -9.071464847549697
                 },
@@ -2856,85 +2893,85 @@ public class AppDbSeed
 
                 #region PT Cultura
                 new Local () {
-                Id = 211,
-                Nome = "Palácio Nacional de Mafra (Mafra)",
-                Localizacao = "Terreiro D. João V, 2640-504 Mafra,  ",
-                Telefone = "+351 219851000 ",
-                HorarioFuncionamento = "De Terça a domingo das 9h às 18h (última entrada às 17h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
-                Descricao = "O Palácio Nacional de Mafra é um conjunto monumental barroco do século XVIII, situado na cidade de Mafra, a cerca de 30 km de Lisboa. O conjunto inclui o Palácio, a Basílica, o Convento e a Tapada Nacional de Mafra.  ",
-                Foto = "/imgpaises/img Portugal/Cultura/Palácio Nacional de Mafra (Mafra).png",
-                PaisId = 6,
-                 Latitude = -38.937150613254424,
+                        Id = 211,
+                        Nome = "Palácio Nacional de Mafra (Mafra)",
+                        Localizacao = "Terreiro D. João V, 2640-504 Mafra,  ",
+                        Telefone = "+351 219851000 ",
+                        HorarioFuncionamento = "De Terça a domingo das 9h às 18h (última entrada às 17h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
+                        Descricao = "O Palácio Nacional de Mafra é um conjunto monumental barroco do século XVIII, situado na cidade de Mafra, a cerca de 30 km de Lisboa. O conjunto inclui o Palácio, a Basílica, o Convento e a Tapada Nacional de Mafra.  ",
+                        Foto = "/imgpaises/img Portugal/Cultura/Palácio Nacional de Mafra (Mafra).png",
+                        PaisId = 6,
+                        Latitude = -38.937150613254424,
                         Longitude = -9.326058449435786
                 },
 
                 new Local () {
-                Id = 212,
-                Nome = "Universidade de Coimbra (Coimbra) ",
-                Localizacao = "Paço das Escolas, Largo da Portagem, 3000-456 Coimbra  ",
-                Telefone = "+351 239 802 000  ",
-                HorarioFuncionamento = "De segunda a sexta das 9h até as 18h ",
-                Descricao = "A Universidade de Coimbra (UC) é a mais antiga universidade de Portugal e uma das mais antigas da Europa. Foi fundada em 1290 e está classificada como Património Mundial da UNESCO desde 2013.   ",
-                Foto = "/imgpaises/img Portugal/Cultura/Universidade de Coimbra (Coimbra).png",
-                PaisId = 6,
-                 Latitude = -40.20787698890864,
+                        Id = 212,
+                        Nome = "Universidade de Coimbra (Coimbra) ",
+                        Localizacao = "Paço das Escolas, Largo da Portagem, 3000-456 Coimbra  ",
+                        Telefone = "+351 239 802 000  ",
+                        HorarioFuncionamento = "De segunda a sexta das 9h até as 18h ",
+                        Descricao = "A Universidade de Coimbra (UC) é a mais antiga universidade de Portugal e uma das mais antigas da Europa. Foi fundada em 1290 e está classificada como Património Mundial da UNESCO desde 2013.   ",
+                        Foto = "/imgpaises/img Portugal/Cultura/Universidade de Coimbra (Coimbra).png",
+                        PaisId = 6,
+                        Latitude = -40.20787698890864,
                         Longitude = -8.426114661012006
                 },
 
                 new Local () {
-                Id = 213,
-                Nome = "Palácio da Pena (Sintra) ",
-                Localizacao = "Estrada da Pena, Sintra 2710-605  ",
-                Telefone = "+351 21 923 7300 ",
-                HorarioFuncionamento = "De Outubro a abril das 10h às 18h (última entrada às 17h), Maio a setembro das 10h às 19h (última entrada às 18h)e  Fechado em 25 de dezembro e 1 de janeiro ",
-                Descricao = "O Palácio da Pena é um palácio romântico do século XIX, situado no topo da Serra de Sintra, a cerca de 30 km de Lisboa. O palácio foi mandado construir pelo rei D. Fernando II e é considerado um dos mais belos exemplos da arquitetura romântica do século XIX.",
-                Foto = "/imgpaises/img Portugal/Cultura/Palácio da Pena (Sintra).png",
-                PaisId = 6,
-                 Latitude = -38.78770215149572,
-                        Longitude = -9.39066254758596 
+                        Id = 213,
+                        Nome = "Palácio da Pena (Sintra) ",
+                        Localizacao = "Estrada da Pena, Sintra 2710-605  ",
+                        Telefone = "+351 21 923 7300 ",
+                        HorarioFuncionamento = "De Outubro a abril das 10h às 18h (última entrada às 17h), Maio a setembro das 10h às 19h (última entrada às 18h)e  Fechado em 25 de dezembro e 1 de janeiro ",
+                        Descricao = "O Palácio da Pena é um palácio romântico do século XIX, situado no topo da Serra de Sintra, a cerca de 30 km de Lisboa. O palácio foi mandado construir pelo rei D. Fernando II e é considerado um dos mais belos exemplos da arquitetura romântica do século XIX.",
+                        Foto = "/imgpaises/img Portugal/Cultura/Palácio da Pena (Sintra).png",
+                        PaisId = 6,
+                        Latitude = -38.78770215149572,
+                        Longitude = -9.39066254758596
                 },
 
                 new Local () {
-                Id = 214,
-                Nome = "Torre de Belém (Lisboa) ",
-                Localizacao = "Avenida Brasília, 1400-038 Lisboa  ",
-                Telefone = "+351 21 362 0049  ",
-                HorarioFuncionamento = "De Terça a domingo das 10h às 18h (última entrada às 17h30) e Fechado em 1 de janeiro, Domingo de Páscoa, 1 de maio e 25 de dezembro ",
-                Descricao = "A Torre de Belém é uma torre fortificada do século XVI, situada na margem direita do rio Tejo, em Lisboa. A torre foi mandada construir pelo rei D. Manuel I e é considerada um dos mais importantes monumentos da arquitetura manuelina.    ",
-                Foto = "/imgpaises/img Portugal/Cultura/Torre de Belém (Lisboa).png",
-                PaisId = 6,
-                 Latitude = -38.6918097719828,
+                        Id = 214,
+                        Nome = "Torre de Belém (Lisboa) ",
+                        Localizacao = "Avenida Brasília, 1400-038 Lisboa  ",
+                        Telefone = "+351 21 362 0049  ",
+                        HorarioFuncionamento = "De Terça a domingo das 10h às 18h (última entrada às 17h30) e Fechado em 1 de janeiro, Domingo de Páscoa, 1 de maio e 25 de dezembro ",
+                        Descricao = "A Torre de Belém é uma torre fortificada do século XVI, situada na margem direita do rio Tejo, em Lisboa. A torre foi mandada construir pelo rei D. Manuel I e é considerada um dos mais importantes monumentos da arquitetura manuelina.    ",
+                        Foto = "/imgpaises/img Portugal/Cultura/Torre de Belém (Lisboa).png",
+                        PaisId = 6,
+                        Latitude = -38.6918097719828,
                         Longitude = -9.215880743877257
                 },
 
                 new Local () {
-                Id = 215,
-                Nome = "Convento de Cristo (Tomar)",
-                Localizacao = ": Convento de Cristo, Largo do Convento de Cristo, 2300-312 Tomar ",
-                Telefone = "+351 249 315 040  ",
-                HorarioFuncionamento = "De Novembro a abril das 9h às 18h (última entrada às 17h30), Maio a outubro das 9h às 19h (última entrada às 18h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
-                Descricao = "O Convento de Cristo é um monumento religioso e militar do século XII, situado na cidade de Tomar, a cerca de 130 km de Lisboa. O convento foi fundado pelos Templários e é considerado um dos mais importantes monumentos da arquitetura portuguesa     ",
-                Foto = "/imgpaises/img Portugal/Cultura/Convento de Cristo (Tomar).png",
-                PaisId = 6,
-                 Latitude = -39.60354709860397, 
-                        Longitude = -8.418917072673116 
+                        Id = 215,
+                        Nome = "Convento de Cristo (Tomar)",
+                        Localizacao = ": Convento de Cristo, Largo do Convento de Cristo, 2300-312 Tomar ",
+                        Telefone = "+351 249 315 040  ",
+                        HorarioFuncionamento = "De Novembro a abril das 9h às 18h (última entrada às 17h30), Maio a outubro das 9h às 19h (última entrada às 18h30) e Fechado em 25 de dezembro e 1 de janeiro  ",
+                        Descricao = "O Convento de Cristo é um monumento religioso e militar do século XII, situado na cidade de Tomar, a cerca de 130 km de Lisboa. O convento foi fundado pelos Templários e é considerado um dos mais importantes monumentos da arquitetura portuguesa     ",
+                        Foto = "/imgpaises/img Portugal/Cultura/Convento de Cristo (Tomar).png",
+                        PaisId = 6,
+                        Latitude = -39.60354709860397,
+                        Longitude = -8.418917072673116
                 },
 
                 new Local () {
-                Id = 216,
-                Nome = "Fortaleza de Sagres (Sagres) ",
-                Localizacao = "8650-356 Sagres  ",
-                Telefone = "+351 282 630 337   ",
-                HorarioFuncionamento = "De Novembro a abril das 10h às 17h30 (última entrada às 17h), Maio a outubro das 10h às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1 de janeiro  ",
-                Descricao = "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ",
-                Foto = "/imgpaises/img Portugal/Cultura/Fortaleza de Sagres (Sagres).png",
-                PaisId = 6,
-                 Latitude = -37.000957964034804,
+                        Id = 216,
+                        Nome = "Fortaleza de Sagres (Sagres) ",
+                        Localizacao = "8650-356 Sagres  ",
+                        Telefone = "+351 282 630 337   ",
+                        HorarioFuncionamento = "De Novembro a abril das 10h às 17h30 (última entrada às 17h), Maio a outubro das 10h às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1 de janeiro  ",
+                        Descricao = "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ",
+                        Foto = "/imgpaises/img Portugal/Cultura/Fortaleza de Sagres (Sagres).png",
+                        PaisId = 6,
+                        Latitude = -37.000957964034804,
                         Longitude = -8.94824723231687
                 }
                 #endregion
         #endregion
         };
-        builder.Entity<Local>().HasData(locais);
-    }
+                builder.Entity<Local>().HasData(locais);
+        }
 }

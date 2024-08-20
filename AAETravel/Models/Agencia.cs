@@ -15,4 +15,5 @@ public class Agencia
         [StringLength(300)]
         public string Foto { get; set; }
         public string Link { get; set; }
+        public string Cor { get; set; }
 }

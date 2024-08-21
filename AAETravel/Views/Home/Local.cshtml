@@ -1,12 +1,16 @@
+@model AAETravel.ViewModels.LocalVM
 @{
-    ViewData["Title"] = "Informacao";
+    ViewData["Title"] = "Local";
 }
 
-<partial name="_HeaderInformacao"></partial> 
- 
- <section>
+<partial name="_HeaderInformacao"></partial>
+<link rel="stylesheet" href="~/css/informacao.css">
+
+@foreach (var local in Model.Locais)
+{
+    <section>
         <div class="nome">
-            Lorem Ipsum
+            @local.Nome
         </div>
         <div class="local">
             <img src="assets/img/pais/italia.png">
@@ -27,6 +31,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="sobre">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae saepe veniam quas, hic nemo
@@ -64,3 +69,4 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+}

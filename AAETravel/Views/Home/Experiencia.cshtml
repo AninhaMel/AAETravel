@@ -12,14 +12,14 @@
         @foreach (var experiencia in Model.Experiencias)
         {
             <div class="conainer-paises" style="&:box-shadow: 0 0 10px 4px @experiencia.Cor;">
-                <img src="@experiencia.Foto" asp-action="Informacao">
+                <img src="@experiencia.Foto" asp-action="Local">
                 <h1>@experiencia.Nome</h1>
-                <a>Explore!</a>
+                <a asp-action="Local">Explore!</a>
             </div>
         }
     </div>
 </section>
 
 <div class="banner">
-    <img src="assets/img/outros/banner.png">
+    <img src="~/img/outros/banner.png">
 </div>

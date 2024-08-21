@@ -43,9 +43,14 @@ public class HomeController : Controller
         return View(experiencia);
     }
 
-    public IActionResult Informacao()
+    public IActionResult Local()
     {
-        return View();
+        LocalVM local = new(){
+            Locais = _context.Locais
+            .AsNoTracking()
+            .ToList()
+        };
+        return View(local);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -36,7 +36,7 @@ public class AppDbSeed
             new Experiencia() {
                     Id = 4,
                     Nome = "Espiritualidade",
-                    Foto = "/img/experiencias/.espiritualidade.png",
+                    Foto = "/img/experiencias/espiritualidade.png",
                     Cor = "#8A6C47",
                     Fundo = ""
             },
@@ -50,7 +50,7 @@ public class AppDbSeed
             new Experiencia() {
                     Id = 6,
                     Nome = "Cultura",
-                    Foto = "img/experiencias/cultura.png",
+                    Foto = "/img/experiencias/cultura.png",
                     Cor= "#DFD1C6",
                     Fundo = ""
             }

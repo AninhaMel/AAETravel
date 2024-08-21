@@ -35,22 +35,49 @@ public class HomeController : Controller
 
     public IActionResult Experiencia()
     {
-        ExperienciaVM experiencia = new(){
+        ExperienciaVM experiencia = new()
+        {
             Experiencias = _context.Experiencias
             .AsNoTracking()
-            .ToList()
+            .ToList(),
         };
         return View(experiencia);
     }
 
-    public IActionResult Local()
+    public IActionResult ExperienciaLocal()
     {
-        LocalVM local = new(){
+        ExperienciaLocalVM  experiencialocal = new()
+        {
+            Experiencias = _context.Experiencias
+            .AsNoTracking()
+            .ToList(),
+
             Locais = _context.Locais
             .AsNoTracking()
-            .ToList()
+            .ToList(),          
+        };
+        return View(experiencialocal);
+    }
+
+    public IActionResult Local()
+    {
+        LocalVM local = new()
+        {
+            Locais = _context.Locais
+            .AsNoTracking()
+            .ToList(),
         };
         return View(local);
+    }
+
+    public IActionResult Criador()
+    {   
+        CriadorVM criadores = new(){
+            Criadores = _context.Criadores
+            .AsNoTracking()
+            .ToList(),
+        };
+        return View(criadores);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

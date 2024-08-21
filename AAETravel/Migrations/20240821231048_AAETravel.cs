@@ -44,7 +44,7 @@ namespace AAETravel.Migrations
                 name: "AspNetRoles",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Name = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -63,7 +63,7 @@ namespace AAETravel.Migrations
                 name: "AspNetUsers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UserName = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -95,6 +95,25 @@ namespace AAETravel.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "Criador",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nome = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Sobre = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Foto = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Criador", x => x.Id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "Experiencia",
                 columns: table => new
                 {
@@ -107,6 +126,8 @@ namespace AAETravel.Migrations
                     Cor = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Fundo = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Onda = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -138,7 +159,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -163,7 +184,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -186,13 +207,13 @@ namespace AAETravel.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ProviderKey = table.Column<string>(type: "varchar(255)", nullable: false)
+                    ProviderKey = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ProviderDisplayName = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -211,9 +232,9 @@ namespace AAETravel.Migrations
                 name: "AspNetUserRoles",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -238,11 +259,11 @@ namespace AAETravel.Migrations
                 name: "AspNetUserTokens",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Name = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Name = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Value = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -263,7 +284,7 @@ namespace AAETravel.Migrations
                 name: "Usuario",
                 columns: table => new
                 {
-                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: false)
+                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nome = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -377,7 +398,7 @@ namespace AAETravel.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     DataCadastro = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: true)
+                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     LocalId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -410,16 +431,27 @@ namespace AAETravel.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Experiencia",
-                columns: new[] { "Id", "Cor", "Foto", "Fundo", "Nome" },
+                table: "Criador",
+                columns: new[] { "Id", "Foto", "Nome", "Sobre" },
                 values: new object[,]
                 {
-                    { 1, "#00BF63", "/img/experiencias/natureza.png", "", "Natureza" },
-                    { 2, "#E5B712", "/img/experiencias/restaurante.png", "", "Restaurantes" },
-                    { 3, "#A12BA4", "/img/experiencias/vida-noturna.png", "", "Vida Noturna" },
-                    { 4, "#8A6C47", "/img/experiencias/espiritualidade.png", "", "Espiritualidade" },
-                    { 5, "#4B778A", "/img/experiencias/compras.png", "", "Compras" },
-                    { 6, "#DFD1C6", "/img/experiencias/cultura.png", "", "Cultura" }
+                    { 1, "/img/Criador/Nunes.png", "Eduardo Nunes", "Programador full stack com ênfase em front-end e criação de layouts" },
+                    { 2, "/img/Criador/Ana.jpg", "Ana Clara Mello", "Programadora e Dsigner com ênfase em Protótipo" },
+                    { 3, "/img/Criador/Any.png", "Any Gabrieli", "Desenvolvedora e Escritora com ênfase em Documentação" },
+                    { 4, "/img/Criador/dametto.png", "Eduardo Dametto", "Desenvolvedor e Disgner com ênfase em criação de protótipo e Figma" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Experiencia",
+                columns: new[] { "Id", "Cor", "Foto", "Fundo", "Nome", "Onda" },
+                values: new object[,]
+                {
+                    { 1, "#00BF63", "/img/experiencias/natureza.png", "/img/experiencias/natureza.png", "Natureza", "/img/outros/paralax/preto-verde.png" },
+                    { 2, "#E5B712", "/img/experiencias/restaurante.png", "/img/experiencias/restaurante.png", "Restaurantes", "/img/outros/paralax/preto-amarelo.png" },
+                    { 3, "#A12BA4", "/img/experiencias/vida-noturna.png", "/img/experiencias/vida-noturna.png", "Vida Noturna", "/img/outros/paralax/preto-roxo.png" },
+                    { 4, "#8A6C47", "/img/experiencias/espiritualidade.png", "/img/experiencias/espiritualidade.png", "Espiritualidade", "/img/outros/paralax/preto-marrom.png" },
+                    { 5, "#4B778A", "/img/experiencias/compras.png", "/img/experiencias/compras.png", "Compras", "/img/outros/paralax/preto-azul.png" },
+                    { 6, "#DFD1C6", "/img/experiencias/cultura.png", "/img/experiencias/cultura.png", "Cultura", "/img/outros/paralax/preto-beje.png" }
                 });
 
             migrationBuilder.InsertData(
@@ -744,6 +776,9 @@ namespace AAETravel.Migrations
 
             migrationBuilder.DropTable(
                 name: "Cidade");
+
+            migrationBuilder.DropTable(
+                name: "Criador");
 
             migrationBuilder.DropTable(
                 name: "ExperienciasLocais");

@@ -1,0 +1,68 @@
+@model AAETravel.ViewModels.CriadorVM
+@{
+    ViewData["Title"] = "Criador";
+}
+
+<link rel="stylesheet" href="~/css/sobre-nos.css">
+
+<body>
+    <main id="inicio">
+        <div class="logo">
+            <a asp-action="Index">
+                <img src="~/img/outros/logo.png">
+            </a>
+        </div>
+
+        <div class="historia">
+            <div class="box-text">
+                <h1>Conheça nossa história!</h1>
+                <h3>Se você é apaixonado por viagens como nós, vai adorar conhecer sobre como chegamos aqui!</h3>
+            </div>
+            <a href="#historia">
+                <div class="confira-aqui"> Confira aqui</div>
+            </a>
+        </div>
+    </main>
+    <section id="historia">
+        <div class="missao">
+            <h1>MISSÃO</h1>
+            <p>Com uma poderosa página Sobre Nós, você pode se conectar melhor com os clientes e construir confiança.
+                Com o tempo, essa confiança se transformará em receitas recorrentes de compradores fiéis que continuam a
+                apoiar o seu negócio. Quer compartilhar suas ideias sobre a página Sobre Nós? Por favor, compartilhe-as
+                com a nossa comunidade nos comentários abaixo!</p>
+        </div>
+        <div class="imagem-aviao">
+            <img src="~/img/sobre-nos/aviao.png">
+        </div>
+        <div class="imagem-pessoas">
+            <img src="~/img/sobre-nos/pessoas.png">
+        </div>
+        <div class="nossa-hitoria">
+            <h1>NOSSA HISTÓRIA</h1>
+            <p>Com uma poderosa página Sobre Nós, você pode se conectar melhor com os clientes e construir confiança.
+                Com o tempo, essa confiança se transformará em receitas recorrentes de compradores fiéis que continuam a
+                apoiar o seu negócio. Quer compartilhar suas ideias sobre a página Sobre Nós? Por favor, compartilhe-as
+                com a nossa comunidade nos comentários abaixo!</p>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <div class="titulo">
+            <h1>NOSSA EQUPE</h1>
+        </div>
+        <div class="conainers">
+            @foreach (var criador in Model.Criadores)
+            {
+                <div class="conainer">
+                    <img src="@criador.Foto">
+                    <div class="descricao">
+                        <h2>@criador.Nome</h2>
+                        <p>@criador.Sobre</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</body>
+
+</html>

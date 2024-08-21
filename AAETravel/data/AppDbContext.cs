@@ -19,6 +19,7 @@ public class AppDbContext : IdentityDbContext
     public DbSet<Lista> Listas { get; set; }
     public DbSet<Agencia> Agencias { get; set; }
     public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Criador> Criadores { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

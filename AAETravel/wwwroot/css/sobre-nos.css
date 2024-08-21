@@ -33,6 +33,12 @@ main {
     & .logo {
         width: 20%;
         margin: 0 auto;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.3s ease-in-out;
+        }
 
         & img {
             width: 100%;
@@ -142,17 +148,25 @@ main {
         align-items: center;
         & .conainer{
             width: 23%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             background-color: #7748CF;
             padding: 10px;
             row-gap: 10px;
-            transition: 0.3s;
+            transition: 0.3s ease-in-out;
             border-radius: 30px;
+            &:hover img{
+                filter: none;
+                transition: 0.3s ease-in-out;
+
+            }
             & img{
-                transition: 0.3s;
                 border-radius: 30px;
+                width: 100%;
+                filter: grayscale(100%);
+                transition: 0.3s ease-in-out;
             }
             & .descricao{
                 text-align: center;

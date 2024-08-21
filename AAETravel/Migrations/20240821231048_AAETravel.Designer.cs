@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240821102904_AAETravel")]
+    [Migration("20240821231048_AAETravel")]
     partial class AAETravel
     {
         /// <inheritdoc />
@@ -117,6 +117,59 @@ namespace AAETravel.Migrations
                     b.ToTable("Cidade");
                 });
 
+            modelBuilder.Entity("AAETravel.Models.Criador", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Foto")
+                        .HasMaxLength(300)
+                        .HasColumnType("varchar(300)");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Sobre")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Criador");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Foto = "/img/Criador/Nunes.png",
+                            Nome = "Eduardo Nunes",
+                            Sobre = "Programador full stack com ênfase em front-end e criação de layouts"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Foto = "/img/Criador/Ana.jpg",
+                            Nome = "Ana Clara Mello",
+                            Sobre = "Programadora e Dsigner com ênfase em Protótipo"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Foto = "/img/Criador/Any.png",
+                            Nome = "Any Gabrieli",
+                            Sobre = "Desenvolvedora e Escritora com ênfase em Documentação"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Foto = "/img/Criador/dametto.png",
+                            Nome = "Eduardo Dametto",
+                            Sobre = "Desenvolvedor e Disgner com ênfase em criação de protótipo e Figma"
+                        });
+                });
+
             modelBuilder.Entity("AAETravel.Models.Experiencia", b =>
                 {
                     b.Property<int>("Id")
@@ -139,6 +192,10 @@ namespace AAETravel.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Onda")
+                        .HasMaxLength(300)
+                        .HasColumnType("varchar(300)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Experiencia");
@@ -149,48 +206,54 @@ namespace AAETravel.Migrations
                             Id = 1,
                             Cor = "#00BF63",
                             Foto = "/img/experiencias/natureza.png",
-                            Fundo = "",
-                            Nome = "Natureza"
+                            Fundo = "/img/experiencias/natureza.png",
+                            Nome = "Natureza",
+                            Onda = "/img/outros/paralax/preto-verde.png"
                         },
                         new
                         {
                             Id = 2,
                             Cor = "#E5B712",
                             Foto = "/img/experiencias/restaurante.png",
-                            Fundo = "",
-                            Nome = "Restaurantes"
+                            Fundo = "/img/experiencias/restaurante.png",
+                            Nome = "Restaurantes",
+                            Onda = "/img/outros/paralax/preto-amarelo.png"
                         },
                         new
                         {
                             Id = 3,
                             Cor = "#A12BA4",
                             Foto = "/img/experiencias/vida-noturna.png",
-                            Fundo = "",
-                            Nome = "Vida Noturna"
+                            Fundo = "/img/experiencias/vida-noturna.png",
+                            Nome = "Vida Noturna",
+                            Onda = "/img/outros/paralax/preto-roxo.png"
                         },
                         new
                         {
                             Id = 4,
                             Cor = "#8A6C47",
                             Foto = "/img/experiencias/espiritualidade.png",
-                            Fundo = "",
-                            Nome = "Espiritualidade"
+                            Fundo = "/img/experiencias/espiritualidade.png",
+                            Nome = "Espiritualidade",
+                            Onda = "/img/outros/paralax/preto-marrom.png"
                         },
                         new
                         {
                             Id = 5,
                             Cor = "#4B778A",
                             Foto = "/img/experiencias/compras.png",
-                            Fundo = "",
-                            Nome = "Compras"
+                            Fundo = "/img/experiencias/compras.png",
+                            Nome = "Compras",
+                            Onda = "/img/outros/paralax/preto-azul.png"
                         },
                         new
                         {
                             Id = 6,
                             Cor = "#DFD1C6",
                             Foto = "/img/experiencias/cultura.png",
-                            Fundo = "",
-                            Nome = "Cultura"
+                            Fundo = "/img/experiencias/cultura.png",
+                            Nome = "Cultura",
+                            Onda = "/img/outros/paralax/preto-beje.png"
                         });
                 });
 
@@ -224,7 +287,7 @@ namespace AAETravel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -3149,7 +3212,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -3172,7 +3235,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -3211,7 +3274,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -3223,7 +3286,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -3300,7 +3363,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -3312,17 +3375,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -3334,10 +3397,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -3349,13 +3412,13 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

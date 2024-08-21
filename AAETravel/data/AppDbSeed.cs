@@ -15,14 +15,18 @@ public class AppDbSeed
                     Nome = "Natureza",
                     Foto = "/img/experiencias/natureza.png",
                     Cor = "#00BF63",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/natureza.png",
+                    Onda = "/img/outros/paralax/preto-verde.png"
+
             },
             new Experiencia() {
                     Id = 2,
                     Nome = "Restaurantes",
                     Foto = "/img/experiencias/restaurante.png",
                     Cor = "#E5B712",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/restaurante.png",
+                    Onda = "/img/outros/paralax/preto-amarelo.png"
+
 
             },
             new Experiencia() {
@@ -30,7 +34,8 @@ public class AppDbSeed
                     Nome = "Vida Noturna",
                     Foto = "/img/experiencias/vida-noturna.png",
                     Cor = "#A12BA4",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/vida-noturna.png",
+                    Onda = "/img/outros/paralax/preto-roxo.png"
 
             },
             new Experiencia() {
@@ -38,21 +43,27 @@ public class AppDbSeed
                     Nome = "Espiritualidade",
                     Foto = "/img/experiencias/espiritualidade.png",
                     Cor = "#8A6C47",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/espiritualidade.png",
+                    Onda = "/img/outros/paralax/preto-marrom.png"
+
             },
             new Experiencia() {
                     Id = 5,
                     Nome = "Compras",
                     Foto = "/img/experiencias/compras.png",
                     Cor = "#4B778A",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/compras.png",
+                    Onda = "/img/outros/paralax/preto-azul.png"
+
             },
             new Experiencia() {
                     Id = 6,
                     Nome = "Cultura",
                     Foto = "/img/experiencias/cultura.png",
                     Cor= "#DFD1C6",
-                    Fundo = ""
+                    Fundo = "/img/experiencias/cultura.png",
+                    Onda = "/img/outros/paralax/preto-beje.png"
+
             }
         };
                 builder.Entity<Experiencia>().HasData(experiencias);
@@ -93,6 +104,35 @@ public class AppDbSeed
                 }
         };
                 builder.Entity<Agencia>().HasData(agencias);
+
+                List<Criador> criadores = new(){
+                        new Criador() {
+                                Id = 1,
+                                Nome = "Eduardo Nunes",
+                                Sobre = "Programador full stack com ênfase em front-end e criação de layouts",
+                                Foto = "/img/Criador/Nunes.png",
+                        },
+                        new Criador() {
+                                Id = 2,
+                                Nome = "Ana Clara Mello",
+                                Sobre = "Programadora e Dsigner com ênfase em Protótipo",
+                                Foto = "/img/Criador/Ana.jpg",
+
+                        },
+                        new Criador() {
+                                Id = 3,
+                                Nome = "Any Gabrieli",
+                                Sobre = "Desenvolvedora e Escritora com ênfase em Documentação",
+                                Foto = "/img/Criador/Any.png",
+                        },
+                        new Criador() {
+                                Id = 4,
+                                Nome = "Eduardo Dametto",
+                                Sobre = "Desenvolvedor e Disgner com ênfase em criação de protótipo e Figma",
+                                Foto = "/img/Criador/dametto.png",
+                        }
+                };
+                builder.Entity<Criador>().HasData(criadores);
 
 
                 #region Pais

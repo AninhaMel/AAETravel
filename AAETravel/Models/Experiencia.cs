@@ -22,4 +22,6 @@ public class Experiencia
      public string Fundo { get; set; }
      public List<ExperienciaLocal> ExperienciasLocais { get; set; }
 
+     [StringLength(300)]
+     public string Onda { get; set; }
 }

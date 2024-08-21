@@ -4,14 +4,14 @@
 }
 
 <partial name="_HeaderHome"></partial>
-
+<link rel="stylesheet" href="~/css/index.css">
 <section id="paises">
     <h1>Países</h1>
     <h3>Confira possíveis destinos!</h3>
     <div class="container">
         @foreach (var pais in Model.Paises)
         {
-            <a href="experiencis.html#experiencias">
+            <a asp-action="Experiencia">
                 <div class="conainer-paises">
                     <img src="@pais.Foto" alt="@pais.Nome">
                     <h1>@pais.Nome</h1>

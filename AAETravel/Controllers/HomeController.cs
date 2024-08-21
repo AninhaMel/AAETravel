@@ -33,6 +33,21 @@ public class HomeController : Controller
         return View(home);
     }
 
+    public IActionResult Experiencia()
+    {
+        ExperienciaVM experiencia = new(){
+            Experiencias = _context.Experiencias
+            .AsNoTracking()
+            .ToList()
+        };
+        return View(experiencia);
+    }
+
+    public IActionResult Informacao()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

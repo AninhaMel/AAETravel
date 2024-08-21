@@ -414,12 +414,12 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "Cor", "Foto", "Fundo", "Nome" },
                 values: new object[,]
                 {
-                    { 1, "#00BF63", "img/imgexperiencia/natureza.jpeg", "", "Natureza" },
-                    { 2, "#E5B712", "img/imgexperiencia/restaurantes.jpeg", "", "Restaurantes" },
-                    { 3, "#A12BA4", "img/imgexperiencia/vidanoturna.jpeg", "", "Vida Noturna" },
-                    { 4, "#8A6C47", "img/imgexperiencia/fe.jpeg", "", "Espiritualidade" },
-                    { 5, "#4B778A", "img/imgexperiencia/compras.jpeg", "", "Compras" },
-                    { 6, "#DFD1C6", "img/imgexperiencia/cultura.jpeg", "", "Cultura" }
+                    { 1, "#00BF63", "/img/experiencias/natureza.png", "", "Natureza" },
+                    { 2, "#E5B712", "/img/experiencias/restaurante.png", "", "Restaurantes" },
+                    { 3, "#A12BA4", "/img/experiencias/vida-noturna.png", "", "Vida Noturna" },
+                    { 4, "#8A6C47", "/img/experiencias/.espiritualidade.png", "", "Espiritualidade" },
+                    { 5, "#4B778A", "/img/experiencias/compras.png", "", "Compras" },
+                    { 6, "#DFD1C6", "img/experiencias/cultura.png", "", "Cultura" }
                 });
 
             migrationBuilder.InsertData(

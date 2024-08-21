@@ -13,5 +13,6 @@ namespace AAETravel.Models;
 
         [StringLength(300)]
         public string Foto { get; set; }
-
+        
+        
     }

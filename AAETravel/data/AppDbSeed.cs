@@ -13,14 +13,14 @@ public class AppDbSeed
             new Experiencia() {
                     Id = 1,
                     Nome = "Natureza",
-                    Foto = @"img/imgexperiencia/natureza.jpeg",
+                    Foto = "/img/experiencias/natureza.png",
                     Cor = "#00BF63",
                     Fundo = ""
             },
             new Experiencia() {
                     Id = 2,
                     Nome = "Restaurantes",
-                    Foto = @"img/imgexperiencia/restaurantes.jpeg",
+                    Foto = "/img/experiencias/restaurante.png",
                     Cor = "#E5B712",
                     Fundo = ""
 
@@ -28,7 +28,7 @@ public class AppDbSeed
             new Experiencia() {
                     Id = 3,
                     Nome = "Vida Noturna",
-                    Foto = @"img/imgexperiencia/vidanoturna.jpeg",
+                    Foto = "/img/experiencias/vida-noturna.png",
                     Cor = "#A12BA4",
                     Fundo = ""
 
@@ -36,21 +36,21 @@ public class AppDbSeed
             new Experiencia() {
                     Id = 4,
                     Nome = "Espiritualidade",
-                    Foto = "img/imgexperiencia/fe.jpeg",
+                    Foto = "/img/experiencias/.espiritualidade.png",
                     Cor = "#8A6C47",
                     Fundo = ""
             },
             new Experiencia() {
                     Id = 5,
                     Nome = "Compras",
-                    Foto = "img/imgexperiencia/compras.jpeg",
+                    Foto = "/img/experiencias/compras.png",
                     Cor = "#4B778A",
                     Fundo = ""
             },
             new Experiencia() {
                     Id = 6,
                     Nome = "Cultura",
-                    Foto = "img/imgexperiencia/cultura.jpeg",
+                    Foto = "img/experiencias/cultura.png",
                     Cor= "#DFD1C6",
                     Fundo = ""
             }

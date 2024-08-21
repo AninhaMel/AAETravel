@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240820220251_AAETravel")]
+    [Migration("20240820234728_AAETravel")]
     partial class AAETravel
     {
         /// <inheritdoc />
@@ -148,7 +148,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 1,
                             Cor = "#00BF63",
-                            Foto = "img/imgexperiencia/natureza.jpeg",
+                            Foto = "/img/experiencias/natureza.png",
                             Fundo = "",
                             Nome = "Natureza"
                         },
@@ -156,7 +156,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 2,
                             Cor = "#E5B712",
-                            Foto = "img/imgexperiencia/restaurantes.jpeg",
+                            Foto = "/img/experiencias/restaurante.png",
                             Fundo = "",
                             Nome = "Restaurantes"
                         },
@@ -164,7 +164,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 3,
                             Cor = "#A12BA4",
-                            Foto = "img/imgexperiencia/vidanoturna.jpeg",
+                            Foto = "/img/experiencias/vida-noturna.png",
                             Fundo = "",
                             Nome = "Vida Noturna"
                         },
@@ -172,7 +172,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 4,
                             Cor = "#8A6C47",
-                            Foto = "img/imgexperiencia/fe.jpeg",
+                            Foto = "/img/experiencias/.espiritualidade.png",
                             Fundo = "",
                             Nome = "Espiritualidade"
                         },
@@ -180,7 +180,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 5,
                             Cor = "#4B778A",
-                            Foto = "img/imgexperiencia/compras.jpeg",
+                            Foto = "/img/experiencias/compras.png",
                             Fundo = "",
                             Nome = "Compras"
                         },
@@ -188,7 +188,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 6,
                             Cor = "#DFD1C6",
-                            Foto = "img/imgexperiencia/cultura.jpeg",
+                            Foto = "img/experiencias/cultura.png",
                             Fundo = "",
                             Nome = "Cultura"
                         });

@@ -182,7 +182,7 @@ public class AppDbSeed
                         Telefone = "542902491005",
                         HorarioFuncionamento= "Abre no verão de 1º de setembro a 30 de abril das 8h às 18h e no Inverno de 1 de maio a 31 de agosto das 9h às 16h.",
                         Descricao = "O Parque Nacional Los Glaciares localiza-se na região da Patagônia Argentina no sudoeste da Província de Santa Cruz, Argentina, sendo o segundo maior do país. O parque foi instituído pelo governo em 1937, e batizado Los Glaciares pois a área do parque nacional abriga inúmeros glaciares. ",
-                        Foto = "/imgpaises/imgArgentina/Natureza/ParqueNacionalLosGlaciales(ProvíciaeSantaCruz).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Los Glaciales (Provícia de Santa Cruz).png",
                         PaisId=1,
                         Latitude = -50.33052817623086,
                         Longitude =  -73.23418011349693
@@ -206,7 +206,7 @@ public class AppDbSeed
                         Telefone = "+54 2901 57-7931",
                         HorarioFuncionamento= "Semana inteira/ 08:00 até 20:00",
                         Descricao = "O que mais chama a atenção dentro do parque é a topografia montanhosa, além da enorme quantidade de áreas verdes, dos lagos, dos bosques e da paisagem natural como um todo. Ainda que o parque esteja em território argentino, parte dele está em território chileno, então algumas montanhas que se vê dentro do parque pertencem ao Chile. O lugar também é famoso por ser o final da Ruta N3, que faz parte do sistema de rodovias panamericanas.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/ParqueNacionalTierradelFuego(Ushuaia).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Tierra del Fuego (Ushuaia).png",
                         PaisId=1,
                         Latitude = -54.83475225751397,
                         Longitude = -68.44648384449509
@@ -218,10 +218,10 @@ public class AppDbSeed
                         Telefone = "+54 11 5091-7200",
                         HorarioFuncionamento= "Abre de Terça a Domingo das 11:00 até as 18:00 ",
                         Descricao = "Na entrada do Jardim Zoológico é possível comprar comida para os animal. Assim, quando você entrar, poderá alimentar diversas espécies e observar inúmeros bichos que não vemos no dia a dia.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/JardimZoológicodeBuenosAires(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Jardim Zoológico de Buenos Aires (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.55930431288427,
-                        Longitude = -59.01872631599637
+                        Longitude = -59.01872631599637 
                 },
                 new Local() {
                         Id = 5,
@@ -230,7 +230,7 @@ public class AppDbSeed
                         Telefone = "+54 348 443-6980",
                         HorarioFuncionamento= "Abre a semana inteira das 10:00 as 19:00",
                         Descricao = "Não é um zoológico e nem é um jardim botânico, também não é uma fazenda e tampouco um museu de história natural. O Temaikén, distante cerca de 40 minutos de Buenos Aires, é uma mistura de tudo isso e um pouco mais. Um bioparque para viver a natureza de distintas maneiras e, sobretudo, com muita diversão, especialmente para a criançada.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/BioparqueTemaikén(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Bioparque Temaikén (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.3402469529864,
                         Longitude = -58.80869862129423
@@ -242,7 +242,7 @@ public class AppDbSeed
                         Telefone = "+54 9 3757 67-4714",
                         HorarioFuncionamento= "Todos os dias das 08:00 as 18:00",
                         Descricao = "O Parque Nacional Iguazú é uma área protegida, criada na Argentina no ano 1934 com o objetivo de conservar as Cataratas do Iguaçu e a biodiversidade que as rodeia. Localizado no norte da província de Misiones, o parque conta com uma superfície aproximada de 67.000 hectares e a sua entrada está a 7 km de Puerto Iguazú.",
-                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacionalguazú(Missiones-PuertoIguazú).png",
+                        Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Iguazú (Missiones- Puerto Iguazú).png",
                         PaisId=1,
                         Latitude = -25.660018284382353,
                         Longitude = -54.444980587863554
@@ -257,7 +257,7 @@ public class AppDbSeed
                         Telefone = "+54 9 3757 67-4714",
                         HorarioFuncionamento= "Domingo das 10:00 até as 17:00",
                         Descricao = "Há mais de 40 anos, San Telmo, bairro localizado ao sul de Buenos Aires, recebe pessoas da Argentina e do mundo inteiro que visitam o bairro aos domingos para conhecer a famosa Feira de San Telmo. Além dos diversos produtos de antiguidade, a feira também vende artesanato local, produtos com temas da cidade, livros, discos, camisetas, óculos, chapéus, cartões, fotografias, CDs, pôsteres, roupas, calçados e muito mais!",
-                        Foto = "/imgpaises/imgArgentina/Compras/FeiradeSanTelmo(Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/Feira de San Telmo (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.62027522831933,
                         Longitude = -58.37120491914526
@@ -269,10 +269,10 @@ public class AppDbSeed
                         Telefone = "+54 11 5555-5110",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "Aos falar de compras em Buenos Aires um dos primeiros lugares que surgem na mente são as Galerias Pacífico. O edifício do centro comercial é do fim do século XIX e sua cúpula central foi pintada em 1946. O shopping é tão bonito e bem decorado que recomendamos a visita não apenas a quem deseja fazer compras como a quem procura apenas um lugar para bater perna e quer ver coisas bonitas. O charme da arquitetura das Galerias é ímpar, cheio de murais, colunas e um teto lindíssimo. A arquitetura do shopping é tão imponente que o edifício é considerado monumento histórico nacional.",
-                        Foto = "/imgpaises/imgArgentina/Compras/GaleriasPacífico(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/Galerias Pacífico (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.599132908132724,
-                        Longitude = -58.374832153552276
+                        Longitude = -58.374832153552276 
                 },
                 new Local() {
                         Id = 9,
@@ -281,10 +281,10 @@ public class AppDbSeed
                         Telefone = "+54 800-222-2299",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
-                        Foto = "/imgpaises/imgArgentina/Compras/Distrito ArcosBuenosaires",
+                        Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires",
                         PaisId=1,
                         Latitude = -34.58041196612808,
-                        Longitude = -58.427866749837804
+                        Longitude = -58.427866749837804 
                 },
                 new Local() {
                         Id = 10,
@@ -293,7 +293,7 @@ public class AppDbSeed
                         Telefone = "+54 800-222-2299",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
                         Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
-                        Foto = "/imgpaises/imgArgentina/Compras/PatioBullrich(Marselha)",
+                        Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha)",
                         PaisId=1,
                         Latitude = -32.955524323926134,
                         Longitude = -68.85890340338014
@@ -305,7 +305,7 @@ public class AppDbSeed
                         Telefone = "+54 261 348-1200",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
                         Descricao = "A 15km do centro de Mendoza você encontrará uma boa maneira de resolver suas compras em um só lugar. No Palmares Open Mall é possível encontrar de vestuário a artigos de artesanato, passando pelos vinhos, claro! Se você não resiste a uma voltinha em um grande centro comercial, essa pode ser uma boa pedida. O shopping é bem ao estilo brasileiro: são 120 lojas que vão de grandes marcas a pequenas boutiques. Prático para uma volta e uma refeição rápida. Destaque para o restaurante Don Mario, que serve uma das mais famosas parrilladas da cidade.",
-                        Foto = "/imgpaises/imgArgentina/Compras/PalmaresOpenMall(GodoyCruz).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/Palmares Open Mall (Godoy Cruz).png",
                         PaisId=1,
                         Latitude = -34.588693988159875,
                         Longitude = -58.38404467632539
@@ -317,7 +317,7 @@ public class AppDbSeed
                         Telefone = "+54 351 570-4199",
                         HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00 ",
                         Descricao = "Patio Olmos é uma galeria comercial de grande importância arquitetônica em Córdoba, Argentina, e a mais importante da cidade.",
-                        Foto = "/imgpaises/imgArgentina/Compras/PatioOlmos(Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Compras/Patio Olmos (Córdoba).png",
                         PaisId=1,
                         Latitude = -31.41958968115592,
                         Longitude = -64.18824068140034
@@ -332,7 +332,7 @@ public class AppDbSeed
                         Telefone = "+54 351 570-4199",
                         HorarioFuncionamento= "Abre todos os dias 24 horas por dia",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno. Nos finais de semana, compradores lotam essa área que é famosa pelos cafés descolados e lojas de design exclusivo. Já Palermo Hollywood, conhecida por contar com um grande número de restaurantes, bares e boates, é o lugar preferido dos viajantes que querem se divertir à noite e comemorar ocasiões especiais.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/NicetoClub(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Niceto Club (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.58703506886908,
                         Longitude = -58.43886607446898
@@ -344,7 +344,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "Abre todos os dias das 20:00 até as 00:00",
                         Descricao = "Considerada uma das melhores casas de tango de Buenos Aires, o Señor Tango oferece um espetáculo inesquecível e muito emocionante. O show é envolvente do início ao fim, apresentando belas coreografias – algumas com certo toque acrobático – que encantam a todo o tipo de público. A apresentação ainda conta com a participação de ótimos cantores e músicos que, em alguns momentos do espetáculo, interagem com a plateia.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/SenorTango(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Senor Tango (Buenos Aires).png",
                         PaisId=1,
                          Latitude = -34.56926698554936,
                         Longitude = -58.42052953214304
@@ -356,7 +356,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4778-1500 ",
                         HorarioFuncionamento= "Abre todos os dias das 14:00 até a 00:00",
                         Descricao = "No Ice Bar Puerto Iguazú tudo é feito de gelo: as paredes, os móveis, a decoração e, inclusive, os copos. E, para manter tudo congelado, a temperatura do bar é de -10ºC. Uma grande diferença para o clima da cidade, que pode passar dos 30° no verão.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/IcebarIguazu(PuertoIguazú).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Icebar Iguazu (Puerto Iguazú).png",
                         PaisId=1,
                          Latitude = -34.65251488742655,
                         Longitude = -58.37593927446579
@@ -368,7 +368,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "Abre de sexta, sábado e domingo da 00:00 até as 07:00",
                         Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -25.619359092794305,
                         Longitude = -54.55500692088276
@@ -380,7 +380,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4952-2320",
                         HorarioFuncionamento= "Abre todos os dias das 09:00 até a 11:00",
                         Descricao = "O Café de los Angelitos é um recinto imponente com mais de cem anos de história, por onde desfilaram grandes personalidades do mundo político e artístico de Buenos Aires. Hoje em dia, é palco de um dos mais refinados e elegantes shows de tango da cidade, diversas vezes aclamado pela crítica local.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/CafedelosAngelitos(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Cafe de los Angelitos  (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.60946892791383,
                         Longitude = -58.396186547487716
@@ -392,7 +392,7 @@ public class AppDbSeed
                         Telefone = "+54 9 11 3100-2433",
                         HorarioFuncionamento= "Abre terça, quarta, quinta, sexta e sábado das 14:00 até as 22:00",
                         Descricao = "Vinology é um lugar incrível para se conhecer os bons vinhos da Argentina. É uma vinoteca diferenciada, que tem etiquetas de bodegas especialmente boas, funciona como bar de vinhos com comidinhas deliciosas.",
-                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.570552378227354,
                         Longitude = -58.434845818652846
@@ -407,7 +407,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4303-0231",
                         HorarioFuncionamento= "De segunda a sexta das 7:30 até as 18:45 e de final de semana das 9:00 até as 18:45.",
                         Descricao = "A Catedral Metropolitano de Buenos Aires é a principal igreja católica em Buenos Aires, capital da Argentina. Localiza-se no centro da cidade, diante da Praça de Maio, na esquina das ruas San Martín e Rivadavia, no bairro de San Nicolás. É a igreja-mãe da Arquidiocese de Buenos Aires",
-                        Foto = "/imgpaises/imgArgentina/Fe/CatedralMetropolitanadeBuenosAires(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Catedral Metropolitana de Buenos Aires (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.6073662714273,
                         Longitude = -58.37330031865107
@@ -419,7 +419,7 @@ public class AppDbSeed
                         Telefone = "+54 2323 42-1070.",
                         HorarioFuncionamento= "Todos os dias das 9:00 até as 18:00",
                         Descricao = "A Basílica Menor de Nossa Senhora de Luján é uma igreja católica romana em Luján, Buenos Aires, Argentina. Construída em estilo neogótico, é dedicada a Nossa Senhora de Luján, padroeira da Argentina. Muitas pessoas confundem esta igreja com uma catedral.",
-                        Foto = "/imgpaises/imgArgentina/Fe/Basílica de NuestraSeñoradeLuján(Luján).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Basílica de Nuestra Señora de Luján (Luján).png",
                         PaisId=1,
                         Latitude = -34.569093609091354,
                         Longitude = -58.44020886390422
@@ -431,7 +431,7 @@ public class AppDbSeed
                         Telefone = "+54 387 512-4311",
                         HorarioFuncionamento= "Todos os dias das 8:30 até as 20:30, no Domingo das 8:30 até as 12:00 e das 18:00 até as 21:00",
                         Descricao = "Esta magnífica Basílica Menor, construída em terreno doado por Hernando de Lerma, em 1582, com destaque para as cores poderosas terracota, ouro e marfim que cobrem. Ele pertence à ordem franciscana e foi reconstruído várias vezes após vários incêndios.",
-                        Foto = "/imgpaises/imgArgentina/Fe/IgrejadeSanFrancisco(Salta).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Igreja de San Francisco (Salta).png",
                         PaisId=1,
                         Latitude = -24.790006713060023,
                         Longitude = -65.40821649021966
@@ -443,7 +443,7 @@ public class AppDbSeed
                         Telefone = "+34 957 47 0512. ",
                         HorarioFuncionamento= "De segunda até sábado das 8:30 até as 9:30",
                         Descricao = "A Mesquita-Catedral de Córdova oficialmente conhecida pelo seu nome eclesiástico, a Catedral de Nossa Senhora da Assunção em espanhol: Catedral de Nuestra Señora de la Asunción é a catedral da Diocese Católica Romana de Córdoba dedicada à Assunção de Maria e localizado na região espanhola da Andaluzia.",
-                        Foto = "/imgpaises/imgArgentina/Fe/CatedraleCórdoba(Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Catedral de Córdoba (Córdoba).png",
                         PaisId=1,
                         Latitude = -28.470207963157378,
                         Longitude = -65.35529771321596
@@ -455,10 +455,10 @@ public class AppDbSeed
                         Telefone = "+54 11 4311-0391.",
                         HorarioFuncionamento= "Quarta-feira, 11:00–13:00, 18:00–20:00, quinta-feira, 11:00–13:00, 18:00–20:00, sexta-feira, 11:00–13:00, 18:00–20:00, sábado, 18:30–20:00, domingo, 09:00–12:30, 17:30–20:30, segunda-feira, 11:00–13:00, 18:00–20:00, terça-feira, 11:00–13:00, 18:00–20:00.",
                         Descricao = "A Basílica do Santísimo Sacramento é uma das igrejas mais bonitas de Buenos Aires. O templo luxuosamente decorado apresenta uma grande custódia de ouro e prata, vitrais importantes e ornamentos de mármore, granito azul, bronze e mosaico veneziano.",
-                        Foto = "/imgpaises/imgArgentina/Fe/BasílicadelSantísimoSacramento(Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Basílica del Santísimo Sacramento (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.59546334232072,
-                        Longitude = -58.37423653771114
+                        Longitude = -58.37423653771114 
                 },
                 new Local() {
                         Id = 24,
@@ -467,7 +467,7 @@ public class AppDbSeed
                         Telefone = "+54 294 443-4084 ",
                         HorarioFuncionamento= "De segunda a sexta das 9:00 até as 12:00 e das 17:00 até 21:00.",
                         Descricao = "A Catedral de San Carlos de Bariloche é o principal templo católico da cidade de San Carlos de Bariloche, na Argentina. Encontra-se na interseção das ruas Almirante Ou’Connor e Beschtedt, rodeada por duas praças com formosos jardins. É a sé episcopal da Diocese de Bariloche, sufragânea da Arquidiocese de Bahía Blanca.",
-                        Foto = "/imgpaises/imgArgentina/Fe/CatedraldeNuestraSeñoradelNahuelHuapi(Bariloche).png",
+                        Foto = "/imgpaises/imgArgentina/Fe/Catedral de Nuestra Señora del Nahuel Huapi (Bariloche).png",
                         PaisId=1,
                         Latitude = -41.13291181780236,
                         Longitude = -71.30234644530549
@@ -482,7 +482,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4832-6058",
                         HorarioFuncionamento= "Abre todos os dias das 11:30 até as 16:00 e depois das 19:00 até as 1:00",
                         Descricao = "Reservar uma mesa no restaurante Don Julio já virou uma atração turística imperdível em Buenos Aires. Os reconhecimentos ajudam: é atualmente o restaurante argentino mais bem colocado entre os 50 melhores do mundo e foi eleito neste ano como a melhor casa de carnes do mundo. As filas que se formam na porta todos os dias são outro medidor do sucesso.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/DonJulio(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/Don Julio (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.58613638501554,
                         Longitude = -58.4242476186521
@@ -494,7 +494,7 @@ public class AppDbSeed
                         Telefone = "+54 11 5586-1435.",
                         HorarioFuncionamento= "Domingo das 12:30 até as 16:00, Segunda das 11:30 até as 16:00 e das 6:30 até as 12:30, de terça, quarta e quinta das 6:30 até as 12:30 e de sexta e sábado das 12:30 até as 16:00 e das 6:30 até as 1:00.",
                         Descricao = "O La Cabrebra é especialista em cortes de carnes, acompanhamentos saborosos e, claro, com muita fartura. É mais um restaurante que figura entre os melhores de Buenos Aires, pelo atendimento, pelo ambiente clássico e pela qualidade das carnes. Nove entre dez brasileiros que visitam a capital, fazem questão de passar no La Cabrera e aproveitar o almoço, happy hour ou jantar.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/LaCabrera(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/La Cabrera (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.588799061101504,
                         Longitude = -58.43325444563225
@@ -506,7 +506,7 @@ public class AppDbSeed
                         Telefone = "+54 261 424-2698",
                         HorarioFuncionamento= "De terça até Domingo das 19:00 até as 21:30",
                         Descricao = "A poucos minutos do centro - na Bodega Escorihuela -, o elegante 1884, chefiado por Francis Mallmann, carrega a fama de ser o melhor restaurante da cidade. Se não for o melhor, certamente está na lista dos imperdíveis.O ambiente é refinado e clássico, com salões externos e internos. A culinária, tipicamente portenha, vai das empanadas aos melhores cortes de carne.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/1884RestauranterancisMallmann(Mendonza).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/1884 Restaurante Francis Mallmann (Mendonza).png",
                         PaisId=1,
                         Latitude = -32.91212429424235,
                         Longitude = -68.84302357268902
@@ -518,7 +518,7 @@ public class AppDbSeed
                         Telefone = "+34 984 03 40 14",
                         HorarioFuncionamento= "De terça até Sábado das 10:30 até as 20:00.",
                         Descricao = "O Oviedo é o restaurante mais tradicional de Buenos Aires quando o assunto é peixe! Os pescados servidos no restaurante estão sempre super frescos, pois o restaurante recebe mercadoria duas vezes ao dia, além disso toda matéria prima servida é de altíssima qualidade e fresca, o que garante um prato muito mais saboroso! O que achamos incrível é que tudo que sai da cozinha parece verdadeira obra de arte, isto porque o chef Martin Rebaudino estudou belas artes para deixar seus pratos mais bonitos e também chegou a trabalhar no El Bulli.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo(Rosário).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo (Rosário).png",
                         PaisId=1,
                         Latitude = -32.95622585219165,
                         Longitude = -60.64688716233088
@@ -530,9 +530,9 @@ public class AppDbSeed
                         Telefone = "+34 984 03 40 14.",
                         HorarioFuncionamento= "De Segunda até Sábado das 20:00 até as 00:00.",
                         Descricao = "Entre pescados, massas e assados, bem elaborados em um ambiente simples e elegante, você percorrerá um longo e saboroso caminho pelo melhor da comida argentina.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/SieteCocinas(Salta)melhorado.png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/Siete Cocinas (Salta) melhorado.png",
                         PaisId=1,
-                        Latitude = -3.487697620654168,
+                        Latitude = -3.487697620654168, 
                         Longitude = -76.51273403305537
                 },
                 new Local() {
@@ -542,7 +542,7 @@ public class AppDbSeed
                         Telefone = "+54 11 2142-2936.",
                         HorarioFuncionamento= "Todos os dias das 7:45 até as 10:30, apenas de segunda das 7:45 até as 10:00.",
                         Descricao = "Estabelecimento é um omakase de carnes com reservas disputadas. Com uma recepção acolhedora no bairro de Palermo Viejo, em Buenos Aires, o Fogón Asado é um omakase de carnes que oferece uma experiência de 10 passos (US$ 80). Para ir ao Fogón é preciso estar com fome, pois os 10 tempos são substanciosos.",
-                        Foto = "/imgpaises/imgArgentina/Restaurantes/FogónAsado(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Restaurantes/Fogón Asado (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.58829224205065,
                         Longitude = -58.43371108123645
@@ -557,7 +557,7 @@ public class AppDbSeed
                         Telefone = "+54 11 5288-9900",
                         HorarioFuncionamento= "De terça até domingo das 11:00 até as 20:00",
                         Descricao = "Museo Nacional de Bellas Artes. O Museu exibe mais de 40 pinturas a óleo e aquarelas do artista, 200 anos após seu nascimento. A exposição reúne cerca de 90 pinturas, desenhos e documentos dos primeiros anos da carreira de Jorge Gumier Maier (1953-2021).",
-                        Foto = "/imgpaises/imgArgentina/Cultura/MuseuNacionaldeBelasArtes(BuenosAires).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/Museu Nacional de Belas Artes (Buenos Aires).png",
                         PaisId=1,
                         Latitude = -34.5838215458417,
                         Longitude = -58.3930473186523
@@ -569,7 +569,7 @@ public class AppDbSeed
                         Telefone = "+54 11 4808-6500",
                         HorarioFuncionamento= "Abre todos os dias menos de Terça das 11:00 até as 20:00",
                         Descricao = "Conheça o Museu de Arte Latino Americana (MALBA) de Buenos Aires. Localizado no famoso bairro Palermo, o MALBA é um dos melhores museus em Buenos Aires. Ele tem a intenção de promover a arte da América Latina a partir do século 20, e por isso lá você vai encontrar desdes artistas famosos e renomados, até aqueles mais novos que ainda estão buscando seu espaço no meio artístico. Confira abaixo mais informações sobre o Museu de Arte Latino Americana. ",
-                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeArteLatino-AmericanadeBuenosires(MALBA)(Buenos Aires).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Latino-Americana de Buenos Aires (MALBA) (Buenos Aires).png",
                         PaisId=1,
                          Latitude = -34.576721381507,
                         Longitude = -58.403494562835725
@@ -581,7 +581,7 @@ public class AppDbSeed
                         Telefone = "+34 957 01 58 58.",
                         HorarioFuncionamento= "De terça até Domingo das 9:00 até as 21:00 e excessão de do Domingo das 9:00 até as 15:00.",
                         Descricao = "O Museu de Belas Artes de Córdoba é um museu de arte estatal localizado na cidade espanhola de Córdoba. ",
-                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeArtePré-ColombianaeArtePopular(Córdoba).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Pré-Colombiana e Arte Popular (Córdoba).png",
                         PaisId=1,
                          Latitude = -40.2823238777987,
                         Longitude = -5.179755649099501
@@ -593,7 +593,7 @@ public class AppDbSeed
                         Telefone = "+54 221 425-7744.",
                         HorarioFuncionamento= "De Quarta até Domingo das 10:00 até as 18:00.",
                         Descricao = "O museu apresenta em torno de 3.000.000 de objetos em sua coleção, e só uma pequena parte dos mesmos se encontram em exibição. Em grande parte, o prestígio do museu descansa em sua coleção de grandes mamíferos fósseis dos pampas sul-americanos das eras Terciária e Quaternária. Também se destacam as coleções de trilobites do período Cambriano e de graptólitos do período Silúrico da Argentina. O museu conta também com salas de Zoologia, Entomologia, e Botânica.",
-                        Foto = "/imgpaises/imgArgentina/Cultura/MuseudeLaPlata(LaPlata).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de La Plata (La Plata).png",
                         PaisId=1,
                          Latitude = -34.579509537505956,
                         Longitude = -58.405005476325684
@@ -605,21 +605,20 @@ public class AppDbSeed
                         Telefone = "+54 221 425-7744",
                         HorarioFuncionamento= "De Segunda até Quinta das 9:00 até as 13:00, sexta das 13:00 até as 17:00 e Domingo das 16:00 até as 20:00.",
                         Descricao = "O Ocupam um importante edifício construído na década de 1920. O Museo de Bellas Artes dedica-se à exposição de uma importante coleção de pintura argentina do final do século XIX ao XX. Já o MAC conta com 6 salas de exposições e possui um grande terraço e jardins que circundam o edifício, onde regularmente se programam concertos, espetáculos, peças de teatro, entre outros.",
-                        Foto = "/imgpaises/imgArgentina/Cultura/MuseueArteContemporâneaeBahíaBlanca(Bahía Blanca).png",
+                        Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Contemporânea de Bahía Blanca (Bahía Blanca).png",
                         PaisId=1,
                          Latitude = -38.712929512680304,
-                        Longitude = -62.26223254543124
+                        Longitude = -62.26223254543124 
                 },
                 new Local() {
                         Id = 36,
                         Nome = "Museu de História Nacional (Rosário)",
                         Localizacao ="Av. Dr. Eduardo María Gallo s/n.",
                         Telefone = "+54 221 425-7744",
-                        Descricao = "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
-                        HorarioFuncionamento= "Segunda a Sexta, das 9:00 até 16:00",
+                        HorarioFuncionamento= "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
                         Foto = "/imgpaises/imgArgentina/Cultura/Museu de História Nacional (Rosário).png",
                         PaisId=1,
-                        Latitude = -34.62680174739552,
+                         Latitude = -34.62680174739552,
                         Longitude = -58.37054628795715
                 },
                 #endregion

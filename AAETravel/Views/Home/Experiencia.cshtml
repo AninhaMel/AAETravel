@@ -1,21 +1,45 @@
-@model AAETravel.ViewModels.ExperienciaVM
+@model AAETravel.ViewModels.ExperienciaPaisVM
 @{
     ViewData["Title"] = "Experiencia";
 }
 
 <partial name="_HeaderHome"></partial>
 <link rel="stylesheet" href="~/css/experiencias.css">
+
+@foreach (var pais in Model.Paises)
+{
+    <div class="sobre-pais">
+        <div class="foto" style="border-bottom: 1px solid @pais.Cor; border-right: 1px solid @pais.Cor;">
+            <img src="@pais.Foto" style="filter: drop-shadow(0 0 20px @pais.Cor);">
+        </div>
+
+        <div class="texto" style="border-top: 1px solid @pais.Cor; drop-shadow(0 0 20px @pais.Cor);">
+            <h1 style="text-decoration: underline @pais.Cor;">@pais.Nome</h1>
+            <h3>@pais.Descricao</h3>
+        </div>
+    </div>
+}
+
+<hr>
 <section id="experiencias">
     <h1>EXPERIÊNCIAS</h1>
-    <h3>Confira possíveis destinos!</h3>
+    <h3>Confira possíveis destinos</h3>
     <div class="container">
         @foreach (var experiencia in Model.Experiencias)
         {
-            <div class="conainer-paises" style="&:box-shadow: 0 0 10px 4px @experiencia.Cor;">
-                <img src="@experiencia.Foto" asp-action="Local">
-                <h1>@experiencia.Nome</h1>
-                <a asp-action="ExperienciaLocal" style="background-color: @experiencia.Cor;">Explore!</a>
-            </div>
+            @foreach (var pais in Model.Paises)
+            {
+                <div class="conainer-paises" style="&:box-shadow: 0 0 10px 4px @experiencia.Cor;">
+                    <img src="@experiencia.Foto" asp-action="Local">
+                    <h1>@experiencia.Nome</h1>
+                    <div class="icon">
+                        <img src="@pais.Icon">
+                    </div>
+
+                    <a asp-action="ExperienciaLocal" asp-route-id="@experiencia.Id"
+                        style="background-color: @experiencia.Cor;">Explore!</a>
+                </div>
+            }
         }
     </div>
 </section>

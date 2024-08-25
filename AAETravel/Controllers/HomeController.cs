@@ -33,12 +33,17 @@ public class HomeController : Controller
         return View(home);
     }
 
-    public IActionResult Experiencia()
+    public IActionResult Experiencia(int id)
     {
-        ExperienciaVM experiencia = new()
+        ExperienciaPaisVM experiencia = new()
         {
             Experiencias = _context.Experiencias
             .AsNoTracking()
+            .ToList(),
+
+            Paises = _context.Paises
+            .AsNoTracking()
+            .Where(e => e.Id == id)
             .ToList(),
         };
         return View(experiencia);

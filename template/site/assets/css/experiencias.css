@@ -87,6 +87,18 @@ header {
     filter: drop-shadow(0 0 50px white);
 }
 
+.sobre-pais{
+    width: 100vw;
+    height: 100vh;
+    background: #740f75;
+    & .img-pais{
+        width: 50%;
+        height: 50%;
+        & img{
+            width: 100%;
+        }
+    }
+}
 
 /* Experiencias */
 

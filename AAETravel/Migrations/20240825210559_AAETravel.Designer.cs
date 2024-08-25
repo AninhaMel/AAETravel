@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240822210456_AAETravel")]
+    [Migration("20240825210559_AAETravel")]
     partial class AAETravel
     {
         /// <inheritdoc />
@@ -3158,9 +3158,18 @@ namespace AAETravel.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Cor")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Descricao")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Foto")
                         .HasMaxLength(300)
                         .HasColumnType("varchar(300)");
+
+                    b.Property<string>("Icon")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Nome")
                         .HasColumnType("longtext");
@@ -3173,37 +3182,55 @@ namespace AAETravel.Migrations
                         new
                         {
                             Id = 1,
+                            Cor = "#74ACDF",
+                            Descricao = "A Argentina é um país vibrante e diversificado, conhecido por sua rica cultura, paisagens deslumbrantes e história fascinante. De Buenos Aires, a capital cosmopolita com suas famosas avenidas e vida noturna animada, até a Patagônia, com suas montanhas majestosas e glaciares impressionantes, há muito a ser explorado. Mendoza encanta com suas vinícolas e paisagens andinas, enquanto as Cataratas do Iguaçu, na fronteira com o Brasil, são um espetáculo natural de tirar o fôlego. Cada região da Argentina oferece experiências únicas para todos os tipos de viajantes.",
                             Foto = "/img/pais/Argentina.png",
+                            Icon = "/img/pais/icons/Argentina.png",
                             Nome = "Argentina"
                         },
                         new
                         {
                             Id = 2,
+                            Cor = "#0033A0",
+                            Descricao = "Os Estados Unidos oferecem uma vasta diversidade de destinos para todos os tipos de viajantes. De vibrantes metrópoles como Nova York e Los Angeles, repletas de cultura, entretenimento e gastronomia, a maravilhas naturais como o Grand Canyon e os parques nacionais de Yellowstone e Yosemite, o país proporciona experiências únicas e inesquecíveis. Além disso, cidades históricas como Washington, D.C., e Boston trazem uma rica herança cultural e momentos marcantes da história americana. Seja qual for o seu estilo de viagem, os EUA têm algo especial a oferecer.",
                             Foto = "/img/pais/EUA.png",
+                            Icon = "/img/pais/icons/EUA.png",
                             Nome = "EUA"
                         },
                         new
                         {
                             Id = 3,
+                            Cor = "#0055A4",
+                            Descricao = "#A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.",
                             Foto = "/img/pais/França.png",
+                            Icon = "/img/pais/icons/Franca.png",
                             Nome = "França"
                         },
                         new
                         {
                             Id = 4,
+                            Cor = "#CF142B",
+                            Descricao = "A Inglaterra é um país repleto de história e tradições, com uma mistura encantadora de antigas paisagens rurais e cidades modernas. Londres, a capital, é um centro global de cultura, oferecendo atrações icônicas como o Big Ben, o Palácio de Buckingham e o Museu Britânico. Fora da capital, o interior inglês revela vilas encantadoras, como Cotswolds, e cidades históricas como Bath e Oxford. O litoral do país, com seus penhascos impressionantes e praias tranquilas, também oferece beleza natural. A Inglaterra é um destino onde a história se encontra com a modernidade, ideal para quem busca diversidade cultural e paisagens deslumbrantes.",
                             Foto = "/img/pais/Inglaterra.png",
+                            Icon = "/img/pais/icons/Inglaterra.png",
                             Nome = "Inglaterra"
                         },
                         new
                         {
                             Id = 5,
+                            Cor = "#008C8C",
+                            Descricao = "A Itália é um país vibrante e apaixonante, conhecido por sua rica história, arte incomparável e culinária renomada. Roma, a capital, encanta com monumentos antigos, como o Coliseu e o Vaticano. Veneza, com seus canais românticos, é única no mundo, assim como Florença, berço do Renascimento, que abriga tesouros artísticos como a famosa escultura de Davi, de Michelangelo. O sul do país oferece paisagens deslumbrantes na Costa Amalfitana e na Sicília, enquanto a região da Toscana é conhecida por suas colinas ondulantes, vinhedos e cidades medievais. Viajar pela Itália é uma imersão na beleza, na cultura e no estilo de vida (dolce vita)",
                             Foto = "/img/pais/Italia.png",
+                            Icon = "/img/pais/icons/Italia.png",
                             Nome = "Itália"
                         },
                         new
                         {
                             Id = 6,
+                            Cor = "#006600",
+                            Descricao = "Portugal é um país encantador, conhecido por suas cidades históricas, litoral deslumbrante e cultura vibrante. Lisboa, a capital, é uma mistura de tradição e modernidade, com suas ruas de paralelepípedos, miradouros e o famoso bairro de Belém. Porto, no norte, encanta com suas ruelas pitorescas e o famoso vinho do Porto. As regiões do Algarve e da Madeira oferecem praias paradisíacas e paisagens naturais impressionantes. Além disso, Portugal tem uma rica herança cultural, com influências mouriscas, romanas e medievais, que se refletem em sua arquitetura, gastronomia e festividades. É um destino acolhedor, ideal para quem busca beleza, história e tranquilidade.",
                             Foto = "/img/pais/Portugal.png",
+                            Icon = "/img/pais/icons/Potugal.png",
                             Nome = "Portugal"
                         });
                 });

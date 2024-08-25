@@ -11,7 +11,7 @@
     <div class="container">
         @foreach (var pais in Model.Paises)
         {
-            <a asp-action="Experiencia">
+            <a asp-action="Experiencia" asp-route-id="@pais.Id">
                 <div class="conainer-paises">
                     <img src="@pais.Foto" alt="@pais.Nome">
                     <h1>@pais.Nome</h1>

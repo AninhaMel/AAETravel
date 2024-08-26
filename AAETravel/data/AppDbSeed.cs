@@ -183,7 +183,7 @@ public class AppDbSeed
                 Foto = "/img/pais/Portugal.png",
                 Descricao = "Portugal é um país encantador, conhecido por suas cidades históricas, litoral deslumbrante e cultura vibrante. Lisboa, a capital, é uma mistura de tradição e modernidade, com suas ruas de paralelepípedos, miradouros e o famoso bairro de Belém. Porto, no norte, encanta com suas ruelas pitorescas e o famoso vinho do Porto. As regiões do Algarve e da Madeira oferecem praias paradisíacas e paisagens naturais impressionantes. Além disso, Portugal tem uma rica herança cultural, com influências mouriscas, romanas e medievais, que se refletem em sua arquitetura, gastronomia e festividades. É um destino acolhedor, ideal para quem busca beleza, história e tranquilidade.",
                 Cor = "#006600",
-                Icon = "/img/pais/icons/Potugal.png"
+                Icon = "/img/pais/icons/Portugal.png"
 
             }
         };

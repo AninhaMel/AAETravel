@@ -8,12 +8,15 @@
 
 @foreach (var pais in Model.Paises)
 {
+    <div class="fundo-pais">
+        <img src="@pais.Foto" />
+    </div>
     <div class="sobre-pais">
-        <div class="foto" style="border-bottom: 1px solid @pais.Cor; border-right: 1px solid @pais.Cor;">
+        <div class="foto">
             <img src="@pais.Foto" style="filter: drop-shadow(0 0 20px @pais.Cor);">
         </div>
 
-        <div class="texto" style="border-top: 1px solid @pais.Cor; drop-shadow(0 0 20px @pais.Cor);">
+        <div class="texto" style="filter: drop-shadow(0 0 100px @pais.Cor); border: 1px solid @pais.Cor">
             <h1 style="text-decoration: underline @pais.Cor;">@pais.Nome</h1>
             <h3>@pais.Descricao</h3>
         </div>

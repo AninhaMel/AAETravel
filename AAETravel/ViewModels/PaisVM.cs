@@ -2,8 +2,8 @@ using AAETravel.Models;
 
 namespace AAETravel.ViewModels;
 
-public class ExperienciaLocalVM
+public class PaisVM
 {
+    public Pais Pais { get; set; }
     public List<Experiencia> Experiencias { get; set; }
-    public List<Local> Locais { get; set; }
 }

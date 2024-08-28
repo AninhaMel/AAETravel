@@ -33,35 +33,46 @@ public class HomeController : Controller
         return View(home);
     }
 
-    public IActionResult Experiencia(int id)
+    public IActionResult Pais(int id)
     {
-        ExperienciaPaisVM experiencia = new()
+        PaisVM pais = new()
         {
+            Pais = _context.Paises
+                .AsNoTracking()
+                .FirstOrDefault(e => e.Id == id),
             Experiencias = _context.Experiencias
-            .AsNoTracking()
-            .ToList(),
-
-            Paises = _context.Paises
-            .AsNoTracking()
-            .Where(e => e.Id == id)
-            .ToList(),
+                .AsNoTracking()
+                .ToList()
         };
-        return View(experiencia);
+        return View(pais);
     }
 
-    public IActionResult ExperienciaLocal()
+    public IActionResult Experiencia(int pais, int experiencia)
     {
-        ExperienciaLocalVM  experiencialocal = new()
-        {
-            Experiencias = _context.Experiencias
+        List<int> idLocal = _context.Locais
             .AsNoTracking()
-            .ToList(),
+            .Where(l => l.PaisId == pais)
+            .Select(l => l.Id)
+            .ToList();
+        
+        List<int> idExperienciaLocal = _context.ExperienciasLocais
+            .AsNoTracking()
+            .Where(el => el.ExperienciaId == experiencia && idLocal.Contains(el.LocalId))
+            .Select(el => el.LocalId)
+            .ToList();
 
+        ExperienciaVM experienciaPais = new()
+        {
+            PaisId = pais,
+            Experiencia = _context.Experiencias
+                .AsNoTracking()
+                .FirstOrDefault(e => e.Id == experiencia),
             Locais = _context.Locais
-            .AsNoTracking()
-            .ToList(),          
+                .AsNoTracking()
+                .Where(l => idExperienciaLocal.Contains(l.Id))
+                .ToList(),          
         };
-        return View(experiencialocal);
+        return View(experienciaPais);
     }
 
     public IActionResult Local()

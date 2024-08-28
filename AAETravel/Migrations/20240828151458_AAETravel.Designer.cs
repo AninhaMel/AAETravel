@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240826221849_AAETravel")]
+    [Migration("20240828151458_AAETravel")]
     partial class AAETravel
     {
         /// <inheritdoc />
@@ -270,6 +270,1088 @@ namespace AAETravel.Migrations
                     b.HasIndex("LocalId");
 
                     b.ToTable("ExperienciasLocais");
+
+                    b.HasData(
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 1
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 2
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 3
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 4
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 5
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 6
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 7
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 8
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 9
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 10
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 11
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 12
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 13
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 14
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 15
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 16
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 17
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 18
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 19
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 20
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 21
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 22
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 23
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 24
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 25
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 26
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 27
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 28
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 29
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 30
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 31
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 32
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 33
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 34
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 35
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 36
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 37
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 38
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 39
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 40
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 41
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 42
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 43
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 44
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 45
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 46
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 47
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 48
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 49
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 50
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 51
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 52
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 53
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 54
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 55
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 56
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 57
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 58
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 59
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 60
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 61
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 62
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 63
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 64
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 65
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 66
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 67
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 68
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 69
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 70
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 71
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 72
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 73
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 74
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 75
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 76
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 77
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 78
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 79
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 80
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 81
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 82
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 83
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 84
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 85
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 86
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 87
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 88
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 89
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 90
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 91
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 92
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 93
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 94
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 95
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 96
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 97
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 98
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 99
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 100
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 101
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 102
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 103
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 104
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 105
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 106
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 107
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 108
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 109
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 110
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 111
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 112
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 113
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 114
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 115
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 116
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 117
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 118
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 119
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 120
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 121
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 122
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 123
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 124
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 125
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 126
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 127
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 128
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 129
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 130
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 131
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 132
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 133
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 134
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 135
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 136
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 137
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 138
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 139
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 140
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 141
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 142
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 143
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 144
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 145
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 146
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 147
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 148
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 149
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 150
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 151
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 152
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 153
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 154
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 155
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 156
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 157
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 158
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 159
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 160
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 161
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 162
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 163
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 164
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 165
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 166
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 167
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 168
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 169
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 170
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 171
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 172
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 173
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 174
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 175
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 176
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 177
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 178
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 179
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 180
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 181
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 182
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 183
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 184
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 185
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 186
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 187
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 188
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 189
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 190
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 191
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 192
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 193
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 194
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 195
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 196
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 197
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 198
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 199
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 200
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 201
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 202
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 203
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 204
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 205
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 206
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 207
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 208
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 209
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 210
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 211
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 212
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 213
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 214
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 215
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 216
+                        });
                 });
 
             modelBuilder.Entity("AAETravel.Models.Lista", b =>
@@ -287,7 +1369,7 @@ namespace AAETravel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -3238,7 +4320,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -3261,7 +4343,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -3300,7 +4382,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -3312,7 +4394,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -3389,7 +4471,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -3401,17 +4483,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -3423,10 +4505,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -3438,13 +4520,13 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

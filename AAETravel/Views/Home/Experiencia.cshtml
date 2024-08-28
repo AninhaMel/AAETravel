@@ -1,52 +1,145 @@
-@model AAETravel.ViewModels.ExperienciaPaisVM
+@model AAETravel.ViewModels.ExperienciaVM
 @{
-    ViewData["Title"] = "Experiencia";
+    ViewData["Title"] = "ExperienciaLocal";
 }
+<link rel="stylesheet" href="~/css/ExperienciaLocal.css">
 
-<partial name="_HeaderHome"></partial>
-<link rel="stylesheet" href="~/css/experiencias.css">
+<body>
 
-@foreach (var pais in Model.Paises)
-{
-    <div class="fundo-pais">
-        <img src="@pais.Foto" />
-    </div>
-    <div class="sobre-pais">
-        <div class="foto">
-            <img src="@pais.Foto" style="filter: drop-shadow(0 0 20px @pais.Cor);">
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <a asp-action="Index">
+                    <img src="~/img/outros/logo.png">
+                </a>
+            </div>
+            <h3>EXPLORE O MUNDO!</h3>
+            <div class="user">
+                <img src="~/img/outros/icon-user">
+            </div>
+        </nav>
+        <div class="caixa">
+            <h1>@Model.Experiencia.Nome</h1>
+            <a href="#locais" style="background-color: @Model.Experiencia.Cor;">
+                Confira as atrações
+            </a>
         </div>
-
-        <div class="texto" style="filter: drop-shadow(0 0 100px @pais.Cor); border: 1px solid @pais.Cor">
-            <h1 style="text-decoration: underline @pais.Cor;">@pais.Nome</h1>
-            <h3>@pais.Descricao</h3>
+        <img src="@Model.Experiencia.Onda" style="filter=drop-shadow(0 0 100px @Model.Experiencia.Cor);">
+        <div class="back">
+            <a asp-action="Pais" asp-route-id="@Model.PaisId" asp-controller="Home">
+                <i class="bi bi-arrow-left-short"></i>
+            </a>
         </div>
-    </div>
-}
+    </header>
 
-<hr>
-<section id="experiencias">
-    <h1>EXPERIÊNCIAS</h1>
-    <h3>Confira possíveis destinos</h3>
-    <div class="container">
-        @foreach (var experiencia in Model.Experiencias)
+
+    <section id="locais">
+        @foreach (var local in Model.Locais)
         {
-            @foreach (var pais in Model.Paises)
-            {
-                <div class="conainer-paises" style="&:box-shadow: 0 0 10px 4px @experiencia.Cor;">
-                    <img src="@experiencia.Foto" asp-action="Local">
-                    <h1>@experiencia.Nome</h1>
-                    <div class="icon">
-                        <img src="@pais.Icon">
-                    </div>
-
-                    <a asp-action="ExperienciaLocal" asp-route-id="@experiencia.Id"
-                        style="background-color: @experiencia.Cor;">Explore!</a>
-                </div>
-            }
+            <div class="lugares">
+                <img src="@local.Foto">
+                <h1>@local.Nome</h1>
+                <a asp-action="Local" asp-route-id="@local.Id" style="background-color: @Model.Experiencia.Cor;">Saiba
+                    Mais</a>
+            </div>
         }
+    </section>
+    <div class="banner">
+        <img src="assets/img/outros/banner.png">
     </div>
-</section>
 
-<div class="banner">
-    <img src="~/img/outros/banner.png">
-</div>
+    <footer>
+        <div class="inf-adicionais" style="background-color: @Model.Experiencia.Cor;">
+            <h3>INFORMAÇÕES ADICIONAIS:</h3>
+            <nav>
+                <a href="https://www.facebook.com/?locale=pt_BR">
+                    <div class="i1">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <div class="i2">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5514991078235&text=Vim%20pelo%20site%20AEE%20Travel,%20tenho%20uma%20duvida!">
+                    <div class="i3">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <div class="i4">
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </a>
+                <a href="https://twitter.com/?lang=pt-br">
+                    <div class="i5">
+                        <i class="bi bi-twitter-x"></i>
+                    </div>
+                </a>
+                <a href="https://www.google.com/intl/pt-BR/gmail/about/">
+                    <div class="i6">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <div class="box">
+            <div class="primeira-parte">
+                <h1 style="text-decoration: underline @Model.Experiencia.Cor;">AAE Travel</h1>
+                <p>'Viajar - é a coisa mais magnífica do mundo. Quanto mais você viaja, mais aprende'. Como Byl Bryson
+                    um famoso escrito norte americano dizia. O processo de aprendizado também está relacionado à memória
+                    que é o lema do nosso site AAE Travel Crie memórias, porque viajar é realmente criar memóorias.
+                    Muitas das melhores lembranças que temos é em viagens.</p>
+            </div>
+            <div class="contatos">
+                <h1 style="text-decoration: underline @Model.Experiencia.Cor;">Contato</h1>
+                <ul>
+                    <li>
+                        <i class="bi bi-house"></i>
+                        Barra Bonita, SP, Brasil.
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        AAEtravel1234@gmail.com
+                    </li>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        +55 234 567 88
+                    </li>
+                    <li>
+                        <a href="sobre-nos.html">
+                            <i class="bi bi-people"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="explore">
+                <h1 style="text-decoration: underline @Model.Experiencia.Cor;">Explore</h1>
+                <ul>
+                    <a href="index.html">
+                        <i class="bi bi-house"></i>
+                        Inicio
+                    </a>
+                    <a href="#paises">
+                        <i class="bi bi-globe2"></i>
+                        Países
+                    </a>
+                    <a href="#agencias">
+                        <i class="bi bi-geo-alt"></i>
+                        Agências
+                    </a>
+                    <a href="destinos-salvos.html">
+                        <i class="bi bi-heart"></i>
+                        Favoritados
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

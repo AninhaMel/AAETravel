@@ -17,13 +17,16 @@ body {
     scroll-behavior: smooth;
 }
 
-body {
-    background-image: url(../img/outros/fundos/fundo-natureza.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: drop-shadow(0 0 100px #0E6500);
+
+
+.Fundo{
+    & img{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;  
+        z-index: -1;    
+        filter: brightness(40%);
+    }
 }
 
 header {
@@ -140,7 +143,7 @@ section {
 
 .lugares {
     max-width: 25%;    
-    height: 48vh;
+    height: 100%;
     display: flex;
     border-radius: 30px;
     align-items: center;

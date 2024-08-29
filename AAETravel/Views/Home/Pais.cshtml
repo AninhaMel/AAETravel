@@ -28,15 +28,16 @@
     <div class="container">
         @foreach (var experiencia in Model.Experiencias)
         {
+            <a asp-action="Experiencia" asp-route-pais="@Model.Pais.Id" asp-route-experiencia="@experiencia.Id">
             <div class="conainer-paises" style="&:box-shadow: 0 0 10px 4px @experiencia.Cor;">
                 <img src="@experiencia.Foto" asp-action="Local">
                 <h1>@experiencia.Nome</h1>
                 <div class="icon">
                     <img src="@Model.Pais.Icon">
                 </div>
-                <a asp-action="Experiencia" asp-route-pais="@Model.Pais.Id" asp-route-experiencia="@experiencia.Id"
-                    style="background-color: @experiencia.Cor;">Explore!</a>
+                <div class="saiba-mais" style="background-color: @experiencia.Cor;">Explore!</div>
             </div>
+            </a>
         }
     </div>
 </section>

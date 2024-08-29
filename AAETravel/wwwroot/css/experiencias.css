@@ -115,7 +115,6 @@ section {
         color: white;
         font-size: 18pt;
         font-weight: 500;
-        margin-bottom: 50px;
     }
 }
 
@@ -240,17 +239,20 @@ hr {
         transition: 0.3s ease-in-out;
     }
 
-    & a {
+    & .saiba-mais{
+        width: 30%;
+        padding: 3% 0 3% 0;
+        text-align: center;
         background-color: #076437;
         position: relative;
-        bottom: 80%;
+        bottom: 90%;
         color: white;
         cursor: pointer;
         text-decoration: none;
-        padding: 5px 60px 5px 60px;
-        left: 115px;
+        margin: 0 auto;
         border-radius: 12px;
         font-weight: 700;
+        font-size: 14pt;
         transition: 0.3s;
         box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
         transition: 0.3s ease-in-out;
@@ -266,7 +268,7 @@ hr {
         box-shadow: 0 0 10px 5px #076437;
         transition: 0.3s ease-in-out;
 
-        & a {
+        & .saiba-mais {
             box-shadow: 0 0 10px 5px #074929;
             transition: 0.3s ease-in-out;
         }

@@ -72,18 +72,19 @@ public class HomeController : Controller
                 .Where(l => idExperienciaLocal.Contains(l.Id))
                 .ToList(),          
         };
+
         return View(experienciaPais);
+
+
     }
 
-    public IActionResult Local()
+    public IActionResult Local(int id)
     {
-        LocalVM local = new()
-        {
-            Locais = _context.Locais
+        var locais = _context.Locais
             .AsNoTracking()
-            .ToList(),
-        };
-        return View(local);
+            .FirstOrDefault(l => l.Id == id);
+
+        return View(locais);
     }
 
     public IActionResult Criador()

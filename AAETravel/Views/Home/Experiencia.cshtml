@@ -1,17 +1,22 @@
 @model AAETravel.ViewModels.ExperienciaVM
 @{
     ViewData["Title"] = "ExperienciaLocal";
+    Layout = null;
 }
 <link rel="stylesheet" href="~/css/ExperienciaLocal.css">
 
-<body>
+<body style="filter: drop-shadow(0 0 100px @Model.Experiencia.Cor);">
+
+    <div class="Fundo">
+        <img src="@Model.Experiencia.Fundo"/>
+    </div>
 
     <header id="header">
         <nav>
             <div class="logo">
                 <a asp-action="Index">
                     <img src="~/img/outros/logo.png">
-                </a>
+                </a> 
             </div>
             <h3>EXPLORE O MUNDO!</h3>
             <div class="user">
@@ -45,7 +50,7 @@
         }
     </section>
     <div class="banner">
-        <img src="assets/img/outros/banner.png">
+        <img src="~/img/outros/banner.png">
     </div>
 
     <footer>

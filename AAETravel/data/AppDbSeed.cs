@@ -300,7 +300,7 @@ public class AppDbSeed
 						Telefone = "+54 800-222-2299",
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
 						Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
-						Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires",
+						Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires.png",
 						PaisId=1,
 						Latitude = -34.58041196612808,
 						Longitude = -58.427866749837804
@@ -312,7 +312,7 @@ public class AppDbSeed
 						Telefone = "+54 800-222-2299",
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
 						Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
-						Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha)",
+						Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha).png",
 						PaisId=1,
 						Latitude = -32.955524323926134,
 						Longitude = -68.85890340338014
@@ -929,7 +929,7 @@ public class AppDbSeed
 						Telefone = "(520) 294-2624",
 						HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 16 =00",
 						Descricao = "San Xavier Del Bac, também conhecida como A Igreja Branca do Deserto, é uma igreja católica histórica localizada na reserva indígena Tohono O odham em Tucson, Arizona. A construção da igreja começou em 1783 e foi concluída em 1797. A igreja é conhecida por sua arquitetura barroca espanhola impressionante, sua fachada branca brilhante e seus detalhes decorativos elaborados. San Xavier Del Bac é um importante local de peregrinação e é considerada uma das igrejas mais bonitas e bem preservadas do sudoeste dos Estados Unidos.",
-						Foto = "/imgpaises/imgEUA/Fe/SanXavierDelBac(Tuuson).png",
+						Foto = "/imgpaises/imgEUA/Fe/San Xavier Del Bac (Tuuson).png",
 						PaisId = 2,
 						Latitude = -32.107457292025,
 						Longitude = -111.00871185927468
@@ -942,7 +942,7 @@ public class AppDbSeed
 						Telefone = "(212) 753-2261",
 						HorarioFuncionamento = "Abre todos os dias das 06 =30 até as 20 =45",
 						Descricao = "A Catedral de São Patrício é a maior catedral católica dos Estados Unidos e um dos marcos mais famosos de Nova York. Construída em estilo neogótico, a catedral é conhecida por suas impressionantes torres e vitrais. A catedral também é conhecida por abrigar o túmulo de muitos arcebispos de Nova York e por sediar eventos religiosos importantes. A catedral é um importante centro de peregrinação e turismo em Nova York, atraindo visitantes de todo o mundo.",
-						Foto = "/imgpaises/imgEUA/Fe/SãoPatricioNY).png",
+						Foto = "/imgpaises/imgEUA/Fe/São Patricio (NY).png",
 						PaisId = 2,
 						Latitude = -40.758775680936296,
 						Longitude = -73.9762399873193
@@ -955,7 +955,7 @@ public class AppDbSeed
 						Telefone = "(212) 602-0800",
 						HorarioFuncionamento = "Abre todos de segunda a sexta das 07 =00 até as 18 =00 e de final de semana das 08 =00 até as 16 =00",
 						Descricao = "A Trinity Church é uma igreja episcopal localizada no distrito financeiro de Manhattan, em Nova York. Fundada em 1697, a igreja é conhecida por sua arquitetura neogótica impressionante e por sua rica história. A Trinity Church desempenhou um papel importante na história de Nova York e é um marco histórico importante na cidade. Além de ser um local de culto, a igreja também é conhecida por suas atividades comunitárias e de caridade. A igreja também abriga um cemitério histórico onde estão enterradas várias figuras proeminentes da história americana.",
-						Foto = "/imgpaises/imgEUA/Fe/TrinityChurch(NY).png",
+						Foto = "/imgpaises/imgEUA/Fe/Trinity Church (NY).png",
 						PaisId = 2,
 						Latitude = -40.76289629852705,
 						Longitude = -73.96416251400898
@@ -983,7 +983,7 @@ public class AppDbSeed
 						Telefone = "+1 305-673-036",
 						HorarioFuncionamento = "Abre segunda até quinta feira das 11 =00 até as 22 =00, de sexta e sábado abre das 11 =30 as 23 =00 e de Domingo das 11 =30 até as 21 =00",
 						Descricao = "Joe's Stone Crab é um restaurante icônico localizado em Miami Beach, Flórida. Especializado em frutos do mar, com ênfase especial no caranguejo de pedra, o Joe's é conhecido por sua atmosfera animada e sua comida deliciosa. O restaurante é frequentemente visitado por moradores locais e turistas que buscam uma experiência gastronômica única.",
-						Foto = "cbvbcvb",
+						Foto = "/imgpaises/imgEUA/Restaurantes/Joe's Stone Crab (Miami Beach).png",
 						PaisId = 2,
 						Latitude = -25.769332721797984,
 						Longitude =  -80.13509683061656
@@ -1559,7 +1559,7 @@ public class AppDbSeed
 						Telefone = "+33 233601414" ,
 						HorarioFuncionamento= "Aberto de Abril a setembro das 9h às 19h (última entrada às 18h), Outubro a março das 9h30 às 18h (última entrada às 17h) e Fechado das 1º de janeiro, 1º de maio e 25 de dezembro ",
 						Descricao = "A Abadia do Monte Saint-Michel é uma abadia beneditina medieval localizada na ilha rochosa de Mont Saint-Michel, na Normandia, França. A abadia foi fundada no século VIII e é um importante local de peregrinação. A abadia é um Patrimônio Mundial da UNESCO e um dos monumentos mais visitados da França.   ",
-						Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel(Mont Saint-Michel).png",
+						Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel (Mont Saint-Michel).png",
 						PaisId = 3,
 						 Latitude = -48.63613412235854,
 						Longitude = -1.5117297740794853

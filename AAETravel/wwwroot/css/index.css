@@ -182,7 +182,7 @@ section {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 85%;
+    min-width: 82%;
     height: 100%;
     gap: 30px;
     justify-content: space-evenly;

@@ -301,152 +301,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 7
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 8
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 9
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 10
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 11
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 12
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 13
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 14
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 15
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 16
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 17
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 18
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 19
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 20
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 21
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 22
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 23
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 24
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 25
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 26
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 27
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 28
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 29
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 30
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 31
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 32
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 33
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 34
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 35
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 36
                         },
                         new
@@ -481,152 +481,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 43
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 44
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 45
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 46
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 47
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 48
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 49
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 50
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 51
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 52
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 53
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 54
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 55
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 56
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 57
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 58
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 59
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 60
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 61
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 62
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 63
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 64
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 65
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 66
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 67
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 68
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 69
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 70
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 71
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 72
                         },
                         new
@@ -661,152 +661,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 79
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 80
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 81
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 82
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 83
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 84
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 85
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 86
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 87
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 88
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 89
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 90
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 91
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 92
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 93
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 94
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 95
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 96
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 97
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 98
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 99
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 100
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 101
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 102
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 103
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 104
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 105
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 106
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 107
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 108
                         },
                         new
@@ -841,152 +841,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 115
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 116
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 117
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 118
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 119
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 120
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 121
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 122
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 123
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 124
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 125
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 126
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 127
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 128
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 129
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 130
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 131
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 132
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 133
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 134
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 135
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 136
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 137
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 138
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 139
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 140
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 141
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 142
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 143
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 144
                         },
                         new
@@ -1021,152 +1021,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 151
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 152
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 153
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 154
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 155
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 156
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 157
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 158
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 159
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 160
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 161
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 162
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 163
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 164
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 165
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 166
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 167
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 168
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 169
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 170
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 171
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 172
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 173
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 174
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 175
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 176
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 177
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 178
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 179
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 180
                         },
                         new
@@ -1201,152 +1201,152 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 187
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 188
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 189
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 190
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 191
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 2,
                             LocalId = 192
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 193
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 194
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 195
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 196
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 197
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 3,
                             LocalId = 198
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 199
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 200
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 201
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 202
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 203
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 4,
                             LocalId = 204
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 205
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 206
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 207
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 208
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 209
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 5,
                             LocalId = 210
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 211
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 212
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 213
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 214
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 215
                         },
                         new
                         {
-                            ExperienciaId = 1,
+                            ExperienciaId = 6,
                             LocalId = 216
                         });
                 });
@@ -1366,7 +1366,7 @@ namespace AAETravel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -4317,7 +4317,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -4340,7 +4340,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -4379,7 +4379,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -4391,7 +4391,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -4468,7 +4468,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -4480,17 +4480,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -4502,10 +4502,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -4517,13 +4517,13 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

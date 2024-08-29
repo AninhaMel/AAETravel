@@ -73,8 +73,8 @@ header {
         & h1 {
             color: white;
             font-size: 30pt;
-            margin-bottom: 50px;
-            margin-left: 10px;
+            margin-bottom: 1%;
+            margin-left: 3%;
         }
 
         & a {
@@ -139,8 +139,8 @@ section {
 }
 
 .lugares {
-    width: 350px;
-    height: 350px;
+    max-width: 25%;    
+    height: 48vh;
     display: flex;
     border-radius: 30px;
     align-items: center;
@@ -151,6 +151,10 @@ section {
     transition: 0.3s;
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
 
+    & h1{
+        text-align: center;
+        padding: 3%;
+    }
 
     &:hover {
         transition: 0.3s;

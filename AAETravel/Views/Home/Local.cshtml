@@ -1,60 +1,62 @@
-@model AAETravel.Models.Local
+@model AAETravel.ViewModels.LocalVM
 @{
     ViewData["Title"] = "Local";
 }
 
 <link rel="stylesheet" href="~/css/informacao.css">
 
-
-<header id="header">
-    <a class="voltar" asp-action="Experiencia" asp-controller="Home">
-        <i class="bi bi-box-arrow-left"></i>
-        Voltar
-    </a>
-    <div class="logo">
-        <img src="/img/outros/logo.png">
-    </div>
-    <div class="user">
-        <img src="~/img/outros/icon-user.png">
-    </div>
-</header>
-
-<section>
-    <div class="nome">
-        @Model.Nome
-    </div>
-    <div class="local">
-        <div class="img-local">
-            <img src="@Model.Foto">
+<body style="--Cor: @Model.Experiencias.Cor">
+    <header id="header">
+        <a class="voltar" asp-action="Experiencia" asp-route-pais="@Model.PaisId" asp-route-experiencia="@Model.ExperienciaId">
+            <i class="bi bi-box-arrow-left"></i>>
+            <i class="bi bi-box-arrow-left"></i>
+            Voltar
+        </a>
+        <div class="logo">
+            <img src="/img/outros/logo.png">
         </div>
-        <div class="descricao">
-            <h3>Mais informações do local:</h3>
-            <p>
-                <i class="bi bi-geo-alt-fill"></i>
-                @Model.Localizacao
-            </p>
-            <p>
-                <i class="bi bi-telephone-fill"></i>
-                @Model.Telefone
-            </p>
-            <p>
-                <i class="bi bi-stopwatch"></i>
-                @Model.HorarioFuncionamento
-            </p>
+        <div class="user">
+            <img src="~/img/outros/icon-user.png">
         </div>
-    </div>
-</section>
+    </header>
 
-<section>
-    <div class="sobre">
-        @Model.Descricao
-    </div>
-    <div class="mapa">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8769.460377967178!2d-48.5598802939807!3d-22.462729643480706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1713707585364!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</section>
+    <section>
+        <div class="nome">
+            @Model.Locais.Nome
+        </div>
+        <div class="local">
+            <div class="img-local">
+                <img src="@Model.Locais.Foto">
+            </div>
+            <div class="descricao">
+                <h3>Mais informações do local:</h3>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    @Model.Locais.Localizacao
+                </p>
+                <p>
+                    <i class="bi bi-telephone-fill"></i>
+                    @Model.Locais.Telefone
+                </p>
+                <p>
+                    <i class="bi bi-stopwatch"></i>
+                    @Model.Locais.HorarioFuncionamento
+                </p>
+            </div>
+        </div>
+    </section>
 
-<hr />
+    <section>
+        <div class="sobre">
+            @Model.Locais.Descricao
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8769.460377967178!2d-48.5598802939807!3d-22.462729643480706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1713707585364!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <hr />
+</body>

@@ -5,27 +5,22 @@
 }
 <link rel="stylesheet" href="~/css/ExperienciaLocal.css">
 
-<body style="filter: drop-shadow(0 0 100px @Model.Experiencia.Cor);">
-
-    <div class="Fundo">
-        <img src="@Model.Experiencia.Fundo"/>
-    </div>
-
+<body style="--Foto-Fundo: url('@Model.Experiencia?.Foto'); --Cor: @Model.Experiencia.Cor ">
     <header id="header">
         <nav>
             <div class="logo">
                 <a asp-action="Index">
                     <img src="~/img/outros/logo.png">
-                </a> 
+                </a>
             </div>
             <h3>EXPLORE O MUNDO!</h3>
             <div class="user">
-                <img src="~/img/outros/icon-user">
+                <img src="~/img/outros/icon-user.png">
             </div>
         </nav>
         <div class="caixa">
             <h1>@Model.Experiencia.Nome</h1>
-            <a href="#locais" style="background-color: @Model.Experiencia.Cor;">
+            <a href="#locais" style="--Cor: @Model.Experiencia.Cor">
                 Confira as atrações
             </a>
         </div>
@@ -41,11 +36,13 @@
     <section id="locais">
         @foreach (var local in Model.Locais)
         {
-            <div class="lugares">
-                <img src="@local.Foto">
-                <h1>@local.Nome</h1>
-                <a asp-action="Local" asp-route-id="@local.Id">Saiba
-                    Mais</a>
+            <div class="lugares" style="--Cor: @Model.Experiencia.Cor">
+                <a class="link" asp-action="Local" asp-route-id="@local.Id" asp-route-experiencia="@Model.Experiencia.Id">
+                    <img src="@local.Foto">
+                    <h1>@local.Nome</h1>
+                    <div>Saiba
+                        Mais</div>
+                </a>
             </div>
         }
     </section>
@@ -98,7 +95,7 @@
                     que é o lema do nosso site AAE Travel Crie memórias, porque viajar é realmente criar memóorias.
                     Muitas das melhores lembranças que temos é em viagens.</p>
             </div>
-            <div class="contatos">
+            <div class="contatos" style="--Cor: @Model.Experiencia.Cor">
                 <h1 style="text-decoration: underline @Model.Experiencia.Cor;">Contato</h1>
                 <ul>
                     <li>

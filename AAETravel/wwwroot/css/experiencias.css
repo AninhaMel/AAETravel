@@ -243,7 +243,7 @@ hr {
         width: 30%;
         padding: 3% 0 3% 0;
         text-align: center;
-        background-color: #076437;
+        background-color: var(--cor-hover);
         position: relative;
         bottom: 90%;
         color: white;
@@ -258,18 +258,18 @@ hr {
         transition: 0.3s ease-in-out;
 
         &:hover {
-            color: #076437;
-            background: black;
+            background-color: black;
+            color: var(--cor-hover);
             transition: 0.3s ease-in-out;
         }
     }
 
     &:hover {
-        box-shadow: 0 0 10px 5px #076437;
+        box-shadow: 0 0 10px 5px var(--cor-hover);
         transition: 0.3s ease-in-out;
 
         & .saiba-mais {
-            box-shadow: 0 0 10px 5px #074929;
+            box-shadow: 0 0 10px 5px var(--cor-hover);
             transition: 0.3s ease-in-out;
         }
     }

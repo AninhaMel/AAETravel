@@ -76,14 +76,25 @@ public class HomeController : Controller
         return View(experienciaPais);
     }
 
-    public IActionResult Local(int id)
-    {
-        var locais = _context.Locais
-            .AsNoTracking()
-            .FirstOrDefault(l => l.Id == id);
+    public IActionResult Local(int id, int experiencia)
+{
+    var local = _context.Locais
+        .AsNoTracking()
+        .FirstOrDefault(l => l.Id == id);
 
-        return View(locais);
-    }
+    var experienciaModel = _context.Experiencias
+        .AsNoTracking()
+        .FirstOrDefault(e => e.Id == experiencia);
+
+    var model = new LocalVM
+    {
+        Locais = local,
+        Experiencias = experienciaModel
+    };
+
+    return View(model);
+}
+
 
     public IActionResult Criador()
     {

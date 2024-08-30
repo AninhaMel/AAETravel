@@ -17,14 +17,20 @@ body {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--Foto-Fundo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: drop-shadow(0 0 100px var(--Cor));
+}
 
-
-.Fundo{
-    & img{
+.Fundo {
+    & img {
         position: fixed;
         width: 100vw;
-        height: 100vh;  
-        z-index: -1;    
+        height: 100vh;
+        z-index: -1;
         filter: brightness(40%);
     }
 }
@@ -82,7 +88,7 @@ header {
 
         & a {
             padding: 10px 80px;
-            background-color: #0E6500;
+            background-color: var(--Cor);
             color: white;
             border-radius: 30px;
             font-size: 16pt;
@@ -91,7 +97,7 @@ header {
             transition: 0.3s;
 
             &:hover {
-                color: #0E6500;
+                color: var(--Cor);
                 background-color: black;
                 box-shadow: 0 0 10px 5px;
                 transition: 0.3s;
@@ -141,8 +147,13 @@ section {
     gap: 15px;
 }
 
+.link {
+    text-decoration: none;
+    border-radius: 30px;
+}
+
 .lugares {
-    max-width: 25%;    
+    max-width: 25%;
     height: 100%;
     display: flex;
     border-radius: 30px;
@@ -154,7 +165,7 @@ section {
     transition: 0.3s;
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
 
-    & h1{
+    & h1 {
         color: #303030;
         text-align: center;
         padding: 3%;
@@ -163,16 +174,16 @@ section {
 
     &:hover {
         transition: 0.3s;
-        box-shadow: 0 0 20px 5px #0E6500;
+        box-shadow: 0 0 20px 5px var(--Cor);
 
         & img {
             transition: 0.3s;
-            box-shadow: 0 4px 10px 4px #0E6500;
+            box-shadow: 0 4px 10px 4px var(--Cor);
             transform: rotateZ(1deg) scale(1.05);
         }
 
         & a {
-            box-shadow: 0 0px 5px 4px #0a3803;
+            box-shadow: 0 0px 5px 4px var(--Cor);
             transition: 0.3s;
         }
     }
@@ -186,19 +197,21 @@ section {
 
     }
 
-    & a {
+    & div {
+        margin: 15px auto;
+        width: 80%;
         color: white;
-        background-color: #0E6500;
-        padding: 5px 80px;
+        background-color: var(--Cor);
+        padding: 5px 60px;
         border-radius: 30px;
         font-size: 14pt;
         font-weight: 700;
-        margin-bottom: 25px;
         transition: 0.3s;
+        text-align: center;
 
         &:hover {
             background-color: black;
-            color: #0E6500;
+            color: var(--Cor);
         }
     }
 }
@@ -310,7 +323,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #0E6500;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -325,7 +338,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #0E6500;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -339,11 +352,11 @@ footer {
                 color: white;
 
                 &:hover {
-                    text-decoration: underline #0E6500;
+                    text-decoration: underline var(--Cor);
                     transition: 0.1s;
 
                     & i {
-                        color: #0E6500;
+                        color: var(--Cor);
                     }
                 }
 
@@ -363,7 +376,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #0E6500;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -377,12 +390,12 @@ footer {
                 transition: 0.1s;
 
                 &:hover {
-                    text-decoration: underline #0E6500;
+                    text-decoration: underline var(--Cor);
                     transition: 0.1s;
                 }
 
                 &:hover i {
-                    color: #0E6500;
+                    color: var(--Cor);
                     transition: 0.1s;
                 }
 

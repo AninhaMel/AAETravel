@@ -34,8 +34,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
-    border-bottom: 5px solid #7748CF;
-    box-shadow: 0 0 50px 2px #7748CF;
+    border-bottom: 5px solid var(--Cor);
+    box-shadow: 0 0 50px 2px var(--Cor);
 
     & .logo {
         height: 100%;
@@ -46,7 +46,7 @@ header {
         & img {
             width: 100%;
             height: 100%;
-            filter: drop-shadow(0 0 10px #7748CF);
+            filter: drop-shadow(0 0 10px var(--Cor));
             transition: 0.3s;
 
 
@@ -115,7 +115,7 @@ section {
         font-size: 50pt;
         margin: 20px;
         font-weight: 600;
-        text-shadow: 0px 2px 4px #7748CF;
+        text-shadow: 0px 2px 4px var(--Cor);
         color: white;
     }
 
@@ -125,7 +125,7 @@ section {
         display: flex;
         border-radius: 30px;
         padding: 2% 2%;
-        text-shadow: 0px 2px 4px #7748CF;
+        text-shadow: 0px 2px 4px var(--Cor);
         color: white;
         gap: 3%;
 
@@ -134,19 +134,22 @@ section {
             & img {
                 width: 100%;
                 border-radius: 30px;
-                text-shadow: 0px 0px 4px #7748CF;
+                text-shadow: 0px 0px 4px var(--Cor);
                 padding: 5px;
-                box-shadow: 0 0 20px 1px #7748CF;
+                box-shadow: 0 0 20px 1px var(--Cor);
             }
         }
     }
 
     & .descricao {
+        height: 500px;
         width: 40%;
         display: flex;
         flex-direction: column;
         align-items: start;
         row-gap: 5%;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
 
 
         & h3 {
@@ -176,8 +179,8 @@ section .sobre {
     font-weight: 500;
     border-radius: 30px;
     padding: 2%;
-    border-top: 2px solid #7748CF;
-    border-bottom: 2px solid #7748CF;
+    border-top: 2px solid var(--Cor);
+    border-bottom: 2px solid var(--Cor);
     border-style: dashed;
     color: white;
     background-color: rgba(49, 49, 49, 0.418);
@@ -192,7 +195,7 @@ section .sobre {
 
     & iframe {
         border-radius: 50px;
-        box-shadow: 0px 0px 50px #7748CF;
+        box-shadow: 0px 0px 50px var(--Cor);
         width: 100%;
     }
 }
@@ -200,7 +203,7 @@ section .sobre {
 hr{
     background-color: white;
     height: 1px;
-    filter: drop-shadow(0 0 100px #7748CF);
+    filter: drop-shadow(0 0 100px var(--Cor));
     width: 80%;
     margin: 0 auto;
     margin-bottom: 3%;
@@ -211,7 +214,7 @@ hr{
 footer {
     width: 100vw;
     height: 40vh;
-    background-color: #7748CF;
+    background-color: var(--Cor);
     font-size: 12pt;
 
     & .inf-adicionais {
@@ -311,7 +314,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #7748CF;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -326,7 +329,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #7748CF;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -341,11 +344,11 @@ footer {
                 color: white;
 
                 &:hover {
-                    text-decoration: underline #7748CF;
+                    text-decoration: underline var(--Cor);
                     transition: 0.1s;
 
                     & i {
-                        color: #7748CF;
+                        color: var(--Cor);
                     }
                 }
 
@@ -365,7 +368,7 @@ footer {
 
         & h1 {
             text-align: start;
-            text-decoration: underline #7748CF;
+            text-decoration: underline var(--Cor);
             margin: 20px 0
         }
 
@@ -380,11 +383,11 @@ footer {
                 text-decoration: none;
 
                 &:hover {
-                    text-decoration: underline #7748CF;
+                    text-decoration: underline var(--Cor);
                 }
 
                 &:hover i {
-                    color: #7748CF;
+                    color: var(--Cor);
                 }
 
                 & i {

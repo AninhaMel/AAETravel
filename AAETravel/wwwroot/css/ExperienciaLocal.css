@@ -155,8 +155,10 @@ section {
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.521);
 
     & h1{
+        color: #303030;
         text-align: center;
         padding: 3%;
+        font-weight: 500;
     }
 
     &:hover {

@@ -14,7 +14,7 @@ public class AppDbSeed
 					Id = 1,
 					Nome = "Natureza",
 					Foto = "/img/experiencias/natureza.png",
-					Cor = "#00BF63",
+					Cor = "#0E6500",
 					Fundo = "/img/experiencias/natureza.png",
 					Onda = "/img/outros/paralax/preto-verde.png"
 
@@ -60,7 +60,7 @@ public class AppDbSeed
 					Id = 6,
 					Nome = "Cultura",
 					Foto = "/img/experiencias/cultura.png",
-					Cor= "#DFD1C6",
+					Cor= "#be2414",
 					Fundo = "/img/experiencias/cultura.png",
 					Onda = "/img/outros/paralax/preto-beje.png"
 
@@ -2070,7 +2070,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "O Parque Nacional Gran Paradiso é o parque nacional mais antigo da Itália, fundado em 1922. Localiza-se no Vale de Aosta e no Piemonte, em torno do maciço do Gran Paradiso. O parque abriga uma grande variedade de flora e fauna, incluindo o íbex, o camurça, a marmota e a águia real.",
 						Foto = "/imgpaises/img Itália/Natureza/Parco Nazionale Gran Paradiso - Alpes.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.52217791083705,
 						Longitude = -7.32453744110275
 						},
@@ -2083,7 +2083,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "Os Jardins Villa Borghese são um dos maiores parques públicos de Roma, com uma área de 800.000 metros quadrados. O parque foi criado no século XVII pelo cardeal Scipione Borghese e posteriormente doado à cidade de Roma em 1903.",
 						Foto = "/imgpaises/img Itália/Natureza/Villa Borghese Gardens - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						 Latitude = -41.91406179977368,
 						Longitude = -12.485338881394522
 						},
@@ -2096,7 +2096,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De segunda a sexta-feira, das 9h às 13h e das 14h às 17h",
 						Descricao = "O Parque Nacional Cinque Terre é um parque nacional italiano que se estende ao longo da costa da Ligúria, entre as cidades de La Spezia e Levanto. O parque é composto por cinco vilas: Riomaggiore, Manarola, Corniglia, Vernazza e Monterosso al Mare. As Cinque Terre são famosas por suas casas coloridas, que se agarram às encostas íngremes dos penhascos.",
 						Foto = "/imgpaises/img Itália/Natureza/Parco Nazionale delle Cinque Terre - Ligúria.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -44.12822448590502,
 						Longitude = -9.71244434103227
 						},
@@ -2109,7 +2109,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias das 9h até as 18h",
 						Descricao = "O Zoológico Safari Fasano é um zoológico e parque de diversões localizado em Fasano, na região de Puglia, na Itália. O zoológico abriga mais de 2.000 animais de 200 espécies diferentes, incluindo leões, tigres, elefantes, girafas e zebras. O parque de diversões tem várias atrações, como montanhas-russas, carrosséis e um parque aquático.",
 						Foto = "/imgpaises/img Itália/Natureza/Zoo Safari Fasano - Puglia.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -40.83260550757396,
 						Longitude = -17.340702823670295
 						},
@@ -2122,7 +2122,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Segunda a sexta, das 9h às 13h e das 14h às 17h",
 						Descricao = "O Parco Nazionale d'Abruzzo, Lazio e Molise é um parque nacional italiano que se estende pelas regiões de Abruzzo, Lazio e Molise. O parque foi criado em 1922 e é um dos mais antigos parques nacionais da Itália. O parque abriga uma grande variedade de flora e fauna, incluindo lobos, ursos marrons, linces e águias reais.",
 						Foto = "/imgpaises/img Itália/Natureza/Parco Nazionale d'Abruzzo, Lazio e Molise.png",
-						PaisId = 4,
+						PaisId = 5,
 						 Latitude = -41.80901479266633,
 						Longitude = -13.790006594879545
 						},
@@ -2135,7 +2135,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "O Parco del Valentino é um parque público de 42 hectares situado na margem esquerda do Rio Pó, em Turim, Itália. O parque foi criado em 1856 e é um dos maiores parques urbanos da Europa.",
 						Foto = "/imgpaises/img Itália/Natureza/Parco del Valentino - Turim.png",
-						PaisId = 4,
+						PaisId = 5,
 						 Latitude = -45.05496813761726,
 						Longitude = -7.686607350856017
 						},
@@ -2150,7 +2150,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "A Galleria Vittorio Emanuele II é um centro comercial de luxo em Milão, Itália. Foi projetada por Giuseppe Mengoni e inaugurada em 1867. A galeria é considerada um dos marcos mais importantes de Milão e um dos mais belos centros comerciais do mundo.",
 						Foto = "/imgpaises/img Itália/Compras/Galleria Vittorio Emanuele II - Milão.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.465832982070765,
 						Longitude = -9.190062154589953
 						},
@@ -2163,7 +2163,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "A Via del Corso é uma das principais ruas comerciais de Roma, Itália. Ela se estende desde a Piazza del Popolo até a Piazza Venezia e é ladeada por lojas de todos os tipos, desde lojas de grife internacionais até lojas de souvenirs. A rua também é conhecida por seus cafés e restaurantes.",
 						Foto = "/imgpaises/img Itália/Compras/Via del Corso - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -42.04033379276038,
 						Longitude = -12.43736668445231
 						},
@@ -2176,7 +2176,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a domingo das 10h às 20h Fechado na Páscoa e Aberto de Segunda de Páscoa das10h às 20h",
 						Descricao = "O Designer Outlet Valdichiana Village é um outlet de grife localizado em Foiano della Chiana, na Toscana, Itália. O outlet abriga mais de 140 lojas de marcas famosas, como Gucci, Prada e Versace, com descontos de até 70%. O outlet também oferece uma variedade de restaurantes e cafés, um playground e um serviço de Wi-Fi gratuito.",
 						Foto = "/imgpaises/img Itália/Compras/Designer Outlet Valdichiana Village - Arezzo.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.22547214344767,
 						Longitude = -11.801671323784579
 						},
@@ -2190,7 +2190,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h30 às 20h, Domingo das 10h às 20h e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "La Rinascente é uma loja de departamentos de luxo localizada na Piazza della Repubblica, em Florença, Itália. A loja foi fundada em 1865 e é uma das lojas de departamentos mais antigas da Itália. La Rinascente oferece uma ampla variedade de produtos, incluindo roupas, acessórios, cosméticos, artigos para casa e eletrônicos. A loja também possui um restaurante e um café.",
 						Foto = "/imgpaises/img Itália/Compras/La Rinascente - Florença.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.771456681396316,
 						Longitude = -11.254698198687759
 						},
@@ -2203,7 +2203,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 10h às 19h, Domingo das 10h às 19h e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "O The Mall é um outlet de luxo localizado em Leccio, na Toscana, Itália. O outlet abriga mais de 80 lojas de marcas famosas, como Gucci, Prada e Versace, com descontos de até 70%. O outlet também oferece uma variedade de restaurantes e cafés, um playground e um serviço de Wi-Fi gratuito.",
 						Foto = "/imgpaises/img Itália/Compras/The Mall- Leccio.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.70230283939619,
 						Longitude = -11.464037914196865
 						},
@@ -2216,7 +2216,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h às 21h, Domingo das 9h às 20h e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "O Centro Commerciale Porta di Roma é um shopping center localizado em Roma, Itália. É o maior shopping center da Europa, com mais de 220 lojas, incluindo lojas de grife, lojas de departamento, restaurantes e cafés. O shopping center também possui um cinema, um parque de diversões e um parque aquático.",
 						Foto = "/imgpaises/img Itália/Compras/Centro Commerciale Porta di Roma - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.9718437866932,
 						Longitude = -12.540170294887336
 						},
@@ -2231,7 +2231,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h às 21h, Domingo das 9h às 20h e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "O Centro Commerciale Porta di Roma é um shopping center localizado em Roma, Itália. É o maior shopping center da Europa, com mais de 220 lojas, incluindo lojas de grife, lojas de departamento, restaurantes e cafés. O shopping center também possui um cinema, um parque de diversões e um parque aquático.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Armani Privé - Milão.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.4660708124777,
 						Longitude = -9.189994978333953
 						},
@@ -2244,7 +2244,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Todos os dias 24h",
 						Descricao = "O Campo de' Fiori é uma praça histórica localizada no centro de Roma, Itália. A praça é conhecida por seu mercado de flores, que funciona de segunda a sábado, das 7h às 13h. A praça também é conhecida por seus bares e restaurantes, que oferecem uma variedade de comidas e bebidas.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Campo de' Fiori (área com vários bares) - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.46574268809008,
 						Longitude = -9.189997781126635
 						},
@@ -2257,7 +2257,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Sexta-feira das 23h às 4h e Sábado das 23h às 4h",
 						Descricao = "Yab Discoteca é uma boate moderna e elegante localizada no centro de Florença, Itália. A boate oferece uma variedade de música, desde música pop até música eletrônica. Yab Discoteca também oferece uma variedade de bebidas e comidas.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Yab Discoteca - Florença.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.77105116164101,
 						Longitude = -11.252713911719718
 						},
@@ -2271,7 +2271,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Sexta-feira das 23h às 4h e Sábado das 23h às 4h",
 						Descricao = "O Bobino Club é um clube noturno histórico localizado no centro de Milão, Itália. O clube foi fundado em 1958 e é conhecido por sua música ao vivo, DJs e eventos especiais. O Bobino Club oferece uma variedade de gêneros musicais, incluindo jazz, blues, rock e música eletrônica.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Bobino Milano- Milão.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.45373776306266,
 						Longitude = -9.16986454064268
 						},
@@ -2284,7 +2284,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Terça a sábado das 10h às 18h e de Domingo e segunda é Fechado",
 						Descricao = "Shari Vari Playhouse é um teatro de marionetes único e mágico localizado em Veneza, Itália. O teatro apresenta uma variedade de shows de marionetes para crianças e adultos, utilizando técnicas tradicionais e inovadoras. As apresentações são em italiano e inglês.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Shari Vari Playhouse - Veneza.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.89759875992729,
 						Longitude = -12.47611063676804
 						},
@@ -2298,7 +2298,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias das 10h às 20h e Junho a setembro Aberto todos os dias das 10h às 2h",
 						Descricao = "O Phi Beach Club, em Baja Sardinia, é um oásis de pura elegância e sofisticação. Localizado na Costa Esmeralda da Sardenha, banhado por águas cristalinas e rodeado por uma natureza exuberante, o Phi Beach Club oferece aos seus visitantes uma experiência única e inesquecível.",
 						Foto = "/imgpaises/img Itália/VidaNoturna/Phi Beach Club - Baia Sardinia.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.14247704037138,
 						Longitude = -9.46688483857745
 						},
@@ -2313,7 +2313,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De 1º de abril a 30 de setembro é Aberto das 7h às 19h De 1º de outubro a 31 de março é  Aberto das 7h às 18h30 das 8h às 17h",
 						Descricao = "A Basílica de São Pedro é uma das maiores igrejas do mundo e um dos locais religiosos mais importantes do cristianismo. Ela está localizada na Cidade do Vaticano, a menor nação do mundo, e é a sede do Papa.",
 						Foto = "/imgpaises/img Itália/Fe/Basílica de São Pedro - Vaticano (Roma).png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.90312309115027,
 						Longitude = -12.453764763905507
 						},
@@ -2326,7 +2326,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h30 às 17h e de Domingos e feriados das 14h às 16h30 (de 16 de abril a 28 de outubro, até 17h)",
 						Descricao = "A Basílica de São Marcos é um dos edifícios mais emblemáticos de Veneza, Itália. É uma catedral em estilo bizantino que foi construída entre os séculos IX e XI. A basílica é dedicada a São Marcos, o santo padroeiro de Veneza.",
 						Foto = "/imgpaises/img Itália/Fe/Basílica de São Marcos - Veneza.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -42.0643056682679,
 						Longitude = -12.472640691886971
 						},
@@ -2339,7 +2339,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h às 19h (última entrada às 18h10) e de Domingos e feriados das 9h às 17h (última entrada às 16h10)",
 						Descricao = "A Catedral de Milão, também conhecida como Duomo di Milano, é uma das maiores catedrais do mundo e um dos principais pontos turísticos da Itália. A catedral é dedicada à Natividade de Maria. A construção da catedral começou em 1386 e durou mais de seis séculos. A catedral é um exemplo impressionante da arquitetura gótica, com suas torres altas, suas esculturas detalhadas e seus vitrais coloridos.",
 						Foto = "/imgpaises/img Itália/Fe/Duomo di Milano (Catedral de Milão) - Milão.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.46584146001646,
 						Longitude = -9.192441225198895
 						},
@@ -2352,7 +2352,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias das 6h até as 18h",
 						Descricao = "A Basílica de São Francisco de Assis é um dos locais religiosos mais importantes da Itália. É um complexo religioso que inclui duas basílicas, uma cripta e um museu. A basílica foi construída no século XIII para abrigar o túmulo de São Francisco de Assis, fundador da Ordem Franciscana.",
 						Foto = "/imgpaises/img Itália/Fe/Basílica de São Francisco de Assis - Assis.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.525663732419396,
 						Longitude = -11.89605563853403
 						},
@@ -2365,7 +2365,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 10h às 17h (última entrada às 16h30) e de Domingos e feriados das 13h30 às 16h30 (última entrada às 16h)",
 						Descricao = "A Catedral de Santa Maria del Fiore, também conhecida como Duomo de Florença, é uma das maiores catedrais do mundo e um dos principais pontos turísticos da Itália. A catedral é dedicada à Nossa Senhora das Flores. A construção da catedral começou em 1296 e durou mais de 150 anos. A catedral é um exemplo impressionante da arquitetura gótica, com sua cúpula imponente, seus campanários altos e suas esculturas detalhadas.",
 						Foto = "/imgpaises/img Itália/Fe/Basílica de São Marcos - Veneza.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.77407279815551,
 						Longitude = -11.255444949372688
 						},
@@ -2379,7 +2379,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 7h30 às 19h30 Domingos e feriados das 8h às 13h e depois das 16h às 19h30",
 						Descricao = "A Catedral de Palermo, também conhecida como Duomo di Palermo, é uma catedral em estilo normando localizada em Palermo, Sicília, Itália. A catedral é dedicada à Assunção da Virgem Maria. A construção da catedral começou em 1185 e durou mais de 200 anos. A catedral é um exemplo impressionante da arquitetura normanda, com sua fachada ricamente decorada, seus mosaicos dourados e seus claustros.",
 						Foto = "/imgpaises/img Itália/Fe/Catedral de Palermo - Palermo.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -38.11473548009587,
 						Longitude = -13.355878448220029
 						},
@@ -2394,7 +2394,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Quarta a sábado das 12h às 14h30 e depois das 19h30 às 22h e de Fechado domingo, segunda e terça-feira",
 						Descricao = "Osteria Francescana é um restaurante com três estrelas Michelin em Modena, Itália. É propriedade e operado pelo chef Massimo Bottura. O restaurante é considerado um dos melhores do mundo e foi nomeado o melhor restaurante do mundo em 2016 e 2018 pelo The World's 50 Best Restaurants.",
 						Foto = "/imgpaises/img Itália/Restaurantes/Osteria Francescana - Modena.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -44.64574053911844,
 						Longitude = -10.921229314649926
 						},
@@ -2407,7 +2407,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Terça a sábado das 12h às 14h30 e depois das 19h às 22h e é Fechado de domingo e segunda-feira",
 						Descricao = "Trattoria da Romano é um restaurante tradicional veneziano em Veneza, Itália. É um restaurante familiar que serve pratos venezianos autênticos há mais de 50 anos. O restaurante está localizado em um beco tranquilo no centro histórico de Veneza. O interior é acolhedor e rústico, com paredes de tijolos expostos e mesas de madeira.",
 						Foto = "/imgpaises/img Itália/Restaurantes/Trattoria da Romano - Veneza.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.4861839962346,
 						Longitude = -12.418251571887863
 						},
@@ -2420,7 +2420,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Quarta a sábado das 12h30 às 14h30 e depois das 19h30 às 22h30 e de Domingo das 12h30 às 14h30 e Fechado de segunda e terça-feira",
 						Descricao = "Dal Pescatore é um restaurante com três estrelas Michelin em Canneto sull'Oglio, Itália. É propriedade e operado pelos chefs Nadia Santini, Giovanni Santini e Bruna Santini. O restaurante é considerado um dos melhores da Itália e foi nomeado o 48º melhor restaurante do mundo em 2009 pelo The World's 50 Best Restaurants.",
 						Foto = "/imgpaises/img Itália/Restaurantes/Dal Pescatore - Canneto sull'Oglio.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.17227493537136,
 						Longitude = -10.357242478405302
 						},
@@ -2433,7 +2433,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Terça a sábado das 12h30 às 14h30 e depois das 19h30 às 22h30 e Fechado de domingo e segunda-feira",
 						Descricao = "A Enoteca Pinchiorri é um restaurante com três estrelas Michelin em Florença, Itália. É propriedade e operado pelos chefs Annie Féolde e Giorgio Pinchiorri. O restaurante é considerado um dos melhores do mundo e foi nomeado o 32º melhor restaurante do mundo em 2008 pela revista British Restaurant.",
 						Foto = "/imgpaises/img Itália/Restaurantes/Enoteca Pinchiorri - Florença.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.77074190882861,
 						Longitude = -11.261363626632706
 						},
@@ -2446,7 +2446,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Terça a sábado das 12h30 às 14h30 e depois das 19h30 às 22h30 e Fechado de domingo e segunda-feira",
 						Descricao = " La Pergola é um restaurante com três estrelas Michelin em Roma, Itália. É propriedade e operado pelo chef Heinz Beck. O restaurante é considerado um dos melhores do mundo e foi nomeado o 18º melhor restaurante do mundo em 2023 pela revista The World's 50 Best Restaurants.",
 						Foto = "/imgpaises/img Itália/Restaurantes/La Pergola - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.91989097355584,
 						Longitude = -12.44605951057047
 						},
@@ -2459,7 +2459,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 12h30 às 14h30 e depois das 19h30 às 22h30, Domingo das 12h30 às 14h30 e Feriados das 12h30 às 14h30 (mediante reserva)",
 						Descricao = "Antica Corte Pallavicina é um restaurante com uma estrela Michelin em Polesine Parmense, Itália. É propriedade e operado pela família Spigaroli. O restaurante está situado em um antigo castelo do século XIV, às margens do rio Po.",
 						Foto = "/imgpaises/img Itália/Restaurantes/Antica Corte Pallavicina - Polesine Parmense.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.02267235453517,
 						Longitude = -10.08574894704006
 						},
@@ -2474,7 +2474,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h às 20h (última entrada às 16h) e Fechado de domingo",
 						Descricao = "Os Museus do Vaticano abrigam uma das maiores e mais importantes coleções de arte do mundo. Os museus estão localizados na Cidade do Vaticano, a menor cidade do mundo, e são a casa da Capela Sistina, que é considerada um dos mais importantes locais religiosos e artísticos do mundo.",
 						Foto = "/imgpaises/img Itália/Cultura/Museu do Vaticano e Capela Sistina - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.906839101819514,
 						Longitude = -12.453579559497973
 						},
@@ -2487,7 +2487,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Segunda a sábado das 9h às 16h30 (última entrada às 16h) e Fechado dia 25 de dezembro e 1º de janeiro",
 						Descricao = "O Coliseu é um anfiteatro oval em Roma, Itália. É o maior anfiteatro do mundo e foi construído no século I d.C. pelo imperador Vespasiano. O Coliseu foi usado para combates de gladiadores, execuções e outros eventos públicos. O Coliseu é um Patrimônio Mundial da UNESCO e uma das atrações turísticas mais populares da Itália. O Coliseu está aberto ao público para visitas guiadas e autoguiadas.",
 						Foto = "/imgpaises/img Itália/Cultura/Coliseu - Roma.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -41.9068708106922,
 						Longitude = -12.45364393136315
 						},
@@ -2500,7 +2500,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "De Terça a domingo das 8h15 às 18h50 (última entrada às 18h05) e Fechado de segunda-feira, 1º de janeiro, 1º de maio e 25 de dezembro",
 						Descricao = "A Galleria degli Uffizi é um museu de arte em Florença, Itália. É um dos museus mais importantes do mundo e abriga uma vasta coleção de pinturas e esculturas do Renascimento italiano.",
 						Foto = "/imgpaises/img Itália/Cultura/Museu Uffizi - Florença.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -43.769643198347396,
 						Longitude = -11.25539636411926
 						},
@@ -2513,7 +2513,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias das 9h às 17h (última entrada às 16h) e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "Pompeia é uma antiga cidade romana que foi enterrada por uma erupção do Vesúvio em 79 d.C. A cidade está localizada na Itália, perto de Nápoles. As ruínas de Pompéia são um Patrimônio Mundial da UNESCO e um destino turístico popular.",
 						Foto = "/imgpaises/img Itália/Cultura/Pompeia.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -40.75097322205805,
 						Longitude = -14.501137636010677
 						},
@@ -2526,7 +2526,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias das 8h30 às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1º de janeiro",
 						Descricao = "O Palazzo Ducale (Palácio Ducal) é um dos edifícios mais emblemáticos de Veneza, Itália. Foi a sede do governo da República de Veneza durante séculos e é um dos maiores e mais impressionantes palácios góticos do mundo.",
 						Foto = "/imgpaises/img Itália/Cultura/Palazzo Ducale (Palácio Ducal) - Veneza.png",
-						PaisId = 4,
+						PaisId = 5,
 						Latitude = -45.434063029429126,
 						Longitude = -12.339959987562988
 						},
@@ -2539,7 +2539,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "Aberto todos os dias 24h",
 						Descricao = "A Piazza del Campo é a principal praça de Siena, Itália. É uma das praças mais famosas da Itália e é conhecida por sua forma de concha e por sua beleza arquitetônica. A praça é o lar de vários edifícios históricos, incluindo o Palazzo Pubblico, a Torre del Mangia e a Fonte Gaia.",
 						Foto = "/imgpaises/img Itália/Cultura/Piazza del Campo e Palazzo Pubblico - Siena.png",
-						PaisId = 4,
+						PaisId = 5,
 						 Latitude = -43.31825623772815,
 						Longitude = -11.331932240398123
 						},

@@ -54,7 +54,7 @@ public class HomeController : Controller
             .Where(l => l.PaisId == pais)
             .Select(l => l.Id)
             .ToList();
-        
+
         List<int> idExperienciaLocal = _context.ExperienciasLocais
             .AsNoTracking()
             .Where(el => el.ExperienciaId == experiencia && idLocal.Contains(el.LocalId))
@@ -70,12 +70,10 @@ public class HomeController : Controller
             Locais = _context.Locais
                 .AsNoTracking()
                 .Where(l => idExperienciaLocal.Contains(l.Id))
-                .ToList(),          
+                .ToList(),
         };
 
         return View(experienciaPais);
-
-
     }
 
     public IActionResult Local(int id)
@@ -88,8 +86,9 @@ public class HomeController : Controller
     }
 
     public IActionResult Criador()
-    {   
-        CriadorVM criadores = new(){
+    {
+        CriadorVM criadores = new()
+        {
             Criadores = _context.Criadores
             .AsNoTracking()
             .ToList(),

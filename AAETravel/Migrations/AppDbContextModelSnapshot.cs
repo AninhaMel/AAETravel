@@ -201,7 +201,7 @@ namespace AAETravel.Migrations
                         new
                         {
                             Id = 1,
-                            Cor = "#00BF63",
+                            Cor = "#0E6500",
                             Foto = "/img/experiencias/natureza.png",
                             Fundo = "/img/experiencias/natureza.png",
                             Nome = "Natureza",
@@ -246,7 +246,7 @@ namespace AAETravel.Migrations
                         new
                         {
                             Id = 6,
-                            Cor = "#DFD1C6",
+                            Cor = "#be2414",
                             Foto = "/img/experiencias/cultura.png",
                             Fundo = "/img/experiencias/cultura.png",
                             Nome = "Cultura",
@@ -1366,7 +1366,7 @@ namespace AAETravel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -1528,7 +1528,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 9,
                             Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
-                            Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires",
+                            Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires.png",
                             HorarioFuncionamento = "Abre todos os dias das 10:00 até as 22:00",
                             Latitude = -34.580411966128082,
                             Localizacao = "Paraguay 4979, C1425BTC C1425BTA, Buenos Aires.",
@@ -1541,7 +1541,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 10,
                             Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
-                            Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha)",
+                            Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha).png",
                             HorarioFuncionamento = "Abre todos os dias das 10:00 até as 22:00",
                             Latitude = -32.955524323926134,
                             Localizacao = "Avenida Del Libertador 750.",
@@ -2164,7 +2164,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 58,
                             Descricao = "San Xavier Del Bac, também conhecida como A Igreja Branca do Deserto, é uma igreja católica histórica localizada na reserva indígena Tohono O odham em Tucson, Arizona. A construção da igreja começou em 1783 e foi concluída em 1797. A igreja é conhecida por sua arquitetura barroca espanhola impressionante, sua fachada branca brilhante e seus detalhes decorativos elaborados. San Xavier Del Bac é um importante local de peregrinação e é considerada uma das igrejas mais bonitas e bem preservadas do sudoeste dos Estados Unidos.",
-                            Foto = "/imgpaises/imgEUA/Fe/SanXavierDelBac(Tuuson).png",
+                            Foto = "/imgpaises/imgEUA/Fe/San Xavier Del Bac (Tuuson).png",
                             HorarioFuncionamento = "Abre todos os dias das 09 =00 até as 16 =00",
                             Latitude = -32.107457292025003,
                             Localizacao = "1950 W San Xavier Rd, Tucson, AZ 85746",
@@ -2177,7 +2177,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 59,
                             Descricao = "A Catedral de São Patrício é a maior catedral católica dos Estados Unidos e um dos marcos mais famosos de Nova York. Construída em estilo neogótico, a catedral é conhecida por suas impressionantes torres e vitrais. A catedral também é conhecida por abrigar o túmulo de muitos arcebispos de Nova York e por sediar eventos religiosos importantes. A catedral é um importante centro de peregrinação e turismo em Nova York, atraindo visitantes de todo o mundo.",
-                            Foto = "/imgpaises/imgEUA/Fe/SãoPatricioNY).png",
+                            Foto = "/imgpaises/imgEUA/Fe/São Patricio (NY).png",
                             HorarioFuncionamento = "Abre todos os dias das 06 =30 até as 20 =45",
                             Latitude = -40.758775680936296,
                             Localizacao = "5th Ave, New York, NY 10022, EUA",
@@ -2190,7 +2190,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 60,
                             Descricao = "A Trinity Church é uma igreja episcopal localizada no distrito financeiro de Manhattan, em Nova York. Fundada em 1697, a igreja é conhecida por sua arquitetura neogótica impressionante e por sua rica história. A Trinity Church desempenhou um papel importante na história de Nova York e é um marco histórico importante na cidade. Além de ser um local de culto, a igreja também é conhecida por suas atividades comunitárias e de caridade. A igreja também abriga um cemitério histórico onde estão enterradas várias figuras proeminentes da história americana.",
-                            Foto = "/imgpaises/imgEUA/Fe/TrinityChurch(NY).png",
+                            Foto = "/imgpaises/imgEUA/Fe/Trinity Church (NY).png",
                             HorarioFuncionamento = "Abre todos de segunda a sexta das 07 =00 até as 18 =00 e de final de semana das 08 =00 até as 16 =00",
                             Latitude = -40.762896298527053,
                             Localizacao = "75 Broadway, New York, NY 10006",
@@ -2216,7 +2216,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 62,
                             Descricao = "Joe's Stone Crab é um restaurante icônico localizado em Miami Beach, Flórida. Especializado em frutos do mar, com ênfase especial no caranguejo de pedra, o Joe's é conhecido por sua atmosfera animada e sua comida deliciosa. O restaurante é frequentemente visitado por moradores locais e turistas que buscam uma experiência gastronômica única.",
-                            Foto = "cbvbcvb",
+                            Foto = "/imgpaises/imgEUA/Restaurantes/Joe's Stone Crab (Miami Beach).png",
                             HorarioFuncionamento = "Abre segunda até quinta feira das 11 =00 até as 22 =00, de sexta e sábado abre das 11 =30 as 23 =00 e de Domingo das 11 =30 até as 21 =00",
                             Latitude = -25.769332721797984,
                             Localizacao = "11 Washington Ave, Miami Beach ",
@@ -2775,7 +2775,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 105,
                             Descricao = "A Abadia do Monte Saint-Michel é uma abadia beneditina medieval localizada na ilha rochosa de Mont Saint-Michel, na Normandia, França. A abadia foi fundada no século VIII e é um importante local de peregrinação. A abadia é um Patrimônio Mundial da UNESCO e um dos monumentos mais visitados da França.   ",
-                            Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel(Mont Saint-Michel).png",
+                            Foto = "/imgpaises/imgFranca/Cultura/Abadia do Monte Saint-Michel (Mont Saint-Michel).png",
                             HorarioFuncionamento = "Aberto de Abril a setembro das 9h às 19h (última entrada às 18h), Outubro a março das 9h30 às 18h (última entrada às 17h) e Fechado das 1º de janeiro, 1º de maio e 25 de dezembro ",
                             Latitude = -48.636134122358541,
                             Localizacao = "Place Saint-Michel, 50170 Le Mont-Saint-Michel ",
@@ -3301,7 +3301,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Parco Nazionale Gran Paradiso Cogne, 11012 AO",
                             Longitude = -7.3245374411027502,
                             Nome = "Parco Nazionale Gran Paradiso (Alpes)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0165 740 011"
                         },
                         new
@@ -3314,7 +3314,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazzale Napoleone I, 00197 Roma RM",
                             Longitude = -12.485338881394522,
                             Nome = "Villa Borghese Gardens (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 32 810"
                         },
                         new
@@ -3327,7 +3327,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Parco Nazionale delle Cinque Terre Via Aldo Romano, 16 19018 La Spezia SP",
                             Longitude = -9.7124443410322705,
                             Nome = "Parco Nazionale delle Cinque Terre (Ligúria)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0187 730 274"
                         },
                         new
@@ -3340,7 +3340,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Strada Provinciale per Fasano, 72, 72015 Fasano BR",
                             Longitude = -17.340702823670295,
                             Nome = "Zoo Safari Fasano (Puglia)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 080 441 4777"
                         },
                         new
@@ -3353,7 +3353,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Parco Nazionale d'Abruzzo, Lazio e Molise Viale A. Gramsci, 300 67032 Pescasseroli AQ",
                             Longitude = -13.790006594879545,
                             Nome = "Parco Nazionale d'Abruzzo (Lazio e Molise)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0862 879 111"
                         },
                         new
@@ -3366,7 +3366,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Corso Massimo d'Azeglio, Turim",
                             Longitude = -7.6866073508560167,
                             Nome = "Parco del Valentino (Turim)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 011 011 2550"
                         },
                         new
@@ -3379,7 +3379,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza del Duomo, 2, 20121 Milano MI",
                             Longitude = -9.1900621545899526,
                             Nome = "Galleria Vittorio Emanuele II (Milão)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 02 869 021"
                         },
                         new
@@ -3392,7 +3392,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via del Corso, 00187 Roma RM",
                             Longitude = -12.437366684452311,
                             Nome = "Via del Corso (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 6710 9444"
                         },
                         new
@@ -3405,7 +3405,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via S. Margherita, 5, 52041 Foiano della Chiana AR",
                             Longitude = -11.801671323784579,
                             Nome = "Designer Outlet Valdichiana Village (Arezzo)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0575 401 200"
                         },
                         new
@@ -3418,7 +3418,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza della Repubblica, 2, 50123 Firenze FI",
                             Longitude = -11.254698198687759,
                             Nome = "La Rinascente (Florença)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 055 276 81"
                         },
                         new
@@ -3431,7 +3431,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via Europa, 8, 50065 Leccio FI",
                             Longitude = -11.464037914196865,
                             Nome = "The Mall (Leccio)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 055 865 7775"
                         },
                         new
@@ -3444,7 +3444,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via del Ponte di Piscina Cupa, 64, 00154 Roma RM",
                             Longitude = -12.540170294887336,
                             Nome = "Centro Commerciale Porta di Roma (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 551 7292"
                         },
                         new
@@ -3457,7 +3457,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via del Ponte di Piscina Cupa, 64, 00154 Roma RM",
                             Longitude = -9.189994978333953,
                             Nome = "Armani Privé (Milão)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 551 7292"
                         },
                         new
@@ -3470,7 +3470,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza Campo de' Fiori, 00186 Roma RM, Itália",
                             Longitude = -9.1899977811266353,
                             Nome = "Campo de' Fiori (área com vários bares) (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 6710 9444"
                         },
                         new
@@ -3483,7 +3483,7 @@ namespace AAETravel.Migrations
                             Localizacao = "TVia de' Pecori, 32r, 50123 Firenze FI, Itália",
                             Longitude = -11.252713911719718,
                             Nome = "Yab Discoteca (Florença)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 392 494 9852"
                         },
                         new
@@ -3496,7 +3496,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Corso Vittorio Emanuele II, 22, 20122 Milano MI, Itália",
                             Longitude = -9.1698645406426795,
                             Nome = "Bobino Milano (Milão)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 345 254 9379"
                         },
                         new
@@ -3509,7 +3509,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Calle Lunga San Barnaba, 2772/A, 30123 Venezia VE, Itália",
                             Longitude = -12.476110636768039,
                             Nome = "Shari Vari Playhouse (Veneza)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 340 938 8410"
                         },
                         new
@@ -3522,7 +3522,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Località Phi Beach, 07020 Baja Sardinia SS, Itália",
                             Longitude = -9.4668848385774496,
                             Nome = "Phi Beach Club (Baia Sardinia)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 342 838 4410"
                         },
                         new
@@ -3535,7 +3535,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza San Pietro, 00120 Città del Vaticano, Itália",
                             Longitude = -12.453764763905507,
                             Nome = "Basílica de São Pedro - Vaticano (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 6988 3111"
                         },
                         new
@@ -3548,7 +3548,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza San Marco, 328, 30124 Venezia VE, Itália",
                             Longitude = -12.472640691886971,
                             Nome = "Basílica de São Marcos (Veneza)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 041 271 5902"
                         },
                         new
@@ -3561,7 +3561,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza del Duomo, 20122 Milano MI, Itália",
                             Longitude = -9.1924412251988947,
                             Nome = "Duomo di Milano (Catedral de Milão) (Milão)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 02 7202 3375"
                         },
                         new
@@ -3574,7 +3574,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza San Francesco, 2, 06081 Assisi PG, Itália",
                             Longitude = -11.89605563853403,
                             Nome = "Basílica de São Francisco de Assis (Assis)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 075 812 041"
                         },
                         new
@@ -3587,7 +3587,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza del Duomo, 50122 Firenze FI, Itália",
                             Longitude = -11.255444949372688,
                             Nome = "Catedral de Santa Maria del Fiore (Florença)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 055 230 2880"
                         },
                         new
@@ -3600,7 +3600,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via Vittorio Emanuele, 90, 90134 Palermo PA, Itália",
                             Longitude = -13.355878448220029,
                             Nome = "Catedral de Palermo (Palermo)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 091 334 377"
                         },
                         new
@@ -3613,7 +3613,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via Stella, 22, 41121 Modena MO, Itália",
                             Longitude = -10.921229314649926,
                             Nome = "Osteria Francescana (Modena)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 059 223 903"
                         },
                         new
@@ -3626,7 +3626,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Calle del Forno, 2292/A, 30122 Venezia VE, Itália",
                             Longitude = -12.418251571887863,
                             Nome = "Trattoria da Romano (Veneza)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 041 522 2277"
                         },
                         new
@@ -3639,7 +3639,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via S. Antonio, 5, 25040 Canneto sull'Oglio MN, Itália",
                             Longitude = -10.357242478405302,
                             Nome = "Dal Pescatore (Canneto sull'Oglio)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0376 714 010"
                         },
                         new
@@ -3652,7 +3652,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via Ghibellina, 87, 50122 Firenze FI, Itália",
                             Longitude = -11.261363626632706,
                             Nome = "Enoteca Pinchiorri (Florença)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 055 200 7375"
                         },
                         new
@@ -3665,7 +3665,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Via Veneto, 150, 00187 Roma RM, Itália",
                             Longitude = -12.446059510570469,
                             Nome = "La Pergola (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 488 7800"
                         },
                         new
@@ -3678,7 +3678,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Strada Palazzo, 7, 43010 Polesine Parmense PR, Itália",
                             Longitude = -10.085748947040059,
                             Nome = "Antica Corte Pallavicina (Polesine Parmense)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0524 936 669"
                         },
                         new
@@ -3691,7 +3691,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Viale Vaticano, 00165 Città del Vaticano",
                             Longitude = -12.453579559497973,
                             Nome = "Museu do Vaticano e Capela Sistina (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 6988 3332"
                         },
                         new
@@ -3704,7 +3704,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza del Colosseo, 1, 00184 Roma RM, Itália",
                             Longitude = -12.45364393136315,
                             Nome = "Coliseu (Roma)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 06 399 67 70"
                         },
                         new
@@ -3717,7 +3717,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazzale degli Uffizi, 6, 50122 Firenze FI, Itália",
                             Longitude = -11.25539636411926,
                             Nome = "Museu Uffizi (Florença)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 055 294883"
                         },
                         new
@@ -3730,7 +3730,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Pompéia, Itália",
                             Longitude = -14.501137636010677,
                             Nome = "Pompeia (Pompeia)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 081 857 5347"
                         },
                         new
@@ -3743,7 +3743,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza San Marco, 1, 30124 Venezia VE, Itália",
                             Longitude = -12.339959987562988,
                             Nome = "Palazzo Ducale (Palácio Ducal) (Veneza)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 041 271 5934"
                         },
                         new
@@ -3756,7 +3756,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Piazza del Campo, 53100 Siena SI, Itália",
                             Longitude = -11.331932240398123,
                             Nome = "Piazza del Campo e Palazzo Pubblico (Siena)",
-                            PaisId = 4,
+                            PaisId = 5,
                             Telefone = "+39 0577 292 222"
                         },
                         new
@@ -4317,7 +4317,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -4340,7 +4340,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -4379,7 +4379,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -4391,7 +4391,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -4468,7 +4468,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -4480,17 +4480,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -4502,10 +4502,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -4517,13 +4517,13 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

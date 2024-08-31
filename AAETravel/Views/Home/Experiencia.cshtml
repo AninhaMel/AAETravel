@@ -1,11 +1,11 @@
 @model AAETravel.ViewModels.ExperienciaVM
 @{
     ViewData["Title"] = "ExperienciaLocal";
-    Layout = null;
+    Layout = "_Music";
 }
 <link rel="stylesheet" href="~/css/ExperienciaLocal.css">
 
-<body style="--Foto-Fundo: url('@Model.Experiencia?.Foto'); --Cor: @Model.Experiencia.Cor ">
+<body data-musica-url="@Model.Experiencia.Musica" style="--Foto-Fundo: url('@Model.Experiencia?.Foto'); --Cor: @Model.Experiencia.Cor ">
     <header id="header">
         <nav>
             <div class="logo">

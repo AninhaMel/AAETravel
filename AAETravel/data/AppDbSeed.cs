@@ -16,8 +16,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/natureza.png",
 					Cor = "#0E6500",
 					Fundo = "/img/experiencias/natureza.png",
-					Onda = "/img/outros/paralax/preto-verde.png"
-
+					Onda = "/img/outros/paralax/preto-verde.png",
+					Musica = "/Music/Natureza.mp3",
 			},
 			new Experiencia() {
 					Id = 2,
@@ -25,9 +25,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/restaurante.png",
 					Cor = "#E5B712",
 					Fundo = "/img/experiencias/restaurante.png",
-					Onda = "/img/outros/paralax/preto-amarelo.png"
-
-
+					Onda = "/img/outros/paralax/preto-amarelo.png",
+					Musica = "/Music/Restaurante.mp3",
 			},
 			new Experiencia() {
 					Id = 3,
@@ -35,8 +34,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/vida-noturna.png",
 					Cor = "#A12BA4",
 					Fundo = "/img/experiencias/vida-noturna.png",
-					Onda = "/img/outros/paralax/preto-roxo.png"
-
+					Onda = "/img/outros/paralax/preto-roxo.png",
+					Musica = "/Music/Vida-Noturna.mp3",
 			},
 			new Experiencia() {
 					Id = 4,
@@ -44,8 +43,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/espiritualidade.png",
 					Cor = "#8A6C47",
 					Fundo = "/img/experiencias/espiritualidade.png",
-					Onda = "/img/outros/paralax/preto-marrom.png"
-
+					Onda = "/img/outros/paralax/preto-marrom.png",
+					Musica = "/Music/Espiritualidade.mp3",
 			},
 			new Experiencia() {
 					Id = 5,
@@ -53,8 +52,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/compras.png",
 					Cor = "#4B778A",
 					Fundo = "/img/experiencias/compras.png",
-					Onda = "/img/outros/paralax/preto-azul.png"
-
+					Onda = "/img/outros/paralax/preto-azul.png",
+					Musica = "/Music/Compras.mp3",
 			},
 			new Experiencia() {
 					Id = 6,
@@ -62,8 +61,8 @@ public class AppDbSeed
 					Foto = "/img/experiencias/cultura.png",
 					Cor= "#be2414",
 					Fundo = "/img/experiencias/cultura.png",
-					Onda = "/img/outros/paralax/preto-beje.png"
-
+					Onda = "/img/outros/paralax/preto-beje.png",
+					Musica = "/Music/Cultura.mp3",
 			}
 		};
 		builder.Entity<Experiencia>().HasData(experiencias);

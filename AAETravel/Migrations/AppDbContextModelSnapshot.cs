@@ -186,6 +186,9 @@ namespace AAETravel.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("varchar(300)");
 
+                    b.Property<string>("Musica")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Nome")
                         .HasColumnType("longtext");
 
@@ -204,6 +207,7 @@ namespace AAETravel.Migrations
                             Cor = "#0E6500",
                             Foto = "/img/experiencias/natureza.png",
                             Fundo = "/img/experiencias/natureza.png",
+                            Musica = "/Music/Natureza.mp3",
                             Nome = "Natureza",
                             Onda = "/img/outros/paralax/preto-verde.png"
                         },
@@ -213,6 +217,7 @@ namespace AAETravel.Migrations
                             Cor = "#E5B712",
                             Foto = "/img/experiencias/restaurante.png",
                             Fundo = "/img/experiencias/restaurante.png",
+                            Musica = "/Music/Restaurante.mp3",
                             Nome = "Restaurantes",
                             Onda = "/img/outros/paralax/preto-amarelo.png"
                         },
@@ -222,6 +227,7 @@ namespace AAETravel.Migrations
                             Cor = "#A12BA4",
                             Foto = "/img/experiencias/vida-noturna.png",
                             Fundo = "/img/experiencias/vida-noturna.png",
+                            Musica = "/Music/Vida-Noturna.mp3",
                             Nome = "Vida Noturna",
                             Onda = "/img/outros/paralax/preto-roxo.png"
                         },
@@ -231,6 +237,7 @@ namespace AAETravel.Migrations
                             Cor = "#8A6C47",
                             Foto = "/img/experiencias/espiritualidade.png",
                             Fundo = "/img/experiencias/espiritualidade.png",
+                            Musica = "/Music/Espiritualidade.mp3",
                             Nome = "Espiritualidade",
                             Onda = "/img/outros/paralax/preto-marrom.png"
                         },
@@ -240,6 +247,7 @@ namespace AAETravel.Migrations
                             Cor = "#4B778A",
                             Foto = "/img/experiencias/compras.png",
                             Fundo = "/img/experiencias/compras.png",
+                            Musica = "/Music/Compras.mp3",
                             Nome = "Compras",
                             Onda = "/img/outros/paralax/preto-azul.png"
                         },
@@ -249,6 +257,7 @@ namespace AAETravel.Migrations
                             Cor = "#be2414",
                             Foto = "/img/experiencias/cultura.png",
                             Fundo = "/img/experiencias/cultura.png",
+                            Musica = "/Music/Cultura.mp3",
                             Nome = "Cultura",
                             Onda = "/img/outros/paralax/preto-beje.png"
                         });

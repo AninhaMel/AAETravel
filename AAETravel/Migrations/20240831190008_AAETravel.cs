@@ -128,6 +128,8 @@ namespace AAETravel.Migrations
                     Fundo = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Onda = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Musica = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -449,15 +451,15 @@ namespace AAETravel.Migrations
 
             migrationBuilder.InsertData(
                 table: "Experiencia",
-                columns: new[] { "Id", "Cor", "Foto", "Fundo", "Nome", "Onda" },
+                columns: new[] { "Id", "Cor", "Foto", "Fundo", "Musica", "Nome", "Onda" },
                 values: new object[,]
                 {
-                    { 1, "#0E6500", "/img/experiencias/natureza.png", "/img/experiencias/natureza.png", "Natureza", "/img/outros/paralax/preto-verde.png" },
-                    { 2, "#E5B712", "/img/experiencias/restaurante.png", "/img/experiencias/restaurante.png", "Restaurantes", "/img/outros/paralax/preto-amarelo.png" },
-                    { 3, "#A12BA4", "/img/experiencias/vida-noturna.png", "/img/experiencias/vida-noturna.png", "Vida Noturna", "/img/outros/paralax/preto-roxo.png" },
-                    { 4, "#8A6C47", "/img/experiencias/espiritualidade.png", "/img/experiencias/espiritualidade.png", "Espiritualidade", "/img/outros/paralax/preto-marrom.png" },
-                    { 5, "#4B778A", "/img/experiencias/compras.png", "/img/experiencias/compras.png", "Compras", "/img/outros/paralax/preto-azul.png" },
-                    { 6, "#be2414", "/img/experiencias/cultura.png", "/img/experiencias/cultura.png", "Cultura", "/img/outros/paralax/preto-beje.png" }
+                    { 1, "#0E6500", "/img/experiencias/natureza.png", "/img/experiencias/natureza.png", "/Music/Natureza.mp3", "Natureza", "/img/outros/paralax/preto-verde.png" },
+                    { 2, "#E5B712", "/img/experiencias/restaurante.png", "/img/experiencias/restaurante.png", "/Music/Restaurante.mp3", "Restaurantes", "/img/outros/paralax/preto-amarelo.png" },
+                    { 3, "#A12BA4", "/img/experiencias/vida-noturna.png", "/img/experiencias/vida-noturna.png", "/Music/Vida-Noturna.mp3", "Vida Noturna", "/img/outros/paralax/preto-roxo.png" },
+                    { 4, "#8A6C47", "/img/experiencias/espiritualidade.png", "/img/experiencias/espiritualidade.png", "/Music/Espiritualidade.mp3", "Espiritualidade", "/img/outros/paralax/preto-marrom.png" },
+                    { 5, "#4B778A", "/img/experiencias/compras.png", "/img/experiencias/compras.png", "/Music/Compras.mp3", "Compras", "/img/outros/paralax/preto-azul.png" },
+                    { 6, "#be2414", "/img/experiencias/cultura.png", "/img/experiencias/cultura.png", "/Music/Cultura.mp3", "Cultura", "/img/outros/paralax/preto-beje.png" }
                 });
 
             migrationBuilder.InsertData(

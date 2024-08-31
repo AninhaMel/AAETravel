@@ -24,4 +24,5 @@ public class Experiencia
 
      [StringLength(300)]
      public string Onda { get; set; }
+     public string Musica { get; set; }
 }

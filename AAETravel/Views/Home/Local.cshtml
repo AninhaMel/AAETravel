@@ -5,7 +5,8 @@
 }
 
 <link rel="stylesheet" href="~/css/informacao.css">
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdgc7AGP2c_-MOIdOkYxu7hQs9vf7fR5k&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdgc7AGP2c_-MOIdOkYxu7hQs9vf7fR5k&callback=initMap" async
+    defer></script>
 
 
 <body data-musica-url="@Model.Experiencias.Musica" style="--Cor: @Model.Experiencias.Cor">
@@ -155,14 +156,17 @@
 </body>
 
 <script>
-  let map;
+    let map;
 
-  async function initMap() {
-    const { Map } = await google.maps.importLibrary("maps");
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+        console.log(Number(@Model.Locais.Latitude.ToString().Replace(",", ".")))
 
-    map = new Map(document.getElementById("map"), {
-      center: { lat: @Model.Locais.Latitude, lng: @Model.Locais.Longitude },
-      zoom: 10,
-    });
-  }
+        map = new Map(document.getElementById("map"), {
+            center: {
+                lat: Number(@Model.Locais.Latitude.ToString().Replace(",", ".")), lng: Number(@Model.Locais.Longitude.ToString().Replace(",", "."))
+            },
+            zoom: 10,
+        });
+    }
 </script>

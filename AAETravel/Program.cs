@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Adiciona serviços ao contêiner
 builder.Services.AddControllersWithViews();
 
 // Serviço de Conexão
@@ -18,13 +18,20 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
+// Configuração do cookie de autenticação
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login"; // Caminho para a página de login
+    options.AccessDeniedPath = "/Account/AccessDenied"; // Caminho para a página de acesso negado, se necessário
+    options.LogoutPath = "/Account/Logout"; // Caminho para a página de logout, se necessário
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure o pipeline de solicitação HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -33,6 +40,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// Adicione autenticação e autorização
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

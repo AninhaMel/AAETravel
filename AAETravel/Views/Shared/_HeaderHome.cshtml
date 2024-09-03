@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="favoritados">
-            <a href="destinos-salvos.html">
+            <a asp-action="Favoritado" asp-asp-controller="Home">
                 <i class="bi bi-heart"></i>
                 Favoritados
             </a>
@@ -16,13 +16,13 @@
             <img src="~/img/outros/logo.png">
         </div>
         <div class="paises">
-            <a asp-action="Index" asp-controller="Home" asp-asp-fragment="paises">
+            <a asp-action="Index" asp-controller="Home" asp-fragment="paises">
                 <i class="bi bi-globe2"></i>
                 Países
             </a>
         </div>
         <div class="agencias-home">
-            <a href="#agencias">
+            <a asp-action="Index" asp-controller="Home" asp-fragment="agencias">
                 <i class="bi bi-geo-alt"></i>
                 Agências
             </a>

@@ -2,11 +2,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
-namespace AAETravel.Models;
-
-[Table("Usuario")]
-public class Usuario
+namespace AAETravel.Models
 {
+    [Table("Usuario")]
+    public class Usuario
+    {
         [Key]
         public string UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
@@ -18,6 +18,5 @@ public class Usuario
         public string Foto { get; set; }
         public string Cidade { get; set; }
         public List<Lista> Listas { get; set; }
-
-
+    }
 }

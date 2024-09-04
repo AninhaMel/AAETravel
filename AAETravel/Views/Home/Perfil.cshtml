@@ -2,11 +2,35 @@
 
 @{
     ViewData["Title"] = "Perfil";
-    Layout = "_Music";
+    Layout = null;
 }
+<link rel="stylesheet" href="~/css/Perfil.css">
 
 
-<div>
-    <h3>@Model.Nome</h3>
-    <p>Email: @Model.Email</p>
-</div>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="bloco-first">
+                <div class="perfil-img">
+                    <img src="~/img/outros/TCC (36).png">
+                </div>
+            </div>
+            <div class="bloco-second">
+                <h1>Eduardo Nunes de Oliveira</h1>
+                <p><strong>Telefone:</strong> (14)99107-8235</p>
+                <p><strong>Descrição:</strong> Programador Junior, apaixonado em viagens</p>
+                <p><strong>Cidade:</strong> Barra Bonita, SP</p>
+                <div class="menu">
+                    <div class="logout">
+                        <a>Desconectar</a>
+                    </div>
+                    <div class="editar-perfil">
+                        <a asp-action="EditarPerfil" asp-controller="Home">Editar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>

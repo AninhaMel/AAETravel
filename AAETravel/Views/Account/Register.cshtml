@@ -1,26 +1,61 @@
 @model AAETravel.ViewModels.RegisterViewModel
 
-<h2>Register</h2>
+@{
+    ViewData["Title"] = "Registrar";
+    Layout = null;
+}
+<link rel="stylesheet" href="~/css/Registrar.css">
+    <link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
 
-<form asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="ConfirmPassword"></label>
-        <input asp-for="ConfirmPassword" type="password" class="form-control" />
-        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Register</button>
-</form>
 
-<p>
-    <a asp-action="Login">Login to your account</a>
-</p>
+
+<body>
+
+    <main>
+        <div class="login-img">
+            <img src="~/img/outros/favcon.png">
+        </div>
+        <form asp-action="Register" method="post">
+            <div class="form-group">
+                <label asp-for="Email">Email:</label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Senha:</label>
+                <div class="password-container">
+                    <input asp-for="Password" type="password" class="form-control" id="password" />
+                    <button type="button" class="toggle-password"
+                        onclick="togglePasswordVisibility('password')">🐵</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">Confirmar senha:</label>
+                <div class="password-container">
+                    <input asp-for="ConfirmPassword" type="password" class="form-control" id="confirmPassword" />
+                    <button type="button" class="toggle-password"
+                        onclick="togglePasswordVisibility('confirmPassword')">🐵</button>
+                </div>
+            </div>
+            <input type="submit" style="width: 200px;">
+        </form>
+
+        <p>
+            <a asp-action="Login">Fazer Login</a>
+        </p>
+    </main>
+</body>
+
+<script>
+    function togglePasswordVisibility(id) {
+        var passwordField = document.getElementById(id);
+        var button = passwordField.nextElementSibling;
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            button.textContent = "🙈";
+        } else {
+            passwordField.type = "password";
+            button.textContent = "🐵";
+        }
+    }
+</script>

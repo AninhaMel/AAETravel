@@ -5,6 +5,8 @@
     Layout = null;
 }
 <link rel="stylesheet" href="~/css/login.css">
+<link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
+
 
 <body>
     <main>
@@ -15,11 +17,34 @@
 
         <form>
             <input type="text" name="email" id="email" placeholder="Email:">
-            <input type="password" name="password" id="password" placeholder="Senha:">
+
+            <div class="password-container">
+                <input type="password" name="password" id="password" placeholder="Senha" class="form-control">
+                <button type="button" class="toggle-password"
+                    onclick="togglePasswordVisibility('password')">🐵</button>
+            </div>
+
             <input type="submit" style="width: 200px;">
         </form>
+
+
         <p>
-            <a asp-action="Register">Register as a new user</a>
+            <a asp-action="Register">Registrar </a>
         </p>
     </main>
 </body>
+
+<script>
+    function togglePasswordVisibility(id) {
+        var passwordField = document.getElementById(id);
+        var button = passwordField.nextElementSibling;
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            button.textContent = "🙈";
+        } else {
+            passwordField.type = "password";
+            button.textContent = "🐵"; 
+        }
+    }
+</script>

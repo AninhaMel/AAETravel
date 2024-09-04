@@ -117,30 +117,14 @@ namespace AAETravel.Controllers
             return View();
         }
 
-        
-        public async Task<IActionResult> Perfil()
+
+        public IActionResult Perfil()
         {
-            // Obter o usuário atual
-            var user = await _userManager.GetUserAsync(User);
-
-            if (user == null)
-            {
-                // Se o usuário não estiver autenticado, redirecione para a página de login
-                return RedirectToAction("Login", "Account");
-            }
-
-            // Verifique se os dados do usuário estão presentes no banco de dados
-            var usuarioData = _context.Usuarios;
-                // .FirstOrDefault(u => u.Id == user.Id);
-
-            if (usuarioData == null)
-            {
-                // Se os dados não estiverem presentes, redirecione para uma página de erro ou exiba uma mensagem apropriada
-                return RedirectToAction("Error", "Home");
-            }
-
-            // Se os dados estiverem presentes, exiba a página de perfil
-            return View(usuarioData);
+            return View();
+        }
+        public IActionResult EditarPerfil()
+        {
+            return View();
         }
     }
 }

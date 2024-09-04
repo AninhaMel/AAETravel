@@ -68,16 +68,6 @@ public class AppDbSeed
 		builder.Entity<Experiencia>().HasData(experiencias);
 		#endregion
 
-		List<Usuario> Usuarios = new(){
-			new Usuario() {
-				Id = 1,
-				Nome = "Eduardo Nunes de Oliveira",
-				Descricao = "Programador Junior, apaixonado em viagens",
-				Foto = "/",
-				Cidade = "Barra Bonita",
-			}
-		};
-		builder.Entity<Usuario>().HasData(Usuarios);
 
 		List<Agencia> agencias = new(){
 				new Agencia() {

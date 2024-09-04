@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Threading.Tasks;
@@ -118,7 +117,7 @@ namespace AAETravel.Controllers
             return View();
         }
 
-        [Authorize]
+        
         public async Task<IActionResult> Perfil()
         {
             // Obter o usuário atual

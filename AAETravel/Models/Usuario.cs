@@ -11,6 +11,7 @@ namespace AAETravel.Models
         public string UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
         public IdentityUser AccountUser { get; set; }
+        public string Email { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
 

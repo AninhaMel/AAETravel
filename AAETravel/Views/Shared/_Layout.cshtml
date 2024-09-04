@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEE Travel</title>
+    <link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/Layout.css">
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+
+<body>
+
+    @RenderBody()
+
+    <footer>
+        <div class="inf-adicionais">
+            <h3>INFORMAÇÕES ADICIONAIS:</h3>
+            <nav>
+                <a href="https://www.facebook.com/?locale=pt_BR">
+                    <div class="i1">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/aae.travel">
+                    <div class="i2">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://chat.whatsapp.com/JCd383ZD14rFtjheQ8TgUp">
+                    <div class="i3">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@@AEETravel">
+                    <div class="i4">
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </a>
+                <a href="https://x.com/@@AAETravel">
+                    <div class="i5">
+                        <i class="bi bi-twitter-x"></i>
+                    </div>
+                </a>
+                <a href="https://aaetravel834499@gmail.com
+                ">
+                    <div class="i6">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <div class="box">
+            <div class="primeira-parte">
+                <h1>AAE Travel</h1>
+                <p>'Viajar - é a coisa mais magnífica do mundo. Quanto mais você viaja, mais aprende'. Como Byl Bryson
+                    um famoso escrito norte americano dizia. O processo de aprendizado também está relacionado à memória
+                    que é o lema do nosso site AAE Travel Crie memórias, porque viajar é realmente criar memóorias.
+                    Muitas das melhores lembranças que temos é em viagens.</p>
+            </div>
+            <div class="contatos">
+                <h1>Contato</h1>
+                <ul>
+                    <li>
+                        <i class="bi bi-house"></i>
+                        Barra Bonita, SP, Brasil.
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        AAEtravel1234@gmail.com
+                    </li>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        +55 234 567 88
+                    </li>
+                    <li>
+                        <a asp-action="Criador" asp-controller="Home">
+                            <i class="bi bi-people"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="explore">
+                <h1>Explore</h1>
+                <ul>
+                    <a asp-action="index" asp-controller="Home">
+                        <i class="bi bi-house"></i>
+                        Inicio
+                    </a>
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="paises">
+                        <i class="bi bi-globe2"></i>
+                        Países
+                    </a>
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="agencias">
+                        <i class="bi bi-geo-alt"></i>
+                        Agências
+                    </a>
+                    <a sp-action="Favoritado" asp-asp-controller="Home">
+                        <i class="bi bi-heart"></i>
+                        Favoritados
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

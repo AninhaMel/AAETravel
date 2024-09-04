@@ -1,0 +1,177 @@
+@model AAETravel.ViewModels.LocalVM
+@{
+    ViewData["Title"] = "Local";
+    Layout = "_Music";
+}
+
+<link rel="stylesheet" href="~/css/informacao.css">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdgc7AGP2c_-MOIdOkYxu7hQs9vf7fR5k&callback=initMap" async
+    defer></script>
+
+
+<body data-musica-url="@Model.Experiencias.Musica" style="--Cor: @Model.Experiencias.Cor">
+    <header id="header">
+        <a class="voltar" asp-action="Experiencia" asp-route-pais="@Model.PaisId"
+            asp-route-experiencia="@Model.ExperienciaId">
+            <i class="bi bi-box-arrow-left"></i>>
+            <i class="bi bi-box-arrow-left"></i>
+            Voltar
+        </a>
+        <a style="height: 100%;" asp-action="Index" asp-controller="Home">
+            <div class="logo">
+                <img src="/img/outros/logo.png">
+            </div>
+        </a>
+        <div class="user">
+            <img src="~/img/outros/icon-user.png">
+        </div>
+    </header>
+
+    <section>
+        <div class="nome">
+            @Model.Locais.Nome
+        </div>
+        <div class="local">
+            <div class="img-local">
+                <img src="@Model.Locais.Foto">
+            </div>
+            <div class="descricao">
+                <h3>Mais informações do local:</h3>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    @Model.Locais.Localizacao
+                </p>
+                <p>
+                    <i class="bi bi-telephone-fill"></i>
+                    @Model.Locais.Telefone
+                </p>
+                <p>
+                    <i class="bi bi-stopwatch"></i>
+                    @Model.Locais.HorarioFuncionamento
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="sobre">
+            @Model.Locais.Descricao
+        </div>
+        <div class="mapa">
+            <div id="map" style="height: 500px; width: 100%;"></div>
+        </div>
+    </section>
+
+    <hr />
+
+    <footer>
+        <div class="inf-adicionais">
+            <h3>INFORMAÇÕES ADICIONAIS:</h3>
+            <nav>
+                <a href="https://www.facebook.com/?locale=pt_BR">
+                    <div class="i1">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/aae.travel">
+                    <div class="i2">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://chat.whatsapp.com/JCd383ZD14rFtjheQ8TgUp">
+                    <div class="i3">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@@AEETravel">
+                    <div class="i4">
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </a>
+                <a href="https://x.com/@@AAETravel">
+                    <div class="i5">
+                        <i class="bi bi-twitter-x"></i>
+                    </div>
+                </a>
+                <a href="https://aaetravel834499@gmail.com
+                ">
+                    <div class="i6">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <div class="box">
+            <div class="primeira-parte">
+                <h1>AAE Travel</h1>
+                <p>'Viajar - é a coisa mais magnífica do mundo. Quanto mais você viaja, mais aprende'. Como Byl Bryson
+                    um famoso escrito norte americano dizia. O processo de aprendizado também está relacionado à memória
+                    que é o lema do nosso site AAE Travel Crie memórias, porque viajar é realmente criar memóorias.
+                    Muitas das melhores lembranças que temos é em viagens.</p>
+            </div>
+            <div class="contatos">
+                <h1>Contato</h1>
+                <ul>
+                    <li>
+                        <i class="bi bi-house"></i>
+                        Barra Bonita, SP, Brasil.
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        AAEtravel1234@gmail.com
+                    </li>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        +55 234 567 88
+                    </li>
+                    <li>
+                        <a asp-action="Criador" asp-controller="Home">
+                            <i class="bi bi-people"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="explore">
+                <h1>Explore</h1>
+                <ul>
+                    <a asp-action="index" asp-controller="Home">
+                        <i class="bi bi-house"></i>
+                        Inicio
+                    </a>
+                    <a asp-action="index" asp-controller="Home">
+                        <i class="bi bi-globe2"></i>
+                        Países
+                    </a>
+                    <a asp-action="Index" asp-controller="Home">
+                        <i class="bi bi-geo-alt"></i>
+                        Agências
+                    </a>
+                    <a href="destinos-salvos.html">
+                        <i class="bi bi-heart"></i>
+                        Favoritados
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    let map;
+
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+
+        const latitude = Number(@Model.Locais.Latitude.ToString().Replace(",", "."));
+        const longitude = Number(@Model.Locais.Longitude.ToString().Replace(",", "."));
+
+        console.log("Latitude:", latitude);
+        console.log("Longitude:", longitude);
+
+        map = new Map(document.getElementById("map"), {
+            center: { lat: latitude, lng: longitude },
+            zoom: 14,
+        });
+    }
+</script>

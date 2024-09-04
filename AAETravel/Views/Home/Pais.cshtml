@@ -1,0 +1,47 @@
+@model AAETravel.ViewModels.PaisVM
+@{
+    ViewData["Title"] = "Experiencia";
+}
+
+<partial name="_HeaderHome"></partial>
+<link rel="stylesheet" href="~/css/experiencias.css">
+
+<div class="fundo-pais">
+    <img src="@Model.Pais.Foto" />
+</div>
+<div class="sobre-pais">
+    <div class="foto">
+        <img src="@Model.Pais.Foto" style="filter: drop-shadow(0 0 20px @Model.Pais.Cor);">
+    </div>
+
+    <div class="texto" style="filter: drop-shadow(0 0 100px @Model.Pais.Cor); border: 1px solid @Model.Pais.Cor">
+        <h1 style="text-decoration: underline @Model.Pais.Cor;">@Model.Pais.Nome</h1>
+        <h3>@Model.Pais.Descricao</h3>
+    </div>
+</div>
+
+
+<hr>
+<section id="experiencias">
+    <h1>EXPERIÊNCIAS</h1>
+    <h3>Confira possíveis destinos</h3>
+    <div class="container">
+        @foreach (var experiencia in Model.Experiencias)
+        {
+            <a asp-action="Experiencia" asp-route-pais="@Model.Pais.Id" asp-route-experiencia="@experiencia.Id">
+                <div class="conainer-paises" style="--cor-hover: @experiencia.Cor;"> 
+                    <img src="@experiencia.Foto" asp-action="Local">
+                    <h1>@experiencia.Nome</h1>
+                    <div class="icon">
+                        <img src="@Model.Pais.Icon">
+                    </div>
+                    <div class="saiba-mais" style="--cor-hover: @experiencia.Cor;">Explore!</div>
+                </div>
+            </a>
+        }
+    </div>
+</section>
+
+<div class="banner">
+    <img src="~/img/outros/banner.png">
+</div>

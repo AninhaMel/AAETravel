@@ -10,8 +10,10 @@ namespace AAETravel.Models
         [Key]
         public string UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
-        public IdentityUser AccountUser { get; set; }
-        public string Email { get; set; }
+        public IdentityUser ContaUsuario { get; set; }
+
+        [Required(ErrorMessage = "Por favor, informe o Nome")]
+        [StringLength(60, ErrorMessage = "O Nome deve possuir no máximo 60 caracteres")]
         public string Nome { get; set; }
         public string Descricao { get; set; }
 

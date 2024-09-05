@@ -1,104 +1,103 @@
+using System.Net.Mail;
+using System.Security.Claims;
+using AAETravel.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
-using AAETravel.Models;
-using AAETravel.ViewModels; 
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace AAETravel.Controllers
+
+namespace Cozastore.Controllers;
+
+
+
+
+public class AccountController : Controller
 {
-    public class AccountController : Controller
+    private readonly ILogger<AccountController> _logger;
+    private readonly SignInManager<IdentityUser> _signInManager;
+    private readonly UserManager<IdentityUser> _userManager;
+
+    public AccountController(
+        ILogger<AccountController> logger,
+        SignInManager<IdentityUser> signInManager,
+        UserManager<IdentityUser> userManager
+    )
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly ILogger<AccountController> _logger;
+        _logger = logger;
+        _signInManager = signInManager;
+        _userManager = userManager;
+    }
 
-        public AccountController(SignInManager<IdentityUser> signInManager,
-                                 UserManager<IdentityUser> userManager,
-                                 ILogger<AccountController> logger)
+    [HttpGet]
+    public IActionResult Login(string returnUrl)
+    {
+        LoginVM login = new()
         {
-            _signInManager = signInManager;
-            _userManager = userManager;
-            _logger = logger;
-        }
+            UrlRetorno = returnUrl ?? Url.Content("~/")
+        };
+        return View(login);
+    }
 
-        [HttpGet]
-        public IActionResult Login()
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<ActionResult> Login(LoginVM login)
+    {
+        if (ModelState.IsValid)
         {
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginViewModel model)
-        {
-            if (!ModelState.IsValid)
+            string userName = login.Email;
+            if (IsValidEmail(userName))
             {
-                return View(model);
+                var user = await _userManager.FindByEmailAsync(userName);
+                if (user != null)
+                {
+                    userName = user.UserName;
+                }
             }
 
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: true);
+            var result = await _signInManager.PasswordSignInAsync(
+                userName, login.Senha, login.Lembrar, lockoutOnFailure: true
+            );
+
             if (result.Succeeded)
             {
-                _logger.LogInformation("User logged in.");
-                return RedirectToAction("Index", "Home");
+                _logger.LogInformation($"Usuário {userName} acessou o sistema!");
+                return LocalRedirect(login.UrlRetorno);
             }
 
             if (result.IsLockedOut)
             {
-                _logger.LogWarning("User account locked out.");
-                return RedirectToAction("Lockout");
+                _logger.LogWarning($"Usuário{userName} está bloqueado");
+                ModelState.AddModelError(string.Empty, "Conta Bloqueada! Aguarde alguns minutos para continuar!");
             }
-            else
-            {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                return View(model);
-            }
+            ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inválidos!!!");
         }
+        return View(login);
+    }
 
-        [HttpGet]
-        public IActionResult Register()
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Logout()
+    {
+        _logger.LogInformation($"Usuário {ClaimTypes.Email} saiu do sistema!");
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Index", "Home");
+    }
+    
+    public IActionResult AccessDanied()
+    {
+        return View();
+    }
+
+    private static bool IsValidEmail(string email)
+    {
+        try
         {
-            return View();
+            MailAddress mail = new(email);
+            return true;
         }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        catch
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
-            var user = new IdentityUser { UserName = model.Email, Email = model.Email };
-            var result = await _userManager.CreateAsync(user, model.Password);
-
-            if (result.Succeeded)
-            {
-                _logger.LogInformation("User created a new account with password.");
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Home");
-            }
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError(string.Empty, error.Description);
-            }
-            return View(model);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            _logger.LogInformation("User logged out.");
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpGet]
-        public IActionResult Lockout()
-        {
-            return View();
+            return false;
         }
     }
 }

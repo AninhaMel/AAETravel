@@ -6,98 +6,99 @@
 <partial name="_HeaderHome"></partial>
 <link rel="stylesheet" href="~/css/index.css">
 
-<section id="paises">
-    <h1>Países</h1>
-    <h3>Confira possíveis destinos!</h3>
-    <div class="container">
-        @foreach (var pais in Model.Paises)
-        {
-            <a asp-action="Pais" asp-route-id="@pais.Id">
-                <div class="conainer-paises">
-                    <img src="@pais.Foto" alt="@pais.Nome">
-                    <h1>@pais.Nome</h1>
-                </div>
-            </a>
-        }
-    </div>
-</section>
-<section class="galeria">
-    <h1>GALERIA DE VÍDEOS</h1>
-    <h3>Conheça de perto os países e inspire-se!</h3>
-    <div class="videos">
-        <div class="video">
-            <iframe width="100%" height="100%"
-                src="https://www.youtube.com/embed/SNx8B_oE8IY?si=e5UlK0yWys_BeLIP; start=11"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe width="100%" height="100%"
-                src="https://www.youtube.com/embed/EkshFcLESPU?si=ZZAfTJusbVTJcJh1; start=11"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe width="100%" height="100%"
-                src="https://www.youtube.com/embed/2KaD5Wf9Kro?si=QTAHV2F7TdQ0Tu-q; start=11"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe width="100%" height="100%"
-                src="https://www.youtube.com/embed/7AkemYCvjoc?si=u50PH-fbfACn6fXY; start=11"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
-</section>
-<section>
-    <h1>GALERIA DE FOTOS</h1>
-    <div class="wrapper">
-        <i id="left" class="bi bi-chevron-left"></i>
-        <div class="carrossel">
-            <img src="~/img/experiencias/carrossel/1.jpeg">
-            <img src="~/img/experiencias/carrossel/2.jpeg">
-            <img src="~/img/experiencias/carrossel/3.jpeg">
-            <img src="~/img/experiencias/carrossel/4.jpeg">
-            <img src="~/img/experiencias/carrossel/5.jpeg">
-            <img src="~/img/experiencias/carrossel/6.jpeg">
-            <img src="~/img/experiencias/carrossel/7.jpeg">
-            <img src="~/img/experiencias/carrossel/8.jpeg">
-            <img src="~/img/experiencias/carrossel/9.jpeg">
-            <img src="~/img/experiencias/carrossel/10.jpeg">
-            <img src="~/img/experiencias/carrossel/11.jpeg">
-        </div>
-        <i id="right" class="bi bi-chevron-right"></i>
-    </div>
-
-</section>
-
-<section id="agencias">
-    <h1>RECOMENDAÇÕES DE AGÊNCIAS</h1>
-    <div class="agencias">
-        @foreach (var agencia in Model.Agencias)
-        {
-            <div class="agencia" style="background-color: @agencia.Cor;">
-                <a href="@agencia.Link">
-                    <div class="agencia">
-                        <img src="@agencia.Foto">
-                        <div class="titulo">
-                            <h3>@agencia.Nome</h3>
-                        </div>
+<body>
+    <section id="paises">
+        <h1>Países</h1>
+        <h3>Confira possíveis destinos!</h3>
+        <div class="container">
+            @foreach (var pais in Model.Paises)
+            {
+                <a asp-action="Pais" asp-route-id="@pais.Id">
+                    <div class="conainer-paises">
+                        <img src="@pais.Foto" alt="@pais.Nome">
+                        <h1>@pais.Nome</h1>
                     </div>
                 </a>
+            }
+        </div>
+    </section>
+    <section class="galeria">
+        <h1>GALERIA DE VÍDEOS</h1>
+        <h3>Conheça de perto os países e inspire-se!</h3>
+        <div class="videos">
+            <div class="video">
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/SNx8B_oE8IY?si=e5UlK0yWys_BeLIP; start=11"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-        }
+            <div class="video">
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/EkshFcLESPU?si=ZZAfTJusbVTJcJh1; start=11"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/2KaD5Wf9Kro?si=QTAHV2F7TdQ0Tu-q; start=11"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/7AkemYCvjoc?si=u50PH-fbfACn6fXY; start=11"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>GALERIA DE FOTOS</h1>
+        <div class="wrapper">
+            <i id="left" class="bi bi-chevron-left"></i>
+            <div class="carrossel">
+                <img src="~/img/experiencias/carrossel/1.jpeg">
+                <img src="~/img/experiencias/carrossel/2.jpeg">
+                <img src="~/img/experiencias/carrossel/3.jpeg">
+                <img src="~/img/experiencias/carrossel/4.jpeg">
+                <img src="~/img/experiencias/carrossel/5.jpeg">
+                <img src="~/img/experiencias/carrossel/6.jpeg">
+                <img src="~/img/experiencias/carrossel/7.jpeg">
+                <img src="~/img/experiencias/carrossel/8.jpeg">
+                <img src="~/img/experiencias/carrossel/9.jpeg">
+                <img src="~/img/experiencias/carrossel/10.jpeg">
+                <img src="~/img/experiencias/carrossel/11.jpeg">
+            </div>
+            <i id="right" class="bi bi-chevron-right"></i>
+        </div>
+
+    </section>
+
+    <section id="agencias">
+        <h1>RECOMENDAÇÕES DE AGÊNCIAS</h1>
+        <div class="agencias">
+            @foreach (var agencia in Model.Agencias)
+            {
+                <div class="agencia" style="background-color: @agencia.Cor;">
+                    <a href="@agencia.Link">
+                        <div class="agencia">
+                            <img src="@agencia.Foto">
+                            <div class="titulo">
+                                <h3>@agencia.Nome</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </section>
+
+    <div class="banner">
+        <img src="~/img/outros/banner.png">
     </div>
-</section>
-
-<div class="banner">
-    <img src="~/img/outros/banner.png">
-</div>
-
+</body>
 <script defer src="~/js/inicio/script.js"></script>

@@ -88,6 +88,10 @@ public class AccountController : Controller
         return View();
     }
 
+    public IActionResult Register(){
+        return View();
+    }
+
     private static bool IsValidEmail(string email)
     {
         try

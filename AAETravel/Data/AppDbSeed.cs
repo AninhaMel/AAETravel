@@ -3916,14 +3916,8 @@ public class AppDbSeed
 			new IdentityRole()
 			{
 			   Id = Guid.NewGuid().ToString(),
-			   Name = "Funcionário",
-			   NormalizedName = "FUNCIONÁRIO"
-			},
-			new IdentityRole()
-			{
-			   Id = Guid.NewGuid().ToString(),
-			   Name = "Cliente",
-			   NormalizedName = "CLIENTE"
+			   Name = "Visitante",
+			   NormalizedName = "VISITANTE"
 			}
 		};
 		builder.Entity<IdentityRole>().HasData(roles);
@@ -3933,28 +3927,37 @@ public class AppDbSeed
 		List<IdentityUser> users = new(){
 			new IdentityUser(){
 				Id = Guid.NewGuid().ToString(),
-				Email = "admin@aaetravel.com",
-				NormalizedEmail = "ADMIN@AAETRAVEL.COM",
-				UserName = "Admin",
-				NormalizedUserName = "ADMIN",
-				LockoutEnabled = false,
-				EmailConfirmed = true,
-			},
-			new IdentityUser(){
-				Id = Guid.NewGuid().ToString(),
-				Email = "admin@aaetravel.com",
-				NormalizedEmail = "ADMIN@AAETRAVEL.COM",
-				UserName = "Funcionario",
-				NormalizedUserName = "FUNCIONARIO",
+				Email = "eduardo.oliveira@aaetravel.com",
+				NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
+				UserName = "Eduardo",
+				NormalizedUserName = "EDUARDO",
 				LockoutEnabled = true,
 				EmailConfirmed = true,
 			},
 			new IdentityUser(){
 				Id = Guid.NewGuid().ToString(),
-				Email = "cliente@gmail.com",
-				NormalizedEmail = "CLIENTE@GMAIL.COM",
-				UserName = "Cliente",
-				NormalizedUserName = "CLIENTE",
+				Email = "ana.silva@aaetravel.com",
+				NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
+				UserName = "ana",
+				NormalizedUserName = "ANA",
+				LockoutEnabled = true,
+				EmailConfirmed = true,
+			},
+			new IdentityUser(){
+				Id = Guid.NewGuid().ToString(),
+				Email = "eduardo.dametto@gmail.com",
+				NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
+				UserName = "dametto",
+				NormalizedUserName = "DAMETTO",
+				LockoutEnabled = true,
+				EmailConfirmed = true,
+			},
+			new IdentityUser(){
+				Id = Guid.NewGuid().ToString(),
+				Email = "any.lima@gmail.com",
+				NormalizedEmail = "ANY.LIMA@GMAIL.COM",
+				UserName = "any",
+				NormalizedUserName = "ANY",
 				LockoutEnabled = true,
 				EmailConfirmed = true,
 			}
@@ -3984,7 +3987,7 @@ public class AppDbSeed
 			},
 			new Usuario(){
 				UsuarioId = users[2].Id,
-				Nome = "Any Gabriele",
+				Nome = "Any Gabriele de Lima",
 				Foto = "/img/usuarios/2.png",
 				Descricao = "Programador junior",
 				Cidade = "Barra Bonita, SP"
@@ -4005,19 +4008,35 @@ public class AppDbSeed
 		{
 			new IdentityUserRole<string>() {
 				UserId = users[0].Id,
-				RoleId = roles[0].Id
+				RoleId = roles[0].Id,
+			},
+			new IdentityUserRole<string>() {
+				UserId = users[0].Id,
+				RoleId = roles[1].Id
 			},
 			new IdentityUserRole<string>() {
 				UserId = users[1].Id,
 				RoleId = roles[0].Id
 			},
 			new IdentityUserRole<string>() {
+				UserId = users[1].Id,
+				RoleId = roles[1].Id
+			},
+			new IdentityUserRole<string>() {
 				UserId = users[2].Id,
 				RoleId = roles[0].Id
 			},
 			new IdentityUserRole<string>() {
+				UserId = users[2].Id,
+				RoleId = roles[1].Id
+			},
+			new IdentityUserRole<string>() {
 				UserId = users[3].Id,
 				RoleId = roles[0].Id
+			},
+			new IdentityUserRole<string>() {
+				UserId = users[3].Id,
+				RoleId = roles[1].Id
 			}
 		};
 		builder.Entity<IdentityUserRole<string>>().HasData(userRoles);

@@ -8,7 +8,6 @@ using AAETravel.Models;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Text;
 using System.Text.Encodings.Web;
-using AAETravel.ViewModels;
 using Microsoft.AspNetCore.Mvc.Razor;
 
 

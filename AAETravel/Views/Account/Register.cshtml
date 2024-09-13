@@ -1,4 +1,4 @@
-@model AAETravel.ViewModels.RegisterViewModel
+@model AAETravel.ViewModels.RegistroVM
 
 @{
     ViewData["Title"] = "Register";
@@ -21,17 +21,17 @@
                 <input asp-for="Email" class="form-control" />
             </div>
             <div class="form-group">
-                <label asp-for="Password">Senha:</label>
+                <label asp-for="Senha">Senha:</label>
                 <div class="password-container">
-                    <input asp-for="Password" type="password" class="form-control" id="password" />
+                    <input asp-for="Senha" type="password" class="form-control" id="password" />
                     <button type="button" class="toggle-password"
                         onclick="togglePasswordVisibility('password')">🐵</button>
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="ConfirmPassword">Confirmar senha:</label>
+                <label asp-for="Senha">Confirmar senha:</label>
                 <div class="password-container">
-                    <input asp-for="ConfirmPassword" type="password" class="form-control" id="confirmPassword" />
+                    <input asp-for="Senha" type="password" class="form-control" id="confirmPassword" />
                     <button type="button" class="toggle-password"
                         onclick="togglePasswordVisibility('confirmPassword')">🐵</button>
                 </div>

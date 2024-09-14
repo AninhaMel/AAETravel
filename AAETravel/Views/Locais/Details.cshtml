@@ -2,71 +2,121 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<h1>Details</h1>
+<div class="custom-container mt-4">
+    <h1>Details</h1>
 
-<div>
-    <h4>Local</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Localizacao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Localizacao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Telefone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telefone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HorarioFuncionamento)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HorarioFuncionamento)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Foto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Foto)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Pais)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Pais.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Latitude)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Latitude)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Longitude)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Longitude)
-        </dd>
-    </dl>
+    <div>
+        <h4>Local</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Localizacao)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Localizacao)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Telefone)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Telefone)
+            </dd>
+            <dt class="col-sm-2">
+                Horário
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.HorarioFuncionamento)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Foto)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Pais)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Pais.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Latitude)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Latitude)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Longitude)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Longitude)
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="edit-link btn btn-warning">Editar</a> |
+        <a asp-action="Index" class="back-to-list btn btn-danger">Voltar</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .custom-container {
+        width: 50vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1,
+    h4 {
+        color: white;
+    }
+
+    dt {
+        color: #9b30ff;
+    }
+
+    dd {
+        color: white;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        background-color: #6a0dad;
+        border-color: #6a0dad;
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover {
+        background-color: #9b30ff;
+        border-color: #9b30ff;
+    }
+
+
+
+</style>

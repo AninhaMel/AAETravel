@@ -2,45 +2,99 @@
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Edit</h1>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<h4>Experiencia</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Foto" class="control-label"></label>
-                <input asp-for="Foto" class="form-control" />
-                <span asp-validation-for="Foto" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cor" class="control-label"></label>
-                <input asp-for="Cor" class="form-control" />
-                <span asp-validation-for="Cor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Fundo" class="control-label"></label>
-                <input asp-for="Fundo" class="form-control" />
-                <span asp-validation-for="Fundo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="custom-container mt-4">
+    <h1>Editar Experiência</h1>
+
+    <h4>Experiência</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cor" class="control-label"></label>
+                    <input asp-for="Cor" class="form-control" />
+                    <span asp-validation-for="Cor" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Fundo" class="control-label"></label>
+                    <input asp-for="Fundo" class="form-control" />
+                    <span asp-validation-for="Fundo" class="text-danger"></span>
+                    @if (Model.Fundo != null && Model.Fundo != "")
+                    {
+                        <img src="@Model.Fundo" alt="Imagem Fundo" class="image-preview" />
+                    }
+                </div>
+                <div class="form-group">
+                    <label asp-for="Onda" class="control-label"></label>
+                    <input asp-for="Onda" class="form-control" />
+                    <span asp-validation-for="Onda" class="text-danger"></span>
+                    @if (Model.Onda != null && Model.Onda != "")
+                    {
+                        <img src="@Model.Onda" alt="Imagem Onda" class="image-preview" />
+                    }
+                </div>
+                <div class="form-buttons">
+                    <input type="submit" value="Salvar" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-danger">Voltar</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
 
+    .custom-container {
+        width: 70vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1,
+    h4 {
+        color: white;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        border: 1px solid #9b30ff;
+    }
+
+    .form-control:focus {
+        border-color: #6a0dad;
+        box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.5);
+    }
+
+    .text-danger {
+        color: #ff6a6a;
+    }
+
+    .image-preview {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+</style>

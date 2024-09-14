@@ -1,42 +1,90 @@
 @model IEnumerable<AAETravel.Models.Pais>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Índice";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Foto)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Foto)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="custom-container mt-4">
+    <h1>Paises</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Criar Novo</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Foto)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.Foto))
+                        {
+                            <img src="@item.Foto" alt="Imagem do País" class="image-preview" />
+                        }
+                        else
+                        {
+                            @Html.DisplayFor(modelItem => item.Foto)
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .custom-container {
+        width: 70vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .table {
+        color: white;
+    }
+
+    .table th,
+    .table td {
+        text-align: center;
+    }
+
+    .image-preview {
+        max-width: 100px;
+        height: auto;
+    }
+</style>

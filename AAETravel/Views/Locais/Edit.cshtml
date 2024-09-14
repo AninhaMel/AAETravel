@@ -2,70 +2,158 @@
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<h1>Edit</h1>
+<div class="custom-container mt-4">
+    <h1>Editar</h1>
 
-<h4>Local</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Localizacao" class="control-label"></label>
-                <input asp-for="Localizacao" class="form-control" />
-                <span asp-validation-for="Localizacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Telefone" class="control-label"></label>
-                <input asp-for="Telefone" class="form-control" />
-                <span asp-validation-for="Telefone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HorarioFuncionamento" class="control-label"></label>
-                <input asp-for="HorarioFuncionamento" class="form-control" />
-                <span asp-validation-for="HorarioFuncionamento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Descricao" class="control-label"></label>
-                <input asp-for="Descricao" class="form-control" />
-                <span asp-validation-for="Descricao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Foto" class="control-label"></label>
-                <input asp-for="Foto" class="form-control" />
-                <span asp-validation-for="Foto" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PaisId" class="control-label"></label>
-                <select asp-for="PaisId" class="form-control" asp-items="ViewBag.PaisId"></select>
-                <span asp-validation-for="PaisId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Latitude" class="control-label"></label>
-                <input asp-for="Latitude" class="form-control" />
-                <span asp-validation-for="Latitude" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Longitude" class="control-label"></label>
-                <input asp-for="Longitude" class="form-control" />
-                <span asp-validation-for="Longitude" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+    <h4>Local</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Localizacao" class="control-label"></label>
+                    <input asp-for="Localizacao" class="form-control" />
+                    <span asp-validation-for="Localizacao" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Telefone" class="control-label"></label>
+                    <input asp-for="Telefone" class="form-control" />
+                    <span asp-validation-for="Telefone" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="HorarioFuncionamento" class="control-label"></label>
+                    <input asp-for="HorarioFuncionamento" class="form-control" />
+                    <span asp-validation-for="HorarioFuncionamento" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Descricao" class="control-label"></label>
+                    <input asp-for="Descricao" class="form-control" />
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Foto" class="control-label"></label>
+                    <input asp-for="Foto" class="form-control" />
+                    <span asp-validation-for="Foto" class="text-danger"></span>
+                </div>
+                
+                @if (!string.IsNullOrEmpty(Model.Foto))
+                {
+                    <div class="image-preview">
+                        <img src="@Model.Foto" alt="Imagem do Local" />
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label asp-for="PaisId" class="control-label"></label>
+                    <select asp-for="PaisId" class="form-control" asp-items="ViewBag.PaisId"></select>
+                    <span asp-validation-for="PaisId" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Latitude" class="control-label"></label>
+                    <input asp-for="Latitude" class="form-control" />
+                    <span asp-validation-for="Latitude" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Longitude" class="control-label"></label>
+                    <input asp-for="Longitude" class="form-control" />
+                    <span asp-validation-for="Longitude" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index" class="back-to-list btn btn-danger ">Voltar</a>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
 
+    .custom-container {
+        width: 50vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1, h4 {
+        color: white;
+    }
+
+    label {
+        color: #9b30ff;
+    }
+
+    input, select {
+        background-color: #333;
+        color: white;
+        border: 3px solid white;
+        width: 100%;
+    }
+
+    .form-control:focus {
+        background-color: #555;
+        color: white;
+        border-color: #9b30ff;
+        box-shadow: 0 0 5px rgba(128, 0, 128, 0.8);
+    }
+
+    .btn-primary {
+        background-color: #6a0dad;
+        border-color: #6a0dad;
+    }
+
+    .btn-primary:hover {
+        background-color: #9b30ff;
+        border-color: #9b30ff;
+    }
+
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .text-danger {
+        color: #ff6aff !important;
+    }
+
+    .image-preview {
+        margin-top: 20px;
+    }
+
+    .image-preview img {
+        max-width: 100%;
+        height: auto;
+        border: 3px solid white;
+    }
+</style>

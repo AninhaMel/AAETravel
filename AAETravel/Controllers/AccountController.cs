@@ -1,107 +1,130 @@
-using System.Net.Mail;
 using System.Security.Claims;
-using AAETravel.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using AAETravel.ViewModels;
+using AAETravel.Services;
 
-
-namespace Cozastore.Controllers;
-
-
-
-
-public class AccountController : Controller
+namespace Cozastore.Controllers
 {
-    private readonly ILogger<AccountController> _logger;
-    private readonly SignInManager<IdentityUser> _signInManager;
-    private readonly UserManager<IdentityUser> _userManager;
-
-    public AccountController(
-        ILogger<AccountController> logger,
-        SignInManager<IdentityUser> signInManager,
-        UserManager<IdentityUser> userManager
-    )
+    public class AccountController : Controller
     {
-        _logger = logger;
-        _signInManager = signInManager;
-        _userManager = userManager;
-    }
+        private readonly ILogger<AccountController> _logger;
+        private readonly IUsuarioService _usuarioService;
 
-    [HttpGet]
-    public IActionResult Login(string returnUrl)
-    {
-        LoginVM login = new()
+        public AccountController(
+            ILogger<AccountController> logger,
+            IUsuarioService usuarioService
+        )
         {
-            UrlRetorno = returnUrl ?? Url.Content("~/")
-        };
-        return View(login);
-    }
+            _logger = logger;
+            _usuarioService = usuarioService;
+        }
 
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<ActionResult> Login(LoginVM login)
-    {
-        if (ModelState.IsValid)
+        [HttpGet]
+        public IActionResult Login(string returnUrl)
         {
-            string userName = login.Email;
-            if (IsValidEmail(userName))
+            var login = new LoginVM
             {
-                var user = await _userManager.FindByEmailAsync(userName);
-                if (user != null)
+                UrlRetorno = returnUrl ?? Url.Content("~/")
+            };
+            return View(login);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginVM login)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _usuarioService.LoginUsuario(login);
+
+                if (result.Succeeded)
                 {
-                    userName = user.UserName;
+                    _logger.LogInformation($"Usuário {login.Email} acessou o sistema!");
+                    return LocalRedirect(login.UrlRetorno);
+                }
+
+                if (result.IsLockedOut)
+                {
+                    _logger.LogWarning($"Usuário {login.Email} está bloqueado");
+                    return RedirectToAction("Lockout");
+                }
+
+                if (result.IsNotAllowed)
+                {
+                    ModelState.AddModelError(string.Empty, "Sua conta não está confirmada, verifique seu email!");
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inválidos!");
                 }
             }
 
-            var result = await _signInManager.PasswordSignInAsync(
-                userName, login.Senha, login.Lembrar, lockoutOnFailure: true
-            );
+            return View(login);
+        }
 
-            if (result.Succeeded)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            var userEmail = User.Identity?.Name;
+            _logger.LogInformation($"Usuário {userEmail} saiu do sistema!");
+            await _usuarioService.LogoffUsuario();
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public IActionResult Registro()
+        {
+            var register = new RegistroVM();
+            return View(register);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Registro(RegistroVM register)
+        {
+            if (ModelState.IsValid)
             {
-                _logger.LogInformation($"Usuário {userName} acessou o sistema!");
-                return LocalRedirect(login.UrlRetorno);
+                var result = await _usuarioService.RegistrarUsuario(register);
+
+                if (result != null)
+                {
+                    foreach (var error in result)
+                    {
+                        ModelState.AddModelError(string.Empty, error);
+                    }
+                }
+                else
+                {
+                    register.Enviado = true;
+                }
             }
 
-            if (result.IsLockedOut)
+            return View(register);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ConfirmarEmail(string userId, string code)
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(code))
             {
-                _logger.LogWarning($"Usuário{userName} está bloqueado");
-                ModelState.AddModelError(string.Empty, "Conta Bloqueada! Aguarde alguns minutos para continuar!");
+                return RedirectToAction("Index", "Home");
             }
-            ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inválidos!!!");
+
+            await _usuarioService.ConfirmarEmail(userId, code);
+            return View(true);
         }
-        return View(login);
-    }
 
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Logout()
-    {
-        _logger.LogInformation($"Usuário {ClaimTypes.Email} saiu do sistema!");
-        await _signInManager.SignOutAsync();
-        return RedirectToAction("Index", "Home");
-    }
-    
-    public IActionResult AccessDanied()
-    {
-        return View();
-    }
-
-    public IActionResult Register(){
-        return View();
-    }
-
-    private static bool IsValidEmail(string email)
-    {
-        try
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
         {
-            MailAddress mail = new(email);
-            return true;
+            return View("Error");
         }
-        catch
+
+        public IActionResult Lockout()
         {
-            return false;
+            return View();
         }
     }
 }

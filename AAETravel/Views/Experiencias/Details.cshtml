@@ -2,41 +2,109 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<div>
-    <h4>Experiencia</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Foto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Foto)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cor)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fundo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fundo)
-        </dd>
-    </dl>
+<div class="custom-container mt-4">
+    <h1>Detalhes</h1>
+
+    <div>
+        <h4>Experiência</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Cor)
+            </dt>
+            <dd class="col-sm-10">
+                <span>@Html.DisplayFor(model => model.Cor)</span>
+                @if (!string.IsNullOrEmpty(Model.Cor))
+                {
+                    <div class="color-preview" style="background-color: @Model.Cor;"></div>
+                }
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Fundo)
+            </dt>
+            <dd class="col-sm-10">
+                @if (Model.Fundo != null && Model.Fundo != "")
+                {
+                    <img src="@Model.Fundo" alt="Imagem Fundo" class="image-preview" />
+                }
+                else
+                {
+                    @Html.DisplayFor(model => model.Fundo)
+                }
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Onda)
+            </dt>
+            <dd class="col-sm-10">
+                @if (Model.Onda != null && Model.Onda != "")
+                {
+                    <img src="@Model.Onda" alt="Imagem Onda" class="image-preview" />
+                }
+                else
+                {
+                    @Html.DisplayFor(model => model.Onda)
+                }
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> |
+        <a asp-action="Index" class="btn btn-danger">Voltar</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .custom-container {
+        width: 70vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1,
+    h4 {
+        color: white;
+    }
+
+    .dl-horizontal dt {
+        font-weight: bold;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0;
+    }
+
+    .image-preview {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .color-preview {
+        width: 100px;
+        height: 50px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+</style>

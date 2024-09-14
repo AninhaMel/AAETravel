@@ -4,82 +4,107 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+<link rel="stylesheet" href="~/css/Admin/experiencia.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<div class="container custom-container mt-4">
+    <h1 class="mb-4">Locais</h1>
 
-<h1>Index</h1>
+    <div class="mb-3">
+        <a class="btn btn-primary" asp-action="Create">Criar Novo</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Localizacao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HorarioFuncionamento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Foto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pais)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Latitude)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Longitude)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
+    <div class="row">
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Localizacao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Telefone)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.HorarioFuncionamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descricao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Foto)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Pais.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Latitude)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Longitude)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@item.Foto" class="card-img-top" alt="Imagem de @item.Nome">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Nome</h5>
+                        <div class="card-text-container">
+                            <p class="card-text">
+                                <strong>País:</strong> @item.Pais.Nome <br />
+                                <strong>Localização:</strong> @item.Localizacao <br />
+                                <strong>Telefone:</strong> @item.Telefone <br />
+                                <strong>Horário de Funcionamento:</strong> @item.HorarioFuncionamento <br />
+                                <strong>Descrição:</strong> @item.Descricao <br />
+                                <strong>Latitude:</strong> @item.Latitude <br />
+                                <strong>Longitude:</strong> @item.Longitude
+                            </p>
+                        </div>
+                        <div class="mt-auto">
+                            <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .custom-container {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        transition: 0.3s ease-in-out;
+        border-radius: 30px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(128, 0, 128, 0.7);
+        transform: scale(1.01);
+        transition: 0.3s ease-in-out;
+    }
+
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 30px;
+        box-shadow: 0 8px 16px rgba(108, 108, 108, 0.7);
+
+    }
+
+    .card-text-container {
+        flex: 1;
+        overflow: auto;
+        max-height: 150px;
+        color: black;
+    }
+
+    .card-text {
+        margin-bottom: 0;
+    }
+
+    .card-title {
+        color: black;
+    }
+
+    .mt-auto {
+        margin-top: auto;
+    }
+
+    h1 {
+        color: white;
+    }
+</style>

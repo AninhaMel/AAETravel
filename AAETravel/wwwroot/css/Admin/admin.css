@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: black;
 }
 
 .perfil {
@@ -27,7 +26,7 @@ body {
     cursor: pointer;
     width: 11%;
     position: fixed;
-    margin: 2%;
+    margin: 3% 0;
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.363));
     transition: 0.1s ease-in-out;
 

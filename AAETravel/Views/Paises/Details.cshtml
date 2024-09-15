@@ -2,29 +2,77 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<div>
-    <h4>Pais</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Foto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Foto)
-        </dd>
-    </dl>
+<div class="custom-container mt-4">
+    <h1>Detalhes</h1>
+
+    <div>
+        <h4>Pais</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+            <dd class="col-sm-10">
+                @if (!string.IsNullOrEmpty(Model.Foto))
+                {
+                    <img src="@Model.Foto" alt="Imagem do País" class="image-preview" />
+                }
+                else
+                {
+                    @Html.DisplayFor(model => model.Foto)
+                }
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="edit-link btn btn-warning">Editar</a> |
+        <a asp-action="Index" class="back-to-list btn btn-danger">Voltar</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .custom-container {
+        width: 50vw;
+        margin: 0 auto;
+        padding: 20px;
+        border: 3px solid white;
+        box-shadow: 0 4px 8px rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+        background-color: #1c1c1c;
+    }
+
+    h1,
+    h4 {
+        color: white;
+    }
+
+    dt {
+        color: #9b30ff;
+    }
+
+    dd {
+        color: white;
+    }
+
+    .image-preview {
+        max-width: 100px;
+        height: auto;
+    }
+
+</style>

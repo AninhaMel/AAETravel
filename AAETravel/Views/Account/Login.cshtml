@@ -2,49 +2,66 @@
 
 @{
     ViewData["Title"] = "Login";
+    ViewData["SubTitle"] = "Entrar";
     Layout = null;
 }
+
 <link rel="stylesheet" href="~/css/login.css">
 <link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
 <body>
     <main>
-        <div class="login-img">
-            <img src="~/img/outros/favcon.png">
-        </div>
-        <h1>EXPLORE O MUNDO!</h1>
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" hidden></div>
+            <input type="hidden" asp-for="UrlRetorno">
 
-        <form>
-            <input type="text" name="email" id="email" placeholder="Email:">
-
-            <div class="password-container">
-                <input type="password" name="password" id="password" placeholder="Senha" class="form-control">
-                <button type="button" class="toggle-password"
-                    onclick="togglePasswordVisibility('password')">🐵</button>
+            <div class="login-img">
+                <img src="~/img/outros/favcon.png" alt="Logo">
             </div>
 
-            <input type="submit" style="width: 200px;">
+            <h1 class="explore">EXPLORE O MUNDO!</h1>
+
+            <div class="password-container">
+                <input asp-for="Email" placeholder="Email">
+                <label asp-for="Email" style="color: white;"></label>
+                <span asp-validation-for="Email" text-danger text-sm></span>
+            </div>
+
+            <div class="password-container" style="position: relative;">
+                <input asp-for="Senha" id="password" placeholder="Senha">
+                <label asp-for="Senha" style="color: white;"></label>
+                <button type="button" class="toggle-password">🐵</button>
+                <span asp-validation-for="Senha"></span>
+            </div>
+
+            <div>
+                <input type="checkbox" asp-for="Lembrar">
+                <label style="color: white;" asp-for="Lembrar"></label>
+            </div>
+
+            <button class="Entrar" type="submit">Entrar</button>
+
+            <p style="color: white;">
+                Ainda não possui uma conta?
+                <a asp-action="Registro" asp-controller="Account" >Registre-se
+                    aqui</a>
+            </p>
         </form>
-
-
-        <p>
-            <a asp-action="Registro" asp-controller="Account">Registrar </a>
-        </p>
     </main>
+
+    <script>
+        const togglePasswordVisibility = (passwordField) => {
+            return passwordField.type === 'password' ? 'text' : 'password';
+        };
+
+        document.querySelector('.toggle-password').addEventListener('click', function () {
+            const passwordField = document.getElementById('password');
+
+
+            passwordField.type = togglePasswordVisibility(passwordField);
+
+            this.textContent = passwordField.type === 'password' ? '🐵' : '🙈';
+        });
+    </script>
 </body>
-
-<script>
-    function togglePasswordVisibility(id) {
-        var passwordField = document.getElementById(id);
-        var button = passwordField.nextElementSibling;
-
-        if (passwordField.type === "password") {
-            passwordField.type = "text";
-            button.textContent = "🙈";
-        } else {
-            passwordField.type = "password";
-            button.textContent = "🐵"; 
-        }
-    }
-</script>

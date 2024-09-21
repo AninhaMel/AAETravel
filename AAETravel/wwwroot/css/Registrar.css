@@ -26,128 +26,129 @@ body {
 }
 
 main {
-    width: 30vw;
-    background: rgba(0, 0, 0, 0.545);
+    background: rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    border-radius: 30px;
-    padding: 2% 0;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10% 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
 
-    & .login-img {
-        width: 40vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.login-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        & img {
-            width: 40%;
-            filter: drop-shadow(0 0 4px #7748CF);
-        }
-    }
+.login-img img {
+    width: 30%;
+    filter: drop-shadow(0 0 8px #7748CF);
+}
+
+.explore {
+    color: #7748CF;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
 }
 
 form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 50px;
+    gap: 1.5rem;
 }
 
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    padding: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #7748CF;
+    outline: none;
+    box-shadow: 0 0 8px #7748CF;
+}
+
+
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+
+.toggle-password {
+    position: absolute;
+    right: 3%;
+    top: 9%;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #7748CF;
+}
 
 
 p a {
     color: #7748CF;
-    font-weight: 700;
-
-    &:hover {
-        color: hsl(261, 100%, 73%);
-        filter: drop-shadow(0 0 2px #7748CF)
-    }
+    font-weight: bold;
+    text-align: center;
 }
 
+p a:hover {
+    color: hsl(261, 100%, 73%);
+    filter: drop-shadow(0 0 4px #7748CF);
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
 
 a {
     text-decoration: none;
 }
 
-
-
-
-.form-group {
+.Criar {
+    padding: 2% 9%;
+    border-radius: 20px;
+    background-color: #7748CF;
     color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-}
+    font-size: 14pt;
+    transition: 0.1s ease-in-out;
 
-.form-control {
-    padding: 3%;
-}
-
-input {
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-
-    &[type=password] {
-        padding: 12px;
-        padding: 3%;
-    }
-
-    &[type=text] {
-        font-family: "Open Sans", sans-serif;
-        padding: 3%;
-
-    }
-
-    &[type=submit] {
-        margin-top: 15%;
-        cursor: pointer;
-        background: #7748CF;
-        color: white;
-        transition: 0.3s;
-
-        &:active {
-            box-shadow: none;
-        }
-
-        &:hover {
-            background: black;
-            color: #7748CF;
-            box-shadow: 0 0 5px #7748CF;
-        }
+    &:hover {
+        color: #7748CF;
+        background-color: black;
+        box-shadow: 0 0 10px #7748CF;
+        transition: 0.1s ease-in-out;
     }
 }
 
-.password-container {
-    position: relative;
-    width: 100%;
-}
-
-.password-container input {
-    padding-right: 40px;
-}
-
-.toggle-password {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2em;
-    color: #7748CF;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-.toggle-password:hover {
-    color: hsl(261, 100%, 73%);
+span {
+    color: rgb(240, 55, 55);
 }

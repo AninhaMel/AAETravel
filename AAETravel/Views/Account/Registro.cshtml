@@ -5,57 +5,74 @@
     Layout = null;
 }
 <link rel="stylesheet" href="~/css/Registrar.css">
-    <link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
-
-
+<link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
 
 <body>
-
     <main>
-        <div class="login-img">
-            <img src="~/img/outros/favcon.png">
-        </div>
-        <form asp-action="Register" method="post">
-            <div class="form-group">
-                <label asp-for="Email">Email:</label>
-                <input asp-for="Email" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha">Senha:</label>
-                <div class="password-container">
-                    <input asp-for="Senha" type="password" class="form-control" id="password" />
-                    <button type="button" class="toggle-password"
-                        onclick="togglePasswordVisibility('password')">🐵</button>
+        @if (!Model.Enviado)
+        {
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" hidden></div>
+
+                <div class="login-img">
+                    <img src="~/img/outros/favcon.png" alt="Logo">
                 </div>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha">Confirmar senha:</label>
+
+                <h1 class="explore">Crie sua Conta</h1>
+
                 <div class="password-container">
-                    <input asp-for="Senha" type="password" class="form-control" id="confirmPassword" />
-                    <button type="button" class="toggle-password"
-                        onclick="togglePasswordVisibility('confirmPassword')">🐵</button>
+                    <input asp-for="Email" placeholder="Email" class="form-control" />
+                    <label asp-for="Email" style="color: white;"></label>
+                    <span asp-validation-for="Email" class="text-danger text-sm"></span>
                 </div>
-            </div>
-            <input type="submit" style="width: 200px;">
-        </form>
 
-        <p>
-            <a asp-action="Login">Fazer Login</a>
-        </p>
-    </main>
-</body>
+                <div class="password-container" style="position: relative;">
+                    <input asp-for="Senha" type="password" id="password" placeholder="Senha" class="form-control" />
+                    <label asp-for="Senha" style="color: white;"></label>
+                    <button type="button" class="toggle-password">🐵</button>
+                    <span asp-validation-for="Senha" class="text-danger text-sm"></span>
+                </div>
 
-<script>
-    function togglePasswordVisibility(id) {
-        var passwordField = document.getElementById(id);
-        var button = passwordField.nextElementSibling;
 
-        if (passwordField.type === "password") {
-            passwordField.type = "text";
-            button.textContent = "🙈";
-        } else {
-            passwordField.type = "password";
-            button.textContent = "🐵";
+                <div class="password-container" style="position: relative;">
+                    <input asp-for="ConfirmacaoSenha" type="password" id="confirmPassword" placeholder="Confirmar Senha"
+                        class="form-control" />
+                    <label asp-for="ConfirmacaoSenha" style="color: white;"></label>
+                    <button type="button" class="toggle-password">🐵</button>
+                    <span asp-validation-for="ConfirmacaoSenha" class="text-danger text-sm"></span>
+                </div>
+
+                <button type="submit" class="Criar">Criar Conta</button>
+
+                <p>
+                    <a asp-action="Login">Fazer Login</a>
+                </p>
+            </form>
         }
+        else
+        {
+            <div class="container">
+                <div class="text-center text-white mb-4">
+                    <p class="h5 mb-5">Acesse o email informado para concluir o processo de criação!</p>
+                    <a asp-action="Login" asp-controller="Account" class="btn btn-danger text-white">Ir para o Login</a>
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary text-white">Voltar à página
+                        inicial</a>
+                </div>
+            </div>
+        }
+    </main>
+    @section Scripts {
+        <script defer async>
+            document.querySelectorAll('.toggle-password').forEach(button => {
+                button.addEventListener('click', function () {
+                    console.log("Botão clicado");
+                    const passwordField = this.previousElementSibling;
+                    passwordField.type = togglePasswordVisibility(passwordField);
+                    this.textContent = passwordField.type === 'password' ? '🐵' : '🙈';
+                });
+            });
+
+        </script>
     }
-</script>
+
+</body>

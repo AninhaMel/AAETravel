@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using AAETravel.Models;
 using AAETravel.Data;
 using AAETravel.ViewModels;
+using System.Security.Claims;
 
 namespace AAETravel.Controllers
 {
@@ -28,13 +29,8 @@ namespace AAETravel.Controllers
         {
             HomeVM home = new()
             {
-                Paises = _context.Paises
-                .AsNoTracking()
-                .ToList(),
-
-                Agencias = _context.Agencias
-                .AsNoTracking()
-                .ToList(),
+                Paises = _context.Paises.AsNoTracking().ToList(),
+                Agencias = _context.Agencias.AsNoTracking().ToList(),
             };
             return View(home);
         }
@@ -43,12 +39,8 @@ namespace AAETravel.Controllers
         {
             PaisVM pais = new()
             {
-                Pais = _context.Paises
-                    .AsNoTracking()
-                    .FirstOrDefault(e => e.Id == id),
-                Experiencias = _context.Experiencias
-                    .AsNoTracking()
-                    .ToList()
+                Pais = _context.Paises.AsNoTracking().FirstOrDefault(e => e.Id == id),
+                Experiencias = _context.Experiencias.AsNoTracking().ToList()
             };
             return View(pais);
         }
@@ -70,13 +62,8 @@ namespace AAETravel.Controllers
             ExperienciaVM experienciaPais = new()
             {
                 PaisId = pais,
-                Experiencia = _context.Experiencias
-                    .AsNoTracking()
-                    .FirstOrDefault(e => e.Id == experiencia),
-                Locais = _context.Locais
-                    .AsNoTracking()
-                    .Where(l => idExperienciaLocal.Contains(l.Id))
-                    .ToList(),
+                Experiencia = _context.Experiencias.AsNoTracking().FirstOrDefault(e => e.Id == experiencia),
+                Locais = _context.Locais.AsNoTracking().Where(l => idExperienciaLocal.Contains(l.Id)).ToList(),
             };
 
             return View(experienciaPais);
@@ -84,13 +71,8 @@ namespace AAETravel.Controllers
 
         public IActionResult Local(int id, int experiencia)
         {
-            var local = _context.Locais
-                .AsNoTracking()
-                .FirstOrDefault(l => l.Id == id);
-
-            var experienciaModel = _context.Experiencias
-                .AsNoTracking()
-                .FirstOrDefault(e => e.Id == experiencia);
+            var local = _context.Locais.AsNoTracking().FirstOrDefault(l => l.Id == id);
+            var experienciaModel = _context.Experiencias.AsNoTracking().FirstOrDefault(e => e.Id == experiencia);
 
             var model = new LocalVM
             {
@@ -105,9 +87,7 @@ namespace AAETravel.Controllers
         {
             CriadorVM criadores = new()
             {
-                Criadores = _context.Criadores
-                .AsNoTracking()
-                .ToList(),
+                Criadores = _context.Criadores.AsNoTracking().ToList(),
             };
             return View(criadores);
         }
@@ -117,20 +97,31 @@ namespace AAETravel.Controllers
             return View();
         }
 
-
-        public async Task<IActionResult> Perfil()
+        public IActionResult Perfil()
         {
-            var userId = _userManager.GetUserId(User);
+            var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var usuario = _context.Usuarios.Find(usuarioId);
 
-            var usuario = await _context.Usuarios
-                .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.UsuarioId == userId);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
 
             return View(usuario);
         }
+
         public IActionResult EditarPerfil()
         {
-            return View();
+            var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var usuario = _context.Usuarios.Find(usuarioId);
+
+            if (usuario == null)
+            {
+                return NotFound(); 
+            }
+
+            return View(usuario);
         }
+
     }
 }

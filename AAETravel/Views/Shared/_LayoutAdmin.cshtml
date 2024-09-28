@@ -33,26 +33,23 @@
             <i class="bi bi-journal-richtext"></i>
             Dashboard
         </a>
-        <a>
-            <i class="bi bi-geo-alt"></i>
-            Agência
-        </a>
-        <a class="@(ViewData["Title"].ToString() == "Locais" ? "active bg-gradient-warning" : "")'
-            asp-controller="Locais" asp-action="Index"></i>
+        <a class="@(ViewData["Title"].ToString() == "Experiencia" ? "active bg-gradient-warning" : "")"
+            asp-controller="Experiencias" asp-action="Index">
+            <i class="bi bi-airplane-engines"></i>
             Experiência
         </a>
-        <a class="@(ViewData["Title"].ToString() == "Local" ? "active bg-gradient-warning" : "")'
+        <a class="@(ViewData["Title"].ToString() == "Local" ? "active bg-gradient-warning" : "")"
             asp-controller="Locais" asp-action="Index">
             <i class="bi bi-geo-fill"></i>
             Local
         </a>
-        <a class="@(ViewData["Title"].ToString() == "Cores" ? "active bg-gradient-warning" : "")'
-            asp-controller=" Cores" asp-action="Index">
+        <a  class="@(ViewData["Title"].ToString() == "Pais" ? "active bg-gradient-warning" : "")"
+            asp-controller="Paises" asp-action="Index">
             <i class="bi bi-globe2"></i>
             Pais
         </a>
     </div>
-    <a style="margin-bottom: 10%;">
+    <a style="margin-bottom: 10%;" asp-action="Index" asp-controller="Home">
         <i class="bi bi-door-open"></i>
         Sair
     </a>

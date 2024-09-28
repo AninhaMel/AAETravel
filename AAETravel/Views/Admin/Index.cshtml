@@ -6,7 +6,7 @@
 <div class="container">
     <div class="agencias-table">
         <h4>Agências:</h4>
-        <div class="row agencia-row">
+        <div class=" agencia-row">
             <div class="col-sm-8">
                 <img src="https://via.placeholder.com/40" alt="Booking Logo"> Booking.com
             </div>
@@ -74,112 +74,107 @@
 
 <style>
     body {
-        background-color: #121212;
-        /* Fundo escuro para um visual elegante */
-        color: #f0f0f0;
-        /* Texto claro */
-        font-family: 'Roboto', sans-serif;
-        /* Fonte moderna e limpa */
-    }
+    background-color: black; 
+    color: #e0e0e0; 
+    font-family: 'Roboto', sans-serif;
+}
 
-    .container {
-        max-width: 80vw;
-        margin: 2rem auto;
-        /* Adiciona espaçamento superior e inferior */
-        padding: 0;
-    }
+.container {
+    width: 60%;
+    padding: 2rem 5%;
+    margin: 0 auto;
+}
 
-    .agencias-table {
-        background-color: #3a3a3a;
-        /* Fundo mais suave para contraste */
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        /* Sombra sutil */
-    }
+.agencias-table {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    filter: drop-shadow(5px 5px 10px rgba(122, 122, 122, 0.386));
+}
 
-    .agencias-table h4 {
-        color: #9b30ff;
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-    }
+.agencias-table h4 {
+    color: #7748CF;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
 
-    .agencia-row {
-        background-color: #2d2d2d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        transition: background-color 0.3s ease;
-    }
+.agencia-row {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
 
-    .agencia-row:hover {
-        background-color: #7748cf;
-        /* Efeito hover mais claro */
-    }
+.agencia-row:hover {
+    background-color: #7748CF;
+}
 
-    .agencia-row img {
-        margin-right: 10px;
-        border-radius: 50%;
-        /* Torna as imagens redondas */
-        width: 40px;
-        height: 40px;
-    }
+.agencia-row img {
+    margin-right: 12px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
 
-    .agencia-row div {
-        display: flex;
-        align-items: center;
-    }
+.card {
+    background-color: #232323;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
 
-    .card {
-        background-color: #1e1e1e;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-        /* Sombra mais forte */
-        padding: 0;
-        margin-bottom: 2rem;
-        transition: transform 0.3s ease;
-    }
+.card:hover {
+    transform: translateY(-10px);
+}
 
-    .card:hover {
-        transform: translateY(-10px);
-        /* Efeito de elevação ao passar o mouse */
-    }
+.card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
 
-    .card img {
-        width: 100%;
-        border-radius: 15px 15px 0 0;
-        object-fit: cover;
-        /* Para ajustar a imagem ao container */
-    }
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
 
-    .card-body {
-        padding: 20px;
-    }
+.card-text {
+    color: #7748CF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
 
-    .card-text {
-        color: #9b30ff;
-        font-size: 1.25rem;
-        font-weight: 600;
-        margin-top: 10px;
-    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
 
-    /* Scrollbar customizado */
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
+.col-sm-6 {
+    flex: 1 1 calc(50% - 2rem); 
+}
 
-    ::-webkit-scrollbar-track {
-        background: #1e1e1e;
-    }
+/* Scrollbar customizado */
+::-webkit-scrollbar {
+    width: 8px;
+}
 
-    ::-webkit-scrollbar-thumb {
-        background-color: #9b30ff;
-        border-radius: 10px;
-        border: 2px solid #1e1e1e;
-        /* Dá um efeito de profundidade */
-    }
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7748CF;
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;
+}
+
 </style>

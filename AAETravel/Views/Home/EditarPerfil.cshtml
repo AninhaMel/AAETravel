@@ -1,11 +1,12 @@
+@model AAETravel.Models.Usuario
+
 @{
     ViewData["Title"] = "EditarPerfil";
+    Layout = null;
 }
 <link rel="stylesheet" href="~/css/editar-perfil.css">
 
-
 <body>
-
     <main>
         <div class="container">
             <div class="bloco1">
@@ -14,32 +15,44 @@
                         <h1>Editar Perfil</h1>
                     </div>
                     <div class="logo">
-                        <img src="~/img/outros/TCC (36).png">
+                        <img src="@Model.Foto">
                     </div>
-                    <button>
-                        Editar Foto
-                    </button>
+                    <input type="file" id="foto" name="foto" accept="image/*" style="display:none;"
+                        onchange="this.form.submit()">
+                    <button type="button" onclick="document.getElementById('foto').click();">Editar Foto</button>
                 </div>
             </div>
 
             <div class="bloco2">
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required placeholder="ex...Ricardo Bueno...">
+                @if (Model == null)
+                {
+                    <p>O usuário não foi encontrado.</p>
+                }
+                else
+                {
+                    <form method="post">
+                        <input type="hidden" name="UsuarioId" value="@Model.UsuarioId" />
 
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="Nome" value="@Model.Nome" required
+                            placeholder="ex...Ricardo Bueno...">
 
-                    <label for="descricao">Descrição:</label>
-                    <input type="text" id="descricao" name="descricao" placeholder="ex...Gosto de viagens...">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="Telefone" value="@Model.Telefone" required
+                            placeholder="(xx) xxxxx-xxxx">
 
-                    <label for="cidade">Sua Cidade:</label>
-                    <input type="text" id="cidade" name="cidade" placeholder="ex...Bauru-SP...">
+                        <label for="descricao">Descrição:</label>
+                        <input type="text" id="descricao" name="Descricao" value="@Model.Descricao"
+                            placeholder="ex...Gosto de viagens...">
 
-                    <input type="submit">
-                </form>
+                        <label for="cidade">Sua Cidade:</label>
+                        <input type="text" id="cidade" name="Cidade" value="@Model.Cidade" placeholder="ex...Bauru-SP...">
+
+                        <input type="submit" value="Salvar Alterações">
+                    </form>
+
+                }
             </div>
         </div>
     </main>
-
 </body>

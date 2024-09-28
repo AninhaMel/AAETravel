@@ -1,78 +1,178 @@
 @model AAETravel.ViewModels.RegistroVM
-
 @{
     ViewData["Title"] = "Registro";
-    Layout = null;
+    ViewData["SubTitle"] = Model.Enviado ? "Conta Criada com Sucesso" : "Criar Conta";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
 }
-<link rel="stylesheet" href="~/css/Registrar.css">
-<link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
 
-<body>
-    <main>
-        @if (!Model.Enviado)
-        {
-            <form asp-action="Register" method="post">
-                <div asp-validation-summary="ModelOnly" hidden></div>
 
-                <div class="login-img">
-                    <img src="~/img/outros/favcon.png" alt="Logo">
+<div class="container">
+    <div class="text-center text-white mb-4">
+        <a asp-action="Index" asp-controller="Home" class="text-decoration-none">
+            <div class="login-img">
+                <img class="mb-2" src="~/img/outros/favcon.png" alt="Logo" width="180" height="180">
+            </div>
+        </a>
+        <p class="h3 mt-2">@ViewData["SubTitle"]</p>
+    </div>
+    @if (!Model.Enviado)
+    {
+
+        <form class="form-signup" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" hidden></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Nome" class="form-control">
+                <label asp-for="Nome"></label>
+                <span asp-validation-for="Nome" class="text-danger text-sm"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Email" class="form-control">
+                <label asp-for="Email"></label>
+                <span asp-validation-for="Email" class="text-danger text-sm"></span>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <div class="form-floating mb-3 position-relative">
+                        <input asp-for="Senha" class="form-control" id="senhaInput" type="password">
+                        <label asp-for="Senha"></label>
+                        <span asp-validation-for="Senha" class="text-danger text-sm"></span>
+                        <span class="toggle-password position-absolute end-0 top-50 translate-middle-y me-3 cursor-pointer"
+                            onclick="toggleSenhaVisibility('senhaInput', 'senhaIcon')">
+                            <span id="senhaIcon">🐵</span>
+                        </span>
+                    </div>
+                    <div class="form-floating mb-3 position-relative">
+                        <input asp-for="ConfirmacaoSenha" class="form-control" id="confirmacaoSenhaInput" type="password">
+                        <label asp-for="ConfirmacaoSenha"></label>
+                        <span asp-validation-for="ConfirmacaoSenha" class="text-danger text-sm"></span>
+                        <span class="toggle-password position-absolute end-0 top-50 translate-middle-y me-3 cursor-pointer"
+                            onclick="toggleSenhaVisibility('confirmacaoSenhaInput', 'confirmacaoSenhaIcon')">
+                            <span id="confirmacaoSenhaIcon">🐵</span>
+                        </span>
+                    </div>
                 </div>
-
-                <h1 class="explore">Crie sua Conta</h1>
-
-                <div class="password-container">
-                    <input asp-for="Email" placeholder="Email" class="form-control" />
-                    <label asp-for="Email" style="color: white;"></label>
-                    <span asp-validation-for="Email" class="text-danger text-sm"></span>
-                </div>
-
-                <div class="password-container" style="position: relative;">
-                    <input asp-for="Senha" type="password" id="password" placeholder="Senha" class="form-control" />
-                    <label asp-for="Senha" style="color: white;"></label>
-                    <button type="button" class="toggle-password">🐵</button>
-                    <span asp-validation-for="Senha" class="text-danger text-sm"></span>
-                </div>
-
-
-                <div class="password-container" style="position: relative;">
-                    <input asp-for="ConfirmacaoSenha" type="password" id="confirmPassword" placeholder="Confirmar Senha"
-                        class="form-control" />
-                    <label asp-for="ConfirmacaoSenha" style="color: white;"></label>
-                    <button type="button" class="toggle-password">🐵</button>
-                    <span asp-validation-for="ConfirmacaoSenha" class="text-danger text-sm"></span>
-                </div>
-
-                <button type="submit" class="Criar">Criar Conta</button>
-
-                <p>
-                    <a asp-action="Login">Fazer Login</a>
-                </p>
-            </form>
-        }
-        else
-        {
-            <div class="container">
-                <div class="text-center text-white mb-4">
-                    <p class="h5 mb-5">Acesse o email informado para concluir o processo de criação!</p>
-                    <a asp-action="Login" asp-controller="Account" class="btn btn-danger text-white">Ir para o Login</a>
-                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary text-white">Voltar à página
-                        inicial</a>
+                <div class="col-sm-12 col-md-5 cursor-pointer">
+                    <img src="~/img/outros/icon-user.png" id="PreviewImage" alt="Foto de Avatar" class="w-100 rounded-3"
+                        onclick="changeImage()" />
+                    <div hidden>
+                        <input type="file" asp-for="Foto" accept=".jpg,.jpeg,.png,.gif,.jfif" />
+                    </div>
                 </div>
             </div>
-        }
-    </main>
-    @section Scripts {
-        <script defer async>
-            document.querySelectorAll('.toggle-password').forEach(button => {
-                button.addEventListener('click', function () {
-                    console.log("Botão clicado");
-                    const passwordField = this.previousElementSibling;
-                    passwordField.type = togglePasswordVisibility(passwordField);
-                    this.textContent = passwordField.type === 'password' ? '🐵' : '🙈';
-                });
-            });
+            <div class="col-12 ps-2 mt-2 mb-3">
+                <div class="form-check text-white fs-6">
+                    <input class="form-check-input text-danger fs-5" asp-for="Termos" onclick="verificarTermos()" />
+                    <label class="form-check-label mt-1" asp-for="Termos">
+                        Eu concordo com os
+                        <a class="link" href="javascript:void(0);">termos e politica de privacidade</a>
+                    </label>
+                </div>
+            </div>
 
-        </script>
+            <button class="btn btn-lg w-100 text-white criar" type="submit" id="submit" style="background-color:  #7748CF;"
+                disabled>Criar Conta</button>
+            <p class="mt-3 mb-3 text-white text-center">
+                Já possui uma conta?
+                <a asp-action="Login" class="fw-bold text-decoration-none link">Faça Login Aqui</a>
+            </p>
+        </form>
+    }
+    else
+    {
+        <div class="container">
+            <div class="text-center text-white mb-4">
+                <p class="h5 mb-5">Acesse o email informado para concluir o processo de criação!</p>
+                <a asp-action="Login" asp-controller="Account" class="btn btn-danger text-white">Ir para o Login</a>
+                <a asp-action="Index" asp-controller="Home" class="btn btn-primary text-white">Voltar a página
+                    inicial</a>
+            </div>
+        </div>
     }
 
-</body>
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript">
+
+        let mensagemErro = '';
+        $(".validation-summary-errors ul li").each(function () {
+            mensagemErro += $(this).text() + '<br/>';
+        });
+        if (mensagemErro != '') {
+            swal.fire(
+                'Acesso Negado',
+                mensagemErro,
+                'error'
+            );
+        }
+
+        function changeImage() {
+            document.querySelector('input[type="file"]').click();
+        }
+
+        window.addEventListener('load', function () {
+            document.querySelector('input[type="file"]').addEventListener('change', function () {
+                if (this.files && this.files[0]) {
+                    var img = document.getElementById('PreviewImage');
+                    img.src = URL.createObjectURL(this.files[0]);
+                }
+            });
+        });
+
+        function verificarTermos() {
+            let t = document.getElementById("Termos");
+            let s = document.getElementById("submit");
+            t.value = t.checked;
+            if (t.checked) {
+                s.removeAttribute("disabled");
+            } else {
+                s.setAttribute("disabled", true);
+            }
+        }
+
+        function toggleSenhaVisibility(inputId, iconId) {
+            var input = document.getElementById(inputId);
+            var icon = document.getElementById(iconId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon.textContent = '🙈';
+            } else {
+                input.type = 'password';
+                icon.textContent = '🐵';
+            }
+        }
+    </script>
+}
+
+<style>
+    body {
+        background-image: url(../img/outros/fundos/fundo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: drop-shadow(0 0 80px rgb(0, 0, 0));
+    }
+
+    .container {
+        background: rgba(0, 0, 0, 0.75);
+        width: 50%;
+        padding: 1%;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+    }
+
+    .login-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-img img {
+        width: 30%;
+        filter: drop-shadow(0 0 10px #7748CF);
+    }
+</style>

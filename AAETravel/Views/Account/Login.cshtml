@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Login";
     ViewData["SubTitle"] = "Entrar";
-    Layout = null;
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/login.css">
@@ -44,7 +44,7 @@
 
             <p style="color: white;">
                 Ainda não possui uma conta?
-                <a asp-action="Registro" asp-controller="Account" >Registre-se
+                <a asp-action="Registro" asp-controller="Account">Registre-se
                     aqui</a>
             </p>
         </form>

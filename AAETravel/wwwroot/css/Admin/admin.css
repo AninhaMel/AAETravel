@@ -7,17 +7,10 @@ body {
 
 .perfil {
     position: fixed;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    width: 5%;
-    margin: 2%;
-    border-radius: 100px;
-    background-color: white;
+    top: 3%;
+    right: 1%;
     padding: 1px;
-
     & img {
-        border-radius: 100px;
         width: 100%;
     }
 }
@@ -66,7 +59,7 @@ body {
     filter: drop-shadow(0 0 30px white);
 }
 
-.sidebar button {
+.sidebar a {
     width: 80%;
     height: 10%;
     margin: 2% 0;
@@ -76,11 +69,14 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 20px;
     transition: 0.3s ease-in-out;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
     &:hover {
         background-color: black;
         color: #5e20c2;

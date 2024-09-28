@@ -13,14 +13,14 @@
         <div class="container">
             <div class="bloco-first">
                 <div class="perfil-img">
-                    <img src="~/img/outros/TCC (36).png">
+                    <img src="@Model.Foto">
                 </div>
             </div>
             <div class="bloco-second">
-                <h1>Eduardo Nunes de Oliveira</h1>
-                <p><strong>Telefone:</strong> (14)99107-8235</p>
-                <p><strong>Descrição:</strong> Programador Junior, apaixonado em viagens</p>
-                <p><strong>Cidade:</strong> Barra Bonita, SP</p>
+                <h1>@Model.Nome</h1>
+                <p><strong>Telefone:</strong> @Model.Telefone</p>
+                <p><strong>Descrição:</strong> @Model.Descricao</p>
+                <p><strong>Cidade:</strong> @Model.Cidade</p>
                 <div class="menu">
                     <div class="logout">
                         <a>Desconectar</a>

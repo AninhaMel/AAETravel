@@ -1,0 +1,185 @@
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container">
+    <div class="agencias-table">
+        <h4>Agências:</h4>
+        <div class="row agencia-row">
+            <div class="col-sm-8">
+                <img src="https://via.placeholder.com/40" alt="Booking Logo"> Booking.com
+            </div>
+            <div class="col-sm-4 text-right">200k</div>
+        </div>
+        <div class="row agencia-row">
+            <div class="col-sm-8">
+                <img src="https://via.placeholder.com/40" alt="Expedia Logo"> Expedia
+            </div>
+            <div class="col-sm-4 text-right">200k</div>
+        </div>
+        <div class="row agencia-row">
+            <div class="col-sm-8">
+                <img src="https://via.placeholder.com/40" alt="STA Travel Logo"> STA Travel
+            </div>
+            <div class="col-sm-4 text-right">200k</div>
+        </div>
+        <div class="row agencia-row">
+            <div class="col-sm-8">
+                <img src="https://via.placeholder.com/40" alt="TripAdvisor Logo"> TripAdvisor
+            </div>
+            <div class="col-sm-4 text-right">200k</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Gráfico Acessos com Login">
+                <div class="card-body">
+                    <p class="card-text">Acessos com Login</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Gráfico Acessos sem Login">
+                <div class="card-body">
+                    <p class="card-text">Acessos sem Login</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Gráfico Acessos Experiências">
+                <div class="card-body">
+                    <p class="card-text">Acessos Experiências</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Gráfico Acesso dos Países">
+                <div class="card-body">
+                    <p class="card-text">Acesso dos Países</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    body {
+        background-color: #121212;
+        /* Fundo escuro para um visual elegante */
+        color: #f0f0f0;
+        /* Texto claro */
+        font-family: 'Roboto', sans-serif;
+        /* Fonte moderna e limpa */
+    }
+
+    .container {
+        max-width: 80vw;
+        margin: 2rem auto;
+        /* Adiciona espaçamento superior e inferior */
+        padding: 0;
+    }
+
+    .agencias-table {
+        background-color: #3a3a3a;
+        /* Fundo mais suave para contraste */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        /* Sombra sutil */
+    }
+
+    .agencias-table h4 {
+        color: #9b30ff;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .agencia-row {
+        background-color: #2d2d2d;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: background-color 0.3s ease;
+    }
+
+    .agencia-row:hover {
+        background-color: #7748cf;
+        /* Efeito hover mais claro */
+    }
+
+    .agencia-row img {
+        margin-right: 10px;
+        border-radius: 50%;
+        /* Torna as imagens redondas */
+        width: 40px;
+        height: 40px;
+    }
+
+    .agencia-row div {
+        display: flex;
+        align-items: center;
+    }
+
+    .card {
+        background-color: #1e1e1e;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        /* Sombra mais forte */
+        padding: 0;
+        margin-bottom: 2rem;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        /* Efeito de elevação ao passar o mouse */
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+        /* Para ajustar a imagem ao container */
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-text {
+        color: #9b30ff;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    /* Scrollbar customizado */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #9b30ff;
+        border-radius: 10px;
+        border: 2px solid #1e1e1e;
+        /* Dá um efeito de profundidade */
+    }
+</style>

@@ -118,9 +118,15 @@ namespace AAETravel.Controllers
         }
 
 
-        public IActionResult Perfil()
+        public async Task<IActionResult> Perfil()
         {
-            return View();
+            var userId = _userManager.GetUserId(User);
+
+            var usuario = await _context.Usuarios
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.UsuarioId == userId);
+
+            return View(usuario);
         }
         public IActionResult EditarPerfil()
         {

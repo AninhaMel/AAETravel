@@ -76,6 +76,8 @@ namespace AAETravel.Controllers
 
             var model = new LocalVM
             {
+                ExperienciaId = experienciaModel.Id,
+                PaisId = local.PaisId,
                 Locais = local,
                 Experiencias = experienciaModel
             };
@@ -92,6 +94,7 @@ namespace AAETravel.Controllers
             return View(criadores);
         }
 
+        [Authorize]
         public IActionResult Favoritado()
         {
             return View();

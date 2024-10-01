@@ -445,8 +445,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "79e85a06-5d50-4228-b18a-5f392c4a6053", null, "Administrador", "ADMINISTRADOR" },
-                    { "c5590d11-2494-4ea0-97da-454e531700c7", null, "Visitante", "VISITANTE" }
+                    { "30997c0c-b353-4e94-8217-67f72cecf70f", null, "Administrador", "ADMINISTRADOR" },
+                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", null, "Visitante", "VISITANTE" }
                 });
 
             migrationBuilder.InsertData(
@@ -454,10 +454,10 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "5451fe75-3116-4622-96d7-6e3eaa25416c", 0, "7fc5940c-a437-404e-973d-e4d3a66e5f4f", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEOOHRL5WSounWPpz5vP3yjhl9aXp4y5K/Mm6xVGzktDfRp8SSK9Zr0mZYXrdO+Mnjg==", null, false, "c00d332f-305b-4775-852f-86a3393b9208", false, "dametto" },
-                    { "867def15-fa59-492e-beff-492cf591b848", 0, "e3a60931-6cc5-496c-a4dd-f51af8c1bbdf", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEND4kDCtHx8b3kVIP3OsLbG60igsSZkuuDcdlqoCln6Xz2q1rnACEDWlUSRPII2l3A==", null, false, "7467afd4-0158-4c8a-882e-b485d53b879c", false, "Eduardo" },
-                    { "b61c3c0f-e297-4c13-a360-71b93e811641", 0, "946e0527-3c8c-4ee9-ac8d-ac75ba6907e9", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAED3/TVgDt45u1/AbesPScRaiFRRcvdied1+261sNtrDRWCKlhRNxKR5KQ/JRpvjXkw==", null, false, "f5d2b5f1-c7f6-4b12-a3bc-7718012566d6", false, "ana" },
-                    { "dc9c1534-b785-4c75-8084-1f6f9abcd9b1", 0, "13d6aa81-18a5-4c49-b1c3-c9ce40ca571e", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEFLLQcRju75Apux7V2DSIMUIB5DSC61vtg1QEVh7iwKjQ9wW2izY0Kp7q887VxcxxA==", null, false, "4b86b87c-945f-4215-a18a-7d7d94ebd708", false, "any" }
+                    { "13bfadca-d558-47b1-9203-204ef539eb5c", 0, "88076310-baaf-4243-ad89-9fa5cbc1c504", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEF8U2m1a4L2wxqVm1XNqa8VoP/iO7lbrYdQ0FVgrHX3p2NqQbJqstAdUuURq0GcAdA==", null, false, "f09249ad-462e-4317-a412-baea14d76279", false, "Eduardo" },
+                    { "7d4047f9-f653-4436-ad7b-94414c76e5e5", 0, "7b989b45-5a61-40a6-b539-c18d778b1a76", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEA1nuZl5A21bREG0rr6QzH50NhzeHtg4ypxrlGRCm7mM4AhmVMVg0V3uYiD5Mlgzug==", null, false, "2e96ef6b-536c-4998-a822-7601b21e1c4d", false, "ana" },
+                    { "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e", 0, "84624e69-3351-4072-9895-c5fe13d4099a", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEKW6IJ6O+5BD+Q5EtRFI1gh+ypmhXA9KKWsPc8RDVidlL8M23bVksDUBtTDXgHCsrw==", null, false, "62a94f29-c277-4869-9cba-b4775d8a8387", false, "dametto" },
+                    { "f59082a0-21d7-4537-a928-788416eb040f", 0, "8318f38f-0cca-4423-a0f4-3be2b5751c72", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEJziseTcruB1zKhsMr/smooZnBYVlul/BIfS8YqFcJDFpSv8yH5Q+lwdpElsGYutbQ==", null, false, "1ba0d604-20b4-4043-bdfd-576f6c32d0ca", false, "any" }
                 });
 
             migrationBuilder.InsertData(
@@ -494,7 +494,10 @@ namespace AAETravel.Migrations
                     { 3, "#0055A4", "#A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.", "/img/pais/França.png", "/img/pais/icons/Franca.png", "França" },
                     { 4, "#CF142B", "A Inglaterra é um país repleto de história e tradições, com uma mistura encantadora de antigas paisagens rurais e cidades modernas. Londres, a capital, é um centro global de cultura, oferecendo atrações icônicas como o Big Ben, o Palácio de Buckingham e o Museu Britânico. Fora da capital, o interior inglês revela vilas encantadoras, como Cotswolds, e cidades históricas como Bath e Oxford. O litoral do país, com seus penhascos impressionantes e praias tranquilas, também oferece beleza natural. A Inglaterra é um destino onde a história se encontra com a modernidade, ideal para quem busca diversidade cultural e paisagens deslumbrantes.", "/img/pais/Inglaterra.png", "/img/pais/icons/Inglaterra.png", "Inglaterra" },
                     { 5, "#008C8C", "A Itália é um país vibrante e apaixonante, conhecido por sua rica história, arte incomparável e culinária renomada. Roma, a capital, encanta com monumentos antigos, como o Coliseu e o Vaticano. Veneza, com seus canais românticos, é única no mundo, assim como Florença, berço do Renascimento, que abriga tesouros artísticos como a famosa escultura de Davi, de Michelangelo. O sul do país oferece paisagens deslumbrantes na Costa Amalfitana e na Sicília, enquanto a região da Toscana é conhecida por suas colinas ondulantes, vinhedos e cidades medievais. Viajar pela Itália é uma imersão na beleza, na cultura e no estilo de vida (dolce vita)", "/img/pais/Italia.png", "/img/pais/icons/Italia.png", "Itália" },
-                    { 6, "#006600", "Portugal é um país encantador, conhecido por suas cidades históricas, litoral deslumbrante e cultura vibrante. Lisboa, a capital, é uma mistura de tradição e modernidade, com suas ruas de paralelepípedos, miradouros e o famoso bairro de Belém. Porto, no norte, encanta com suas ruelas pitorescas e o famoso vinho do Porto. As regiões do Algarve e da Madeira oferecem praias paradisíacas e paisagens naturais impressionantes. Além disso, Portugal tem uma rica herança cultural, com influências mouriscas, romanas e medievais, que se refletem em sua arquitetura, gastronomia e festividades. É um destino acolhedor, ideal para quem busca beleza, história e tranquilidade.", "/img/pais/Portugal.png", "/img/pais/icons/Portugal.png", "Portugal" }
+                    { 6, "#006600", "Portugal é um país encantador, conhecido por suas cidades históricas, litoral deslumbrante e cultura vibrante. Lisboa, a capital, é uma mistura de tradição e modernidade, com suas ruas de paralelepípedos, miradouros e o famoso bairro de Belém. Porto, no norte, encanta com suas ruelas pitorescas e o famoso vinho do Porto. As regiões do Algarve e da Madeira oferecem praias paradisíacas e paisagens naturais impressionantes. Além disso, Portugal tem uma rica herança cultural, com influências mouriscas, romanas e medievais, que se refletem em sua arquitetura, gastronomia e festividades. É um destino acolhedor, ideal para quem busca beleza, história e tranquilidade.", "/img/pais/Portugal.png", "/img/pais/icons/Portugal.png", "Portugal" },
+                    { 7, "#009C3B", "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.", "/img/pais/Brasil.png", "/img/pais/icons/Brasil.png", "Brasil" },
+                    { 8, "#00008B", "A Austrália é um país fascinante, famoso por suas paisagens únicas, cidades modernas e rica biodiversidade. Sydney, com sua icônica Opera House e a Harbour Bridge, combina uma vida urbana vibrante com belas praias, como Bondi Beach. Melbourne é o centro cultural do país, conhecida por sua arte, gastronomia e eventos esportivos. O interior australiano, o vasto Outback, oferece cenários selvagens e impressionantes, como o Uluru, um dos símbolos mais reverenciados da cultura aborígene. A Grande Barreira de Corais, no nordeste, é um paraíso para mergulhadores e amantes da natureza. A Austrália também é lar de uma vida selvagem única, com cangurus, coalas e uma impressionante diversidade de ecossistemas. É um destino perfeito para quem procura aventura, natureza e cultura em um ambiente acolhedor.", "/img/pais/Australia.png", "/img/pais/icons/Australia.png", "Austrália" },
+                    { 9, "#FFFFFF", "A Coreia do Sul é um país vibrante, conhecido por sua combinação harmoniosa de tradição milenar e inovação moderna. Seul, a capital, é uma metrópole dinâmica, onde arranha-céus futuristas convivem com palácios históricos como o Gyeongbokgung. A cidade de Busan, com suas praias e mercados de frutos do mar, oferece uma experiência costeira encantadora. A paisagem montanhosa da Coreia do Sul é perfeita para caminhadas, com parques nacionais como o Seoraksan oferecendo vistas impressionantes. A rica herança cultural coreana se reflete em suas cerimônias, templos budistas e na popularidade mundial da K-pop e do K-drama. A gastronomia sul-coreana, com pratos icônicos como o kimchi e o bulgogi, também é parte fundamental de sua cultura. É um destino ideal para quem busca uma mistura de tradição, modernidade e paisagens deslumbrantes.", "/img/pais/Coreia-Sul.png", "/img/pais/icons/Coreia-Sul.png", "Coreia do Sul" }
                 });
 
             migrationBuilder.InsertData(
@@ -502,14 +505,14 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "79e85a06-5d50-4228-b18a-5f392c4a6053", "5451fe75-3116-4622-96d7-6e3eaa25416c" },
-                    { "c5590d11-2494-4ea0-97da-454e531700c7", "5451fe75-3116-4622-96d7-6e3eaa25416c" },
-                    { "79e85a06-5d50-4228-b18a-5f392c4a6053", "867def15-fa59-492e-beff-492cf591b848" },
-                    { "c5590d11-2494-4ea0-97da-454e531700c7", "867def15-fa59-492e-beff-492cf591b848" },
-                    { "79e85a06-5d50-4228-b18a-5f392c4a6053", "b61c3c0f-e297-4c13-a360-71b93e811641" },
-                    { "c5590d11-2494-4ea0-97da-454e531700c7", "b61c3c0f-e297-4c13-a360-71b93e811641" },
-                    { "79e85a06-5d50-4228-b18a-5f392c4a6053", "dc9c1534-b785-4c75-8084-1f6f9abcd9b1" },
-                    { "c5590d11-2494-4ea0-97da-454e531700c7", "dc9c1534-b785-4c75-8084-1f6f9abcd9b1" }
+                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "13bfadca-d558-47b1-9203-204ef539eb5c" },
+                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "13bfadca-d558-47b1-9203-204ef539eb5c" },
+                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "7d4047f9-f653-4436-ad7b-94414c76e5e5" },
+                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "7d4047f9-f653-4436-ad7b-94414c76e5e5" },
+                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e" },
+                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e" },
+                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "f59082a0-21d7-4537-a928-788416eb040f" },
+                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "f59082a0-21d7-4537-a928-788416eb040f" }
                 });
 
             migrationBuilder.InsertData(
@@ -740,10 +743,10 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "5451fe75-3116-4622-96d7-6e3eaa25416c", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
-                    { "867def15-fa59-492e-beff-492cf591b848", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "b61c3c0f-e297-4c13-a360-71b93e811641", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
-                    { "dc9c1534-b785-4c75-8084-1f6f9abcd9b1", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" }
+                    { "13bfadca-d558-47b1-9203-204ef539eb5c", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
+                    { "7d4047f9-f653-4436-ad7b-94414c76e5e5", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
+                    { "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
+                    { "f59082a0-21d7-4537-a928-788416eb040f", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" }
                 });
 
             migrationBuilder.InsertData(

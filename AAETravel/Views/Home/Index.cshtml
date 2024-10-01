@@ -14,7 +14,7 @@
             @foreach (var pais in Model.Paises)
             {
                 <a asp-action="Pais" asp-route-id="@pais.Id">
-                    <div class="conainer-paises">
+                    <div class="conainer-paises" style="--Cor: @pais.Cor">
                         <img src="@pais.Foto" alt="@pais.Nome">
                         <h1>@pais.Nome</h1>
                     </div>

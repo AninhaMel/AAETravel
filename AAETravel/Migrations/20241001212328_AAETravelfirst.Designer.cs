@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240928015341_AAETravelfirst")]
+    [Migration("20241001212328_AAETravelfirst")]
     partial class AAETravelfirst
     {
         /// <inheritdoc />
@@ -4323,6 +4323,33 @@ namespace AAETravel.Migrations
                             Foto = "/img/pais/Portugal.png",
                             Icon = "/img/pais/icons/Portugal.png",
                             Nome = "Portugal"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Cor = "#009C3B",
+                            Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+                            Foto = "/img/pais/Brasil.png",
+                            Icon = "/img/pais/icons/Brasil.png",
+                            Nome = "Brasil"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Cor = "#00008B",
+                            Descricao = "A Austrália é um país fascinante, famoso por suas paisagens únicas, cidades modernas e rica biodiversidade. Sydney, com sua icônica Opera House e a Harbour Bridge, combina uma vida urbana vibrante com belas praias, como Bondi Beach. Melbourne é o centro cultural do país, conhecida por sua arte, gastronomia e eventos esportivos. O interior australiano, o vasto Outback, oferece cenários selvagens e impressionantes, como o Uluru, um dos símbolos mais reverenciados da cultura aborígene. A Grande Barreira de Corais, no nordeste, é um paraíso para mergulhadores e amantes da natureza. A Austrália também é lar de uma vida selvagem única, com cangurus, coalas e uma impressionante diversidade de ecossistemas. É um destino perfeito para quem procura aventura, natureza e cultura em um ambiente acolhedor.",
+                            Foto = "/img/pais/Australia.png",
+                            Icon = "/img/pais/icons/Australia.png",
+                            Nome = "Austrália"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Cor = "#FFFFFF",
+                            Descricao = "A Coreia do Sul é um país vibrante, conhecido por sua combinação harmoniosa de tradição milenar e inovação moderna. Seul, a capital, é uma metrópole dinâmica, onde arranha-céus futuristas convivem com palácios históricos como o Gyeongbokgung. A cidade de Busan, com suas praias e mercados de frutos do mar, oferece uma experiência costeira encantadora. A paisagem montanhosa da Coreia do Sul é perfeita para caminhadas, com parques nacionais como o Seoraksan oferecendo vistas impressionantes. A rica herança cultural coreana se reflete em suas cerimônias, templos budistas e na popularidade mundial da K-pop e do K-drama. A gastronomia sul-coreana, com pratos icônicos como o kimchi e o bulgogi, também é parte fundamental de sua cultura. É um destino ideal para quem busca uma mistura de tradição, modernidade e paisagens deslumbrantes.",
+                            Foto = "/img/pais/Coreia-Sul.png",
+                            Icon = "/img/pais/icons/Coreia-Sul.png",
+                            Nome = "Coreia do Sul"
                         });
                 });
 
@@ -4356,7 +4383,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "867def15-fa59-492e-beff-492cf591b848",
+                            UsuarioId = "13bfadca-d558-47b1-9203-204ef539eb5c",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -4365,7 +4392,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "b61c3c0f-e297-4c13-a360-71b93e811641",
+                            UsuarioId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -4374,7 +4401,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "5451fe75-3116-4622-96d7-6e3eaa25416c",
+                            UsuarioId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -4383,7 +4410,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "dc9c1534-b785-4c75-8084-1f6f9abcd9b1",
+                            UsuarioId = "f59082a0-21d7-4537-a928-788416eb040f",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -4420,13 +4447,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "79e85a06-5d50-4228-b18a-5f392c4a6053",
+                            Id = "30997c0c-b353-4e94-8217-67f72cecf70f",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "c5590d11-2494-4ea0-97da-454e531700c7",
+                            Id = "e5072e97-383f-465d-b38d-3c36fe9bf99a",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -4523,65 +4550,65 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "867def15-fa59-492e-beff-492cf591b848",
+                            Id = "13bfadca-d558-47b1-9203-204ef539eb5c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e3a60931-6cc5-496c-a4dd-f51af8c1bbdf",
+                            ConcurrencyStamp = "88076310-baaf-4243-ad89-9fa5cbc1c504",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEND4kDCtHx8b3kVIP3OsLbG60igsSZkuuDcdlqoCln6Xz2q1rnACEDWlUSRPII2l3A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEF8U2m1a4L2wxqVm1XNqa8VoP/iO7lbrYdQ0FVgrHX3p2NqQbJqstAdUuURq0GcAdA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7467afd4-0158-4c8a-882e-b485d53b879c",
+                            SecurityStamp = "f09249ad-462e-4317-a412-baea14d76279",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "b61c3c0f-e297-4c13-a360-71b93e811641",
+                            Id = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "946e0527-3c8c-4ee9-ac8d-ac75ba6907e9",
+                            ConcurrencyStamp = "7b989b45-5a61-40a6-b539-c18d778b1a76",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAED3/TVgDt45u1/AbesPScRaiFRRcvdied1+261sNtrDRWCKlhRNxKR5KQ/JRpvjXkw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEA1nuZl5A21bREG0rr6QzH50NhzeHtg4ypxrlGRCm7mM4AhmVMVg0V3uYiD5Mlgzug==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f5d2b5f1-c7f6-4b12-a3bc-7718012566d6",
+                            SecurityStamp = "2e96ef6b-536c-4998-a822-7601b21e1c4d",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "5451fe75-3116-4622-96d7-6e3eaa25416c",
+                            Id = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7fc5940c-a437-404e-973d-e4d3a66e5f4f",
+                            ConcurrencyStamp = "84624e69-3351-4072-9895-c5fe13d4099a",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOOHRL5WSounWPpz5vP3yjhl9aXp4y5K/Mm6xVGzktDfRp8SSK9Zr0mZYXrdO+Mnjg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKW6IJ6O+5BD+Q5EtRFI1gh+ypmhXA9KKWsPc8RDVidlL8M23bVksDUBtTDXgHCsrw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c00d332f-305b-4775-852f-86a3393b9208",
+                            SecurityStamp = "62a94f29-c277-4869-9cba-b4775d8a8387",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "dc9c1534-b785-4c75-8084-1f6f9abcd9b1",
+                            Id = "f59082a0-21d7-4537-a928-788416eb040f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "13d6aa81-18a5-4c49-b1c3-c9ce40ca571e",
+                            ConcurrencyStamp = "8318f38f-0cca-4423-a0f4-3be2b5751c72",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFLLQcRju75Apux7V2DSIMUIB5DSC61vtg1QEVh7iwKjQ9wW2izY0Kp7q887VxcxxA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJziseTcruB1zKhsMr/smooZnBYVlul/BIfS8YqFcJDFpSv8yH5Q+lwdpElsGYutbQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4b86b87c-945f-4215-a18a-7d7d94ebd708",
+                            SecurityStamp = "1ba0d604-20b4-4043-bdfd-576f6c32d0ca",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         });
@@ -4651,43 +4678,43 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "867def15-fa59-492e-beff-492cf591b848",
-                            RoleId = "79e85a06-5d50-4228-b18a-5f392c4a6053"
+                            UserId = "13bfadca-d558-47b1-9203-204ef539eb5c",
+                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
                         },
                         new
                         {
-                            UserId = "867def15-fa59-492e-beff-492cf591b848",
-                            RoleId = "c5590d11-2494-4ea0-97da-454e531700c7"
+                            UserId = "13bfadca-d558-47b1-9203-204ef539eb5c",
+                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
                         },
                         new
                         {
-                            UserId = "b61c3c0f-e297-4c13-a360-71b93e811641",
-                            RoleId = "79e85a06-5d50-4228-b18a-5f392c4a6053"
+                            UserId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
+                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
                         },
                         new
                         {
-                            UserId = "b61c3c0f-e297-4c13-a360-71b93e811641",
-                            RoleId = "c5590d11-2494-4ea0-97da-454e531700c7"
+                            UserId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
+                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
                         },
                         new
                         {
-                            UserId = "5451fe75-3116-4622-96d7-6e3eaa25416c",
-                            RoleId = "79e85a06-5d50-4228-b18a-5f392c4a6053"
+                            UserId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
+                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
                         },
                         new
                         {
-                            UserId = "5451fe75-3116-4622-96d7-6e3eaa25416c",
-                            RoleId = "c5590d11-2494-4ea0-97da-454e531700c7"
+                            UserId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
+                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
                         },
                         new
                         {
-                            UserId = "dc9c1534-b785-4c75-8084-1f6f9abcd9b1",
-                            RoleId = "79e85a06-5d50-4228-b18a-5f392c4a6053"
+                            UserId = "f59082a0-21d7-4537-a928-788416eb040f",
+                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
                         },
                         new
                         {
-                            UserId = "dc9c1534-b785-4c75-8084-1f6f9abcd9b1",
-                            RoleId = "c5590d11-2494-4ea0-97da-454e531700c7"
+                            UserId = "f59082a0-21d7-4537-a928-788416eb040f",
+                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
                         });
                 });
 

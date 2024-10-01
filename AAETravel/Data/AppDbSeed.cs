@@ -185,6 +185,33 @@ public class AppDbSeed
 				Cor = "#006600",
 				Icon = "/img/pais/icons/Portugal.png"
 
+			},
+			new Pais() {
+				Id = 7,
+				Nome = "Brasil",
+				Foto = "/img/pais/Brasil.png",
+				Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+				Cor = "#009C3B",
+				Icon = "/img/pais/icons/Brasil.png"
+
+			},
+			new Pais() {
+				Id = 8,
+				Nome = "Austrália",
+				Foto = "/img/pais/Australia.png",
+				Descricao = "A Austrália é um país fascinante, famoso por suas paisagens únicas, cidades modernas e rica biodiversidade. Sydney, com sua icônica Opera House e a Harbour Bridge, combina uma vida urbana vibrante com belas praias, como Bondi Beach. Melbourne é o centro cultural do país, conhecida por sua arte, gastronomia e eventos esportivos. O interior australiano, o vasto Outback, oferece cenários selvagens e impressionantes, como o Uluru, um dos símbolos mais reverenciados da cultura aborígene. A Grande Barreira de Corais, no nordeste, é um paraíso para mergulhadores e amantes da natureza. A Austrália também é lar de uma vida selvagem única, com cangurus, coalas e uma impressionante diversidade de ecossistemas. É um destino perfeito para quem procura aventura, natureza e cultura em um ambiente acolhedor.",
+				Cor = "#00008B",
+				Icon = "/img/pais/icons/Australia.png"
+
+			},
+			new Pais() {
+				Id = 9,
+				Nome = "Coreia do Sul",
+				Foto = "/img/pais/Coreia-Sul.png",
+				Descricao = "A Coreia do Sul é um país vibrante, conhecido por sua combinação harmoniosa de tradição milenar e inovação moderna. Seul, a capital, é uma metrópole dinâmica, onde arranha-céus futuristas convivem com palácios históricos como o Gyeongbokgung. A cidade de Busan, com suas praias e mercados de frutos do mar, oferece uma experiência costeira encantadora. A paisagem montanhosa da Coreia do Sul é perfeita para caminhadas, com parques nacionais como o Seoraksan oferecendo vistas impressionantes. A rica herança cultural coreana se reflete em suas cerimônias, templos budistas e na popularidade mundial da K-pop e do K-drama. A gastronomia sul-coreana, com pratos icônicos como o kimchi e o bulgogi, também é parte fundamental de sua cultura. É um destino ideal para quem busca uma mistura de tradição, modernidade e paisagens deslumbrantes.",
+				Cor = "#FFFFFF",
+				Icon = "/img/pais/icons/Coreia-Sul.png"
+
 			}
 		};
 		builder.Entity<Pais>().HasData(paises);

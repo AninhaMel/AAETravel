@@ -62,6 +62,7 @@ header {
         font-size: 15pt;
         transition: 0.3s;
         cursor: pointer;
+        text-decoration: none;
 
         & i {
             transition: 0.3s;
@@ -103,6 +104,20 @@ header {
 
 /* CONTEUDO */
 
+#favoritarForm {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+
+    & button {
+        background-color: #000000;
+        i {
+            color: #fff;
+            font-size: 30pt;
+        }
+    }
+}
+
 section {
     width: 100vw;
     min-height: 80vh;
@@ -131,6 +146,7 @@ section {
 
         .img-local {
             width: 60%;
+
             & img {
                 width: 100%;
                 border-radius: 30px;
@@ -162,7 +178,8 @@ section {
         & p {
             font-size: 20pt;
             color: white;
-            & i{
+
+            & i {
                 margin-right: 15px;
             }
         }
@@ -200,7 +217,7 @@ section .sobre {
     }
 }
 
-hr{
+hr {
     background-color: white;
     height: 1px;
     filter: drop-shadow(0 0 100px var(--Cor));
@@ -209,6 +226,7 @@ hr{
     margin-bottom: 3%;
     border-radius: 2px;
 }
+
 /* FOOTER */
 
 footer {

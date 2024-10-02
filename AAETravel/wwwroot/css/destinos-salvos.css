@@ -99,6 +99,11 @@ header {
     }
 }
 
+p{
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+}
 
 /* CONTEUDO */
 section {

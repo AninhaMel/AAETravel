@@ -120,11 +120,42 @@ namespace AAETravel.Controllers
 
             if (usuario == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
 
             return View(usuario);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Favoritar(int localId)
+        {
+            var userId = _userManager.GetUserId(User);
+            var favoritoExistente = _context.Listas.FirstOrDefault(f => f.UsuarioId == userId && f.LocalId == localId);
+
+            if (favoritoExistente == null)
+            {
+                var favorito = new Lista
+                {
+                    UsuarioId = userId,
+                    LocalId = localId
+                };
+
+                _context.Listas.Add(favorito);
+                await _context.SaveChangesAsync();
+            }
+            return Json(new { success = true });
+        }
+
+
+        public async Task<IActionResult> Favoritos()
+        {
+            var usuarioId = _userManager.GetUserId(User);  // Obtém o ID do usuário logado
+            var listas = await _context.Listas
+                .Where(f => f.UsuarioId == usuarioId)  // Filtro pelo ID do usuário
+                .Include(f => f.Local)  // Inclui as informações do local favoritado
+                .ToListAsync() ?? new List<Lista>();  // Garante que uma lista vazia seja passada se não houver favoritos
+
+            return View(listas);  // Passa a lista para a view
+        }
     }
 }

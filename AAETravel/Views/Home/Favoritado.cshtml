@@ -1,3 +1,4 @@
+@model IEnumerable<AAETravel.Models.Lista>
 @{
     ViewData["Title"] = "Favoritados";
 }
@@ -21,14 +22,19 @@
 </header>
 <h1 style="color: white; text-align: center; margin-top: 50px; text-decoration: underline #7748CF;">Favoritos:</h1>
 <section>
-    <div class="lugares">
-        <img src="~/img/pais/França.png">
-        <h1>Lorem</h1>
-        <a href="informacoes.html">Saiba Mais</a>
-    </div>
-    <div class="lugares">
-        <img src="~/img/pais/França.png">
-        <h1>Lorem</h1>
-        <a href="informacoes.html">Saiba Mais</a>
-    </div>
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var lista in Model)
+        {
+            <div class="lugares">
+                <img src="@lista.Local.Foto">
+                <h1>@lista.Local.Nome</h1>
+                <a href="informacoes.html">Saiba Mais</a>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Você ainda não tem favoritos.</p>
+    }
 </section>

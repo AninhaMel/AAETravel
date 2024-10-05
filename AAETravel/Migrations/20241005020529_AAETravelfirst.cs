@@ -445,8 +445,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "30997c0c-b353-4e94-8217-67f72cecf70f", null, "Administrador", "ADMINISTRADOR" },
-                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", null, "Visitante", "VISITANTE" }
+                    { "21373197-e945-4a49-bda7-f0975b95ebd5", null, "Visitante", "VISITANTE" },
+                    { "b0bd81ea-17a0-4adb-af71-a645144eb7c5", null, "Administrador", "ADMINISTRADOR" }
                 });
 
             migrationBuilder.InsertData(
@@ -454,10 +454,10 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "13bfadca-d558-47b1-9203-204ef539eb5c", 0, "88076310-baaf-4243-ad89-9fa5cbc1c504", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEF8U2m1a4L2wxqVm1XNqa8VoP/iO7lbrYdQ0FVgrHX3p2NqQbJqstAdUuURq0GcAdA==", null, false, "f09249ad-462e-4317-a412-baea14d76279", false, "Eduardo" },
-                    { "7d4047f9-f653-4436-ad7b-94414c76e5e5", 0, "7b989b45-5a61-40a6-b539-c18d778b1a76", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEA1nuZl5A21bREG0rr6QzH50NhzeHtg4ypxrlGRCm7mM4AhmVMVg0V3uYiD5Mlgzug==", null, false, "2e96ef6b-536c-4998-a822-7601b21e1c4d", false, "ana" },
-                    { "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e", 0, "84624e69-3351-4072-9895-c5fe13d4099a", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEKW6IJ6O+5BD+Q5EtRFI1gh+ypmhXA9KKWsPc8RDVidlL8M23bVksDUBtTDXgHCsrw==", null, false, "62a94f29-c277-4869-9cba-b4775d8a8387", false, "dametto" },
-                    { "f59082a0-21d7-4537-a928-788416eb040f", 0, "8318f38f-0cca-4423-a0f4-3be2b5751c72", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEJziseTcruB1zKhsMr/smooZnBYVlul/BIfS8YqFcJDFpSv8yH5Q+lwdpElsGYutbQ==", null, false, "1ba0d604-20b4-4043-bdfd-576f6c32d0ca", false, "any" }
+                    { "072a59bd-06c9-4983-b8c0-42c64497aff1", 0, "cd549508-6854-4b69-8010-6471095a00ef", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEKSlLaE5gvJwIjXT5AC3AesKn6JPeVwdaVRLPuKA6VsfOsRJXGUe/YVA3lJkLXYITw==", null, false, "5aa10a84-c570-4da6-8baa-05b56c71d3e3", false, "ana" },
+                    { "1e9904a0-c235-4208-b815-1d13bb41b615", 0, "abaecaba-22d5-4a80-bf1d-6d2600ec6416", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAELgEKR4EZhWikJ5c+PpxxtMtfyA/Ph3jTqkebloGlkJbgzj4gWItpE+kHQjl5rayqg==", null, false, "aca0b81e-514b-4778-90e0-af2b2c14a068", false, "any" },
+                    { "25e254dc-7afe-4c7a-b467-fbb00d22f35c", 0, "9edc9ecc-dd26-41de-9cdd-0852d6d0cdbd", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEExTY22XPRbKzc8yEaSmGpBJhnAm9v5UQ9Vtql+Av8/S/KbLJp/SCHOPcnmtWYRhUg==", null, false, "4dbd1a4f-7642-4c82-b3b9-bdb66967faaf", false, "Eduardo" },
+                    { "c0ecee15-f5c1-4e42-96a8-cb720ba95257", 0, "e6efeef6-fbf6-4757-9c27-ae92ba0faaf2", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEMgMBRraNKGxW1N9fj3MHCwqWJm+8SXge5IJ5QqLrNPkcKjJO7WpxGXGKgnwAgdUFg==", null, false, "92e178f4-9e88-4ab6-930e-2dea0143c7dd", false, "dametto" }
                 });
 
             migrationBuilder.InsertData(
@@ -505,14 +505,14 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "13bfadca-d558-47b1-9203-204ef539eb5c" },
-                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "13bfadca-d558-47b1-9203-204ef539eb5c" },
-                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "7d4047f9-f653-4436-ad7b-94414c76e5e5" },
-                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "7d4047f9-f653-4436-ad7b-94414c76e5e5" },
-                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e" },
-                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e" },
-                    { "30997c0c-b353-4e94-8217-67f72cecf70f", "f59082a0-21d7-4537-a928-788416eb040f" },
-                    { "e5072e97-383f-465d-b38d-3c36fe9bf99a", "f59082a0-21d7-4537-a928-788416eb040f" }
+                    { "21373197-e945-4a49-bda7-f0975b95ebd5", "072a59bd-06c9-4983-b8c0-42c64497aff1" },
+                    { "b0bd81ea-17a0-4adb-af71-a645144eb7c5", "072a59bd-06c9-4983-b8c0-42c64497aff1" },
+                    { "21373197-e945-4a49-bda7-f0975b95ebd5", "1e9904a0-c235-4208-b815-1d13bb41b615" },
+                    { "b0bd81ea-17a0-4adb-af71-a645144eb7c5", "1e9904a0-c235-4208-b815-1d13bb41b615" },
+                    { "21373197-e945-4a49-bda7-f0975b95ebd5", "25e254dc-7afe-4c7a-b467-fbb00d22f35c" },
+                    { "b0bd81ea-17a0-4adb-af71-a645144eb7c5", "25e254dc-7afe-4c7a-b467-fbb00d22f35c" },
+                    { "21373197-e945-4a49-bda7-f0975b95ebd5", "c0ecee15-f5c1-4e42-96a8-cb720ba95257" },
+                    { "b0bd81ea-17a0-4adb-af71-a645144eb7c5", "c0ecee15-f5c1-4e42-96a8-cb720ba95257" }
                 });
 
             migrationBuilder.InsertData(
@@ -735,7 +735,43 @@ namespace AAETravel.Migrations
                     { 213, "O Palácio da Pena é um palácio romântico do século XIX, situado no topo da Serra de Sintra, a cerca de 30 km de Lisboa. O palácio foi mandado construir pelo rei D. Fernando II e é considerado um dos mais belos exemplos da arquitetura romântica do século XIX.", "/imgpaises/img Portugal/Cultura/Palácio da Pena (Sintra).png", "De Outubro a abril das 10h às 18h (última entrada às 17h), Maio a setembro das 10h às 19h (última entrada às 18h)e  Fechado em 25 de dezembro e 1 de janeiro ", -38.787702151495722, "Estrada da Pena, Sintra 2710-605  ", -9.3906625475859595, "Palácio da Pena (Sintra) ", 6, "+351 21 923 7300 " },
                     { 214, "A Torre de Belém é uma torre fortificada do século XVI, situada na margem direita do rio Tejo, em Lisboa. A torre foi mandada construir pelo rei D. Manuel I e é considerada um dos mais importantes monumentos da arquitetura manuelina.    ", "/imgpaises/img Portugal/Cultura/Torre de Belém (Lisboa).png", "De Terça a domingo das 10h às 18h (última entrada às 17h30) e Fechado em 1 de janeiro, Domingo de Páscoa, 1 de maio e 25 de dezembro ", -38.691809771982797, "Avenida Brasília, 1400-038 Lisboa  ", -9.215880743877257, "Torre de Belém (Lisboa) ", 6, "+351 21 362 0049  " },
                     { 215, "O Convento de Cristo é um monumento religioso e militar do século XII, situado na cidade de Tomar, a cerca de 130 km de Lisboa. O convento foi fundado pelos Templários e é considerado um dos mais importantes monumentos da arquitetura portuguesa     ", "/imgpaises/img Portugal/Cultura/Convento de Cristo (Tomar).png", "De Novembro a abril das 9h às 18h (última entrada às 17h30), Maio a outubro das 9h às 19h (última entrada às 18h30) e Fechado em 25 de dezembro e 1 de janeiro  ", -39.603547098603968, ": Convento de Cristo, Largo do Convento de Cristo, 2300-312 Tomar ", -8.418917072673116, "Convento de Cristo (Tomar)", 6, "+351 249 315 040  " },
-                    { 216, "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ", "/imgpaises/img Portugal/Cultura/Fortaleza de Sagres (Sagres).png", "De Novembro a abril das 10h às 17h30 (última entrada às 17h), Maio a outubro das 10h às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1 de janeiro  ", -37.000957964034804, "8650-356 Sagres  ", -8.94824723231687, "Fortaleza de Sagres (Sagres) ", 6, "+351 282 630 337   " }
+                    { 216, "A Fortaleza de Sagres é uma fortaleza militar do século XV, situada no extremo sudoeste da Europa, na cidade de Sagres, a cerca de 50 km de Lagos. A fortaleza foi mandada construir pelo Infante D. Henrique e é considerada um dos mais importantes monumentos da história da navegação portuguesa.    ", "/imgpaises/img Portugal/Cultura/Fortaleza de Sagres (Sagres).png", "De Novembro a abril das 10h às 17h30 (última entrada às 17h), Maio a outubro das 10h às 19h (última entrada às 18h) e Fechado em 25 de dezembro e 1 de janeiro  ", -37.000957964034804, "8650-356 Sagres  ", -8.94824723231687, "Fortaleza de Sagres (Sagres) ", 6, "+351 282 630 337   " },
+                    { 253, "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.", "", "Varia de acordo com as empresas de turismo", -18.284454495545621, "Costa nordeste da Austrália", 147.69781747048719, "Grande Barreira de Coral", 8, null },
+                    { 254, "Um monólito sagrado para os aborígenes australianos, com uma rica história cultural. Oferece paisagens espetaculares e caminhadas ao redor da base.", "", "Aberto 24 horas", -25.342560283824174, "Território do Norte", 131.03825451157539, "Uluru (Ayers Rock)", 8, null },
+                    { 255, "Um dos maiores parques nacionais da Austrália, com uma rica biodiversidade, pinturas rupestres aborígenes e paisagens desérticas. Ideal para trilhas e safáris.", "", "Aberto 24 horas", -13.092909562659729, "Território do Norte", 132.39168872401842, "Parque Nacional Kakadu", 8, null },
+                    { 256, "Uma série de pilhas de calcário formadas pela erosão, localizadas na Grande Oceano Road. Um dos ícones da natureza australiana.", "", "Aberto 24 horas", -38.654479165472168, "Grande Oceano Road, Victoria", 143.10439194560004, "Doze Apóstolos", 8, null },
+                    { 257, "A floresta tropical mais antiga do mundo, com uma rica biodiversidade e paisagens exuberantes. Ideal para trilhas e observação de pássaros.", "", "Aberto 24 horas", -16.168648396918627, "Queensland", 145.41707107799928, "Floresta Tropical de Daintree", 8, null },
+                    { 258, "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.", "", "Aberto 24 horas", -25.3444, "Queensland", 153.12360000000001, "Fraser Island", 8, null },
+                    { 259, "Considerado um dos melhores restaurantes da Austrália, o Quay oferece uma experiência gastronômica de alta qualidade com vista espetacular para a Opera House. O chef Peter Gilmore cria pratos inovadores que celebram os produtos sazonais australianos.", "", "Consulte o site oficial para horários atualizados", -33.858029216926781, "The Rocks, Sydney", 151.2100702956208, "Quay (Sydney)", 8, null },
+                    { 260, "Sydney combina paisagens espetaculares com uma cena gastronômica vibrante. Desfrute de frutos do mar frescos nos restaurantes do Circular Quay, ou explore os diversos bairros como Surry Hills e Chinatown.", "", "Varia de restaurante para restaurante", -37.874406184806915, "Ripponlea, Melbourne", 144.99867885080727, "Attica (Melbourne)", 8, null },
+                    { 261, "Fundado pelo renomado chef Neil Perry, o Rockpool é um ícone da gastronomia australiana. O restaurante oferece uma ampla variedade de pratos, com destaque para carnes de alta qualidade e frutos do mar frescos.", "", " Consulte o site oficial para horários atualizados", -33.86607057393735, "Várias localizações em Sydney", 151.20951250450756, "Rockpool (Sydney)", 8, null },
+                    { 262, "Sepia é conhecido por sua cozinha moderna e elegante, com foco em ingredientes sazonais e técnicas culinárias japonesas. O restaurante oferece um menu degustação inovador que muda regularmente.", "", "Consulte o site oficial para horários atualizados", -33.872166529508725, "Surry Hills  (Sydney)", 151.20359342328689, " Sepia (Sydney)", 8, null },
+                    { 263, "Localizado em uma fazenda nos arredores de Melbourne, Brae oferece uma experiência gastronômica única, com um menu degustação que muda diariamente de acordo com a disponibilidade dos ingredientes frescos da fazenda.", "", "Consulte o site oficial para horários atualizados", -38.346504984376246, "Birregurra (Victoria)", 143.80722130000001, " Brae (Birregurra)", 8, null },
+                    { 264, "Criado pelo famoso chef David Chang, Momofuku Seiobo oferece uma experiência gastronômica moderna e descontraída, com um menu que mistura influências asiáticas com ingredientes australianos.", "", "Consulte o site oficial para horários atualizados", -33.868818153800405, "Barangaroo (Sydney)", 151.19572048465736, "Momofuku Seiobo (Sydney)", 8, null },
+                    { 265, "Conhecido como o coração da vida noturna de Sydney, Kings Cross oferece uma variedade de bares, clubes e restaurantes. É um local vibrante e cheio de energia.", "", "Varia de estabelecimento para estabelecimento", -33.873323771097475, "Sydney, Nova Gales do Sul", 151.22422985043181, "Kings Cross, Sydney", 8, null },
+                    { 266, "O centro de Melbourne é um labirinto de bares, restaurantes e clubes. Desde bares de jazz até clubes underground, há algo para todos os gostos.", "", "Varia de estabelecimento para estabelecimento", -37.810166598097403, "Melbourne, Victoria", 144.96164715611181, "Melbourne CBD", 8, null },
+                    { 267, "Um dos clubes mais famosos da Austrália, o Ivy é um complexo de entretenimento com várias áreas, incluindo um restaurante, bar e pista de dança. A programação musical é variada, com DJs tocando os últimos hits.", "", "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.", -33.86639531322637, "Sydney CBD", 151.2075121107099, "Ivy (Sydney)", 8, null },
+                    { 268, "Um dos bares de praia mais famosos da Austrália, o The Beach oferece vistas espetaculares do oceano Pacífico. É o lugar perfeito para tomar um drink enquanto admira o pôr do sol.", "", " Varia de acordo com a estação.", -33.891448064008806, "Bondi Beach, Sydney", 151.27599320605552, " The Beach, Bondi (Sydney)", 8, null },
+                    { 269, " Inspirado nos clubes de Nova York dos anos 1920, o Cloudland é um local elegante e sofisticado, com decoração luxuosa e música ao vivo.", "", "Varia de acordo com o dia da semana e evento.", -27.458229554203985, "Fortitude Valley, Brisbane", 153.03490788956412, "Cloudland (Brisbane)", 8, null },
+                    { 270, "Um dos clubes mais populares de Melbourne, The Bird é conhecido por sua música eletrônica e atmosfera vibrante.", "", "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.", -37.808745319025711, "Melbourne CBD", 144.9577479697401, "The Bird (Melbourne)", 8, null },
+                    { 271, "A maior catedral católica da Austrália, com uma arquitetura neogótica impressionante. Um marco histórico e espiritual da cidade de Sydney.", "", "Diariamente, 07h00 às 19h00", -33.871025700485021, "Sydney, New South Wales", 151.21338977301392, "St. Mary's Cathedral, Sydney", 8, null },
+                    { 272, "A maior catedral católica da Austrália, com uma rica história e arquitetura gótica. Um local de peregrinação para muitos católicos australianos.", "", "Diariamente, 07h00 às 19h00", -37.809934964845247, "Melbourne, Victoria", 144.97647034417824, "St. Patrick's Cathedral, Melbourne", 8, null },
+                    { 273, "A Mesquita de Melbourne é a maior mesquita da Austrália. Sua arquitetura islâmica impressionante e os jardins tranquilos oferecem um refúgio para a comunidade muçulmana e para todos aqueles que buscam um momento de paz.", "", " Consulte o site oficial para horários de oração.", -37.818019039589863, "Hoppers Crossing (Melbourne)", 144.98288072401331, "Mesquita de Melbourne (Melbourne)", 8, null },
+                    { 274, "O Templo Chinês de Melbourne é um dos maiores templos budistas fora da China. Sua arquitetura elaborada e os jardins exuberantes criam um ambiente sereno e inspirador.", "", "Diariamente, das 9h às 17h.", -37.836665168697905, "Melbourne CBD", 144.96324509999999, "Templo Chinês de Melbourne (Melbourne)", 8, null },
+                    { 275, "O maior templo hindu da Austrália, dedicado a Lord Venkateswara, oferece um ambiente colorido e vibrante para a prática religiosa. A arquitetura elaborada e os rituais religiosos criam uma atmosfera única.", "", "Diariamente, consulte o site oficial para horários de puja (oração)", -33.029137081703965, "O templo foi construído no topo de uma colina a 120 metros acima do nível do mar.", 152.24249413814792, "Templo Sri Venkateswara, Melbourne", 8, null },
+                    { 276, "Um dos maiores templos budistas fora da Ásia, o Nan Tien oferece um retiro espiritual completo, com templos, jardins, um centro de meditação e um instituto budista.", "", "Diariamente, consulte o site oficial para horários de meditação e eventos.", -34.465869468514718, "Wollongong (Nova Gales do Sul)", 150.84850884439629, "Nan Tien Temple (Wollongong)", 8, null },
+                    { 277, "Um dos maiores mercados públicos do Hemisfério Sul, oferecendo uma vasta gama de produtos, desde frutas e legumes frescos até roupas, artesanato e souvenirs. Um ótimo lugar para experimentar a cultura local e encontrar produtos únicos.", "", "Variável, consulte o site oficial", -37.807347223191265, "Melbourne", 144.95673266657596, "Queen Victoria Market", 8, null },
+                    { 278, "Uma das principais ruas comerciais de Sydney, com lojas de marcas internacionais, boutiques e grandes armazéns. Um destino popular para quem busca moda e acessórios.", "", "Varia de loja para loja", -33.869482113113264, "Sydney", 151.20859334044431, "Pitt Street Mall", 8, null },
+                    { 279, "Uma rua conhecida por suas lojas vintage, boutiques independentes e cafés charmosos. Um lugar ideal para quem busca peças únicas e um ambiente mais alternativo.", "", "Varia de loja para loja", -37.853167467111582, "Melbourne", 144.99314134062274, "Chapel Street", 8, null },
+                    { 280, "Uma das maiores redes de lojas de departamentos da Austrália, oferecendo uma ampla variedade de produtos, desde moda e beleza até eletrodomésticos e artigos para casa.", "", "Varia de loja para loja", -34.005971651605591, "Várias cidades (Sydney, Melbourne, Brisbane, etc.)", 138.88094509840045, "Myer Centre", 8, null },
+                    { 281, "Uma das principais ruas comerciais de Brisbane, com lojas de marcas internacionais, boutiques e centros comerciais. Um ótimo lugar para fazer compras ao ar livre.", "", "Varia de loja para loja", -27.469331635865686, "Brisbane", 153.02529526718047, "Queen Street Mall", 8, null },
+                    { 282, "Adelaide é conhecida por seus diversos mercados, como o Central Market e o Adelaide Central Market Arcade. Estes oferecem uma variedade de produtos frescos, artesanato local e comidas deliciosas.", "", "Variável, consulte o site oficial", -34.921902913454595, "Adelaide", 138.59902553627143, "Markets of Adelaide", 8, null },
+                    { 283, "Ícone da Austrália, a Ópera de Sydney é uma obra-prima da arquitetura moderna e um Patrimônio Mundial da UNESCO. Além dos espetáculos, oferece tours guiados e vistas deslumbrantes da cidade.", "", "Varia de acordo com a atração", -33.856610636313498, "Sydney, Nova Gales do Sul", 151.21533961160804, "Sydney Opera House", 8, null },
+                    { 284, "Construído para a Exposição Internacional de 1880, o Royal Exhibition Building é um marco da arquitetura vitoriana e um Patrimônio Mundial da UNESCO. Hoje, ele abriga o Museu Melbourne e diversos eventos culturais.", "", "Varia de acordo com os eventos, consulte o site oficial.", -37.804515295216014, "Melbourne (Victoria)", 144.97166092527775, "Royal Exhibition Building (Melbourne)", 8, null },
+                    { 285, "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.", "", "Diariamente, consulte o site oficial para horários.", -35.302076119326806, "Canberra (Território da Capital Australiana)", 149.12973409632815, " Old Parliament House (Canberra)", 8, null },
+                    { 286, "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.", "", "Diariamente, 10h00 às 17h00", -35.281008478037741, "Canberra, Território da Capital Australiana", 149.14848634050563, "Australian War Memorial", 8, null },
+                    { 287, "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.", "", "Diariamente, das 9h às 18h.", -33.871566082771189, "Sydney (Nova Gales do Sul)", 151.20681508462258, "Queen Victoria Building (Sydney)", 8, null },
+                    { 288, "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.", "", "Varia de acordo com a época do ano", -43.145487137733632, "Tasmânia", 147.8506213813647, "Port Arthur Historic Site", 8, null }
                 });
 
             migrationBuilder.InsertData(
@@ -743,10 +779,10 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "13bfadca-d558-47b1-9203-204ef539eb5c", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "7d4047f9-f653-4436-ad7b-94414c76e5e5", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
-                    { "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
-                    { "f59082a0-21d7-4537-a928-788416eb040f", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" }
+                    { "072a59bd-06c9-4983-b8c0-42c64497aff1", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
+                    { "1e9904a0-c235-4208-b815-1d13bb41b615", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
+                    { "25e254dc-7afe-4c7a-b467-fbb00d22f35c", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
+                    { "c0ecee15-f5c1-4e42-96a8-cb720ba95257", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" }
                 });
 
             migrationBuilder.InsertData(
@@ -790,6 +826,12 @@ namespace AAETravel.Migrations
                     { 1, 184 },
                     { 1, 185 },
                     { 1, 186 },
+                    { 1, 253 },
+                    { 1, 254 },
+                    { 1, 255 },
+                    { 1, 256 },
+                    { 1, 257 },
+                    { 1, 258 },
                     { 2, 7 },
                     { 2, 8 },
                     { 2, 9 },
@@ -826,6 +868,12 @@ namespace AAETravel.Migrations
                     { 2, 190 },
                     { 2, 191 },
                     { 2, 192 },
+                    { 2, 259 },
+                    { 2, 260 },
+                    { 2, 261 },
+                    { 2, 262 },
+                    { 2, 263 },
+                    { 2, 264 },
                     { 3, 13 },
                     { 3, 14 },
                     { 3, 15 },
@@ -862,6 +910,12 @@ namespace AAETravel.Migrations
                     { 3, 196 },
                     { 3, 197 },
                     { 3, 198 },
+                    { 3, 265 },
+                    { 3, 266 },
+                    { 3, 267 },
+                    { 3, 268 },
+                    { 3, 269 },
+                    { 3, 270 },
                     { 4, 19 },
                     { 4, 20 },
                     { 4, 21 },
@@ -898,6 +952,13 @@ namespace AAETravel.Migrations
                     { 4, 202 },
                     { 4, 203 },
                     { 4, 204 },
+                    { 4, 271 },
+                    { 4, 272 },
+                    { 4, 273 },
+                    { 4, 274 },
+                    { 4, 275 },
+                    { 4, 276 },
+                    { 4, 277 },
                     { 5, 25 },
                     { 5, 26 },
                     { 5, 27 },
@@ -934,6 +995,11 @@ namespace AAETravel.Migrations
                     { 5, 208 },
                     { 5, 209 },
                     { 5, 210 },
+                    { 5, 278 },
+                    { 5, 279 },
+                    { 5, 280 },
+                    { 5, 281 },
+                    { 5, 282 },
                     { 6, 31 },
                     { 6, 32 },
                     { 6, 33 },
@@ -969,7 +1035,13 @@ namespace AAETravel.Migrations
                     { 6, 213 },
                     { 6, 214 },
                     { 6, 215 },
-                    { 6, 216 }
+                    { 6, 216 },
+                    { 6, 283 },
+                    { 6, 284 },
+                    { 6, 285 },
+                    { 6, 286 },
+                    { 6, 287 },
+                    { 6, 288 }
                 });
 
             migrationBuilder.CreateIndex(

@@ -3053,9 +3053,499 @@ public class AppDbSeed
 						PaisId = 6,
 						Latitude = -37.000957964034804,
 						Longitude = -8.94824723231687
-				}
+				},
                 #endregion
         #endregion
+
+		#region Brasil
+                // 217 a 252
+                #region BR Natureza
+
+				#endregion
+        #endregion	
+
+		#region Australia
+                // 253 a 288
+                #region AU Natureza
+				new Local()
+    			{
+    			    Id = 253,
+    			    Nome = "Grande Barreira de Coral",
+    			    Localizacao = "Costa nordeste da Austrália",
+    			    HorarioFuncionamento = "Varia de acordo com as empresas de turismo",
+    			    Descricao = "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -18.28445449554562, 
+    			    Longitude = 147.6978174704872
+    			},
+				
+    			new Local()
+    			{
+    			    Id = 254,
+    			    Nome = "Uluru (Ayers Rock)",
+    			    Localizacao = "Território do Norte",
+    			    HorarioFuncionamento = "Aberto 24 horas",
+    			    Descricao = "Um monólito sagrado para os aborígenes australianos, com uma rica história cultural. Oferece paisagens espetaculares e caminhadas ao redor da base.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -25.342560283824174, 
+    			    Longitude = 131.0382545115754
+    			},
+				
+    			new Local()
+    			{
+    			    Id = 255,
+    			    Nome = "Parque Nacional Kakadu",
+    			    Localizacao = "Território do Norte",
+    			    HorarioFuncionamento = "Aberto 24 horas",
+    			    Descricao = "Um dos maiores parques nacionais da Austrália, com uma rica biodiversidade, pinturas rupestres aborígenes e paisagens desérticas. Ideal para trilhas e safáris.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -13.09290956265973, 
+    			    Longitude = 132.39168872401842
+    			},
+				
+    			new Local()
+    			{
+    			    Id = 256,
+    			    Nome = "Doze Apóstolos",
+    			    Localizacao = "Grande Oceano Road, Victoria",
+    			    HorarioFuncionamento = "Aberto 24 horas",
+    			    Descricao = "Uma série de pilhas de calcário formadas pela erosão, localizadas na Grande Oceano Road. Um dos ícones da natureza australiana.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -38.65447916547217, 
+    			    Longitude = 143.10439194560004
+    			},
+				
+    			new Local()
+    			{
+    			    Id = 257,
+    			    Nome = "Floresta Tropical de Daintree",
+    			    Localizacao = "Queensland",
+    			    HorarioFuncionamento = "Aberto 24 horas",
+    			    Descricao = "A floresta tropical mais antiga do mundo, com uma rica biodiversidade e paisagens exuberantes. Ideal para trilhas e observação de pássaros.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -16.168648396918627, 
+    			    Longitude = 145.41707107799928
+    			},
+				
+    			new Local()
+    			{
+    			    Id = 258,
+    			    Nome = "Fraser Island",
+    			    Localizacao = "Queensland",
+    			    HorarioFuncionamento = "Aberto 24 horas",
+    			    Descricao = "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -25.3444,
+    			    Longitude = 153.1236
+    			},
+				#endregion
+
+				#region AU Restaurantes
+				new Local()
+    			{
+    			    Id = 259,
+    			    Nome = "Quay (Sydney)",
+    			    Localizacao = "The Rocks, Sydney",
+    			    HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+    			    Descricao = "Considerado um dos melhores restaurantes da Austrália, o Quay oferece uma experiência gastronômica de alta qualidade com vista espetacular para a Opera House. O chef Peter Gilmore cria pratos inovadores que celebram os produtos sazonais australianos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.85802921692678, 
+    			    Longitude = 151.2100702956208
+    			},
+
+    			new Local()
+    			{
+    			    Id = 260,
+    			    Nome = "Attica (Melbourne)",
+    			    Localizacao = "Ripponlea, Melbourne",
+    			    HorarioFuncionamento = "Varia de restaurante para restaurante",
+    			    Descricao = "Sydney combina paisagens espetaculares com uma cena gastronômica vibrante. Desfrute de frutos do mar frescos nos restaurantes do Circular Quay, ou explore os diversos bairros como Surry Hills e Chinatown.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.874406184806915, 
+    			    Longitude =  144.99867885080727
+    			},
+
+    			new Local()
+    			{
+    			    Id = 261,
+    			    Nome = "Rockpool (Sydney)",
+    			    Localizacao = "Várias localizações em Sydney",
+    			    HorarioFuncionamento = " Consulte o site oficial para horários atualizados",
+    			    Descricao = "Fundado pelo renomado chef Neil Perry, o Rockpool é um ícone da gastronomia australiana. O restaurante oferece uma ampla variedade de pratos, com destaque para carnes de alta qualidade e frutos do mar frescos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.86607057393735,
+    			    Longitude = 151.20951250450756
+    			},
+
+    			new Local()
+    			{
+    			    Id = 262,
+    			    Nome = " Sepia (Sydney)",
+    			    Localizacao = "Surry Hills  (Sydney)",
+    			    HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+    			    Descricao = "Sepia é conhecido por sua cozinha moderna e elegante, com foco em ingredientes sazonais e técnicas culinárias japonesas. O restaurante oferece um menu degustação inovador que muda regularmente.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.872166529508725, 
+    			    Longitude = 151.2035934232869
+    			},
+
+    			new Local()
+    			{
+    			    Id = 263,
+    			    Nome = " Brae (Birregurra)",
+    			    Localizacao = "Birregurra (Victoria)",
+    			    HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+    			    Descricao = "Localizado em uma fazenda nos arredores de Melbourne, Brae oferece uma experiência gastronômica única, com um menu degustação que muda diariamente de acordo com a disponibilidade dos ingredientes frescos da fazenda.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -38.346504984376246, 
+    			    Longitude =  143.8072213
+    			},
+
+    			new Local()
+    			{
+    			    Id = 264,
+    			    Nome = "Momofuku Seiobo (Sydney)",
+    			    Localizacao = "Barangaroo (Sydney)",
+    			    HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+    			    Descricao = "Criado pelo famoso chef David Chang, Momofuku Seiobo oferece uma experiência gastronômica moderna e descontraída, com um menu que mistura influências asiáticas com ingredientes australianos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.868818153800405,
+    			    Longitude = 151.19572048465736
+    			},
+				#endregion
+
+				#region AU Vida Noturna
+				new Local()
+    			{
+    			    Id = 265,
+    			    Nome = "Kings Cross, Sydney",
+    			    Localizacao = "Sydney, Nova Gales do Sul",
+    			    HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
+    			    Descricao = "Conhecido como o coração da vida noturna de Sydney, Kings Cross oferece uma variedade de bares, clubes e restaurantes. É um local vibrante e cheio de energia.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.873323771097475, 
+    			    Longitude = 151.2242298504318
+    			},
+
+    			new Local()
+    			{
+    			    Id = 266,
+    			    Nome = "Melbourne CBD",
+    			    Localizacao = "Melbourne, Victoria",
+    			    HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
+    			    Descricao = "O centro de Melbourne é um labirinto de bares, restaurantes e clubes. Desde bares de jazz até clubes underground, há algo para todos os gostos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.8101665980974,
+    			    Longitude = 144.9616471561118
+    			},
+
+    			new Local()
+    			{
+    			    Id = 267,
+    			    Nome = "Ivy (Sydney)",
+    			    Localizacao = "Sydney CBD",
+    			    HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
+    			    Descricao = "Um dos clubes mais famosos da Austrália, o Ivy é um complexo de entretenimento com várias áreas, incluindo um restaurante, bar e pista de dança. A programação musical é variada, com DJs tocando os últimos hits.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.86639531322637, 
+    			    Longitude = 151.2075121107099
+    			},
+
+    			new Local()
+    			{
+    			    Id = 268,
+    			    Nome = " The Beach, Bondi (Sydney)",
+    			    Localizacao = "Bondi Beach, Sydney",
+    			    HorarioFuncionamento = " Varia de acordo com a estação.",
+    			    Descricao = "Um dos bares de praia mais famosos da Austrália, o The Beach oferece vistas espetaculares do oceano Pacífico. É o lugar perfeito para tomar um drink enquanto admira o pôr do sol.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.891448064008806, 
+    			    Longitude = 151.27599320605552
+    			},
+
+    			new Local()
+    			{
+    			    Id = 269,
+    			    Nome = "Cloudland (Brisbane)",
+    			    Localizacao = "Fortitude Valley, Brisbane",
+    			    HorarioFuncionamento = "Varia de acordo com o dia da semana e evento.",
+    			    Descricao = " Inspirado nos clubes de Nova York dos anos 1920, o Cloudland é um local elegante e sofisticado, com decoração luxuosa e música ao vivo.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -27.458229554203985, 
+    			    Longitude = 153.03490788956412
+    			},
+
+    			new Local()
+    			{
+    			    Id = 270,
+    			    Nome = "The Bird (Melbourne)",
+    			    Localizacao = "Melbourne CBD",
+    			    HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
+    			    Descricao = "Um dos clubes mais populares de Melbourne, The Bird é conhecido por sua música eletrônica e atmosfera vibrante.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.80874531902571,
+    			    Longitude = 144.9577479697401
+    			},
+				#endregion
+
+				#region AU Espiritualidade
+				new Local()
+    			{
+    			    Id = 271,
+    			    Nome = "St. Mary's Cathedral, Sydney",
+    			    Localizacao = "Sydney, New South Wales",
+    			    HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
+    			    Descricao = "A maior catedral católica da Austrália, com uma arquitetura neogótica impressionante. Um marco histórico e espiritual da cidade de Sydney.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.87102570048502, 
+    			    Longitude = 151.21338977301392
+    			},
+
+    			new Local()
+    			{
+    			    Id = 272,
+    			    Nome = "St. Patrick's Cathedral, Melbourne",
+    			    Localizacao = "Melbourne, Victoria",
+    			    HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
+    			    Descricao = "A maior catedral católica da Austrália, com uma rica história e arquitetura gótica. Um local de peregrinação para muitos católicos australianos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.80993496484525, 
+    			    Longitude =  144.97647034417824
+    			},
+
+    			new Local()
+    			{
+    			    Id = 273,
+    			    Nome = "Mesquita de Melbourne (Melbourne)",
+    			    Localizacao = "Hoppers Crossing (Melbourne)",
+    			    HorarioFuncionamento = " Consulte o site oficial para horários de oração.",
+    			    Descricao = "A Mesquita de Melbourne é a maior mesquita da Austrália. Sua arquitetura islâmica impressionante e os jardins tranquilos oferecem um refúgio para a comunidade muçulmana e para todos aqueles que buscam um momento de paz.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.81801903958986, 
+    			    Longitude = 144.9828807240133
+    			},
+
+    			new Local()
+    			{
+    			    Id = 274,
+    			    Nome = "Templo Chinês de Melbourne (Melbourne)",
+    			    Localizacao = "Melbourne CBD",
+    			    HorarioFuncionamento = "Diariamente, das 9h às 17h.",
+    			    Descricao = "O Templo Chinês de Melbourne é um dos maiores templos budistas fora da China. Sua arquitetura elaborada e os jardins exuberantes criam um ambiente sereno e inspirador.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.836665168697905, 
+    			    Longitude = 144.9632451
+    			},
+
+    			new Local()
+    			{
+    			    Id = 275,
+    			    Nome = "Templo Sri Venkateswara, Melbourne",
+    			    Localizacao = "O templo foi construído no topo de uma colina a 120 metros acima do nível do mar.",
+    			    HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de puja (oração)",
+    			    Descricao = "O maior templo hindu da Austrália, dedicado a Lord Venkateswara, oferece um ambiente colorido e vibrante para a prática religiosa. A arquitetura elaborada e os rituais religiosos criam uma atmosfera única.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.029137081703965, 
+    			    Longitude = 152.24249413814792
+    			},
+
+    			new Local()
+    			{
+    			    Id = 276,
+    			    Nome = "Nan Tien Temple (Wollongong)",
+    			    Localizacao = "Wollongong (Nova Gales do Sul)",
+    			    HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de meditação e eventos.",
+    			    Descricao = "Um dos maiores templos budistas fora da Ásia, o Nan Tien oferece um retiro espiritual completo, com templos, jardins, um centro de meditação e um instituto budista.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -34.46586946851472, 
+    			    Longitude = 150.8485088443963
+    			},
+				#endregion	
+
+				#region AU Compras
+				new Local()
+    			{
+    			    Id = 277,
+    			    Nome = "Queen Victoria Market",
+    			    Localizacao = "Melbourne",
+    			    HorarioFuncionamento = "Variável, consulte o site oficial",
+    			    Descricao = "Um dos maiores mercados públicos do Hemisfério Sul, oferecendo uma vasta gama de produtos, desde frutas e legumes frescos até roupas, artesanato e souvenirs. Um ótimo lugar para experimentar a cultura local e encontrar produtos únicos.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.807347223191265, 
+    			    Longitude =  144.95673266657596
+    			},
+
+    			new Local()
+    			{
+    			    Id = 278,
+    			    Nome = "Pitt Street Mall",
+    			    Localizacao = "Sydney",
+    			    HorarioFuncionamento = "Varia de loja para loja",
+    			    Descricao = "Uma das principais ruas comerciais de Sydney, com lojas de marcas internacionais, boutiques e grandes armazéns. Um destino popular para quem busca moda e acessórios.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.869482113113264, 
+    			    Longitude = 151.2085933404443
+    			},
+
+    			new Local()
+    			{
+    			    Id = 279,
+    			    Nome = "Chapel Street",
+    			    Localizacao = "Melbourne",
+    			    HorarioFuncionamento = "Varia de loja para loja",
+    			    Descricao = "Uma rua conhecida por suas lojas vintage, boutiques independentes e cafés charmosos. Um lugar ideal para quem busca peças únicas e um ambiente mais alternativo.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.85316746711158, 
+    			    Longitude = 144.99314134062274
+    			},
+
+    			new Local()
+    			{
+    			    Id = 280,
+    			    Nome = "Myer Centre",
+    			    Localizacao = "Várias cidades (Sydney, Melbourne, Brisbane, etc.)",
+    			    HorarioFuncionamento = "Varia de loja para loja",
+    			    Descricao = "Uma das maiores redes de lojas de departamentos da Austrália, oferecendo uma ampla variedade de produtos, desde moda e beleza até eletrodomésticos e artigos para casa.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -34.00597165160559, 
+    			    Longitude =  138.88094509840045
+    			},
+
+    			new Local()
+    			{
+    			    Id = 281,
+    			    Nome = "Queen Street Mall",
+    			    Localizacao = "Brisbane",
+    			    HorarioFuncionamento = "Varia de loja para loja",
+    			    Descricao = "Uma das principais ruas comerciais de Brisbane, com lojas de marcas internacionais, boutiques e centros comerciais. Um ótimo lugar para fazer compras ao ar livre.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -27.469331635865686, 
+    			    Longitude = 153.02529526718047
+    			},
+
+    			new Local()
+    			{
+    			    Id = 282,
+    			    Nome = "Markets of Adelaide",
+    			    Localizacao = "Adelaide",
+    			    HorarioFuncionamento = "Variável, consulte o site oficial",
+    			    Descricao = "Adelaide é conhecida por seus diversos mercados, como o Central Market e o Adelaide Central Market Arcade. Estes oferecem uma variedade de produtos frescos, artesanato local e comidas deliciosas.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -34.921902913454595, 
+    			    Longitude = 138.59902553627143
+    			},
+				#endregion
+
+				#region AU Compras
+				new Local()
+    			{
+    			    Id = 283,
+    			    Nome = "Sydney Opera House",
+    			    Localizacao = "Sydney, Nova Gales do Sul",
+    			    HorarioFuncionamento = "Varia de acordo com a atração",
+    			    Descricao = "Ícone da Austrália, a Ópera de Sydney é uma obra-prima da arquitetura moderna e um Patrimônio Mundial da UNESCO. Além dos espetáculos, oferece tours guiados e vistas deslumbrantes da cidade.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.8566106363135, 
+    			    Longitude = 151.21533961160804
+    			},
+
+    			new Local()
+    			{
+    			    Id = 284,
+    			    Nome = "Royal Exhibition Building (Melbourne)",
+    			    Localizacao = "Melbourne (Victoria)",
+    			    HorarioFuncionamento = "Varia de acordo com os eventos, consulte o site oficial.",
+    			    Descricao = "Construído para a Exposição Internacional de 1880, o Royal Exhibition Building é um marco da arquitetura vitoriana e um Patrimônio Mundial da UNESCO. Hoje, ele abriga o Museu Melbourne e diversos eventos culturais.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -37.804515295216014, 
+    			    Longitude = 144.97166092527775
+    			},
+
+    			new Local()
+    			{
+    			    Id = 285,
+    			    Nome = " Old Parliament House (Canberra)",
+    			    Localizacao = "Canberra (Território da Capital Australiana)",
+    			    HorarioFuncionamento = "Diariamente, consulte o site oficial para horários.",
+    			    Descricao = "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -35.302076119326806, 
+    			    Longitude = 149.12973409632815
+    			},
+
+    			new Local()
+    			{
+    			    Id = 286,
+    			    Nome = "Australian War Memorial",
+    			    Localizacao = "Canberra, Território da Capital Australiana",
+    			    HorarioFuncionamento = "Diariamente, 10h00 às 17h00",
+    			    Descricao = "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -35.28100847803774, 
+    			    Longitude = 149.14848634050563
+    			},
+
+    			new Local()
+    			{
+    			    Id = 287,
+    			    Nome = "Queen Victoria Building (Sydney)",
+    			    Localizacao = "Sydney (Nova Gales do Sul)",
+    			    HorarioFuncionamento = "Diariamente, das 9h às 18h.",
+    			    Descricao = "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -33.87156608277119,
+    			    Longitude = 151.20681508462258
+				},
+
+    			new Local()
+    			{
+    			    Id = 288,
+    			    Nome = "Port Arthur Historic Site",
+    			    Localizacao = "Tasmânia",
+    			    HorarioFuncionamento = "Varia de acordo com a época do ano",
+    			    Descricao = "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.",
+    			    Foto = "",
+    			    PaisId = 8,
+    			    Latitude = -43.14548713773363, 
+    			    Longitude = 147.8506213813647
+    			},
+				#endregion	
+        	#endregion	
         };
 		builder.Entity<Local>().HasData(locais);
 
@@ -3927,6 +4417,150 @@ public class AppDbSeed
 			LocalId =       216 ,
 			ExperienciaId =     6
 			},
+			new ExperienciaLocal() {
+			LocalId =       253 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       254 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       255 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       256 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       257 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       258 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       259 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       260 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       261 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       262 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       263 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       264 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       265 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       266 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       267 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       268 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       269 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       270 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       271 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       272 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       273 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       274 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       275 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       276 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       277 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       278 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       279 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       280 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       281 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       282 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       283 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       284 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       285 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       286 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       287 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       288 ,
+			ExperienciaId =     6
+			},
 		};
 		builder.Entity<ExperienciaLocal>().HasData(experienciaLocals);
 		#endregion
@@ -4074,4 +4708,3 @@ public class AppDbSeed
 		#endregion
 	}
 }
-

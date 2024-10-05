@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241001212328_AAETravelfirst")]
+    [Migration("20241005020529_AAETravelfirst")]
     partial class AAETravelfirst
     {
         /// <inheritdoc />
@@ -1360,6 +1360,186 @@ namespace AAETravel.Migrations
                         {
                             ExperienciaId = 6,
                             LocalId = 216
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 253
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 254
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 255
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 256
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 257
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 258
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 259
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 260
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 261
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 262
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 263
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 264
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 265
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 266
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 267
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 268
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 269
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 270
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 271
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 272
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 273
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 274
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 275
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 276
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 277
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 278
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 279
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 280
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 281
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 282
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 283
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 284
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 285
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 286
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 287
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 288
                         });
                 });
 
@@ -4238,6 +4418,438 @@ namespace AAETravel.Migrations
                             Nome = "Fortaleza de Sagres (Sagres) ",
                             PaisId = 6,
                             Telefone = "+351 282 630 337   "
+                        },
+                        new
+                        {
+                            Id = 253,
+                            Descricao = "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com as empresas de turismo",
+                            Latitude = -18.284454495545621,
+                            Localizacao = "Costa nordeste da Austrália",
+                            Longitude = 147.69781747048719,
+                            Nome = "Grande Barreira de Coral",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 254,
+                            Descricao = "Um monólito sagrado para os aborígenes australianos, com uma rica história cultural. Oferece paisagens espetaculares e caminhadas ao redor da base.",
+                            Foto = "",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = -25.342560283824174,
+                            Localizacao = "Território do Norte",
+                            Longitude = 131.03825451157539,
+                            Nome = "Uluru (Ayers Rock)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 255,
+                            Descricao = "Um dos maiores parques nacionais da Austrália, com uma rica biodiversidade, pinturas rupestres aborígenes e paisagens desérticas. Ideal para trilhas e safáris.",
+                            Foto = "",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = -13.092909562659729,
+                            Localizacao = "Território do Norte",
+                            Longitude = 132.39168872401842,
+                            Nome = "Parque Nacional Kakadu",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 256,
+                            Descricao = "Uma série de pilhas de calcário formadas pela erosão, localizadas na Grande Oceano Road. Um dos ícones da natureza australiana.",
+                            Foto = "",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = -38.654479165472168,
+                            Localizacao = "Grande Oceano Road, Victoria",
+                            Longitude = 143.10439194560004,
+                            Nome = "Doze Apóstolos",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 257,
+                            Descricao = "A floresta tropical mais antiga do mundo, com uma rica biodiversidade e paisagens exuberantes. Ideal para trilhas e observação de pássaros.",
+                            Foto = "",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = -16.168648396918627,
+                            Localizacao = "Queensland",
+                            Longitude = 145.41707107799928,
+                            Nome = "Floresta Tropical de Daintree",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 258,
+                            Descricao = "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.",
+                            Foto = "",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = -25.3444,
+                            Localizacao = "Queensland",
+                            Longitude = 153.12360000000001,
+                            Nome = "Fraser Island",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 259,
+                            Descricao = "Considerado um dos melhores restaurantes da Austrália, o Quay oferece uma experiência gastronômica de alta qualidade com vista espetacular para a Opera House. O chef Peter Gilmore cria pratos inovadores que celebram os produtos sazonais australianos.",
+                            Foto = "",
+                            HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+                            Latitude = -33.858029216926781,
+                            Localizacao = "The Rocks, Sydney",
+                            Longitude = 151.2100702956208,
+                            Nome = "Quay (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 260,
+                            Descricao = "Sydney combina paisagens espetaculares com uma cena gastronômica vibrante. Desfrute de frutos do mar frescos nos restaurantes do Circular Quay, ou explore os diversos bairros como Surry Hills e Chinatown.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de restaurante para restaurante",
+                            Latitude = -37.874406184806915,
+                            Localizacao = "Ripponlea, Melbourne",
+                            Longitude = 144.99867885080727,
+                            Nome = "Attica (Melbourne)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 261,
+                            Descricao = "Fundado pelo renomado chef Neil Perry, o Rockpool é um ícone da gastronomia australiana. O restaurante oferece uma ampla variedade de pratos, com destaque para carnes de alta qualidade e frutos do mar frescos.",
+                            Foto = "",
+                            HorarioFuncionamento = " Consulte o site oficial para horários atualizados",
+                            Latitude = -33.86607057393735,
+                            Localizacao = "Várias localizações em Sydney",
+                            Longitude = 151.20951250450756,
+                            Nome = "Rockpool (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 262,
+                            Descricao = "Sepia é conhecido por sua cozinha moderna e elegante, com foco em ingredientes sazonais e técnicas culinárias japonesas. O restaurante oferece um menu degustação inovador que muda regularmente.",
+                            Foto = "",
+                            HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+                            Latitude = -33.872166529508725,
+                            Localizacao = "Surry Hills  (Sydney)",
+                            Longitude = 151.20359342328689,
+                            Nome = " Sepia (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 263,
+                            Descricao = "Localizado em uma fazenda nos arredores de Melbourne, Brae oferece uma experiência gastronômica única, com um menu degustação que muda diariamente de acordo com a disponibilidade dos ingredientes frescos da fazenda.",
+                            Foto = "",
+                            HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+                            Latitude = -38.346504984376246,
+                            Localizacao = "Birregurra (Victoria)",
+                            Longitude = 143.80722130000001,
+                            Nome = " Brae (Birregurra)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 264,
+                            Descricao = "Criado pelo famoso chef David Chang, Momofuku Seiobo oferece uma experiência gastronômica moderna e descontraída, com um menu que mistura influências asiáticas com ingredientes australianos.",
+                            Foto = "",
+                            HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
+                            Latitude = -33.868818153800405,
+                            Localizacao = "Barangaroo (Sydney)",
+                            Longitude = 151.19572048465736,
+                            Nome = "Momofuku Seiobo (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 265,
+                            Descricao = "Conhecido como o coração da vida noturna de Sydney, Kings Cross oferece uma variedade de bares, clubes e restaurantes. É um local vibrante e cheio de energia.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
+                            Latitude = -33.873323771097475,
+                            Localizacao = "Sydney, Nova Gales do Sul",
+                            Longitude = 151.22422985043181,
+                            Nome = "Kings Cross, Sydney",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 266,
+                            Descricao = "O centro de Melbourne é um labirinto de bares, restaurantes e clubes. Desde bares de jazz até clubes underground, há algo para todos os gostos.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
+                            Latitude = -37.810166598097403,
+                            Localizacao = "Melbourne, Victoria",
+                            Longitude = 144.96164715611181,
+                            Nome = "Melbourne CBD",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 267,
+                            Descricao = "Um dos clubes mais famosos da Austrália, o Ivy é um complexo de entretenimento com várias áreas, incluindo um restaurante, bar e pista de dança. A programação musical é variada, com DJs tocando os últimos hits.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
+                            Latitude = -33.86639531322637,
+                            Localizacao = "Sydney CBD",
+                            Longitude = 151.2075121107099,
+                            Nome = "Ivy (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 268,
+                            Descricao = "Um dos bares de praia mais famosos da Austrália, o The Beach oferece vistas espetaculares do oceano Pacífico. É o lugar perfeito para tomar um drink enquanto admira o pôr do sol.",
+                            Foto = "",
+                            HorarioFuncionamento = " Varia de acordo com a estação.",
+                            Latitude = -33.891448064008806,
+                            Localizacao = "Bondi Beach, Sydney",
+                            Longitude = 151.27599320605552,
+                            Nome = " The Beach, Bondi (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 269,
+                            Descricao = " Inspirado nos clubes de Nova York dos anos 1920, o Cloudland é um local elegante e sofisticado, com decoração luxuosa e música ao vivo.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com o dia da semana e evento.",
+                            Latitude = -27.458229554203985,
+                            Localizacao = "Fortitude Valley, Brisbane",
+                            Longitude = 153.03490788956412,
+                            Nome = "Cloudland (Brisbane)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 270,
+                            Descricao = "Um dos clubes mais populares de Melbourne, The Bird é conhecido por sua música eletrônica e atmosfera vibrante.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
+                            Latitude = -37.808745319025711,
+                            Localizacao = "Melbourne CBD",
+                            Longitude = 144.9577479697401,
+                            Nome = "The Bird (Melbourne)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 271,
+                            Descricao = "A maior catedral católica da Austrália, com uma arquitetura neogótica impressionante. Um marco histórico e espiritual da cidade de Sydney.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
+                            Latitude = -33.871025700485021,
+                            Localizacao = "Sydney, New South Wales",
+                            Longitude = 151.21338977301392,
+                            Nome = "St. Mary's Cathedral, Sydney",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 272,
+                            Descricao = "A maior catedral católica da Austrália, com uma rica história e arquitetura gótica. Um local de peregrinação para muitos católicos australianos.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
+                            Latitude = -37.809934964845247,
+                            Localizacao = "Melbourne, Victoria",
+                            Longitude = 144.97647034417824,
+                            Nome = "St. Patrick's Cathedral, Melbourne",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 273,
+                            Descricao = "A Mesquita de Melbourne é a maior mesquita da Austrália. Sua arquitetura islâmica impressionante e os jardins tranquilos oferecem um refúgio para a comunidade muçulmana e para todos aqueles que buscam um momento de paz.",
+                            Foto = "",
+                            HorarioFuncionamento = " Consulte o site oficial para horários de oração.",
+                            Latitude = -37.818019039589863,
+                            Localizacao = "Hoppers Crossing (Melbourne)",
+                            Longitude = 144.98288072401331,
+                            Nome = "Mesquita de Melbourne (Melbourne)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 274,
+                            Descricao = "O Templo Chinês de Melbourne é um dos maiores templos budistas fora da China. Sua arquitetura elaborada e os jardins exuberantes criam um ambiente sereno e inspirador.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, das 9h às 17h.",
+                            Latitude = -37.836665168697905,
+                            Localizacao = "Melbourne CBD",
+                            Longitude = 144.96324509999999,
+                            Nome = "Templo Chinês de Melbourne (Melbourne)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 275,
+                            Descricao = "O maior templo hindu da Austrália, dedicado a Lord Venkateswara, oferece um ambiente colorido e vibrante para a prática religiosa. A arquitetura elaborada e os rituais religiosos criam uma atmosfera única.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de puja (oração)",
+                            Latitude = -33.029137081703965,
+                            Localizacao = "O templo foi construído no topo de uma colina a 120 metros acima do nível do mar.",
+                            Longitude = 152.24249413814792,
+                            Nome = "Templo Sri Venkateswara, Melbourne",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 276,
+                            Descricao = "Um dos maiores templos budistas fora da Ásia, o Nan Tien oferece um retiro espiritual completo, com templos, jardins, um centro de meditação e um instituto budista.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de meditação e eventos.",
+                            Latitude = -34.465869468514718,
+                            Localizacao = "Wollongong (Nova Gales do Sul)",
+                            Longitude = 150.84850884439629,
+                            Nome = "Nan Tien Temple (Wollongong)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 277,
+                            Descricao = "Um dos maiores mercados públicos do Hemisfério Sul, oferecendo uma vasta gama de produtos, desde frutas e legumes frescos até roupas, artesanato e souvenirs. Um ótimo lugar para experimentar a cultura local e encontrar produtos únicos.",
+                            Foto = "",
+                            HorarioFuncionamento = "Variável, consulte o site oficial",
+                            Latitude = -37.807347223191265,
+                            Localizacao = "Melbourne",
+                            Longitude = 144.95673266657596,
+                            Nome = "Queen Victoria Market",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 278,
+                            Descricao = "Uma das principais ruas comerciais de Sydney, com lojas de marcas internacionais, boutiques e grandes armazéns. Um destino popular para quem busca moda e acessórios.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = -33.869482113113264,
+                            Localizacao = "Sydney",
+                            Longitude = 151.20859334044431,
+                            Nome = "Pitt Street Mall",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 279,
+                            Descricao = "Uma rua conhecida por suas lojas vintage, boutiques independentes e cafés charmosos. Um lugar ideal para quem busca peças únicas e um ambiente mais alternativo.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = -37.853167467111582,
+                            Localizacao = "Melbourne",
+                            Longitude = 144.99314134062274,
+                            Nome = "Chapel Street",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 280,
+                            Descricao = "Uma das maiores redes de lojas de departamentos da Austrália, oferecendo uma ampla variedade de produtos, desde moda e beleza até eletrodomésticos e artigos para casa.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = -34.005971651605591,
+                            Localizacao = "Várias cidades (Sydney, Melbourne, Brisbane, etc.)",
+                            Longitude = 138.88094509840045,
+                            Nome = "Myer Centre",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 281,
+                            Descricao = "Uma das principais ruas comerciais de Brisbane, com lojas de marcas internacionais, boutiques e centros comerciais. Um ótimo lugar para fazer compras ao ar livre.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = -27.469331635865686,
+                            Localizacao = "Brisbane",
+                            Longitude = 153.02529526718047,
+                            Nome = "Queen Street Mall",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 282,
+                            Descricao = "Adelaide é conhecida por seus diversos mercados, como o Central Market e o Adelaide Central Market Arcade. Estes oferecem uma variedade de produtos frescos, artesanato local e comidas deliciosas.",
+                            Foto = "",
+                            HorarioFuncionamento = "Variável, consulte o site oficial",
+                            Latitude = -34.921902913454595,
+                            Localizacao = "Adelaide",
+                            Longitude = 138.59902553627143,
+                            Nome = "Markets of Adelaide",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 283,
+                            Descricao = "Ícone da Austrália, a Ópera de Sydney é uma obra-prima da arquitetura moderna e um Patrimônio Mundial da UNESCO. Além dos espetáculos, oferece tours guiados e vistas deslumbrantes da cidade.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com a atração",
+                            Latitude = -33.856610636313498,
+                            Localizacao = "Sydney, Nova Gales do Sul",
+                            Longitude = 151.21533961160804,
+                            Nome = "Sydney Opera House",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 284,
+                            Descricao = "Construído para a Exposição Internacional de 1880, o Royal Exhibition Building é um marco da arquitetura vitoriana e um Patrimônio Mundial da UNESCO. Hoje, ele abriga o Museu Melbourne e diversos eventos culturais.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com os eventos, consulte o site oficial.",
+                            Latitude = -37.804515295216014,
+                            Localizacao = "Melbourne (Victoria)",
+                            Longitude = 144.97166092527775,
+                            Nome = "Royal Exhibition Building (Melbourne)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 285,
+                            Descricao = "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, consulte o site oficial para horários.",
+                            Latitude = -35.302076119326806,
+                            Localizacao = "Canberra (Território da Capital Australiana)",
+                            Longitude = 149.12973409632815,
+                            Nome = " Old Parliament House (Canberra)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 286,
+                            Descricao = "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, 10h00 às 17h00",
+                            Latitude = -35.281008478037741,
+                            Localizacao = "Canberra, Território da Capital Australiana",
+                            Longitude = 149.14848634050563,
+                            Nome = "Australian War Memorial",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 287,
+                            Descricao = "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.",
+                            Foto = "",
+                            HorarioFuncionamento = "Diariamente, das 9h às 18h.",
+                            Latitude = -33.871566082771189,
+                            Localizacao = "Sydney (Nova Gales do Sul)",
+                            Longitude = 151.20681508462258,
+                            Nome = "Queen Victoria Building (Sydney)",
+                            PaisId = 8
+                        },
+                        new
+                        {
+                            Id = 288,
+                            Descricao = "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.",
+                            Foto = "",
+                            HorarioFuncionamento = "Varia de acordo com a época do ano",
+                            Latitude = -43.145487137733632,
+                            Localizacao = "Tasmânia",
+                            Longitude = 147.8506213813647,
+                            Nome = "Port Arthur Historic Site",
+                            PaisId = 8
                         });
                 });
 
@@ -4383,7 +4995,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "13bfadca-d558-47b1-9203-204ef539eb5c",
+                            UsuarioId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -4392,7 +5004,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
+                            UsuarioId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -4401,7 +5013,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
+                            UsuarioId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -4410,7 +5022,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "f59082a0-21d7-4537-a928-788416eb040f",
+                            UsuarioId = "1e9904a0-c235-4208-b815-1d13bb41b615",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -4447,13 +5059,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "30997c0c-b353-4e94-8217-67f72cecf70f",
+                            Id = "b0bd81ea-17a0-4adb-af71-a645144eb7c5",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "e5072e97-383f-465d-b38d-3c36fe9bf99a",
+                            Id = "21373197-e945-4a49-bda7-f0975b95ebd5",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -4550,65 +5162,65 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "13bfadca-d558-47b1-9203-204ef539eb5c",
+                            Id = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "88076310-baaf-4243-ad89-9fa5cbc1c504",
+                            ConcurrencyStamp = "9edc9ecc-dd26-41de-9cdd-0852d6d0cdbd",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEF8U2m1a4L2wxqVm1XNqa8VoP/iO7lbrYdQ0FVgrHX3p2NqQbJqstAdUuURq0GcAdA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEExTY22XPRbKzc8yEaSmGpBJhnAm9v5UQ9Vtql+Av8/S/KbLJp/SCHOPcnmtWYRhUg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f09249ad-462e-4317-a412-baea14d76279",
+                            SecurityStamp = "4dbd1a4f-7642-4c82-b3b9-bdb66967faaf",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
+                            Id = "072a59bd-06c9-4983-b8c0-42c64497aff1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7b989b45-5a61-40a6-b539-c18d778b1a76",
+                            ConcurrencyStamp = "cd549508-6854-4b69-8010-6471095a00ef",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEA1nuZl5A21bREG0rr6QzH50NhzeHtg4ypxrlGRCm7mM4AhmVMVg0V3uYiD5Mlgzug==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKSlLaE5gvJwIjXT5AC3AesKn6JPeVwdaVRLPuKA6VsfOsRJXGUe/YVA3lJkLXYITw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2e96ef6b-536c-4998-a822-7601b21e1c4d",
+                            SecurityStamp = "5aa10a84-c570-4da6-8baa-05b56c71d3e3",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
+                            Id = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "84624e69-3351-4072-9895-c5fe13d4099a",
+                            ConcurrencyStamp = "e6efeef6-fbf6-4757-9c27-ae92ba0faaf2",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKW6IJ6O+5BD+Q5EtRFI1gh+ypmhXA9KKWsPc8RDVidlL8M23bVksDUBtTDXgHCsrw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMgMBRraNKGxW1N9fj3MHCwqWJm+8SXge5IJ5QqLrNPkcKjJO7WpxGXGKgnwAgdUFg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "62a94f29-c277-4869-9cba-b4775d8a8387",
+                            SecurityStamp = "92e178f4-9e88-4ab6-930e-2dea0143c7dd",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "f59082a0-21d7-4537-a928-788416eb040f",
+                            Id = "1e9904a0-c235-4208-b815-1d13bb41b615",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8318f38f-0cca-4423-a0f4-3be2b5751c72",
+                            ConcurrencyStamp = "abaecaba-22d5-4a80-bf1d-6d2600ec6416",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJziseTcruB1zKhsMr/smooZnBYVlul/BIfS8YqFcJDFpSv8yH5Q+lwdpElsGYutbQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELgEKR4EZhWikJ5c+PpxxtMtfyA/Ph3jTqkebloGlkJbgzj4gWItpE+kHQjl5rayqg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1ba0d604-20b4-4043-bdfd-576f6c32d0ca",
+                            SecurityStamp = "aca0b81e-514b-4778-90e0-af2b2c14a068",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         });
@@ -4678,43 +5290,43 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "13bfadca-d558-47b1-9203-204ef539eb5c",
-                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
+                            UserId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
+                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
                         },
                         new
                         {
-                            UserId = "13bfadca-d558-47b1-9203-204ef539eb5c",
-                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
+                            UserId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
+                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
                         },
                         new
                         {
-                            UserId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
-                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
+                            UserId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
+                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
                         },
                         new
                         {
-                            UserId = "7d4047f9-f653-4436-ad7b-94414c76e5e5",
-                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
+                            UserId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
+                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
                         },
                         new
                         {
-                            UserId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
-                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
+                            UserId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
+                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
                         },
                         new
                         {
-                            UserId = "960c6c13-9d9a-40d9-a7fa-dab6d93dc82e",
-                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
+                            UserId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
+                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
                         },
                         new
                         {
-                            UserId = "f59082a0-21d7-4537-a928-788416eb040f",
-                            RoleId = "30997c0c-b353-4e94-8217-67f72cecf70f"
+                            UserId = "1e9904a0-c235-4208-b815-1d13bb41b615",
+                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
                         },
                         new
                         {
-                            UserId = "f59082a0-21d7-4537-a928-788416eb040f",
-                            RoleId = "e5072e97-383f-465d-b38d-3c36fe9bf99a"
+                            UserId = "1e9904a0-c235-4208-b815-1d13bb41b615",
+                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
                         });
                 });
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241005020529_AAETravelfirst")]
+    [Migration("20241005163311_AAETravelfirst")]
     partial class AAETravelfirst
     {
         /// <inheritdoc />
@@ -4429,7 +4429,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Costa nordeste da Austrália",
                             Longitude = 147.69781747048719,
                             Nome = "Grande Barreira de Coral",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4441,7 +4442,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Território do Norte",
                             Longitude = 131.03825451157539,
                             Nome = "Uluru (Ayers Rock)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 8 8956 1128"
                         },
                         new
                         {
@@ -4453,7 +4455,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Território do Norte",
                             Longitude = 132.39168872401842,
                             Nome = "Parque Nacional Kakadu",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 8 8938 1120"
                         },
                         new
                         {
@@ -4465,7 +4468,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Grande Oceano Road, Victoria",
                             Longitude = 143.10439194560004,
                             Nome = "Doze Apóstolos",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4477,7 +4481,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Queensland",
                             Longitude = 145.41707107799928,
                             Nome = "Floresta Tropical de Daintree",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4489,7 +4494,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Queensland",
                             Longitude = 153.12360000000001,
                             Nome = "Fraser Island",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4501,7 +4507,8 @@ namespace AAETravel.Migrations
                             Localizacao = "The Rocks, Sydney",
                             Longitude = 151.2100702956208,
                             Nome = "Quay (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9251 5600"
                         },
                         new
                         {
@@ -4513,7 +4520,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Ripponlea, Melbourne",
                             Longitude = 144.99867885080727,
                             Nome = "Attica (Melbourne)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 3 9530 0111"
                         },
                         new
                         {
@@ -4525,7 +4533,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Várias localizações em Sydney",
                             Longitude = 151.20951250450756,
                             Nome = "Rockpool (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 8099 7077"
                         },
                         new
                         {
@@ -4537,7 +4546,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Surry Hills  (Sydney)",
                             Longitude = 151.20359342328689,
                             Nome = " Sepia (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4549,7 +4559,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Birregurra (Victoria)",
                             Longitude = 143.80722130000001,
                             Nome = " Brae (Birregurra)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 3 5236 2226"
                         },
                         new
                         {
@@ -4561,7 +4572,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Barangaroo (Sydney)",
                             Longitude = 151.19572048465736,
                             Nome = "Momofuku Seiobo (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9657 9169"
                         },
                         new
                         {
@@ -4573,7 +4585,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney, Nova Gales do Sul",
                             Longitude = 151.22422985043181,
                             Nome = "Kings Cross, Sydney",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "(02) 9331 9900"
                         },
                         new
                         {
@@ -4585,7 +4598,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne, Victoria",
                             Longitude = 144.96164715611181,
                             Nome = "Melbourne CBD",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 3 9658 9658"
                         },
                         new
                         {
@@ -4597,7 +4611,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney CBD",
                             Longitude = 151.2075121107099,
                             Nome = "Ivy (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9240 3000"
                         },
                         new
                         {
@@ -4609,7 +4624,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Bondi Beach, Sydney",
                             Longitude = 151.27599320605552,
                             Nome = " The Beach, Bondi (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "(02) 9130 7247"
                         },
                         new
                         {
@@ -4621,7 +4637,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Fortitude Valley, Brisbane",
                             Longitude = 153.03490788956412,
                             Nome = "Cloudland (Brisbane)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 7 3872 6600"
                         },
                         new
                         {
@@ -4633,7 +4650,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne CBD",
                             Longitude = 144.9577479697401,
                             Nome = "The Bird (Melbourne)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4645,7 +4663,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney, New South Wales",
                             Longitude = 151.21338977301392,
                             Nome = "St. Mary's Cathedral, Sydney",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9220 0400"
                         },
                         new
                         {
@@ -4657,7 +4676,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne, Victoria",
                             Longitude = 144.97647034417824,
                             Nome = "St. Patrick's Cathedral, Melbourne",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "03 9662 2233"
                         },
                         new
                         {
@@ -4669,7 +4689,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Hoppers Crossing (Melbourne)",
                             Longitude = 144.98288072401331,
                             Nome = "Mesquita de Melbourne (Melbourne)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4681,7 +4702,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne CBD",
                             Longitude = 144.96324509999999,
                             Nome = "Templo Chinês de Melbourne (Melbourne)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4693,7 +4715,8 @@ namespace AAETravel.Migrations
                             Localizacao = "O templo foi construído no topo de uma colina a 120 metros acima do nível do mar.",
                             Longitude = 152.24249413814792,
                             Nome = "Templo Sri Venkateswara, Melbourne",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4705,7 +4728,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Wollongong (Nova Gales do Sul)",
                             Longitude = 150.84850884439629,
                             Nome = "Nan Tien Temple (Wollongong)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 4272 0600"
                         },
                         new
                         {
@@ -4717,7 +4741,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne",
                             Longitude = 144.95673266657596,
                             Nome = "Queen Victoria Market",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 3 9320 5822"
                         },
                         new
                         {
@@ -4729,7 +4754,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney",
                             Longitude = 151.20859334044431,
                             Nome = "Pitt Street Mall",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4741,7 +4767,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne",
                             Longitude = 144.99314134062274,
                             Nome = "Chapel Street",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "Não possui"
                         },
                         new
                         {
@@ -4753,7 +4780,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Várias cidades (Sydney, Melbourne, Brisbane, etc.)",
                             Longitude = 138.88094509840045,
                             Nome = "Myer Centre",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 8 8212 1200"
                         },
                         new
                         {
@@ -4765,7 +4793,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Brisbane",
                             Longitude = 153.02529526718047,
                             Nome = "Queen Street Mall",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 7 3403 8888"
                         },
                         new
                         {
@@ -4777,7 +4806,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Adelaide",
                             Longitude = 138.59902553627143,
                             Nome = "Markets of Adelaide",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 8 8203 7494"
                         },
                         new
                         {
@@ -4789,7 +4819,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney, Nova Gales do Sul",
                             Longitude = 151.21533961160804,
                             Nome = "Sydney Opera House",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9250 7111"
                         },
                         new
                         {
@@ -4801,7 +4832,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Melbourne (Victoria)",
                             Longitude = 144.97166092527775,
                             Nome = "Royal Exhibition Building (Melbourne)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 131102"
                         },
                         new
                         {
@@ -4813,7 +4845,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Canberra (Território da Capital Australiana)",
                             Longitude = 149.12973409632815,
                             Nome = " Old Parliament House (Canberra)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 6270 8222"
                         },
                         new
                         {
@@ -4825,7 +4858,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Canberra, Território da Capital Australiana",
                             Longitude = 149.14848634050563,
                             Nome = "Australian War Memorial",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 6243 4211"
                         },
                         new
                         {
@@ -4837,7 +4871,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Sydney (Nova Gales do Sul)",
                             Longitude = 151.20681508462258,
                             Nome = "Queen Victoria Building (Sydney)",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 2 9265 6800"
                         },
                         new
                         {
@@ -4849,7 +4884,8 @@ namespace AAETravel.Migrations
                             Localizacao = "Tasmânia",
                             Longitude = 147.8506213813647,
                             Nome = "Port Arthur Historic Site",
-                            PaisId = 8
+                            PaisId = 8,
+                            Telefone = "+61 (0)3 6251 2310"
                         });
                 });
 
@@ -4995,7 +5031,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
+                            UsuarioId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -5004,7 +5040,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
+                            UsuarioId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -5013,7 +5049,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
+                            UsuarioId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -5022,7 +5058,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "1e9904a0-c235-4208-b815-1d13bb41b615",
+                            UsuarioId = "5e498b9b-9f48-437e-9074-01a407354bda",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -5059,13 +5095,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b0bd81ea-17a0-4adb-af71-a645144eb7c5",
+                            Id = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "21373197-e945-4a49-bda7-f0975b95ebd5",
+                            Id = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -5162,65 +5198,65 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
+                            Id = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9edc9ecc-dd26-41de-9cdd-0852d6d0cdbd",
+                            ConcurrencyStamp = "a328a4a5-f67e-4e13-b769-572a286ae47c",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEExTY22XPRbKzc8yEaSmGpBJhnAm9v5UQ9Vtql+Av8/S/KbLJp/SCHOPcnmtWYRhUg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFwh9FJX9cBupshQb7A5Trumol3EO3K16+MH/2S9ue5PiGojlwXQ1jO4IiMhxT3VXA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4dbd1a4f-7642-4c82-b3b9-bdb66967faaf",
+                            SecurityStamp = "4cb689a8-39e3-4a18-af8f-1d284c015874",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "072a59bd-06c9-4983-b8c0-42c64497aff1",
+                            Id = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cd549508-6854-4b69-8010-6471095a00ef",
+                            ConcurrencyStamp = "9a971142-7494-48eb-8cbf-23e107ebe127",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKSlLaE5gvJwIjXT5AC3AesKn6JPeVwdaVRLPuKA6VsfOsRJXGUe/YVA3lJkLXYITw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEM0lMxcJhb5I2bTREofTJgjNiUQoKCPmmef+2x75WzAG12DFXVCf30X1F9/+VfgpMQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5aa10a84-c570-4da6-8baa-05b56c71d3e3",
+                            SecurityStamp = "71f25402-6074-484c-ab90-3966e9cc3496",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
+                            Id = "2c4bace6-fabe-4751-8a8b-44da916d9794",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e6efeef6-fbf6-4757-9c27-ae92ba0faaf2",
+                            ConcurrencyStamp = "b5613aaf-5116-4ad4-b1a6-9d6c9eccb24f",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMgMBRraNKGxW1N9fj3MHCwqWJm+8SXge5IJ5QqLrNPkcKjJO7WpxGXGKgnwAgdUFg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFIZTJGTupUOZakwlOdtR3rRdROJIkWots4H3ZJuGV5/S1QTpn3xxcwRz5CXSgbpww==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "92e178f4-9e88-4ab6-930e-2dea0143c7dd",
+                            SecurityStamp = "815498e3-beab-48ad-a4d8-9c4fa17b7cbf",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "1e9904a0-c235-4208-b815-1d13bb41b615",
+                            Id = "5e498b9b-9f48-437e-9074-01a407354bda",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "abaecaba-22d5-4a80-bf1d-6d2600ec6416",
+                            ConcurrencyStamp = "6a0d8dbc-304b-4ca8-80f5-56c03c235245",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAELgEKR4EZhWikJ5c+PpxxtMtfyA/Ph3jTqkebloGlkJbgzj4gWItpE+kHQjl5rayqg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELjMJ3NkORYxfKoHxkK/9CqD1VvGh1vK+x0k1TOw9CovcDLq3w6cIB6GYD2MwYFvmg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "aca0b81e-514b-4778-90e0-af2b2c14a068",
+                            SecurityStamp = "0feb2266-4661-49aa-a095-757333c6f805",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         });
@@ -5290,43 +5326,43 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
-                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
+                            UserId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
+                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
                         },
                         new
                         {
-                            UserId = "25e254dc-7afe-4c7a-b467-fbb00d22f35c",
-                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
+                            UserId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
+                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
                         },
                         new
                         {
-                            UserId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
-                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
+                            UserId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
+                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
                         },
                         new
                         {
-                            UserId = "072a59bd-06c9-4983-b8c0-42c64497aff1",
-                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
+                            UserId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
+                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
                         },
                         new
                         {
-                            UserId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
-                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
+                            UserId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
+                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
                         },
                         new
                         {
-                            UserId = "c0ecee15-f5c1-4e42-96a8-cb720ba95257",
-                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
+                            UserId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
+                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
                         },
                         new
                         {
-                            UserId = "1e9904a0-c235-4208-b815-1d13bb41b615",
-                            RoleId = "b0bd81ea-17a0-4adb-af71-a645144eb7c5"
+                            UserId = "5e498b9b-9f48-437e-9074-01a407354bda",
+                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
                         },
                         new
                         {
-                            UserId = "1e9904a0-c235-4208-b815-1d13bb41b615",
-                            RoleId = "21373197-e945-4a49-bda7-f0975b95ebd5"
+                            UserId = "5e498b9b-9f48-437e-9074-01a407354bda",
+                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
                         });
                 });
 

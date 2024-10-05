@@ -105,18 +105,20 @@ header {
 /* CONTEUDO */
 
 #favoritarForm {
-    position: absolute;
-    top: 55%;
-    right: 5%;
-
-    & button {
+    button {
         background-color: #000000;
+
         i {
             color: #fff;
             font-size: 30pt;
         }
     }
 }
+
+.icon-red {
+    color: red;
+}
+
 
 section {
     width: 100vw;
@@ -166,13 +168,20 @@ section {
         row-gap: 5%;
         overflow-y: scroll;
         scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
 
+        &::-webkit-scrollbar {
+            display: none;
+        }
 
         & h3 {
             font-size: 30pt;
             font-weight: 800;
             color: white;
             margin-bottom: 10%;
+            display: flex;
+            gap: 1%;
         }
 
         & p {

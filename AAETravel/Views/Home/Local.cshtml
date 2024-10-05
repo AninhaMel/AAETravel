@@ -35,12 +35,14 @@
                 <img src="@Model.Locais.Foto">
             </div>
             <div class="descricao">
-                <h3>Mais informações do local:</h3>
-                <form id="favoritarForm" data-local-id="@Model.Locais.Id">
-                    <button type="button" id="favoritarBtn" class="btn btn-primary">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </form>
+                <h3>Mais informações do local:
+                    <form id="favoritarForm" data-local-id="@Model.Locais.Id">
+                        <button type="button" id="favoritarBtn" class="btn btn-primary">
+                            <i class="bi bi-heart-fill" id="favoritarIcon"></i>
+                        </button>
+                    </form>
+
+                </h3>
                 <p>
                     <i class="bi bi-geo-alt-fill"></i>
                     @Model.Locais.Localizacao
@@ -182,4 +184,11 @@
             zoom: 14,
         });
     }
+
+    $(document).ready(function () {
+        $('#favoritarBtn').click(function () {
+            $('#favoritarIcon').toggleClass('icon-red');
+        });
+    });
+
 </script>

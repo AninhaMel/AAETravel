@@ -1361,6 +1361,186 @@ namespace AAETravel.Migrations
                         new
                         {
                             ExperienciaId = 1,
+                            LocalId = 217
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 218
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 219
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 220
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 221
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 222
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 223
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 224
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 225
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 226
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 227
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 228
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 229
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 230
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 231
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 232
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 233
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 234
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 235
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 236
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 237
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 238
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 239
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 240
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 241
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 242
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 243
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 244
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 245
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 246
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 247
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 248
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 249
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 250
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 251
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 252
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
                             LocalId = 253
                         },
                         new
@@ -1619,7 +1799,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Parque Nacional da Província de Santa Cruz.",
                             Longitude = -73.234180113496933,
                             Nome = "Parque Nacional Los Glaciales (Provícia de Santa Cruz)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "542902491005"
                         },
                         new
@@ -1632,7 +1812,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Lago Nahuel Huapi- região da Patagônia.",
                             Longitude = -71.613045999999997,
                             Nome = "Parque Nacional Nauhel Huapi (Patagônia)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 5091-7200"
                         },
                         new
@@ -1645,7 +1825,7 @@ namespace AAETravel.Migrations
                             Localizacao = "RN3 kilometro 3067, V9410 Ushuaia, Tierra del Fuego.",
                             Longitude = -68.446483844495091,
                             Nome = "Parque Nacional Tierra del Fuego (Ushuaia)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 2901 57-7931"
                         },
                         new
@@ -1658,7 +1838,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Sarmiento 2601, C1045 Buenos Aires.",
                             Longitude = -59.018726315996368,
                             Nome = "Jardim Zoológico de Buenos Aires (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 5091-7200"
                         },
                         new
@@ -1671,7 +1851,7 @@ namespace AAETravel.Migrations
                             Localizacao = "RP25, B1625 Belén de Escobar, Provincia de Buenos Aires.",
                             Longitude = -58.808698621294234,
                             Nome = "Bioparque Temaikén (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 348 443-6980"
                         },
                         new
@@ -1684,7 +1864,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rota 101 Km 142, N3370 Puerto Iguazú, Misiones.",
                             Longitude = -54.444980587863554,
                             Nome = "Parque Nacional Iguazú (Missiones- Puerto Iguazú)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 9 3757 67-4714"
                         },
                         new
@@ -1697,7 +1877,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rua Defensa, San Telmo, Buenos Aires.",
                             Longitude = -58.371204919145264,
                             Nome = "Feira de San Telmo (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 9 3757 67-4714"
                         },
                         new
@@ -1710,7 +1890,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Córdoba 550, C1054 Buenos Aires.",
                             Longitude = -58.374832153552276,
                             Nome = "Galerias Pacífico (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 5555-5110"
                         },
                         new
@@ -1723,7 +1903,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Paraguay 4979, C1425BTC C1425BTA, Buenos Aires.",
                             Longitude = -58.427866749837804,
                             Nome = "Distritos Arcos (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 800-222-2299"
                         },
                         new
@@ -1736,7 +1916,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Avenida Del Libertador 750.",
                             Longitude = -68.85890340338014,
                             Nome = "Patio Bullrich (Marselha)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 800-222-2299"
                         },
                         new
@@ -1749,7 +1929,7 @@ namespace AAETravel.Migrations
                             Localizacao = "RP82 2650, M5501 Godoy Cruz, Mendoza.",
                             Longitude = -58.384044676325388,
                             Nome = "Palmares Open Mall (Godoy Cruz)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 261 348-1200"
                         },
                         new
@@ -1762,7 +1942,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Vélez Sarsfield 361.",
                             Longitude = -64.188240681400345,
                             Nome = "Patio olmos (córdoba)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 351 570-4199"
                         },
                         new
@@ -1775,7 +1955,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Calle Cnel Niceto Vega 5510.",
                             Longitude = -58.438866074468983,
                             Nome = "Niceto Club (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 351 570-4199"
                         },
                         new
@@ -1788,7 +1968,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Vieytes 1655, C1276 Cdad.",
                             Longitude = -58.420529532143043,
                             Nome = "Senor Tango (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4303-0231"
                         },
                         new
@@ -1801,7 +1981,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Ruta Nacional 12 KM 5",
                             Longitude = -58.375939274465793,
                             Nome = "Icebar Iguazu (Puerto Iguazú)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4778-1500 "
                         },
                         new
@@ -1814,7 +1994,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Coronel Marcelino E. Freyre",
                             Longitude = -54.555006920882761,
                             Nome = "Crobar (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4303-0231"
                         },
                         new
@@ -1827,7 +2007,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rivadavia Ave 2100, corner of Rincon street Balvanera.",
                             Longitude = -58.396186547487716,
                             Nome = "Cafe de los Angelitos  (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4952-2320"
                         },
                         new
@@ -1840,7 +2020,7 @@ namespace AAETravel.Migrations
                             Localizacao = "República de Eslovenia 1959.",
                             Longitude = -58.434845818652846,
                             Nome = "Vinology (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 9 11 3100-2433"
                         },
                         new
@@ -1853,7 +2033,7 @@ namespace AAETravel.Migrations
                             Localizacao = "San Martín 27, C1004",
                             Longitude = -58.373300318651069,
                             Nome = "Catedral Metropolitana de Buenos Aires (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4303-0231"
                         },
                         new
@@ -1866,7 +2046,7 @@ namespace AAETravel.Migrations
                             Localizacao = "San Martín 51.",
                             Longitude = -58.440208863904218,
                             Nome = "Basílica de Nuestra Señora de Luján (Luján)  ",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 2323 42-1070."
                         },
                         new
@@ -1879,7 +2059,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Córdoba 15",
                             Longitude = -65.408216490219658,
                             Nome = "Igreja de San Francisco (Salta)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 387 512-4311"
                         },
                         new
@@ -1892,7 +2072,7 @@ namespace AAETravel.Migrations
                             Localizacao = "C. Cardenal Herrero, 1, Centro. ",
                             Longitude = -65.355297713215961,
                             Nome = "Catedral de Córdoba (Córdoba)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+34 957 47 0512. "
                         },
                         new
@@ -1905,7 +2085,7 @@ namespace AAETravel.Migrations
                             Localizacao = "San Martín 1035.",
                             Longitude = -58.374236537711141,
                             Nome = "Basílica del Santísimo Sacramento (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4311-0391."
                         },
                         new
@@ -1918,7 +2098,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Vice Almte. O'Connor 500.",
                             Longitude = -71.302346445305488,
                             Nome = "Catedral de Nuestra Señora del Nahuel Huapi (Bariloche)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 294 443-4084 "
                         },
                         new
@@ -1931,7 +2111,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Calle Guatemala 4699 Palermo Viejo",
                             Longitude = -58.424247618652103,
                             Nome = "Don Julio (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4832-6058"
                         },
                         new
@@ -1944,7 +2124,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Jose Antonio Cabrera 5099 Palermo.",
                             Longitude = -58.433254445632251,
                             Nome = "La Cabrera (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 5586-1435."
                         },
                         new
@@ -1957,7 +2137,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Calle Gral Manuel Belgrano 1188",
                             Longitude = -68.84302357268902,
                             Nome = "1884 Restaurante Francis Mallmann (Mendonza)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 261 424-2698"
                         },
                         new
@@ -1970,7 +2150,7 @@ namespace AAETravel.Migrations
                             Localizacao = "C. Jovellanos, 2.",
                             Longitude = -60.646887162330877,
                             Nome = "Oviedo (Rosário)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+34 984 03 40 14"
                         },
                         new
@@ -1983,7 +2163,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Bartolomé Mitre 794, na cidade de Mendoza, Argentina.",
                             Longitude = -76.512734033055366,
                             Nome = "Siete Cocinas (Salta)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+34 984 03 40 14."
                         },
                         new
@@ -1996,7 +2176,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Uriarte 1423.",
                             Longitude = -58.433711081236453,
                             Nome = "Fogón Asado (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 2142-2936."
                         },
                         new
@@ -2009,7 +2189,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. del Libertador 1473",
                             Longitude = -58.3930473186523,
                             Nome = "Museu Nacional de Belas Artes (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 5288-9900"
                         },
                         new
@@ -2022,7 +2202,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Pres. Figueroa Alcorta 3415.",
                             Longitude = -58.403494562835725,
                             Nome = "Museu de Arte Latino-Americana de Buenos Aires (MALBA) (Buenos Aires)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 11 4808-6500"
                         },
                         new
@@ -2035,7 +2215,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Pl. del Potro, 1, Centro.",
                             Longitude = -5.1797556490995014,
                             Nome = "Museu de Arte Pré-Colombiana e Arte Popular (Córdoba)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+34 957 01 58 58."
                         },
                         new
@@ -2048,7 +2228,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Paseo del Bosque s/n.",
                             Longitude = -58.405005476325684,
                             Nome = "Museu de La Plata (La Plata)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 221 425-7744."
                         },
                         new
@@ -2061,7 +2241,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Sarmiento, 450",
                             Longitude = -62.262232545431239,
                             Nome = "Museu de Arte Contemporânea de Bahía Blanca (Bahía Blanca)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 221 425-7744"
                         },
                         new
@@ -2073,7 +2253,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Dr. Eduardo María Gallo s/n.",
                             Longitude = -58.370546287957147,
                             Nome = "Museu de História Nacional (Rosário)",
-                            PaisId = 1,
+                            PaisId = 7,
                             Telefone = "+54 221 425-7744"
                         },
                         new
@@ -4418,6 +4598,474 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
+                            Id = 217,
+                            Descricao = "Famoso pelas impressionantes Cataratas do Iguaçu, o parque abriga uma rica biodiversidade e trilhas para caminhadas.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional do Iguaçu.png",
+                            HorarioFuncionamento = "9h às 17h",
+                            Latitude = -25.6953,
+                            Localizacao = "Rodovia BR-469, Km 18, Parque Nacional do Iguaçu, Foz do Iguaçu, PR",
+                            Longitude = -54.436700000000002,
+                            Nome = "Parque Nacional do Iguaçu",
+                            PaisId = 1,
+                            Telefone = "+55 45 523 8111"
+                        },
+                        new
+                        {
+                            Id = 218,
+                            Descricao = "Um espaço com mais de 8.000 espécies de plantas, ideal para caminhadas, piqueniques e observação da natureza.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Jardim Botânico do Rio de Janeiro.png",
+                            HorarioFuncionamento = "8h às 17h",
+                            Latitude = -22.955200000000001,
+                            Localizacao = "Rua Jardim Botânico, 1008, Jardim Botânico, Rio de Janeiro, RJ",
+                            Longitude = -43.223700000000001,
+                            Nome = "Jardim Botânico do Rio de Janeiro",
+                            PaisId = 1,
+                            Telefone = "+55 21 3874 1808"
+                        },
+                        new
+                        {
+                            Id = 219,
+                            Descricao = "Conhecido por suas cachoeiras, formações rochosas e rica fauna e flora, ideal para ecoturismo e trilhas.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional da Chapada dos Veadeiros.png",
+                            HorarioFuncionamento = "8h às 17h",
+                            Latitude = -14.166399999999999,
+                            Localizacao = "Estrada Parque, Km 0, Alto Paraíso de Goiás, GO",
+                            Longitude = -47.3566,
+                            Nome = "Parque Nacional da Chapada dos Veadeiros",
+                            PaisId = 1,
+                            Telefone = "+55 61 3371 2200"
+                        },
+                        new
+                        {
+                            Id = 220,
+                            Descricao = "Um dos maiores zoológicos do Brasil, com diversas espécies de animais e um grande espaço verde para visitação.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Zoológico de São Paulo.png",
+                            HorarioFuncionamento = "9h às 17h",
+                            Latitude = -23.607600000000001,
+                            Localizacao = "Av. Miguel Estefano, 4241, Água Funda, São Paulo, SP",
+                            Longitude = -46.703099999999999,
+                            Nome = "Zoológico de São Paulo",
+                            PaisId = 1,
+                            Telefone = "+55 11 5080 7399"
+                        },
+                        new
+                        {
+                            Id = 221,
+                            Descricao = "Conhecido por suas montanhas, trilhas e cachoeiras, é um paraíso para os amantes do trekking e da natureza.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional da Serra dos Órgãos.png",
+                            HorarioFuncionamento = "8h às 17h",
+                            Latitude = -22.4086,
+                            Localizacao = "Estrada do Parque Nacional, s/n - Vale do Cuiabá, Teresópolis, RJ",
+                            Longitude = -42.979900000000001,
+                            Nome = "Parque Nacional da Serra dos Órgãos",
+                            PaisId = 1,
+                            Telefone = "+55 21 2742 2335"
+                        },
+                        new
+                        {
+                            Id = 222,
+                            Descricao = "Um dos maiores parques urbanos do Brasil, com áreas verdes, lagoas e trilhas para caminhada e ciclismo.",
+                            Foto = "/imgpaises/imgBrasil/Natureza/Parque da Cidade.png",
+                            HorarioFuncionamento = "6h às 18h",
+                            Latitude = -15.975,
+                            Localizacao = "SGAS 915, 915, Asa Sul, Brasília, DF",
+                            Longitude = -47.9636,
+                            Nome = "Parque da Cidade",
+                            PaisId = 1,
+                            Telefone = "+55 61 3226 1006"
+                        },
+                        new
+                        {
+                            Id = 223,
+                            Descricao = "Restaurante premiado comandado pelo chef Alex Atala, conhecido por sua culinária brasileira inovadora com ingredientes da Amazônia.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/D.O.M.png",
+                            HorarioFuncionamento = "12h às 15h, 19h às 23h",
+                            Latitude = -23.5641,
+                            Localizacao = "Rua Barão de Capanema, 549 - Jardim Paulista, São Paulo, SP",
+                            Longitude = -46.661200000000001,
+                            Nome = "D.O.M.",
+                            PaisId = 7,
+                            Telefone = "+55 11 3088 0761"
+                        },
+                        new
+                        {
+                            Id = 224,
+                            Descricao = "Restaurante sofisticado de frente para o mar, oferecendo uma culinária italiana refinada e vistas incríveis de Ipanema.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/Fasano Rio.png",
+                            HorarioFuncionamento = "12h às 16h, 19h às 23h",
+                            Latitude = -22.9847,
+                            Localizacao = "Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro, RJ",
+                            Longitude = -43.204599999999999,
+                            Nome = "Fasano Rio",
+                            PaisId = 7,
+                            Telefone = "+55 21 3202 4000"
+                        },
+                        new
+                        {
+                            Id = 225,
+                            Descricao = "Famoso por seu menu baseado em carne suína, o restaurante do chef Jefferson Rueda é um dos mais badalados da gastronomia paulista.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/Casa do Porco.png",
+                            HorarioFuncionamento = "12h às 23h",
+                            Latitude = -23.546099999999999,
+                            Localizacao = "R. Araújo, 124 - República, São Paulo, SP",
+                            Longitude = -46.641199999999998,
+                            Nome = "Casa do Porco",
+                            PaisId = 7,
+                            Telefone = "+55 11 3258 2578"
+                        },
+                        new
+                        {
+                            Id = 226,
+                            Descricao = "Comandado pela chef Helena Rizzo, o Maní oferece uma culinária contemporânea brasileira com ênfase em técnicas inovadoras e ingredientes locais.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/Maní.png",
+                            HorarioFuncionamento = "12h às 15h, 19h às 23h",
+                            Latitude = -23.566500000000001,
+                            Localizacao = "Rua Joaquim Antunes, 210 - Jardim Paulistano, São Paulo, SP",
+                            Longitude = -46.679000000000002,
+                            Nome = "Maní",
+                            PaisId = 7,
+                            Telefone = "+55 11 3085 4148"
+                        },
+                        new
+                        {
+                            Id = 227,
+                            Descricao = "Restaurante estrelado pelo chef Felipe Bronze, onde a criatividade e o uso de técnicas modernas são combinados com ingredientes brasileiros.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/Oro.png",
+                            HorarioFuncionamento = "12h às 15h, 19h às 23h",
+                            Latitude = -22.987200000000001,
+                            Localizacao = "Av. General San Martin, 889 - Leblon, Rio de Janeiro, RJ",
+                            Longitude = -43.222000000000001,
+                            Nome = "Oro",
+                            PaisId = 7,
+                            Telefone = "+55 21 2540 8768"
+                        },
+                        new
+                        {
+                            Id = 228,
+                            Descricao = "Situado à beira-mar, o Amado oferece uma cozinha contemporânea com influências baianas e vistas deslumbrantes da Baía de Todos-os-Santos.",
+                            Foto = "/imgpaises/imgBrasil/Restaurantes/amado.png",
+                            HorarioFuncionamento = "12h às 16h, 19h às 23h",
+                            Latitude = -12.9718,
+                            Localizacao = "Av. Contorno, 100 - Comércio, Salvador, BA",
+                            Longitude = -38.514800000000001,
+                            Nome = "Amado.png",
+                            PaisId = 7,
+                            Telefone = "+55 71 3322 3520"
+                        },
+                        new
+                        {
+                            Id = 229,
+                            Descricao = "Famosa por seus bares, baladas e casas de shows, a Rua Augusta é um dos principais pontos de vida noturna de São Paulo.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Rua Augusta.png",
+                            HorarioFuncionamento = "Varía conforme o estabelecimento",
+                            Latitude = -23.558800000000002,
+                            Localizacao = "Rua Augusta, São Paulo, SP",
+                            Longitude = -46.654899999999998,
+                            Nome = "Rua Augusta",
+                            PaisId = 1,
+                            Telefone = ""
+                        },
+                        new
+                        {
+                            Id = 230,
+                            Descricao = "Um dos bairros mais icônicos do Rio, conhecido por seus bares, samba e festas animadas.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Lapa.png",
+                            HorarioFuncionamento = "Varía conforme o estabelecimento",
+                            Latitude = -22.91,
+                            Localizacao = "Lapa, Rio de Janeiro, RJ",
+                            Longitude = -43.195999999999998,
+                            Nome = "Lapa",
+                            PaisId = 1,
+                            Telefone = ""
+                        },
+                        new
+                        {
+                            Id = 231,
+                            Descricao = "Um famoso bar de praia em Ipanema, ideal para drinks e música ao vivo em um ambiente descontraído.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Barraca do Lulu.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -22.987400000000001,
+                            Localizacao = "Praia de Ipanema, Rio de Janeiro, RJ",
+                            Longitude = -43.202199999999998,
+                            Nome = "Barraca do Lulu",
+                            PaisId = 1,
+                            Telefone = "+55 21 99714 1799"
+                        },
+                        new
+                        {
+                            Id = 232,
+                            Descricao = "Um espaço cultural e de eventos com música ao vivo, arte e uma atmosfera única.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Casa da Luz.png",
+                            HorarioFuncionamento = "18h às 2h",
+                            Latitude = -22.9116,
+                            Localizacao = "Rua Marivaldo, 43 - Santa Teresa, Rio de Janeiro, RJ",
+                            Longitude = -43.1965,
+                            Nome = "Casa da Luz",
+                            PaisId = 1,
+                            Telefone = "+55 21 2332 8670"
+                        },
+                        new
+                        {
+                            Id = 233,
+                            Descricao = "Um famoso ponto turístico com grafites incríveis e cercado por bares e restaurantes animados na Vila Madalena.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Beco do Batman.png",
+                            HorarioFuncionamento = "Varía conforme o estabelecimento",
+                            Latitude = -23.554300000000001,
+                            Localizacao = "R. Gonçalo Afonso, 47 - Vila Madalena, São Paulo, SP",
+                            Longitude = -46.699800000000003,
+                            Nome = "Beco do Batman",
+                            PaisId = 1,
+                            Telefone = ""
+                        },
+                        new
+                        {
+                            Id = 234,
+                            Descricao = "Um bar tradicional no coração de Ipanema, conhecido por seus petiscos e ambiente descontraído.",
+                            Foto = "/imgpaises/imgBrasil/VidaNoturna/Pérola Bar.png",
+                            HorarioFuncionamento = "17h às 2h",
+                            Latitude = -22.986499999999999,
+                            Localizacao = "R. dos Três Irmãos, 38 - Ipanema, Rio de Janeiro, RJ",
+                            Longitude = -43.203699999999998,
+                            Nome = "Pérola Bar",
+                            PaisId = 1,
+                            Telefone = "+55 21 2512 1034"
+                        },
+                        new
+                        {
+                            Id = 235,
+                            Descricao = "O maior templo católico do Brasil, dedicado à Padroeira do Brasil, Nossa Senhora Aparecida. É um ponto de peregrinação e devoção para milhões de fiéis.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Santuário Nacional de Nossa Senhora Aparecida.png",
+                            HorarioFuncionamento = "6h às 20h",
+                            Latitude = -22.846599999999999,
+                            Localizacao = "Avenida Dr. Júlio Prestes, s/n - Aparecida, São Paulo, SP",
+                            Longitude = -45.2303,
+                            Nome = "Santuário Nacional de Nossa Senhora Aparecida",
+                            PaisId = 7,
+                            Telefone = "+55 12 3104 1000"
+                        },
+                        new
+                        {
+                            Id = 236,
+                            Descricao = "Um dos mosteiros mais antigos do Brasil, famoso por sua arquitetura histórica e as missas com canto gregoriano.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Mosteiro de São Bento.png",
+                            HorarioFuncionamento = "6h às 18h",
+                            Latitude = -23.545100000000001,
+                            Localizacao = "Largo de São Bento, s/n - Centro, São Paulo, SP",
+                            Longitude = -46.633800000000001,
+                            Nome = "Mosteiro de São Bento",
+                            PaisId = 7,
+                            Telefone = "+55 11 3328 8799"
+                        },
+                        new
+                        {
+                            Id = 237,
+                            Descricao = "Uma imponente réplica do Templo de Salomão, construída pela Igreja Universal, que atrai milhares de visitantes em busca de espiritualidade e fé.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Templo de Salomão.png",
+                            HorarioFuncionamento = "9h às 21h",
+                            Latitude = -23.537600000000001,
+                            Localizacao = "Av. Celso Garcia, 605 - Brás, São Paulo, SP",
+                            Longitude = -46.611699999999999,
+                            Nome = "Templo de Salomão",
+                            PaisId = 7,
+                            Telefone = "+55 11 3573 3535"
+                        },
+                        new
+                        {
+                            Id = 238,
+                            Descricao = "Famosa por sua arquitetura moderna e impressionante, a catedral é um dos marcos de Brasília e um local de adoração e contemplação.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Catedral de Brasília.png",
+                            HorarioFuncionamento = "8h às 18h",
+                            Latitude = -15.798,
+                            Localizacao = "Esplanada dos Ministérios, Brasília, DF",
+                            Longitude = -47.875300000000003,
+                            Nome = "Catedral de Brasília",
+                            PaisId = 7,
+                            Telefone = "+55 61 3224 4073"
+                        },
+                        new
+                        {
+                            Id = 239,
+                            Descricao = "Fundado por Chico Xavier, este centro espírita é um ponto de referência para os seguidores da doutrina espírita e aqueles que buscam esclarecimento espiritual.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Centro Espírita Luiz Gonzaga.png",
+                            HorarioFuncionamento = "18h às 21h",
+                            Latitude = -19.618200000000002,
+                            Localizacao = "Rua Antônio José da Silva, 417 - Pedro Leopoldo, MG",
+                            Longitude = -44.040500000000002,
+                            Nome = "Centro Espírita Luiz Gonzaga",
+                            PaisId = 7,
+                            Telefone = "+55 31 3661 1040"
+                        },
+                        new
+                        {
+                            Id = 240,
+                            Descricao = "Um dos maiores exemplos do barroco brasileiro, projetada por Aleijadinho, a igreja é um símbolo da arte e da fé no Brasil colonial.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Igreja de São Francisco de Assis.png",
+                            HorarioFuncionamento = "8h às 17h",
+                            Latitude = -20.386099999999999,
+                            Localizacao = "Praça Minas Gerais, Ouro Preto, MG",
+                            Longitude = -43.503399999999999,
+                            Nome = "Igreja de São Francisco de Assis",
+                            PaisId = 7,
+                            Telefone = "+55 31 3551 4736"
+                        },
+                        new
+                        {
+                            Id = 241,
+                            Descricao = "Um dos shoppings mais sofisticados de São Paulo, com diversas lojas de grife, restaurantes e opções de entretenimento.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Shopping Iguatemi.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -23.5715,
+                            Localizacao = "Av. Brigadeiro Faria Lima, 2232, Jardim Paulistano, São Paulo, SP",
+                            Longitude = -46.693600000000004,
+                            Nome = "Shopping Iguatemi",
+                            PaisId = 1,
+                            Telefone = "+55 11 3816 3333"
+                        },
+                        new
+                        {
+                            Id = 242,
+                            Descricao = "Um shopping elegante localizado no Leblon, com diversas lojas de luxo e opções gastronômicas.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Shopping Leblon.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -22.984100000000002,
+                            Localizacao = "Av. Afrânio de Melo Franco, 290 - Leblon, Rio de Janeiro, RJ",
+                            Longitude = -43.2136,
+                            Nome = "Shopping Leblon",
+                            PaisId = 1,
+                            Telefone = "+55 21 3204 2000"
+                        },
+                        new
+                        {
+                            Id = 243,
+                            Descricao = "Um dos maiores shoppings do Brasil, com uma ampla variedade de lojas, cinema e opções de lazer.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Shopping Barra.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -22.9955,
+                            Localizacao = "Av. das Américas, 4666 - Barra da Tijuca, Rio de Janeiro, RJ",
+                            Longitude = -43.364600000000003,
+                            Nome = "Shopping Barra",
+                            PaisId = 1,
+                            Telefone = "+55 21 2430 8100"
+                        },
+                        new
+                        {
+                            Id = 244,
+                            Descricao = "O primeiro shopping center do Nordeste, com uma grande variedade de lojas e opções de entretenimento.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Shopping Recife.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -8.0475999999999992,
+                            Localizacao = "Av. Agamenon Magalhães, s/n - Santo Amaro, Recife, PE",
+                            Longitude = -34.895000000000003,
+                            Nome = "Shopping Recife",
+                            PaisId = 1,
+                            Telefone = "+55 81 3231 3600"
+                        },
+                        new
+                        {
+                            Id = 245,
+                            Descricao = "Um shopping que combina cultura, compras e gastronomia em um ambiente sofisticado.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Pátio Higienópolis.png",
+                            HorarioFuncionamento = "10h às 22h",
+                            Latitude = -23.5505,
+                            Localizacao = "Rua Dr. Veiga Filho, 133 - Higienópolis, São Paulo, SP",
+                            Longitude = -46.654299999999999,
+                            Nome = "Pátio Higienópolis",
+                            PaisId = 1,
+                            Telefone = "+55 11 3821 5000"
+                        },
+                        new
+                        {
+                            Id = 246,
+                            Descricao = "Um dos maiores shoppings da Bahia, com diversas lojas, cinema e opções de alimentação.",
+                            Foto = "/imgpaises/imgBrasil/Compras/Shopping Salvador.png",
+                            HorarioFuncionamento = "9h às 22h",
+                            Latitude = -12.996,
+                            Localizacao = "Av. Luis Viana, 8543 - Paralela, Salvador, BA",
+                            Longitude = -38.467700000000001,
+                            Nome = "Shopping Salvador",
+                            PaisId = 1,
+                            Telefone = "+55 71 3480 7000"
+                        },
+                        new
+                        {
+                            Id = 247,
+                            Descricao = "Um dos museus mais importantes do Brasil, com uma vasta coleção de arte ocidental, além de exposições temporárias de grande relevância.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Museu de Arte de São Paulo (MASP).png",
+                            HorarioFuncionamento = "10h às 18h",
+                            Latitude = -23.561399999999999,
+                            Localizacao = "Avenida Paulista, 1578 - Bela Vista, São Paulo, SP",
+                            Longitude = -46.655900000000003,
+                            Nome = "Museu de Arte de São Paulo (MASP)",
+                            PaisId = 7,
+                            Telefone = "+55 11 3149 5959"
+                        },
+                        new
+                        {
+                            Id = 248,
+                            Descricao = "Museu de ciência e inovação com foco no futuro e no impacto das ações humanas no planeta. A arquitetura futurista é uma atração à parte.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Museu do Amanhã.png",
+                            HorarioFuncionamento = "10h às 18h",
+                            Latitude = -22.8964,
+                            Localizacao = "Praça Mauá, 1 - Centro, Rio de Janeiro, RJ",
+                            Longitude = -43.181899999999999,
+                            Nome = "Museu do Amanhã",
+                            PaisId = 7,
+                            Telefone = "+55 21 3812 1800"
+                        },
+                        new
+                        {
+                            Id = 249,
+                            Descricao = "Maior museu a céu aberto do mundo, com um acervo de arte contemporânea em meio a um jardim botânico deslumbrante. Inhotim oferece uma experiência única.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Instituto Inhotim.png",
+                            HorarioFuncionamento = "9h30 às 16h30",
+                            Latitude = -20.133400000000002,
+                            Localizacao = "Rua B, 20 - Brumadinho, MG",
+                            Longitude = -44.1997,
+                            Nome = "Instituto Inhotim",
+                            PaisId = 7,
+                            Telefone = "+55 31 3571 9700"
+                        },
+                        new
+                        {
+                            Id = 250,
+                            Descricao = "O CCBB de Brasília é um dos principais centros culturais do país, com uma programação variada de exposições, teatro, cinema e eventos culturais.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Centro Cultural Banco do Brasil (CCBB) - Brasília.png",
+                            HorarioFuncionamento = "9h às 21h",
+                            Latitude = -15.8009,
+                            Localizacao = "Setor de Clubes Sul, Trecho 2 - Lote 22 - Brasília, DF",
+                            Longitude = -47.881399999999999,
+                            Nome = "Centro Cultural Banco do Brasil (CCBB) - Brasília",
+                            PaisId = 7,
+                            Telefone = "+55 61 3108 7600"
+                        },
+                        new
+                        {
+                            Id = 251,
+                            Descricao = "Símbolo do ciclo da borracha, o Teatro Amazonas é uma das construções mais icônicas do Brasil, com uma arquitetura grandiosa e rica programação cultural.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Teatro Amazonas.png",
+                            HorarioFuncionamento = "9h às 17h",
+                            Latitude = -3.1318999999999999,
+                            Localizacao = "Av. Eduardo Ribeiro, 659 - Centro, Manaus, AM",
+                            Longitude = -60.023099999999999,
+                            Nome = "Teatro Amazonas",
+                            PaisId = 7,
+                            Telefone = "+55 92 3622 1880"
+                        },
+                        new
+                        {
+                            Id = 252,
+                            Descricao = "O coração cultural de Salvador, o Pelourinho é um centro de preservação do patrimônio histórico e cultural, com suas ruas de pedra e construções coloniais.",
+                            Foto = "/imgpaises/imgBrasil/Cultura/Pelourinho.png",
+                            HorarioFuncionamento = "24h",
+                            Latitude = -12.971399999999999,
+                            Localizacao = "Largo do Pelourinho - Centro Histórico, Salvador, BA",
+                            Longitude = -38.509700000000002,
+                            Nome = "Pelourinho",
+                            PaisId = 7,
+                            Telefone = "+55 71 3324 4488"
+                        },
+                        new
+                        {
                             Id = 253,
                             Descricao = "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.",
                             Foto = "",
@@ -4918,11 +5566,11 @@ namespace AAETravel.Migrations
                         new
                         {
                             Id = 1,
-                            Cor = "#74ACDF",
-                            Descricao = "A Argentina é um país vibrante e diversificado, conhecido por sua rica cultura, paisagens deslumbrantes e história fascinante. De Buenos Aires, a capital cosmopolita com suas famosas avenidas e vida noturna animada, até a Patagônia, com suas montanhas majestosas e glaciares impressionantes, há muito a ser explorado. Mendoza encanta com suas vinícolas e paisagens andinas, enquanto as Cataratas do Iguaçu, na fronteira com o Brasil, são um espetáculo natural de tirar o fôlego. Cada região da Argentina oferece experiências únicas para todos os tipos de viajantes.",
-                            Foto = "/img/pais/Argentina.png",
-                            Icon = "/img/pais/icons/Argentina.png",
-                            Nome = "Argentina"
+                            Cor = "#009C3B",
+                            Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+                            Foto = "/img/pais/Brasil.png",
+                            Icon = "/img/pais/icons/Brasil.png",
+                            Nome = "Brasil"
                         },
                         new
                         {
@@ -4972,11 +5620,11 @@ namespace AAETravel.Migrations
                         new
                         {
                             Id = 7,
-                            Cor = "#009C3B",
-                            Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
-                            Foto = "/img/pais/Brasil.png",
-                            Icon = "/img/pais/icons/Brasil.png",
-                            Nome = "Brasil"
+                            Cor = "#74ACDF",
+                            Descricao = "A Argentina é um país vibrante e diversificado, conhecido por sua rica cultura, paisagens deslumbrantes e história fascinante. De Buenos Aires, a capital cosmopolita com suas famosas avenidas e vida noturna animada, até a Patagônia, com suas montanhas majestosas e glaciares impressionantes, há muito a ser explorado. Mendoza encanta com suas vinícolas e paisagens andinas, enquanto as Cataratas do Iguaçu, na fronteira com o Brasil, são um espetáculo natural de tirar o fôlego. Cada região da Argentina oferece experiências únicas para todos os tipos de viajantes.",
+                            Foto = "/img/pais/Argentina.png",
+                            Icon = "/img/pais/icons/Argentina.png",
+                            Nome = "Argentina"
                         },
                         new
                         {
@@ -5028,7 +5676,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
+                            UsuarioId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -5037,7 +5685,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
+                            UsuarioId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -5046,7 +5694,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
+                            UsuarioId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -5055,7 +5703,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "5e498b9b-9f48-437e-9074-01a407354bda",
+                            UsuarioId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -5092,13 +5740,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec",
+                            Id = "ea892bac-b14a-4fd1-b775-b9f5297034b5",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f",
+                            Id = "599331b2-5657-4617-9869-92415dea8820",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -5195,65 +5843,65 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
+                            Id = "0ad04c3a-64d0-4401-a813-feff6444a74e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a328a4a5-f67e-4e13-b769-572a286ae47c",
+                            ConcurrencyStamp = "2f2ff15a-5c85-4785-a805-b68794472c48",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFwh9FJX9cBupshQb7A5Trumol3EO3K16+MH/2S9ue5PiGojlwXQ1jO4IiMhxT3VXA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIGYPoOf0ur4pwoW2fWZTD25hy13Yg98MzqPI4p2imDTwj3mUNaf5c9+7xeang3CYg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4cb689a8-39e3-4a18-af8f-1d284c015874",
+                            SecurityStamp = "533feacb-7b20-461c-8a4f-4e7f4334577b",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
+                            Id = "16d29b23-7caf-4540-8fc3-a4eed5316216",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9a971142-7494-48eb-8cbf-23e107ebe127",
+                            ConcurrencyStamp = "a7d001b6-4c88-4c70-8b04-88adc4afc5ae",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM0lMxcJhb5I2bTREofTJgjNiUQoKCPmmef+2x75WzAG12DFXVCf30X1F9/+VfgpMQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN5P2uep5kzJdILyYjTAKGmT71dsReOsfAzDZGvzsDh6LeLGNcSBp39TZqFE4AhkVA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "71f25402-6074-484c-ab90-3966e9cc3496",
+                            SecurityStamp = "cd51efda-8407-4d07-9f06-2b349a92a214",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "2c4bace6-fabe-4751-8a8b-44da916d9794",
+                            Id = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b5613aaf-5116-4ad4-b1a6-9d6c9eccb24f",
+                            ConcurrencyStamp = "ced72256-650c-45fb-8e87-6579c8383f89",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFIZTJGTupUOZakwlOdtR3rRdROJIkWots4H3ZJuGV5/S1QTpn3xxcwRz5CXSgbpww==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGXf5kjSPVgmUJomZtmtp4PPu2o0SVOY+3QaXJ00EMTNkcRWSAWDG0PS3pa2OzIyXQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "815498e3-beab-48ad-a4d8-9c4fa17b7cbf",
+                            SecurityStamp = "8f8248e3-57e8-4c41-a6f3-1255d0d6463e",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "5e498b9b-9f48-437e-9074-01a407354bda",
+                            Id = "4c8ba844-d505-4f71-b56d-542b41501f5e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6a0d8dbc-304b-4ca8-80f5-56c03c235245",
+                            ConcurrencyStamp = "499223c0-b613-422c-a64b-facfec7b21aa",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAELjMJ3NkORYxfKoHxkK/9CqD1VvGh1vK+x0k1TOw9CovcDLq3w6cIB6GYD2MwYFvmg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHomJxtbf76+/H9kwLnk87gm92GzhmlF1FaR3U9AtDTY6NOAI8wSR5onffIIC9xblg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0feb2266-4661-49aa-a095-757333c6f805",
+                            SecurityStamp = "fb1ce3b9-56fc-429f-9081-d88be51a334b",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         });
@@ -5323,43 +5971,43 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
-                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
+                            UserId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
+                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
                         },
                         new
                         {
-                            UserId = "ec7e0a83-e288-480c-aeca-63ad29aa24ec",
-                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
+                            UserId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
+                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
                         },
                         new
                         {
-                            UserId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
-                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
+                            UserId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
+                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
                         },
                         new
                         {
-                            UserId = "a1a482f3-ae35-47f1-8c9f-f732ad7f743c",
-                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
+                            UserId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
+                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
                         },
                         new
                         {
-                            UserId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
-                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
+                            UserId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
+                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
                         },
                         new
                         {
-                            UserId = "2c4bace6-fabe-4751-8a8b-44da916d9794",
-                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
+                            UserId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
+                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
                         },
                         new
                         {
-                            UserId = "5e498b9b-9f48-437e-9074-01a407354bda",
-                            RoleId = "834061b8-3e71-4ba3-93d8-95c2c4c1a6ec"
+                            UserId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
+                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
                         },
                         new
                         {
-                            UserId = "5e498b9b-9f48-437e-9074-01a407354bda",
-                            RoleId = "c03d8888-8999-4fc5-aa8b-ed8c2e73434f"
+                            UserId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
+                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
                         });
                 });
 

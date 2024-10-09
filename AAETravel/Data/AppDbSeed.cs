@@ -139,11 +139,11 @@ public class AppDbSeed
 		List<Pais> paises = new() {
 			new Pais() {
 				Id = 1,
-				Nome = "Argentina",
-				Foto = "/img/pais/Argentina.png",
-				Descricao = "A Argentina é um país vibrante e diversificado, conhecido por sua rica cultura, paisagens deslumbrantes e história fascinante. De Buenos Aires, a capital cosmopolita com suas famosas avenidas e vida noturna animada, até a Patagônia, com suas montanhas majestosas e glaciares impressionantes, há muito a ser explorado. Mendoza encanta com suas vinícolas e paisagens andinas, enquanto as Cataratas do Iguaçu, na fronteira com o Brasil, são um espetáculo natural de tirar o fôlego. Cada região da Argentina oferece experiências únicas para todos os tipos de viajantes.",
-				Cor = "#74ACDF",
-				Icon = "/img/pais/icons/Argentina.png"
+				Nome = "Brasil",
+				Foto = "/img/pais/Brasil.png",
+				Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+				Cor = "#009C3B",
+				Icon = "/img/pais/icons/Brasil.png"
 			},
 			new Pais() {
 				Id = 2,
@@ -188,12 +188,11 @@ public class AppDbSeed
 			},
 			new Pais() {
 				Id = 7,
-				Nome = "Brasil",
-				Foto = "/img/pais/Brasil.png",
-				Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
-				Cor = "#009C3B",
-				Icon = "/img/pais/icons/Brasil.png"
-
+				Nome = "Argentina",
+				Foto = "/img/pais/Argentina.png",
+				Descricao = "A Argentina é um país vibrante e diversificado, conhecido por sua rica cultura, paisagens deslumbrantes e história fascinante. De Buenos Aires, a capital cosmopolita com suas famosas avenidas e vida noturna animada, até a Patagônia, com suas montanhas majestosas e glaciares impressionantes, há muito a ser explorado. Mendoza encanta com suas vinícolas e paisagens andinas, enquanto as Cataratas do Iguaçu, na fronteira com o Brasil, são um espetáculo natural de tirar o fôlego. Cada região da Argentina oferece experiências únicas para todos os tipos de viajantes.",
+				Cor = "#74ACDF",
+				Icon = "/img/pais/icons/Argentina.png"
 			},
 			new Pais() {
 				Id = 8,
@@ -229,7 +228,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre no verão de 1º de setembro a 30 de abril das 8h às 18h e no Inverno de 1 de maio a 31 de agosto das 9h às 16h.",
 						Descricao = "O Parque Nacional Los Glaciares localiza-se na região da Patagônia Argentina no sudoeste da Província de Santa Cruz, Argentina, sendo o segundo maior do país. O parque foi instituído pelo governo em 1937, e batizado Los Glaciares pois a área do parque nacional abriga inúmeros glaciares. ",
 						Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Los Glaciales (Provícia de Santa Cruz).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -50.33052817623086,
 						Longitude =  -73.23418011349693
 				},
@@ -241,7 +240,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Semana inteira/ 09:00 até 19:00",
 						Descricao = "O parque é o mais antigo dos parques nacionais argentinos. Foi criado em 1934, sobre a base da doação de três léguas quadradas (225.000 ha) feita por Francisco Pascasio Moreno em 1903 para sua criação.",
 						Foto = "/imgpaises/imgArgentina/Natureza/Parque-Nacional-nahuel-huapi.png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -40.938009,
 						Longitude = -71.613046
 				},
@@ -253,7 +252,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Semana inteira/ 08:00 até 20:00",
 						Descricao = "O que mais chama a atenção dentro do parque é a topografia montanhosa, além da enorme quantidade de áreas verdes, dos lagos, dos bosques e da paisagem natural como um todo. Ainda que o parque esteja em território argentino, parte dele está em território chileno, então algumas montanhas que se vê dentro do parque pertencem ao Chile. O lugar também é famoso por ser o final da Ruta N3, que faz parte do sistema de rodovias panamericanas.",
 						Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Tierra del Fuego (Ushuaia).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -54.83475225751397,
 						Longitude = -68.44648384449509
 				},
@@ -265,7 +264,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre de Terça a Domingo das 11:00 até as 18:00 ",
 						Descricao = "Na entrada do Jardim Zoológico é possível comprar comida para os animal. Assim, quando você entrar, poderá alimentar diversas espécies e observar inúmeros bichos que não vemos no dia a dia.",
 						Foto = "/imgpaises/imgArgentina/Natureza/Jardim Zoológico de Buenos Aires (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.55930431288427,
 						Longitude = -59.01872631599637
 				},
@@ -277,7 +276,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre a semana inteira das 10:00 as 19:00",
 						Descricao = "Não é um zoológico e nem é um jardim botânico, também não é uma fazenda e tampouco um museu de história natural. O Temaikén, distante cerca de 40 minutos de Buenos Aires, é uma mistura de tudo isso e um pouco mais. Um bioparque para viver a natureza de distintas maneiras e, sobretudo, com muita diversão, especialmente para a criançada.",
 						Foto = "/imgpaises/imgArgentina/Natureza/Bioparque Temaikén (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.3402469529864,
 						Longitude = -58.80869862129423
 				},
@@ -289,7 +288,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Todos os dias das 08:00 as 18:00",
 						Descricao = "O Parque Nacional Iguazú é uma área protegida, criada na Argentina no ano 1934 com o objetivo de conservar as Cataratas do Iguaçu e a biodiversidade que as rodeia. Localizado no norte da província de Misiones, o parque conta com uma superfície aproximada de 67.000 hectares e a sua entrada está a 7 km de Puerto Iguazú.",
 						Foto = "/imgpaises/imgArgentina/Natureza/Parque Nacional Iguazú (Missiones- Puerto Iguazú).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -25.660018284382353,
 						Longitude = -54.444980587863554
 				},
@@ -304,7 +303,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Domingo das 10:00 até as 17:00",
 						Descricao = "Há mais de 40 anos, San Telmo, bairro localizado ao sul de Buenos Aires, recebe pessoas da Argentina e do mundo inteiro que visitam o bairro aos domingos para conhecer a famosa Feira de San Telmo. Além dos diversos produtos de antiguidade, a feira também vende artesanato local, produtos com temas da cidade, livros, discos, camisetas, óculos, chapéus, cartões, fotografias, CDs, pôsteres, roupas, calçados e muito mais!",
 						Foto = "/imgpaises/imgArgentina/Compras/Feira de San Telmo (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.62027522831933,
 						Longitude = -58.37120491914526
 				},
@@ -316,7 +315,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
 						Descricao = "Aos falar de compras em Buenos Aires um dos primeiros lugares que surgem na mente são as Galerias Pacífico. O edifício do centro comercial é do fim do século XIX e sua cúpula central foi pintada em 1946. O shopping é tão bonito e bem decorado que recomendamos a visita não apenas a quem deseja fazer compras como a quem procura apenas um lugar para bater perna e quer ver coisas bonitas. O charme da arquitetura das Galerias é ímpar, cheio de murais, colunas e um teto lindíssimo. A arquitetura do shopping é tão imponente que o edifício é considerado monumento histórico nacional.",
 						Foto = "/imgpaises/imgArgentina/Compras/Galerias Pacífico (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.599132908132724,
 						Longitude = -58.374832153552276
 				},
@@ -328,7 +327,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
 						Descricao = "Instalado nos antigos edifícios existentes na Propriedade Ferroviária localizada no bairro de Palermo, entre as avenidas Juan B. Justo e Santa Fé, e as ruas Godoy Cruz e Paraguai.As lojas desenvolvem-se para o interior dos espaços cobertos existentes e as áreas comuns são quase inteiramente exteriores. O setor construído é caracterizado pela presença das estruturas de tijolo do viaduto ferroviário que definem o interior urbano e as fachadas exteriores.",
 						Foto = "/imgpaises/imgArgentina/Compras/Distrito Arcos Buenos aires.png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.58041196612808,
 						Longitude = -58.427866749837804
 				},
@@ -340,7 +339,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00",
 						Descricao = "Palácios requintados e prédios residenciais luxuosos se combinam a galerias de arte e butiques exclusivas para fazer de Retiro o lugar perfeito para aqueles que gostam de sofisticação. No entanto, o tráfego contínuo de pedestres nos terminais de trens e de ônibus de Retiro, além dos vários caminhões que chegam e saem do porto, mostram que esse bairro nunca descansa. Em um minuto, você está andando por uma estrada repleta de mansões e vitrines de lojas luxuosas. No minuto seguinte, você se vê rodeado por uma multidão apressada para pegar o trem ou ônibus. É a combinação da constante movimentação de pessoas e o ambiente luxuoso e tranquilo que define Retiro e também Buenos Aires, uma cidade cheia de contrastes.",
 						Foto = "/imgpaises/imgArgentina/Compras/Patio Bullrich (Marselha).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -32.955524323926134,
 						Longitude = -68.85890340338014
 				},
@@ -352,7 +351,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 21:00",
 						Descricao = "A 15km do centro de Mendoza você encontrará uma boa maneira de resolver suas compras em um só lugar. No Palmares Open Mall é possível encontrar de vestuário a artigos de artesanato, passando pelos vinhos, claro! Se você não resiste a uma voltinha em um grande centro comercial, essa pode ser uma boa pedida. O shopping é bem ao estilo brasileiro: são 120 lojas que vão de grandes marcas a pequenas boutiques. Prático para uma volta e uma refeição rápida. Destaque para o restaurante Don Mario, que serve uma das mais famosas parrilladas da cidade.",
 						Foto = "/imgpaises/imgArgentina/Compras/Palmares Open Mall (Godoy Cruz).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.588693988159875,
 						Longitude = -58.38404467632539
 				},
@@ -364,7 +363,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 10:00 até as 22:00 ",
 						Descricao = "Patio Olmos é uma galeria comercial de grande importância arquitetônica em Córdoba, Argentina, e a mais importante da cidade.",
 						Foto = "/imgpaises/imgArgentina/Compras/Patio Olmos (Córdoba).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -31.41958968115592,
 						Longitude = -64.18824068140034
 				},
@@ -379,7 +378,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias 24 horas por dia",
 						Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno. Nos finais de semana, compradores lotam essa área que é famosa pelos cafés descolados e lojas de design exclusivo. Já Palermo Hollywood, conhecida por contar com um grande número de restaurantes, bares e boates, é o lugar preferido dos viajantes que querem se divertir à noite e comemorar ocasiões especiais.",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Niceto Club (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.58703506886908,
 						Longitude = -58.43886607446898
 				},
@@ -391,7 +390,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 20:00 até as 00:00",
 						Descricao = "Considerada uma das melhores casas de tango de Buenos Aires, o Señor Tango oferece um espetáculo inesquecível e muito emocionante. O show é envolvente do início ao fim, apresentando belas coreografias – algumas com certo toque acrobático – que encantam a todo o tipo de público. A apresentação ainda conta com a participação de ótimos cantores e músicos que, em alguns momentos do espetáculo, interagem com a plateia.",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Senor Tango (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -34.56926698554936,
 						Longitude = -58.42052953214304
 				},
@@ -403,7 +402,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 14:00 até a 00:00",
 						Descricao = "No Ice Bar Puerto Iguazú tudo é feito de gelo: as paredes, os móveis, a decoração e, inclusive, os copos. E, para manter tudo congelado, a temperatura do bar é de -10ºC. Uma grande diferença para o clima da cidade, que pode passar dos 30° no verão.",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Icebar Iguazu (Puerto Iguazú).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -34.65251488742655,
 						Longitude = -58.37593927446579
 				},
@@ -415,7 +414,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre de sexta, sábado e domingo da 00:00 até as 07:00",
 						Descricao = "Mais conhecido como o maior bairro de Buenos Aires, Palermo é dividido em partes diferentes, cada uma com uma identidade exclusiva. Palermo Chico é a área mais sofisticada. Caracterizada pelas magníficas mansões, avenidas majestosas, prédios residenciais e por abrigar o Museu de Arte Latino-Americana de Buenos Aires (MALBA), essa região é um dos lugares favoritos dos moradores. O maior parque da cidade, Bosques de Palermo, é o ponto de interesse mais famoso de Palermo. Ele também é um destino popular entre aqueles que querem fazer caminhadas, piqueniques, andar de patins e de bicicleta. Em Palermo Soho, o cenário se torna muito mais moderno",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Crobar (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -25.619359092794305,
 						Longitude = -54.55500692088276
 				},
@@ -427,7 +426,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 09:00 até a 11:00",
 						Descricao = "O Café de los Angelitos é um recinto imponente com mais de cem anos de história, por onde desfilaram grandes personalidades do mundo político e artístico de Buenos Aires. Hoje em dia, é palco de um dos mais refinados e elegantes shows de tango da cidade, diversas vezes aclamado pela crítica local.",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Cafe de los Angelitos  (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.60946892791383,
 						Longitude = -58.396186547487716
 				},
@@ -439,7 +438,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre terça, quarta, quinta, sexta e sábado das 14:00 até as 22:00",
 						Descricao = "Vinology é um lugar incrível para se conhecer os bons vinhos da Argentina. É uma vinoteca diferenciada, que tem etiquetas de bodegas especialmente boas, funciona como bar de vinhos com comidinhas deliciosas.",
 						Foto = "/imgpaises/imgArgentina/VidaNoturna/Vinology (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.570552378227354,
 						Longitude = -58.434845818652846
 				},
@@ -454,7 +453,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De segunda a sexta das 7:30 até as 18:45 e de final de semana das 9:00 até as 18:45.",
 						Descricao = "A Catedral Metropolitano de Buenos Aires é a principal igreja católica em Buenos Aires, capital da Argentina. Localiza-se no centro da cidade, diante da Praça de Maio, na esquina das ruas San Martín e Rivadavia, no bairro de San Nicolás. É a igreja-mãe da Arquidiocese de Buenos Aires",
 						Foto = "/imgpaises/imgArgentina/Fe/Catedral Metropolitana de Buenos Aires (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.6073662714273,
 						Longitude = -58.37330031865107
 				},
@@ -466,7 +465,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Todos os dias das 9:00 até as 18:00",
 						Descricao = "A Basílica Menor de Nossa Senhora de Luján é uma igreja católica romana em Luján, Buenos Aires, Argentina. Construída em estilo neogótico, é dedicada a Nossa Senhora de Luján, padroeira da Argentina. Muitas pessoas confundem esta igreja com uma catedral.",
 						Foto = "/imgpaises/imgArgentina/Fe/Basílica de Nuestra Señora de Luján (Luján).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.569093609091354,
 						Longitude = -58.44020886390422
 				},
@@ -478,7 +477,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Todos os dias das 8:30 até as 20:30, no Domingo das 8:30 até as 12:00 e das 18:00 até as 21:00",
 						Descricao = "Esta magnífica Basílica Menor, construída em terreno doado por Hernando de Lerma, em 1582, com destaque para as cores poderosas terracota, ouro e marfim que cobrem. Ele pertence à ordem franciscana e foi reconstruído várias vezes após vários incêndios.",
 						Foto = "/imgpaises/imgArgentina/Fe/Igreja de San Francisco (Salta).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -24.790006713060023,
 						Longitude = -65.40821649021966
 				},
@@ -490,7 +489,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De segunda até sábado das 8:30 até as 9:30",
 						Descricao = "A Mesquita-Catedral de Córdova oficialmente conhecida pelo seu nome eclesiástico, a Catedral de Nossa Senhora da Assunção em espanhol: Catedral de Nuestra Señora de la Asunción é a catedral da Diocese Católica Romana de Córdoba dedicada à Assunção de Maria e localizado na região espanhola da Andaluzia.",
 						Foto = "/imgpaises/imgArgentina/Fe/Catedral de Córdoba (Córdoba).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -28.470207963157378,
 						Longitude = -65.35529771321596
 				},
@@ -502,7 +501,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Quarta-feira, 11:00–13:00, 18:00–20:00, quinta-feira, 11:00–13:00, 18:00–20:00, sexta-feira, 11:00–13:00, 18:00–20:00, sábado, 18:30–20:00, domingo, 09:00–12:30, 17:30–20:30, segunda-feira, 11:00–13:00, 18:00–20:00, terça-feira, 11:00–13:00, 18:00–20:00.",
 						Descricao = "A Basílica do Santísimo Sacramento é uma das igrejas mais bonitas de Buenos Aires. O templo luxuosamente decorado apresenta uma grande custódia de ouro e prata, vitrais importantes e ornamentos de mármore, granito azul, bronze e mosaico veneziano.",
 						Foto = "/imgpaises/imgArgentina/Fe/Basílica del Santísimo Sacramento (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.59546334232072,
 						Longitude = -58.37423653771114
 				},
@@ -514,7 +513,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De segunda a sexta das 9:00 até as 12:00 e das 17:00 até 21:00.",
 						Descricao = "A Catedral de San Carlos de Bariloche é o principal templo católico da cidade de San Carlos de Bariloche, na Argentina. Encontra-se na interseção das ruas Almirante Ou’Connor e Beschtedt, rodeada por duas praças com formosos jardins. É a sé episcopal da Diocese de Bariloche, sufragânea da Arquidiocese de Bahía Blanca.",
 						Foto = "/imgpaises/imgArgentina/Fe/Catedral de Nuestra Señora del Nahuel Huapi (Bariloche).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -41.13291181780236,
 						Longitude = -71.30234644530549
 				},
@@ -529,7 +528,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias das 11:30 até as 16:00 e depois das 19:00 até as 1:00",
 						Descricao = "Reservar uma mesa no restaurante Don Julio já virou uma atração turística imperdível em Buenos Aires. Os reconhecimentos ajudam: é atualmente o restaurante argentino mais bem colocado entre os 50 melhores do mundo e foi eleito neste ano como a melhor casa de carnes do mundo. As filas que se formam na porta todos os dias são outro medidor do sucesso.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/Don Julio (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.58613638501554,
 						Longitude = -58.4242476186521
 				},
@@ -541,7 +540,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Domingo das 12:30 até as 16:00, Segunda das 11:30 até as 16:00 e das 6:30 até as 12:30, de terça, quarta e quinta das 6:30 até as 12:30 e de sexta e sábado das 12:30 até as 16:00 e das 6:30 até as 1:00.",
 						Descricao = "O La Cabrebra é especialista em cortes de carnes, acompanhamentos saborosos e, claro, com muita fartura. É mais um restaurante que figura entre os melhores de Buenos Aires, pelo atendimento, pelo ambiente clássico e pela qualidade das carnes. Nove entre dez brasileiros que visitam a capital, fazem questão de passar no La Cabrera e aproveitar o almoço, happy hour ou jantar.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/La Cabrera (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.588799061101504,
 						Longitude = -58.43325444563225
 				},
@@ -553,7 +552,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De terça até Domingo das 19:00 até as 21:30",
 						Descricao = "A poucos minutos do centro - na Bodega Escorihuela -, o elegante 1884, chefiado por Francis Mallmann, carrega a fama de ser o melhor restaurante da cidade. Se não for o melhor, certamente está na lista dos imperdíveis.O ambiente é refinado e clássico, com salões externos e internos. A culinária, tipicamente portenha, vai das empanadas aos melhores cortes de carne.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/1884 Restaurante Francis Mallmann (Mendonza).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -32.91212429424235,
 						Longitude = -68.84302357268902
 				},
@@ -565,7 +564,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De terça até Sábado das 10:30 até as 20:00.",
 						Descricao = "O Oviedo é o restaurante mais tradicional de Buenos Aires quando o assunto é peixe! Os pescados servidos no restaurante estão sempre super frescos, pois o restaurante recebe mercadoria duas vezes ao dia, além disso toda matéria prima servida é de altíssima qualidade e fresca, o que garante um prato muito mais saboroso! O que achamos incrível é que tudo que sai da cozinha parece verdadeira obra de arte, isto porque o chef Martin Rebaudino estudou belas artes para deixar seus pratos mais bonitos e também chegou a trabalhar no El Bulli.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/Oviedo (Rosário).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -32.95622585219165,
 						Longitude = -60.64688716233088
 				},
@@ -577,7 +576,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De Segunda até Sábado das 20:00 até as 00:00.",
 						Descricao = "Entre pescados, massas e assados, bem elaborados em um ambiente simples e elegante, você percorrerá um longo e saboroso caminho pelo melhor da comida argentina.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/Siete Cocinas (Salta) melhorado.png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -3.487697620654168,
 						Longitude = -76.51273403305537
 				},
@@ -589,7 +588,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Todos os dias das 7:45 até as 10:30, apenas de segunda das 7:45 até as 10:00.",
 						Descricao = "Estabelecimento é um omakase de carnes com reservas disputadas. Com uma recepção acolhedora no bairro de Palermo Viejo, em Buenos Aires, o Fogón Asado é um omakase de carnes que oferece uma experiência de 10 passos (US$ 80). Para ir ao Fogón é preciso estar com fome, pois os 10 tempos são substanciosos.",
 						Foto = "/imgpaises/imgArgentina/Restaurantes/Fogón Asado (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.58829224205065,
 						Longitude = -58.43371108123645
 				},
@@ -604,7 +603,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De terça até domingo das 11:00 até as 20:00",
 						Descricao = "Museo Nacional de Bellas Artes. O Museu exibe mais de 40 pinturas a óleo e aquarelas do artista, 200 anos após seu nascimento. A exposição reúne cerca de 90 pinturas, desenhos e documentos dos primeiros anos da carreira de Jorge Gumier Maier (1953-2021).",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu Nacional de Belas Artes (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						Latitude = -34.5838215458417,
 						Longitude = -58.3930473186523
 				},
@@ -616,7 +615,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "Abre todos os dias menos de Terça das 11:00 até as 20:00",
 						Descricao = "Conheça o Museu de Arte Latino Americana (MALBA) de Buenos Aires. Localizado no famoso bairro Palermo, o MALBA é um dos melhores museus em Buenos Aires. Ele tem a intenção de promover a arte da América Latina a partir do século 20, e por isso lá você vai encontrar desdes artistas famosos e renomados, até aqueles mais novos que ainda estão buscando seu espaço no meio artístico. Confira abaixo mais informações sobre o Museu de Arte Latino Americana. ",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Latino-Americana de Buenos Aires (MALBA) (Buenos Aires).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -34.576721381507,
 						Longitude = -58.403494562835725
 				},
@@ -628,7 +627,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De terça até Domingo das 9:00 até as 21:00 e excessão de do Domingo das 9:00 até as 15:00.",
 						Descricao = "O Museu de Belas Artes de Córdoba é um museu de arte estatal localizado na cidade espanhola de Córdoba. ",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Pré-Colombiana e Arte Popular (Córdoba).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -40.2823238777987,
 						Longitude = -5.179755649099501
 				},
@@ -640,7 +639,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De Quarta até Domingo das 10:00 até as 18:00.",
 						Descricao = "O museu apresenta em torno de 3.000.000 de objetos em sua coleção, e só uma pequena parte dos mesmos se encontram em exibição. Em grande parte, o prestígio do museu descansa em sua coleção de grandes mamíferos fósseis dos pampas sul-americanos das eras Terciária e Quaternária. Também se destacam as coleções de trilobites do período Cambriano e de graptólitos do período Silúrico da Argentina. O museu conta também com salas de Zoologia, Entomologia, e Botânica.",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu de La Plata (La Plata).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -34.579509537505956,
 						Longitude = -58.405005476325684
 				},
@@ -652,7 +651,7 @@ public class AppDbSeed
 						HorarioFuncionamento= "De Segunda até Quinta das 9:00 até as 13:00, sexta das 13:00 até as 17:00 e Domingo das 16:00 até as 20:00.",
 						Descricao = "O Ocupam um importante edifício construído na década de 1920. O Museo de Bellas Artes dedica-se à exposição de uma importante coleção de pintura argentina do final do século XIX ao XX. Já o MAC conta com 6 salas de exposições e possui um grande terraço e jardins que circundam o edifício, onde regularmente se programam concertos, espetáculos, peças de teatro, entre outros.",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu de Arte Contemporânea de Bahía Blanca (Bahía Blanca).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -38.712929512680304,
 						Longitude = -62.26223254543124
 				},
@@ -663,7 +662,7 @@ public class AppDbSeed
 						Telefone = "+54 221 425-7744",
 						HorarioFuncionamento= "O museu, que primeiro foi chamado Museo Histórico de la Capital, foi criado pelo Intendente Francisco Seeber em 24 de maio de 1889. Adolfo Carranza foi designado diretor do museu que só seria inalgurado no dia 15 de fevereiro de 1891, em um terreno pertencente ao governo nacional. Parte da coleção provinha de descendentes dos homens importantes da Revolución de Maio e da Guerra de Independência, com os quais Carranza tinha se comunicado para pedir-lhes que doassem. A outra parte provinha do Museo Público, instituição formada em 1822 por Bernardino Rivadavia que por disposições oficiais viu-se obrigada a doar os objetos.",
 						Foto = "/imgpaises/imgArgentina/Cultura/Museu de História Nacional (Rosário).png",
-						PaisId=1,
+						PaisId=7,
 						 Latitude = -34.62680174739552,
 						Longitude = -58.37054628795715
 				},
@@ -3060,7 +3059,483 @@ public class AppDbSeed
 		#region Brasil
                 // 217 a 252
                 #region BR Natureza
+					new Local() {
+						Id = 217,
+						Nome = "Parque Nacional do Iguaçu",
+						Localizacao ="Rodovia BR-469, Km 18, Parque Nacional do Iguaçu, Foz do Iguaçu, PR",
+						Telefone = "+55 45 523 8111",
+						HorarioFuncionamento= "9h às 17h",
+						Descricao = "Famoso pelas impressionantes Cataratas do Iguaçu, o parque abriga uma rica biodiversidade e trilhas para caminhadas.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional do Iguaçu.png",
+						PaisId=1,
+						Latitude = -25.6953,
+						Longitude = -54.4367
+					},
 
+					new Local() {
+						Id = 218,
+						Nome = "Jardim Botânico do Rio de Janeiro",
+						Localizacao ="Rua Jardim Botânico, 1008, Jardim Botânico, Rio de Janeiro, RJ",
+						Telefone = "+55 21 3874 1808",
+						HorarioFuncionamento= "8h às 17h",
+						Descricao = "Um espaço com mais de 8.000 espécies de plantas, ideal para caminhadas, piqueniques e observação da natureza.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Jardim Botânico do Rio de Janeiro.png",
+						PaisId=1,
+						Latitude = -22.9552,
+						Longitude = -43.2237
+					},
+
+					new Local() {
+						Id = 219,
+						Nome = "Parque Nacional da Chapada dos Veadeiros",
+						Localizacao ="Estrada Parque, Km 0, Alto Paraíso de Goiás, GO",
+						Telefone = "+55 61 3371 2200",
+						HorarioFuncionamento= "8h às 17h",
+						Descricao = "Conhecido por suas cachoeiras, formações rochosas e rica fauna e flora, ideal para ecoturismo e trilhas.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional da Chapada dos Veadeiros.png",
+						PaisId=1,
+						Latitude = -14.1664,
+						Longitude = -47.3566
+					},
+
+					new Local() {
+						Id = 220,
+						Nome = "Zoológico de São Paulo",
+						Localizacao ="Av. Miguel Estefano, 4241, Água Funda, São Paulo, SP",
+						Telefone = "+55 11 5080 7399",
+						HorarioFuncionamento= "9h às 17h",
+						Descricao = "Um dos maiores zoológicos do Brasil, com diversas espécies de animais e um grande espaço verde para visitação.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Zoológico de São Paulo.png",
+						PaisId=1,
+						Latitude = -23.6076,
+						Longitude = -46.7031
+					},
+
+					new Local() {
+						Id = 221,
+						Nome = "Parque Nacional da Serra dos Órgãos",
+						Localizacao ="Estrada do Parque Nacional, s/n - Vale do Cuiabá, Teresópolis, RJ",
+						Telefone = "+55 21 2742 2335",
+						HorarioFuncionamento= "8h às 17h",
+						Descricao = "Conhecido por suas montanhas, trilhas e cachoeiras, é um paraíso para os amantes do trekking e da natureza.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Parque Nacional da Serra dos Órgãos.png",
+						PaisId=1,
+						Latitude = -22.4086,
+						Longitude = -42.9799
+					},
+
+					new Local() {
+						Id = 222,
+						Nome = "Parque da Cidade",
+						Localizacao ="SGAS 915, 915, Asa Sul, Brasília, DF",
+						Telefone = "+55 61 3226 1006",
+						HorarioFuncionamento= "6h às 18h",
+						Descricao = "Um dos maiores parques urbanos do Brasil, com áreas verdes, lagoas e trilhas para caminhada e ciclismo.",
+						Foto = "/imgpaises/imgBrasil/Natureza/Parque da Cidade.png",
+						PaisId=1,
+						Latitude = -15.9750,
+						Longitude = -47.9636
+					},
+				#endregion
+
+                #region BR Restaurante 
+					new Local() {
+						Id = 223,
+						Nome = "D.O.M.",
+						Localizacao = "Rua Barão de Capanema, 549 - Jardim Paulista, São Paulo, SP",
+						Telefone = "+55 11 3088 0761",
+						HorarioFuncionamento = "12h às 15h, 19h às 23h",
+						Descricao = "Restaurante premiado comandado pelo chef Alex Atala, conhecido por sua culinária brasileira inovadora com ingredientes da Amazônia.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/D.O.M.png",
+						PaisId = 7,
+						Latitude = -23.5641,
+						Longitude = -46.6612
+					},
+
+					new Local() {
+						Id = 224,
+						Nome = "Fasano Rio",
+						Localizacao = "Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro, RJ",
+						Telefone = "+55 21 3202 4000",
+						HorarioFuncionamento = "12h às 16h, 19h às 23h",
+						Descricao = "Restaurante sofisticado de frente para o mar, oferecendo uma culinária italiana refinada e vistas incríveis de Ipanema.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/Fasano Rio.png",
+						PaisId = 7,
+						Latitude = -22.9847,
+						Longitude = -43.2046
+					},
+
+					new Local() {
+						Id = 225,
+						Nome = "Casa do Porco",
+						Localizacao = "R. Araújo, 124 - República, São Paulo, SP",
+						Telefone = "+55 11 3258 2578",
+						HorarioFuncionamento = "12h às 23h",
+						Descricao = "Famoso por seu menu baseado em carne suína, o restaurante do chef Jefferson Rueda é um dos mais badalados da gastronomia paulista.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/Casa do Porco.png",
+						PaisId = 7,
+						Latitude = -23.5461,
+						Longitude = -46.6412
+					},
+
+					new Local() {
+						Id = 226,
+						Nome = "Maní",
+						Localizacao = "Rua Joaquim Antunes, 210 - Jardim Paulistano, São Paulo, SP",
+						Telefone = "+55 11 3085 4148",
+						HorarioFuncionamento = "12h às 15h, 19h às 23h",
+						Descricao = "Comandado pela chef Helena Rizzo, o Maní oferece uma culinária contemporânea brasileira com ênfase em técnicas inovadoras e ingredientes locais.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/Maní.png",
+						PaisId = 7,
+						Latitude = -23.5665,
+						Longitude = -46.6790
+					},
+
+					new Local() {
+						Id = 227,
+						Nome = "Oro",
+						Localizacao = "Av. General San Martin, 889 - Leblon, Rio de Janeiro, RJ",
+						Telefone = "+55 21 2540 8768",
+						HorarioFuncionamento = "12h às 15h, 19h às 23h",
+						Descricao = "Restaurante estrelado pelo chef Felipe Bronze, onde a criatividade e o uso de técnicas modernas são combinados com ingredientes brasileiros.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/Oro.png",
+						PaisId = 7,
+						Latitude = -22.9872,
+						Longitude = -43.2220
+					},
+
+					new Local() {
+						Id = 228,
+						Nome = "Amado.png",
+						Localizacao = "Av. Contorno, 100 - Comércio, Salvador, BA",
+						Telefone = "+55 71 3322 3520",
+						HorarioFuncionamento = "12h às 16h, 19h às 23h",
+						Descricao = "Situado à beira-mar, o Amado oferece uma cozinha contemporânea com influências baianas e vistas deslumbrantes da Baía de Todos-os-Santos.",
+						Foto = "/imgpaises/imgBrasil/Restaurantes/amado.png",
+						PaisId = 7,
+						Latitude = -12.9718,
+						Longitude = -38.5148
+					},
+				#endregion
+
+                #region BR Vida Noturna
+					new Local() {
+						Id = 229,
+						Nome = "Rua Augusta",
+						Localizacao ="Rua Augusta, São Paulo, SP",
+						Telefone = "",
+						HorarioFuncionamento= "Varía conforme o estabelecimento",
+						Descricao = "Famosa por seus bares, baladas e casas de shows, a Rua Augusta é um dos principais pontos de vida noturna de São Paulo.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Rua Augusta.png",
+						PaisId=1,
+						Latitude = -23.5588,
+						Longitude = -46.6549
+					},
+
+					new Local() {
+						Id = 230,
+						Nome = "Lapa",
+						Localizacao ="Lapa, Rio de Janeiro, RJ",
+						Telefone = "",
+						HorarioFuncionamento= "Varía conforme o estabelecimento",
+						Descricao = "Um dos bairros mais icônicos do Rio, conhecido por seus bares, samba e festas animadas.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Lapa.png",
+						PaisId=1,
+						Latitude = -22.9100,
+						Longitude = -43.1960
+					},
+
+					new Local() {
+						Id = 231,
+						Nome = "Barraca do Lulu",
+						Localizacao ="Praia de Ipanema, Rio de Janeiro, RJ",
+						Telefone = "+55 21 99714 1799",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "Um famoso bar de praia em Ipanema, ideal para drinks e música ao vivo em um ambiente descontraído.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Barraca do Lulu.png",
+						PaisId=1,
+						Latitude = -22.9874,
+						Longitude = -43.2022
+					},
+
+					new Local() {
+						Id = 232,
+						Nome = "Casa da Luz",
+						Localizacao ="Rua Marivaldo, 43 - Santa Teresa, Rio de Janeiro, RJ",
+						Telefone = "+55 21 2332 8670",
+						HorarioFuncionamento= "18h às 2h",
+						Descricao = "Um espaço cultural e de eventos com música ao vivo, arte e uma atmosfera única.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Casa da Luz.png",
+						PaisId=1,
+						Latitude = -22.9116,
+						Longitude = -43.1965
+					},
+
+					new Local() {
+						Id = 233,
+						Nome = "Beco do Batman",
+						Localizacao ="R. Gonçalo Afonso, 47 - Vila Madalena, São Paulo, SP",
+						Telefone = "",
+						HorarioFuncionamento= "Varía conforme o estabelecimento",
+						Descricao = "Um famoso ponto turístico com grafites incríveis e cercado por bares e restaurantes animados na Vila Madalena.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Beco do Batman.png",
+						PaisId=1,
+						Latitude = -23.5543,
+						Longitude = -46.6998
+					},
+
+					new Local() {
+						Id = 234,
+						Nome = "Pérola Bar",
+						Localizacao ="R. dos Três Irmãos, 38 - Ipanema, Rio de Janeiro, RJ",
+						Telefone = "+55 21 2512 1034",
+						HorarioFuncionamento= "17h às 2h",
+						Descricao = "Um bar tradicional no coração de Ipanema, conhecido por seus petiscos e ambiente descontraído.",
+						Foto = "/imgpaises/imgBrasil/VidaNoturna/Pérola Bar.png",
+						PaisId=1,
+						Latitude = -22.9865,
+						Longitude = -43.2037
+					},
+				#endregion
+
+                #region BR Espiritualidade
+					new Local() {
+						Id = 235,
+						Nome = "Santuário Nacional de Nossa Senhora Aparecida",
+						Localizacao = "Avenida Dr. Júlio Prestes, s/n - Aparecida, São Paulo, SP",
+						Telefone = "+55 12 3104 1000",
+						HorarioFuncionamento = "6h às 20h",
+						Descricao = "O maior templo católico do Brasil, dedicado à Padroeira do Brasil, Nossa Senhora Aparecida. É um ponto de peregrinação e devoção para milhões de fiéis.",
+						Foto = "/imgpaises/imgBrasil/Fe/Santuário Nacional de Nossa Senhora Aparecida.png",
+						PaisId = 7,
+						Latitude = -22.8466,
+						Longitude = -45.2303
+					},
+
+					new Local() {
+						Id = 236,
+						Nome = "Mosteiro de São Bento",
+						Localizacao = "Largo de São Bento, s/n - Centro, São Paulo, SP",
+						Telefone = "+55 11 3328 8799",
+						HorarioFuncionamento = "6h às 18h",
+						Descricao = "Um dos mosteiros mais antigos do Brasil, famoso por sua arquitetura histórica e as missas com canto gregoriano.",
+						Foto = "/imgpaises/imgBrasil/Fe/Mosteiro de São Bento.png",
+						PaisId = 7,
+						Latitude = -23.5451,
+						Longitude = -46.6338
+					},
+
+					new Local() {
+						Id = 237,
+						Nome = "Templo de Salomão",
+						Localizacao = "Av. Celso Garcia, 605 - Brás, São Paulo, SP",
+						Telefone = "+55 11 3573 3535",
+						HorarioFuncionamento = "9h às 21h",
+						Descricao = "Uma imponente réplica do Templo de Salomão, construída pela Igreja Universal, que atrai milhares de visitantes em busca de espiritualidade e fé.",
+						Foto = "/imgpaises/imgBrasil/Fe/Templo de Salomão.png",
+						PaisId = 7,
+						Latitude = -23.5376,
+						Longitude = -46.6117
+					},
+
+					new Local() {
+						Id = 238,
+						Nome = "Catedral de Brasília",
+						Localizacao = "Esplanada dos Ministérios, Brasília, DF",
+						Telefone = "+55 61 3224 4073",
+						HorarioFuncionamento = "8h às 18h",
+						Descricao = "Famosa por sua arquitetura moderna e impressionante, a catedral é um dos marcos de Brasília e um local de adoração e contemplação.",
+						Foto = "/imgpaises/imgBrasil/Fe/Catedral de Brasília.png",
+						PaisId = 7,
+						Latitude = -15.7980,
+						Longitude = -47.8753
+					},
+
+					new Local() {
+						Id = 239,
+						Nome = "Centro Espírita Luiz Gonzaga",
+						Localizacao = "Rua Antônio José da Silva, 417 - Pedro Leopoldo, MG",
+						Telefone = "+55 31 3661 1040",
+						HorarioFuncionamento = "18h às 21h",
+						Descricao = "Fundado por Chico Xavier, este centro espírita é um ponto de referência para os seguidores da doutrina espírita e aqueles que buscam esclarecimento espiritual.",
+						Foto = "/imgpaises/imgBrasil/Fe/Centro Espírita Luiz Gonzaga.png",
+						PaisId = 7,
+						Latitude = -19.6182,
+						Longitude = -44.0405
+					},
+
+					new Local() {
+						Id = 240,
+						Nome = "Igreja de São Francisco de Assis",
+						Localizacao = "Praça Minas Gerais, Ouro Preto, MG",
+						Telefone = "+55 31 3551 4736",
+						HorarioFuncionamento = "8h às 17h",
+						Descricao = "Um dos maiores exemplos do barroco brasileiro, projetada por Aleijadinho, a igreja é um símbolo da arte e da fé no Brasil colonial.",
+						Foto = "/imgpaises/imgBrasil/Fe/Igreja de São Francisco de Assis.png",
+						PaisId = 7,
+						Latitude = -20.3861,
+						Longitude = -43.5034
+					},
+				#endregion
+
+                #region BR Compras
+					new Local() {
+						Id = 241,
+						Nome = "Shopping Iguatemi",
+						Localizacao ="Av. Brigadeiro Faria Lima, 2232, Jardim Paulistano, São Paulo, SP",
+						Telefone = "+55 11 3816 3333",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "Um dos shoppings mais sofisticados de São Paulo, com diversas lojas de grife, restaurantes e opções de entretenimento.",
+						Foto = "/imgpaises/imgBrasil/Compras/Shopping Iguatemi.png",
+						PaisId=1,
+						Latitude = -23.5715,
+						Longitude = -46.6936
+					},
+
+					new Local() {
+						Id = 242,
+						Nome = "Shopping Leblon",
+						Localizacao ="Av. Afrânio de Melo Franco, 290 - Leblon, Rio de Janeiro, RJ",
+						Telefone = "+55 21 3204 2000",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "Um shopping elegante localizado no Leblon, com diversas lojas de luxo e opções gastronômicas.",
+						Foto = "/imgpaises/imgBrasil/Compras/Shopping Leblon.png",
+						PaisId=1,
+						Latitude = -22.9841,
+						Longitude = -43.2136
+					},
+
+					new Local() {
+						Id = 243,
+						Nome = "Shopping Barra",
+						Localizacao ="Av. das Américas, 4666 - Barra da Tijuca, Rio de Janeiro, RJ",
+						Telefone = "+55 21 2430 8100",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "Um dos maiores shoppings do Brasil, com uma ampla variedade de lojas, cinema e opções de lazer.",
+						Foto = "/imgpaises/imgBrasil/Compras/Shopping Barra.png",
+						PaisId=1,
+						Latitude = -22.9955,
+						Longitude = -43.3646
+					},
+
+					new Local() {
+						Id = 244,
+						Nome = "Shopping Recife",
+						Localizacao ="Av. Agamenon Magalhães, s/n - Santo Amaro, Recife, PE",
+						Telefone = "+55 81 3231 3600",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "O primeiro shopping center do Nordeste, com uma grande variedade de lojas e opções de entretenimento.",
+						Foto = "/imgpaises/imgBrasil/Compras/Shopping Recife.png",
+						PaisId=1,
+						Latitude = -8.0476,
+						Longitude = -34.8950
+					},
+
+					new Local() {
+						Id = 245,
+						Nome = "Pátio Higienópolis",
+						Localizacao ="Rua Dr. Veiga Filho, 133 - Higienópolis, São Paulo, SP",
+						Telefone = "+55 11 3821 5000",
+						HorarioFuncionamento= "10h às 22h",
+						Descricao = "Um shopping que combina cultura, compras e gastronomia em um ambiente sofisticado.",
+						Foto = "/imgpaises/imgBrasil/Compras/Pátio Higienópolis.png",
+						PaisId=1,
+						Latitude = -23.5505,
+						Longitude = -46.6543
+					},
+
+					new Local() {
+						Id = 246,
+						Nome = "Shopping Salvador",
+						Localizacao ="Av. Luis Viana, 8543 - Paralela, Salvador, BA",
+						Telefone = "+55 71 3480 7000",
+						HorarioFuncionamento= "9h às 22h",
+						Descricao = "Um dos maiores shoppings da Bahia, com diversas lojas, cinema e opções de alimentação.",
+						Foto = "/imgpaises/imgBrasil/Compras/Shopping Salvador.png",
+						PaisId=1,
+						Latitude = -12.9960,
+						Longitude = -38.4677
+					},
+				#endregion
+				
+                #region BR Cultura
+					new Local() {
+						Id = 247,
+						Nome = "Museu de Arte de São Paulo (MASP)",
+						Localizacao = "Avenida Paulista, 1578 - Bela Vista, São Paulo, SP",
+						Telefone = "+55 11 3149 5959",
+						HorarioFuncionamento = "10h às 18h",
+						Descricao = "Um dos museus mais importantes do Brasil, com uma vasta coleção de arte ocidental, além de exposições temporárias de grande relevância.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Museu de Arte de São Paulo (MASP).png",
+						PaisId = 7,
+						Latitude = -23.5614,
+						Longitude = -46.6559
+					},
+
+					new Local() {
+						Id = 248,
+						Nome = "Museu do Amanhã",
+						Localizacao = "Praça Mauá, 1 - Centro, Rio de Janeiro, RJ",
+						Telefone = "+55 21 3812 1800",
+						HorarioFuncionamento = "10h às 18h",
+						Descricao = "Museu de ciência e inovação com foco no futuro e no impacto das ações humanas no planeta. A arquitetura futurista é uma atração à parte.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Museu do Amanhã.png",
+						PaisId = 7,
+						Latitude = -22.8964,
+						Longitude = -43.1819
+					},
+
+					new Local() {
+						Id = 249,
+						Nome = "Instituto Inhotim",
+						Localizacao = "Rua B, 20 - Brumadinho, MG",
+						Telefone = "+55 31 3571 9700",
+						HorarioFuncionamento = "9h30 às 16h30",
+						Descricao = "Maior museu a céu aberto do mundo, com um acervo de arte contemporânea em meio a um jardim botânico deslumbrante. Inhotim oferece uma experiência única.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Instituto Inhotim.png",
+						PaisId = 7,
+						Latitude = -20.1334,
+						Longitude = -44.1997
+					},
+
+					new Local() {
+						Id = 250,
+						Nome = "Centro Cultural Banco do Brasil (CCBB) - Brasília",
+						Localizacao = "Setor de Clubes Sul, Trecho 2 - Lote 22 - Brasília, DF",
+						Telefone = "+55 61 3108 7600",
+						HorarioFuncionamento = "9h às 21h",
+						Descricao = "O CCBB de Brasília é um dos principais centros culturais do país, com uma programação variada de exposições, teatro, cinema e eventos culturais.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Centro Cultural Banco do Brasil (CCBB) - Brasília.png",
+						PaisId = 7,
+						Latitude = -15.8009,
+						Longitude = -47.8814
+					},
+
+					new Local() {
+						Id = 251,
+						Nome = "Teatro Amazonas",
+						Localizacao = "Av. Eduardo Ribeiro, 659 - Centro, Manaus, AM",
+						Telefone = "+55 92 3622 1880",
+						HorarioFuncionamento = "9h às 17h",
+						Descricao = "Símbolo do ciclo da borracha, o Teatro Amazonas é uma das construções mais icônicas do Brasil, com uma arquitetura grandiosa e rica programação cultural.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Teatro Amazonas.png",
+						PaisId = 7,
+						Latitude = -3.1319,
+						Longitude = -60.0231
+					},
+
+					new Local() {
+						Id = 252,
+						Nome = "Pelourinho",
+						Localizacao = "Largo do Pelourinho - Centro Histórico, Salvador, BA",
+						Telefone = "+55 71 3324 4488",
+						HorarioFuncionamento = "24h",
+						Descricao = "O coração cultural de Salvador, o Pelourinho é um centro de preservação do patrimônio histórico e cultural, com suas ruas de pedra e construções coloniais.",
+						Foto = "/imgpaises/imgBrasil/Cultura/Pelourinho.png",
+						PaisId = 7,
+						Latitude = -12.9714,
+						Longitude = -38.5097
+					},
 				#endregion
         #endregion	
 
@@ -4451,6 +4926,150 @@ public class AppDbSeed
 			},
 			new ExperienciaLocal() {
 			LocalId =       216 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       217 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       218 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       219 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       220 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       221 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       222 ,
+			ExperienciaId =     1
+			},
+			new ExperienciaLocal() {
+			LocalId =       223 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       224 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       225 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       226 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       227 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       228 ,
+			ExperienciaId =     2
+			},
+			new ExperienciaLocal() {
+			LocalId =       229 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       230 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       231 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       232 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       233 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       234 ,
+			ExperienciaId =     3
+			},
+			new ExperienciaLocal() {
+			LocalId =       235 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       236 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       237 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       238 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       239 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       240 ,
+			ExperienciaId =     4
+			},
+			new ExperienciaLocal() {
+			LocalId =       241 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       242 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       243 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       244 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       245 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       246 ,
+			ExperienciaId =     5
+			},
+			new ExperienciaLocal() {
+			LocalId =       247 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       248 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       249 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       250 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       251 ,
+			ExperienciaId =     6
+			},
+			new ExperienciaLocal() {
+			LocalId =       252 ,
 			ExperienciaId =     6
 			},
 			new ExperienciaLocal() {

@@ -3,9 +3,12 @@
     ViewData["Title"] = "ExperienciaLocal";
     Layout = "_Music";
 }
+
 <link rel="stylesheet" href="~/css/ExperienciaLocal.css">
 
-<body data-musica-url="@Model.Experiencia.Musica" style="--Foto-Fundo: url('@Model.Experiencia?.Foto'); --Cor: @Model.Experiencia.Cor ">
+
+<body data-musica-url="@Model.Experiencia.Musica"
+    style="--Foto-Fundo: url('@Model.Experiencia?.Foto'); --Cor: @Model.Experiencia.Cor ">
     <header id="header">
         <nav>
             <div class="logo">
@@ -75,9 +78,9 @@
                         <i class="bi bi-youtube"></i>
                     </div>
                 </a>
-                <a href="https://twitter.com/?lang=pt-br">
+                <a href="https://t.me/+wZCfRrY8dYhjYTMx">
                     <div class="i5">
-                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-telegram"></i>
                     </div>
                 </a>
                 <a href="https://www.google.com/intl/pt-BR/gmail/about/">
@@ -121,19 +124,19 @@
             <div class="explore">
                 <h1 style="text-decoration: underline @Model.Experiencia.Cor;">Explore</h1>
                 <ul>
-                    <a href="index.html">
+                    <a asp-action="index" asp-controller="Home">
                         <i class="bi bi-house"></i>
                         Inicio
                     </a>
-                    <a href="#paises">
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="paises">
                         <i class="bi bi-globe2"></i>
                         Países
                     </a>
-                    <a href="#agencias">
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="agencias">
                         <i class="bi bi-geo-alt"></i>
                         Agências
                     </a>
-                    <a href="destinos-salvos.html">
+                    <a asp-action="Favoritado" asp-controller="Home">
                         <i class="bi bi-heart"></i>
                         Favoritados
                     </a>

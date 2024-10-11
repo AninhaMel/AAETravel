@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241009210229_AAETravelfirst")]
+    [Migration("20241011191831_AAETravelfirst")]
     partial class AAETravelfirst
     {
         /// <inheritdoc />
@@ -4687,7 +4687,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rua Barão de Capanema, 549 - Jardim Paulista, São Paulo, SP",
                             Longitude = -46.661200000000001,
                             Nome = "D.O.M.",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3088 0761"
                         },
                         new
@@ -4700,7 +4700,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro, RJ",
                             Longitude = -43.204599999999999,
                             Nome = "Fasano Rio",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 21 3202 4000"
                         },
                         new
@@ -4713,7 +4713,7 @@ namespace AAETravel.Migrations
                             Localizacao = "R. Araújo, 124 - República, São Paulo, SP",
                             Longitude = -46.641199999999998,
                             Nome = "Casa do Porco",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3258 2578"
                         },
                         new
@@ -4726,7 +4726,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rua Joaquim Antunes, 210 - Jardim Paulistano, São Paulo, SP",
                             Longitude = -46.679000000000002,
                             Nome = "Maní",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3085 4148"
                         },
                         new
@@ -4739,7 +4739,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. General San Martin, 889 - Leblon, Rio de Janeiro, RJ",
                             Longitude = -43.222000000000001,
                             Nome = "Oro",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 21 2540 8768"
                         },
                         new
@@ -4751,8 +4751,8 @@ namespace AAETravel.Migrations
                             Latitude = -12.9718,
                             Localizacao = "Av. Contorno, 100 - Comércio, Salvador, BA",
                             Longitude = -38.514800000000001,
-                            Nome = "Amado.png",
-                            PaisId = 7,
+                            Nome = "Amado",
+                            PaisId = 1,
                             Telefone = "+55 71 3322 3520"
                         },
                         new
@@ -4843,7 +4843,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Avenida Dr. Júlio Prestes, s/n - Aparecida, São Paulo, SP",
                             Longitude = -45.2303,
                             Nome = "Santuário Nacional de Nossa Senhora Aparecida",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 12 3104 1000"
                         },
                         new
@@ -4856,7 +4856,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Largo de São Bento, s/n - Centro, São Paulo, SP",
                             Longitude = -46.633800000000001,
                             Nome = "Mosteiro de São Bento",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3328 8799"
                         },
                         new
@@ -4869,7 +4869,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Celso Garcia, 605 - Brás, São Paulo, SP",
                             Longitude = -46.611699999999999,
                             Nome = "Templo de Salomão",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3573 3535"
                         },
                         new
@@ -4882,21 +4882,21 @@ namespace AAETravel.Migrations
                             Localizacao = "Esplanada dos Ministérios, Brasília, DF",
                             Longitude = -47.875300000000003,
                             Nome = "Catedral de Brasília",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 61 3224 4073"
                         },
                         new
                         {
                             Id = 239,
-                            Descricao = "Fundado por Chico Xavier, este centro espírita é um ponto de referência para os seguidores da doutrina espírita e aqueles que buscam esclarecimento espiritual.",
-                            Foto = "/imgpaises/imgBrasil/Fe/Centro Espírita Luiz Gonzaga.png",
-                            HorarioFuncionamento = "18h às 21h",
-                            Latitude = -19.618200000000002,
-                            Localizacao = "Rua Antônio José da Silva, 417 - Pedro Leopoldo, MG",
-                            Longitude = -44.040500000000002,
-                            Nome = "Centro Espírita Luiz Gonzaga",
-                            PaisId = 7,
-                            Telefone = "+55 31 3661 1040"
+                            Descricao = "A Igreja Universal do Reino de Deus é uma das maiores denominações evangélicas do Brasil, conhecida por seu foco em milagres, libertação e a pregação do evangelho. Oferece cultos, reuniões de oração e aconselhamentos espirituais.",
+                            Foto = "/imgpaises/imgBrasil/Fe/Igreja Universal do Reino de Deus.png",
+                            HorarioFuncionamento = "8h às 20h",
+                            Latitude = -23.546199999999999,
+                            Localizacao = "Avenida João Ribeiro, 158 - Brás, São Paulo, SP",
+                            Longitude = -46.634599999999999,
+                            Nome = "Igreja Universal do Reino de Deus",
+                            PaisId = 1,
+                            Telefone = "+55 11 3223 2100"
                         },
                         new
                         {
@@ -4908,7 +4908,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Praça Minas Gerais, Ouro Preto, MG",
                             Longitude = -43.503399999999999,
                             Nome = "Igreja de São Francisco de Assis",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 31 3551 4736"
                         },
                         new
@@ -4999,7 +4999,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Avenida Paulista, 1578 - Bela Vista, São Paulo, SP",
                             Longitude = -46.655900000000003,
                             Nome = "Museu de Arte de São Paulo (MASP)",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 11 3149 5959"
                         },
                         new
@@ -5012,7 +5012,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Praça Mauá, 1 - Centro, Rio de Janeiro, RJ",
                             Longitude = -43.181899999999999,
                             Nome = "Museu do Amanhã",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 21 3812 1800"
                         },
                         new
@@ -5025,7 +5025,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Rua B, 20 - Brumadinho, MG",
                             Longitude = -44.1997,
                             Nome = "Instituto Inhotim",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 31 3571 9700"
                         },
                         new
@@ -5038,7 +5038,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Setor de Clubes Sul, Trecho 2 - Lote 22 - Brasília, DF",
                             Longitude = -47.881399999999999,
                             Nome = "Centro Cultural Banco do Brasil (CCBB) - Brasília",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 61 3108 7600"
                         },
                         new
@@ -5051,7 +5051,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Av. Eduardo Ribeiro, 659 - Centro, Manaus, AM",
                             Longitude = -60.023099999999999,
                             Nome = "Teatro Amazonas",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 92 3622 1880"
                         },
                         new
@@ -5064,7 +5064,7 @@ namespace AAETravel.Migrations
                             Localizacao = "Largo do Pelourinho - Centro Histórico, Salvador, BA",
                             Longitude = -38.509700000000002,
                             Nome = "Pelourinho",
-                            PaisId = 7,
+                            PaisId = 1,
                             Telefone = "+55 71 3324 4488"
                         },
                         new
@@ -5570,7 +5570,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 1,
                             Cor = "#009C3B",
-                            Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+                            Descricao = "O Brasil é um país vasto e diverso, famoso por suas paisagens deslumbrantes e rica cultura. O Rio de Janeiro, com o Cristo Redentor e suas praias icônicas, e São Paulo, um centro financeiro vibrante, são apenas algumas das atrações. No nordeste, cidades como Salvador e Recife encantam com suas praias tropicais e rica história. Além de sua beleza natural, o Brasil possui uma diversidade religiosa significativa, com igrejas como a Basílica de Nossa Senhora Aparecida e a Catedral da Sé, que atraem milhões de visitantes. A Igreja Universal do Reino de Deus, uma das maiores denominações evangélicas do país, exemplifica a forte presença do cristianismo na cultura brasileira. Conhecido também por seu animado carnaval, música contagiante e culinária variada, o Brasil é um destino acolhedor, perfeito para quem busca aventura e uma rica experiência cultural.",
                             Foto = "/img/pais/Brasil.png",
                             Icon = "/img/pais/icons/Brasil.png",
                             Nome = "Brasil"
@@ -5588,7 +5588,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 3,
                             Cor = "#0055A4",
-                            Descricao = "#A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.",
+                            Descricao = "A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.",
                             Foto = "/img/pais/França.png",
                             Icon = "/img/pais/icons/Franca.png",
                             Nome = "França"
@@ -5679,7 +5679,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
+                            UsuarioId = "b52d111e-32cf-4ed4-9c6f-f5008e0f078f",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -5688,7 +5688,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
+                            UsuarioId = "4dddb9dc-a9ab-4cb6-998d-c76b591f6027",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -5697,7 +5697,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
+                            UsuarioId = "50f125eb-ca3d-49e0-ac87-541c64feac5c",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -5706,7 +5706,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
+                            UsuarioId = "fc16ea61-35fd-418f-8c2c-0ac75f1e3034",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -5743,13 +5743,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ea892bac-b14a-4fd1-b775-b9f5297034b5",
+                            Id = "c2a0c033-2f23-4555-b29c-9376ad0e98da",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "599331b2-5657-4617-9869-92415dea8820",
+                            Id = "699c0b51-a42f-482b-afae-8dceed8d010e",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -5846,65 +5846,65 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0ad04c3a-64d0-4401-a813-feff6444a74e",
+                            Id = "b52d111e-32cf-4ed4-9c6f-f5008e0f078f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2f2ff15a-5c85-4785-a805-b68794472c48",
+                            ConcurrencyStamp = "501b9c38-8f87-43e9-9c88-4c73b7d79a43",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIGYPoOf0ur4pwoW2fWZTD25hy13Yg98MzqPI4p2imDTwj3mUNaf5c9+7xeang3CYg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGYulefj5uXKsdnkGc7bbDQZDWGrIveRtDWuidDIRK7CvIwvrhPgpxBAf7CXOc1umA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "533feacb-7b20-461c-8a4f-4e7f4334577b",
+                            SecurityStamp = "fc82b748-c217-4362-b205-d058c9bcdd66",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "16d29b23-7caf-4540-8fc3-a4eed5316216",
+                            Id = "4dddb9dc-a9ab-4cb6-998d-c76b591f6027",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a7d001b6-4c88-4c70-8b04-88adc4afc5ae",
+                            ConcurrencyStamp = "20a2c8ce-e722-4406-94d1-3cbea7a1d544",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEN5P2uep5kzJdILyYjTAKGmT71dsReOsfAzDZGvzsDh6LeLGNcSBp39TZqFE4AhkVA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEME9dMUPGCsZKtgxqIJ6cDo7pf4s4lV+gHKXufiwaMCVaDJZeoV8kDP852JMfCfBmQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "cd51efda-8407-4d07-9f06-2b349a92a214",
+                            SecurityStamp = "fe4e2162-7bdb-4d22-a0c0-4c1e17dd268a",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
+                            Id = "50f125eb-ca3d-49e0-ac87-541c64feac5c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ced72256-650c-45fb-8e87-6579c8383f89",
+                            ConcurrencyStamp = "eb15fa04-8497-409d-8f13-309cb0166231",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGXf5kjSPVgmUJomZtmtp4PPu2o0SVOY+3QaXJ00EMTNkcRWSAWDG0PS3pa2OzIyXQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKA9BCu3RsZ70hCvqKexXMSL0IAwFgXDOVPeEcat/g9qmkUtCLuU/zquWO4JAwbHmQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8f8248e3-57e8-4c41-a6f3-1255d0d6463e",
+                            SecurityStamp = "86414bbf-6cca-4d51-bd20-0479ec05a98b",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "4c8ba844-d505-4f71-b56d-542b41501f5e",
+                            Id = "fc16ea61-35fd-418f-8c2c-0ac75f1e3034",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "499223c0-b613-422c-a64b-facfec7b21aa",
+                            ConcurrencyStamp = "849d2ee8-7b2f-4c5b-855e-ddee3eb1f9bb",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHomJxtbf76+/H9kwLnk87gm92GzhmlF1FaR3U9AtDTY6NOAI8wSR5onffIIC9xblg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEJ/YLxjZ309lA/UZdlK33oHd4xAYQGEYddMUQAgQsZNMLL0nX1rRXmg8WKLA4wJzw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "fb1ce3b9-56fc-429f-9081-d88be51a334b",
+                            SecurityStamp = "dd127329-3ff5-464f-99b8-8e631edf834e",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         });
@@ -5974,43 +5974,43 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
-                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
+                            UserId = "b52d111e-32cf-4ed4-9c6f-f5008e0f078f",
+                            RoleId = "c2a0c033-2f23-4555-b29c-9376ad0e98da"
                         },
                         new
                         {
-                            UserId = "0ad04c3a-64d0-4401-a813-feff6444a74e",
-                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
+                            UserId = "b52d111e-32cf-4ed4-9c6f-f5008e0f078f",
+                            RoleId = "699c0b51-a42f-482b-afae-8dceed8d010e"
                         },
                         new
                         {
-                            UserId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
-                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
+                            UserId = "4dddb9dc-a9ab-4cb6-998d-c76b591f6027",
+                            RoleId = "c2a0c033-2f23-4555-b29c-9376ad0e98da"
                         },
                         new
                         {
-                            UserId = "16d29b23-7caf-4540-8fc3-a4eed5316216",
-                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
+                            UserId = "4dddb9dc-a9ab-4cb6-998d-c76b591f6027",
+                            RoleId = "699c0b51-a42f-482b-afae-8dceed8d010e"
                         },
                         new
                         {
-                            UserId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
-                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
+                            UserId = "50f125eb-ca3d-49e0-ac87-541c64feac5c",
+                            RoleId = "c2a0c033-2f23-4555-b29c-9376ad0e98da"
                         },
                         new
                         {
-                            UserId = "9b23eb26-64e7-47c0-b9ee-92f4979ccefa",
-                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
+                            UserId = "50f125eb-ca3d-49e0-ac87-541c64feac5c",
+                            RoleId = "699c0b51-a42f-482b-afae-8dceed8d010e"
                         },
                         new
                         {
-                            UserId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
-                            RoleId = "ea892bac-b14a-4fd1-b775-b9f5297034b5"
+                            UserId = "fc16ea61-35fd-418f-8c2c-0ac75f1e3034",
+                            RoleId = "c2a0c033-2f23-4555-b29c-9376ad0e98da"
                         },
                         new
                         {
-                            UserId = "4c8ba844-d505-4f71-b56d-542b41501f5e",
-                            RoleId = "599331b2-5657-4617-9869-92415dea8820"
+                            UserId = "fc16ea61-35fd-418f-8c2c-0ac75f1e3034",
+                            RoleId = "699c0b51-a42f-482b-afae-8dceed8d010e"
                         });
                 });
 

@@ -3,6 +3,8 @@
     ViewData["Title"] = "Favoritados";
 }
 <link rel="stylesheet" href="~/css/destinos-salvos.css">
+<link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
+
 
 <header id="header">
     <a asp-action="Index" asp-controller="Home">
@@ -35,6 +37,6 @@
     }
     else
     {
-        <p>Você ainda não tem favoritos.</p>
+        <p class="else">Você ainda não tem favoritos.</p>
     }
 </section>

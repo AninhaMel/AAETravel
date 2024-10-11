@@ -378,30 +378,35 @@ footer {
 
             & .i1:hover {
                 color: rgb(7, 155, 241);
+                filter: drop-shadow(0 0 10px purple);
                 transform: scale(1.1);
                 transition: 0.05s;
             }
 
             & .i2:hover {
                 color: rgb(255, 0, 132);
+                filter: drop-shadow(0 0 10px purple);
                 transform: scale(1.1);
                 transition: 0.05s;
             }
 
             & .i3:hover {
                 color: rgb(0, 255, 21);
+                filter: drop-shadow(0 0 10px purple);
                 transform: scale(1.1);
                 transition: 0.05s;
             }
 
             & .i4:hover {
                 color: rgb(255, 0, 0);
+                filter: drop-shadow(0 0 10px purple);
                 transform: scale(1.1);
                 transition: 0.05s;
             }
 
             & .i5:hover {
-                color: rgb(255, 255, 255);
+                color: #0088cc;
+                filter: drop-shadow(0 0 10px purple);
                 transform: scale(1.1);
                 transition: 0.05s;
             }
@@ -410,6 +415,7 @@ footer {
                 color: rgb(208, 255, 0);
                 transform: scale(1.1);
                 transition: 0.05s;
+                filter: drop-shadow(0 0 10px purple);
             }
 
             & i {

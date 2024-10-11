@@ -141,7 +141,7 @@ public class AppDbSeed
 				Id = 1,
 				Nome = "Brasil",
 				Foto = "/img/pais/Brasil.png",
-				Descricao = "O Brasil é um país vasto e diverso, conhecido por suas paisagens deslumbrantes, cidades vibrantes e cultura rica. O Rio de Janeiro, com seu icônico Cristo Redentor, o Pão de Açúcar e as famosas praias de Copacabana e Ipanema, oferece uma combinação única de natureza e urbanidade. São Paulo, o coração financeiro do país, impressiona com sua energia cosmopolita, vida cultural intensa e gastronomia mundial. No nordeste, cidades como Salvador e Recife destacam-se pelo patrimônio histórico e pelas belas praias tropicais. A Amazônia, no norte, é um tesouro de biodiversidade, com florestas densas e rios majestosos. Além disso, o Brasil é famoso por seu carnaval colorido, sua música contagiante e sua culinária variada, influenciada por diferentes culturas ao longo dos séculos. É um destino acolhedor, ideal para quem busca aventura, cultura e hospitalidade.",
+				Descricao = "O Brasil é um país vasto e diverso, famoso por suas paisagens deslumbrantes e rica cultura. O Rio de Janeiro, com o Cristo Redentor e suas praias icônicas, e São Paulo, um centro financeiro vibrante, são apenas algumas das atrações. No nordeste, cidades como Salvador e Recife encantam com suas praias tropicais e rica história. Além de sua beleza natural, o Brasil possui uma diversidade religiosa significativa, com igrejas como a Basílica de Nossa Senhora Aparecida e a Catedral da Sé, que atraem milhões de visitantes. A Igreja Universal do Reino de Deus, uma das maiores denominações evangélicas do país, exemplifica a forte presença do cristianismo na cultura brasileira. Conhecido também por seu animado carnaval, música contagiante e culinária variada, o Brasil é um destino acolhedor, perfeito para quem busca aventura e uma rica experiência cultural.",
 				Cor = "#009C3B",
 				Icon = "/img/pais/icons/Brasil.png"
 			},
@@ -157,7 +157,7 @@ public class AppDbSeed
 				Id = 3,
 				Nome = "França",
 				Foto = "/img/pais/França.png",
-				Descricao = "#A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.",
+				Descricao = "A França é um país encantador que combina história, cultura e beleza natural. Paris, a Cidade Luz, é famosa por seus monumentos icônicos, como a Torre Eiffel e o Museu do Louvre, além de suas charmosas ruas e cafés. No interior, vilarejos pitorescos como Provence e Alsácia revelam o charme do campo francês, enquanto o Vale do Loire é conhecido por seus castelos deslumbrantes. A Riviera Francesa oferece praias deslumbrantes e glamour, enquanto a região da Normandia traz paisagens costeiras e importantes memórias históricas. A França é um destino que mistura sofisticação e simplicidade, perfeito para todos os gostos.",
 				Cor = "#0055A4",
 				Icon = "/img/pais/icons/Franca.png"
 			},
@@ -3147,7 +3147,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "12h às 15h, 19h às 23h",
 						Descricao = "Restaurante premiado comandado pelo chef Alex Atala, conhecido por sua culinária brasileira inovadora com ingredientes da Amazônia.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/D.O.M.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5641,
 						Longitude = -46.6612
 					},
@@ -3160,7 +3160,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "12h às 16h, 19h às 23h",
 						Descricao = "Restaurante sofisticado de frente para o mar, oferecendo uma culinária italiana refinada e vistas incríveis de Ipanema.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/Fasano Rio.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -22.9847,
 						Longitude = -43.2046
 					},
@@ -3173,7 +3173,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "12h às 23h",
 						Descricao = "Famoso por seu menu baseado em carne suína, o restaurante do chef Jefferson Rueda é um dos mais badalados da gastronomia paulista.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/Casa do Porco.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5461,
 						Longitude = -46.6412
 					},
@@ -3186,7 +3186,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "12h às 15h, 19h às 23h",
 						Descricao = "Comandado pela chef Helena Rizzo, o Maní oferece uma culinária contemporânea brasileira com ênfase em técnicas inovadoras e ingredientes locais.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/Maní.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5665,
 						Longitude = -46.6790
 					},
@@ -3199,20 +3199,20 @@ public class AppDbSeed
 						HorarioFuncionamento = "12h às 15h, 19h às 23h",
 						Descricao = "Restaurante estrelado pelo chef Felipe Bronze, onde a criatividade e o uso de técnicas modernas são combinados com ingredientes brasileiros.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/Oro.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -22.9872,
 						Longitude = -43.2220
 					},
 
 					new Local() {
 						Id = 228,
-						Nome = "Amado.png",
+						Nome = "Amado",
 						Localizacao = "Av. Contorno, 100 - Comércio, Salvador, BA",
 						Telefone = "+55 71 3322 3520",
 						HorarioFuncionamento = "12h às 16h, 19h às 23h",
 						Descricao = "Situado à beira-mar, o Amado oferece uma cozinha contemporânea com influências baianas e vistas deslumbrantes da Baía de Todos-os-Santos.",
 						Foto = "/imgpaises/imgBrasil/Restaurantes/amado.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -12.9718,
 						Longitude = -38.5148
 					},
@@ -3307,7 +3307,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "6h às 20h",
 						Descricao = "O maior templo católico do Brasil, dedicado à Padroeira do Brasil, Nossa Senhora Aparecida. É um ponto de peregrinação e devoção para milhões de fiéis.",
 						Foto = "/imgpaises/imgBrasil/Fe/Santuário Nacional de Nossa Senhora Aparecida.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -22.8466,
 						Longitude = -45.2303
 					},
@@ -3320,7 +3320,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "6h às 18h",
 						Descricao = "Um dos mosteiros mais antigos do Brasil, famoso por sua arquitetura histórica e as missas com canto gregoriano.",
 						Foto = "/imgpaises/imgBrasil/Fe/Mosteiro de São Bento.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5451,
 						Longitude = -46.6338
 					},
@@ -3333,7 +3333,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "9h às 21h",
 						Descricao = "Uma imponente réplica do Templo de Salomão, construída pela Igreja Universal, que atrai milhares de visitantes em busca de espiritualidade e fé.",
 						Foto = "/imgpaises/imgBrasil/Fe/Templo de Salomão.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5376,
 						Longitude = -46.6117
 					},
@@ -3346,22 +3346,22 @@ public class AppDbSeed
 						HorarioFuncionamento = "8h às 18h",
 						Descricao = "Famosa por sua arquitetura moderna e impressionante, a catedral é um dos marcos de Brasília e um local de adoração e contemplação.",
 						Foto = "/imgpaises/imgBrasil/Fe/Catedral de Brasília.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -15.7980,
 						Longitude = -47.8753
 					},
 
 					new Local() {
-						Id = 239,
-						Nome = "Centro Espírita Luiz Gonzaga",
-						Localizacao = "Rua Antônio José da Silva, 417 - Pedro Leopoldo, MG",
-						Telefone = "+55 31 3661 1040",
-						HorarioFuncionamento = "18h às 21h",
-						Descricao = "Fundado por Chico Xavier, este centro espírita é um ponto de referência para os seguidores da doutrina espírita e aqueles que buscam esclarecimento espiritual.",
-						Foto = "/imgpaises/imgBrasil/Fe/Centro Espírita Luiz Gonzaga.png",
-						PaisId = 7,
-						Latitude = -19.6182,
-						Longitude = -44.0405
+					    Id = 239,
+					    Nome = "Igreja Universal do Reino de Deus",
+					    Localizacao = "Avenida João Ribeiro, 158 - Brás, São Paulo, SP",
+					    Telefone = "+55 11 3223 2100",
+					    HorarioFuncionamento = "8h às 20h",
+					    Descricao = "A Igreja Universal do Reino de Deus é uma das maiores denominações evangélicas do Brasil, conhecida por seu foco em milagres, libertação e a pregação do evangelho. Oferece cultos, reuniões de oração e aconselhamentos espirituais.",
+					    Foto = "/imgpaises/imgBrasil/Fe/Igreja Universal do Reino de Deus.png",
+					    PaisId = 1,
+					    Latitude = -23.5462,
+					    Longitude = -46.6346
 					},
 
 					new Local() {
@@ -3372,7 +3372,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "8h às 17h",
 						Descricao = "Um dos maiores exemplos do barroco brasileiro, projetada por Aleijadinho, a igreja é um símbolo da arte e da fé no Brasil colonial.",
 						Foto = "/imgpaises/imgBrasil/Fe/Igreja de São Francisco de Assis.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -20.3861,
 						Longitude = -43.5034
 					},
@@ -3467,7 +3467,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "10h às 18h",
 						Descricao = "Um dos museus mais importantes do Brasil, com uma vasta coleção de arte ocidental, além de exposições temporárias de grande relevância.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Museu de Arte de São Paulo (MASP).png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -23.5614,
 						Longitude = -46.6559
 					},
@@ -3480,7 +3480,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "10h às 18h",
 						Descricao = "Museu de ciência e inovação com foco no futuro e no impacto das ações humanas no planeta. A arquitetura futurista é uma atração à parte.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Museu do Amanhã.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -22.8964,
 						Longitude = -43.1819
 					},
@@ -3493,7 +3493,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "9h30 às 16h30",
 						Descricao = "Maior museu a céu aberto do mundo, com um acervo de arte contemporânea em meio a um jardim botânico deslumbrante. Inhotim oferece uma experiência única.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Instituto Inhotim.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -20.1334,
 						Longitude = -44.1997
 					},
@@ -3506,7 +3506,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "9h às 21h",
 						Descricao = "O CCBB de Brasília é um dos principais centros culturais do país, com uma programação variada de exposições, teatro, cinema e eventos culturais.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Centro Cultural Banco do Brasil (CCBB) - Brasília.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -15.8009,
 						Longitude = -47.8814
 					},
@@ -3519,7 +3519,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "9h às 17h",
 						Descricao = "Símbolo do ciclo da borracha, o Teatro Amazonas é uma das construções mais icônicas do Brasil, com uma arquitetura grandiosa e rica programação cultural.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Teatro Amazonas.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -3.1319,
 						Longitude = -60.0231
 					},
@@ -3532,7 +3532,7 @@ public class AppDbSeed
 						HorarioFuncionamento = "24h",
 						Descricao = "O coração cultural de Salvador, o Pelourinho é um centro de preservação do patrimônio histórico e cultural, com suas ruas de pedra e construções coloniais.",
 						Foto = "/imgpaises/imgBrasil/Cultura/Pelourinho.png",
-						PaisId = 7,
+						PaisId = 1,
 						Latitude = -12.9714,
 						Longitude = -38.5097
 					},

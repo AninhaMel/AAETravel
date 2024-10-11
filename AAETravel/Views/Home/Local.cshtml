@@ -3,10 +3,12 @@
     ViewData["Title"] = "Local";
     Layout = "_Music";
 }
-
+<link rel="shortcut icon" href="~/img/outros/favcon.png" type="image/x-icon">
 <link rel="stylesheet" href="~/css/informacao.css">
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdgc7AGP2c_-MOIdOkYxu7hQs9vf7fR5k&callback=initMap" async
     defer></script>
+
+
 
 
 <body data-musica-url="@Model.Experiencias.Musica" style="--Cor: @Model.Experiencias.Cor">
@@ -94,9 +96,9 @@
                         <i class="bi bi-youtube"></i>
                     </div>
                 </a>
-                <a href="https://x.com/@@AAETravel">
+                <a href="https://t.me/+wZCfRrY8dYhjYTMx">
                     <div class="i5">
-                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-telegram"></i>
                     </div>
                 </a>
                 <a href="https://aaetravel834499@gmail.com
@@ -145,15 +147,15 @@
                         <i class="bi bi-house"></i>
                         Inicio
                     </a>
-                    <a asp-action="index" asp-controller="Home">
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="paises">
                         <i class="bi bi-globe2"></i>
                         Países
                     </a>
-                    <a asp-action="Index" asp-controller="Home">
+                    <a asp-action="Index" asp-controller="Home" asp-fragment="agencias">
                         <i class="bi bi-geo-alt"></i>
                         Agências
                     </a>
-                    <a href="destinos-salvos.html">
+                    <a asp-action="Favoritado" asp-controller="Home">
                         <i class="bi bi-heart"></i>
                         Favoritados
                     </a>

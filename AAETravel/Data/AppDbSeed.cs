@@ -5305,20 +5305,20 @@ public class AppDbSeed
 			},
 			new Usuario(){
 				UsuarioId = users[2].Id,
+				Nome = "Eduardo Dametto",
+				Foto = "/img/Criador/dametto.png",
+				Descricao = "Programador junior",
+				Cidade = "Barra Bonita, SP",
+				Telefone = "(14)98112-0019"
+			},
+			new Usuario(){
+				UsuarioId = users[3].Id,
 				Nome = "Any Gabriele de Lima",
 				Foto = "/img/Criador/Any.png",
 				Descricao = "Programador junior",
 				Cidade = "Barra Bonita, SP",
 				Telefone = "(14)99844-1425"
 			},
-			new Usuario(){
-				UsuarioId = users[3].Id,
-				Nome = "Eduardo Dametto",
-				Foto = "/img/Criador/dametto.png",
-				Descricao = "Programador junior",
-				Cidade = "Barra Bonita, SP",
-				Telefone = "(14)98112-0019"
-			}
 		};
 		builder.Entity<Usuario>().HasData(usuarios);
 		#endregion

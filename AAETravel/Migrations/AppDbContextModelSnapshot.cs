@@ -5676,7 +5676,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f",
+                            UsuarioId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -5685,7 +5685,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "f23b95c1-4e40-491c-9da6-296f3454edb7",
+                            UsuarioId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -5694,7 +5694,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "a7165abf-a570-446f-ba2f-d17b46da9217",
+                            UsuarioId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -5703,12 +5703,21 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "2e33a98b-274a-4feb-aefb-e633a8220044",
+                            UsuarioId = "6a8cdf36-e717-4c62-bef6-68e337489672",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
                             Nome = "Any Gabriele de Lima",
                             Telefone = "(14)99844-1425"
+                        },
+                        new
+                        {
+                            UsuarioId = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
+                            Cidade = "Mundo Afora",
+                            Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
+                            Foto = "/img/User/Joao.jpg",
+                            Nome = "João Aventureiro Souza",
+                            Telefone = "(00)00000-0000"
                         });
                 });
 
@@ -5740,13 +5749,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd",
+                            Id = "22479a7b-263c-4fe4-b75d-763d4e195284",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "5107a8a3-d70e-4183-9478-0537a898334a",
+                            Id = "aae4d008-20f6-4785-9683-d3eb3ce4e010",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -5843,67 +5852,83 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f",
+                            Id = "81726fdc-c170-4ed9-afe4-84d957401dd4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "405453b2-22d7-461b-8ada-22e5ca803630",
+                            ConcurrencyStamp = "cea6d217-dcb4-43e4-8107-eedb48b1679d",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKTV6sxebSw9KevUT6C0EVHs0ioLEc1dYTvzDTc3wZmCKPH4acWeaEd5QQnPAi42rQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEA5x6dCcno5UeLXBxoiqY1deRGuOc8Rcc1ADP2GVnusoPmD80VO0J3kIQWb2YiOUCw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9b2ed4d9-c1c1-4932-8db5-5578bdfeed1e",
+                            SecurityStamp = "21614db8-57ca-4f51-8fc1-575380e4c04e",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "f23b95c1-4e40-491c-9da6-296f3454edb7",
+                            Id = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "99dad1c3-c839-48e6-a177-9876dfb00c08",
+                            ConcurrencyStamp = "c585388e-8280-4751-b060-e26e8e341c66",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFKkZO6C6qrfGiHMPf4i46PpONJ1Vfh3HY1k15AEQnV2GFchFotHc2vnZxQK0jeegQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHY8lPnIcUmrTCgDNUY+Q39y45hDjjXFcFU/8J9eormPJXWx8gR6giEVKp9sZl9x0A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d184c30c-d408-414c-b5bb-4988c2af8056",
+                            SecurityStamp = "1eb41e7a-a079-47dd-81fb-819dada5a205",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "a7165abf-a570-446f-ba2f-d17b46da9217",
+                            Id = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9befda52-5205-4ff3-b68c-a0b73c3dcf0e",
+                            ConcurrencyStamp = "a22911ef-aa8a-46bd-816b-83594eeceb43",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBlRicKxYcj/tWizRl2d8zkmUADtWgOsDIM+2/8P5PMfzb/IYXHsWeAsuSHJtoiusA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEORZcPoKw6132KA+01J4o1zmByB9TJKodgjNNvi750TozdDHATVBmN2fCWCMknkEiA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "437002b4-c01e-487d-b185-eab05d113e71",
+                            SecurityStamp = "565998a4-8069-4111-9236-dcb47624b3c3",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "2e33a98b-274a-4feb-aefb-e633a8220044",
+                            Id = "6a8cdf36-e717-4c62-bef6-68e337489672",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7627c59e-3eb1-493f-84a6-43f96b90c5cc",
+                            ConcurrencyStamp = "f96376e3-a469-4abc-98a7-d397b318d5da",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJd9atNkQIOoLjkI/cv2xPFERLOv/op4myl6PU920q75WW11DZerMckd/0vBqH8DuA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEL9LD8xplEG+pIPJOP1CjJMjGwg6mxSfmbI6Rr+kaxtPFdWlrG/0q5AW2pEmtrSUbQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e62b8aa9-626f-4212-a915-66437e13becf",
+                            SecurityStamp = "04d520f6-5210-4049-b647-ece7f25879a3",
                             TwoFactorEnabled = false,
                             UserName = "any"
+                        },
+                        new
+                        {
+                            Id = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "78aa2562-4ec4-44b3-8e44-59c912efce12",
+                            Email = "joaosouza@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = true,
+                            NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
+                            NormalizedUserName = "JOAO",
+                            PasswordHash = "AQAAAAIAAYagAAAAENGRAB/ArjDWc8MOyO+aRmZwPGJwlMiYMBXs4bM1KTdARFwEQxMuUJR4Mi6EBRM3Ag==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "8a8a9048-de49-4fb5-ad69-06dfd91100f0",
+                            TwoFactorEnabled = false,
+                            UserName = "joao"
                         });
                 });
 
@@ -5971,43 +5996,48 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f",
-                            RoleId = "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd"
+                            UserId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
+                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
                         },
                         new
                         {
-                            UserId = "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f",
-                            RoleId = "5107a8a3-d70e-4183-9478-0537a898334a"
+                            UserId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
+                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
                         },
                         new
                         {
-                            UserId = "f23b95c1-4e40-491c-9da6-296f3454edb7",
-                            RoleId = "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd"
+                            UserId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
+                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
                         },
                         new
                         {
-                            UserId = "f23b95c1-4e40-491c-9da6-296f3454edb7",
-                            RoleId = "5107a8a3-d70e-4183-9478-0537a898334a"
+                            UserId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
+                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
                         },
                         new
                         {
-                            UserId = "a7165abf-a570-446f-ba2f-d17b46da9217",
-                            RoleId = "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd"
+                            UserId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
+                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
                         },
                         new
                         {
-                            UserId = "a7165abf-a570-446f-ba2f-d17b46da9217",
-                            RoleId = "5107a8a3-d70e-4183-9478-0537a898334a"
+                            UserId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
+                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
                         },
                         new
                         {
-                            UserId = "2e33a98b-274a-4feb-aefb-e633a8220044",
-                            RoleId = "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd"
+                            UserId = "6a8cdf36-e717-4c62-bef6-68e337489672",
+                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
                         },
                         new
                         {
-                            UserId = "2e33a98b-274a-4feb-aefb-e633a8220044",
-                            RoleId = "5107a8a3-d70e-4183-9478-0537a898334a"
+                            UserId = "6a8cdf36-e717-4c62-bef6-68e337489672",
+                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                        },
+                        new
+                        {
+                            UserId = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
+                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
                         });
                 });
 

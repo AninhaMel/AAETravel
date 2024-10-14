@@ -5276,6 +5276,15 @@ public class AppDbSeed
 				NormalizedUserName = "ANY",
 				LockoutEnabled = true,
 				EmailConfirmed = true,
+			},
+			new IdentityUser(){
+				Id = Guid.NewGuid().ToString(),
+				Email = "joaosouza@gmail.com",
+				NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
+				UserName = "joao",
+				NormalizedUserName = "JOAO",
+				LockoutEnabled = true,
+				EmailConfirmed = true,
 			}
 		};
 		foreach (var user in users)
@@ -5319,6 +5328,14 @@ public class AppDbSeed
 				Cidade = "Barra Bonita, SP",
 				Telefone = "(14)99844-1425"
 			},
+			new Usuario(){
+				UsuarioId = users[4].Id,
+				Nome = "João Aventureiro Souza",
+				Foto = "/img/User/Joao.jpg",
+				Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
+				Cidade = "Mundo Afora",
+				Telefone = "(00)00000-0000"
+			},
 		};
 		builder.Entity<Usuario>().HasData(usuarios);
 		#endregion
@@ -5356,6 +5373,10 @@ public class AppDbSeed
 			},
 			new IdentityUserRole<string>() {
 				UserId = users[3].Id,
+				RoleId = roles[1].Id
+			},
+			new IdentityUserRole<string>() {
+				UserId = users[4].Id,
 				RoleId = roles[1].Id
 			}
 		};

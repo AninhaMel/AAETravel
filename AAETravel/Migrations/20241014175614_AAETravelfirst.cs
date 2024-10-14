@@ -445,8 +445,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "5107a8a3-d70e-4183-9478-0537a898334a", null, "Visitante", "VISITANTE" },
-                    { "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd", null, "Administrador", "ADMINISTRADOR" }
+                    { "22479a7b-263c-4fe4-b75d-763d4e195284", null, "Administrador", "ADMINISTRADOR" },
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", null, "Visitante", "VISITANTE" }
                 });
 
             migrationBuilder.InsertData(
@@ -454,10 +454,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "2e33a98b-274a-4feb-aefb-e633a8220044", 0, "7627c59e-3eb1-493f-84a6-43f96b90c5cc", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEJd9atNkQIOoLjkI/cv2xPFERLOv/op4myl6PU920q75WW11DZerMckd/0vBqH8DuA==", null, false, "e62b8aa9-626f-4212-a915-66437e13becf", false, "any" },
-                    { "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f", 0, "405453b2-22d7-461b-8ada-22e5ca803630", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEKTV6sxebSw9KevUT6C0EVHs0ioLEc1dYTvzDTc3wZmCKPH4acWeaEd5QQnPAi42rQ==", null, false, "9b2ed4d9-c1c1-4932-8db5-5578bdfeed1e", false, "Eduardo" },
-                    { "a7165abf-a570-446f-ba2f-d17b46da9217", 0, "9befda52-5205-4ff3-b68c-a0b73c3dcf0e", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEBlRicKxYcj/tWizRl2d8zkmUADtWgOsDIM+2/8P5PMfzb/IYXHsWeAsuSHJtoiusA==", null, false, "437002b4-c01e-487d-b185-eab05d113e71", false, "dametto" },
-                    { "f23b95c1-4e40-491c-9da6-296f3454edb7", 0, "99dad1c3-c839-48e6-a177-9876dfb00c08", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEFKkZO6C6qrfGiHMPf4i46PpONJ1Vfh3HY1k15AEQnV2GFchFotHc2vnZxQK0jeegQ==", null, false, "d184c30c-d408-414c-b5bb-4988c2af8056", false, "ana" }
+                    { "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc", 0, "78aa2562-4ec4-44b3-8e44-59c912efce12", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAENGRAB/ArjDWc8MOyO+aRmZwPGJwlMiYMBXs4bM1KTdARFwEQxMuUJR4Mi6EBRM3Ag==", null, false, "8a8a9048-de49-4fb5-ad69-06dfd91100f0", false, "joao" },
+                    { "62ee8333-73d6-4eb5-902b-47fa8e6e85e3", 0, "a22911ef-aa8a-46bd-816b-83594eeceb43", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEORZcPoKw6132KA+01J4o1zmByB9TJKodgjNNvi750TozdDHATVBmN2fCWCMknkEiA==", null, false, "565998a4-8069-4111-9236-dcb47624b3c3", false, "dametto" },
+                    { "6a8cdf36-e717-4c62-bef6-68e337489672", 0, "f96376e3-a469-4abc-98a7-d397b318d5da", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEL9LD8xplEG+pIPJOP1CjJMjGwg6mxSfmbI6Rr+kaxtPFdWlrG/0q5AW2pEmtrSUbQ==", null, false, "04d520f6-5210-4049-b647-ece7f25879a3", false, "any" },
+                    { "81726fdc-c170-4ed9-afe4-84d957401dd4", 0, "cea6d217-dcb4-43e4-8107-eedb48b1679d", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEA5x6dCcno5UeLXBxoiqY1deRGuOc8Rcc1ADP2GVnusoPmD80VO0J3kIQWb2YiOUCw==", null, false, "21614db8-57ca-4f51-8fc1-575380e4c04e", false, "Eduardo" },
+                    { "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f", 0, "c585388e-8280-4751-b060-e26e8e341c66", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEHY8lPnIcUmrTCgDNUY+Q39y45hDjjXFcFU/8J9eormPJXWx8gR6giEVKp9sZl9x0A==", null, false, "1eb41e7a-a079-47dd-81fb-819dada5a205", false, "ana" }
                 });
 
             migrationBuilder.InsertData(
@@ -505,14 +506,15 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "5107a8a3-d70e-4183-9478-0537a898334a", "2e33a98b-274a-4feb-aefb-e633a8220044" },
-                    { "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd", "2e33a98b-274a-4feb-aefb-e633a8220044" },
-                    { "5107a8a3-d70e-4183-9478-0537a898334a", "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f" },
-                    { "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd", "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f" },
-                    { "5107a8a3-d70e-4183-9478-0537a898334a", "a7165abf-a570-446f-ba2f-d17b46da9217" },
-                    { "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd", "a7165abf-a570-446f-ba2f-d17b46da9217" },
-                    { "5107a8a3-d70e-4183-9478-0537a898334a", "f23b95c1-4e40-491c-9da6-296f3454edb7" },
-                    { "8913ac1f-e64d-4a89-bfd8-54f5a42a78dd", "f23b95c1-4e40-491c-9da6-296f3454edb7" }
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc" },
+                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "62ee8333-73d6-4eb5-902b-47fa8e6e85e3" },
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "62ee8333-73d6-4eb5-902b-47fa8e6e85e3" },
+                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "6a8cdf36-e717-4c62-bef6-68e337489672" },
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "6a8cdf36-e717-4c62-bef6-68e337489672" },
+                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "81726fdc-c170-4ed9-afe4-84d957401dd4" },
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "81726fdc-c170-4ed9-afe4-84d957401dd4" },
+                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f" },
+                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f" }
                 });
 
             migrationBuilder.InsertData(
@@ -815,10 +817,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "2e33a98b-274a-4feb-aefb-e633a8220044", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
-                    { "7bb009b7-c3f7-46f1-ae2a-0e8094f1e99f", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "a7165abf-a570-446f-ba2f-d17b46da9217", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
-                    { "f23b95c1-4e40-491c-9da6-296f3454edb7", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" }
+                    { "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
+                    { "62ee8333-73d6-4eb5-902b-47fa8e6e85e3", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
+                    { "6a8cdf36-e717-4c62-bef6-68e337489672", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
+                    { "81726fdc-c170-4ed9-afe4-84d957401dd4", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
+                    { "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" }
                 });
 
             migrationBuilder.InsertData(

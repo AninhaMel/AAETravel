@@ -445,8 +445,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "22479a7b-263c-4fe4-b75d-763d4e195284", null, "Administrador", "ADMINISTRADOR" },
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", null, "Visitante", "VISITANTE" }
+                    { "84a5edfa-e663-40c8-98ed-3041523534e3", null, "Administrador", "ADMINISTRADOR" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", null, "Visitante", "VISITANTE" }
                 });
 
             migrationBuilder.InsertData(
@@ -454,11 +454,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc", 0, "78aa2562-4ec4-44b3-8e44-59c912efce12", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAENGRAB/ArjDWc8MOyO+aRmZwPGJwlMiYMBXs4bM1KTdARFwEQxMuUJR4Mi6EBRM3Ag==", null, false, "8a8a9048-de49-4fb5-ad69-06dfd91100f0", false, "joao" },
-                    { "62ee8333-73d6-4eb5-902b-47fa8e6e85e3", 0, "a22911ef-aa8a-46bd-816b-83594eeceb43", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEORZcPoKw6132KA+01J4o1zmByB9TJKodgjNNvi750TozdDHATVBmN2fCWCMknkEiA==", null, false, "565998a4-8069-4111-9236-dcb47624b3c3", false, "dametto" },
-                    { "6a8cdf36-e717-4c62-bef6-68e337489672", 0, "f96376e3-a469-4abc-98a7-d397b318d5da", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEL9LD8xplEG+pIPJOP1CjJMjGwg6mxSfmbI6Rr+kaxtPFdWlrG/0q5AW2pEmtrSUbQ==", null, false, "04d520f6-5210-4049-b647-ece7f25879a3", false, "any" },
-                    { "81726fdc-c170-4ed9-afe4-84d957401dd4", 0, "cea6d217-dcb4-43e4-8107-eedb48b1679d", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEA5x6dCcno5UeLXBxoiqY1deRGuOc8Rcc1ADP2GVnusoPmD80VO0J3kIQWb2YiOUCw==", null, false, "21614db8-57ca-4f51-8fc1-575380e4c04e", false, "Eduardo" },
-                    { "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f", 0, "c585388e-8280-4751-b060-e26e8e341c66", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEHY8lPnIcUmrTCgDNUY+Q39y45hDjjXFcFU/8J9eormPJXWx8gR6giEVKp9sZl9x0A==", null, false, "1eb41e7a-a079-47dd-81fb-819dada5a205", false, "ana" }
+                    { "35d5da4a-ee6f-48c3-9b91-d565d75d17b3", 0, "3a676b69-f047-45c4-88f6-3eb4e243d817", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEH25eOLGEpKWbjsj72bP534DDBIjb71Tj88WxT93eUjcgn1SXckjuSIJQZil/slXNg==", null, false, "7d33469c-6e92-454b-958c-48e938d32e0f", false, "ana" },
+                    { "3f3db2bd-8a40-4f45-abcb-1ac07d81746a", 0, "b9bd386a-08ea-48b3-9362-ebf7fc9f11fa", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAEOW+ZnF6BCemTPFQ1Gv7NtoV9PwWYNYOVY9BIn9muprqiSOjzQC9isarar3ZJZSxrA==", null, false, "d800b9d9-976b-47ef-b310-2750d145635f", false, "joao" },
+                    { "b8486a01-17bd-4e14-bf3d-e406a4ad57a9", 0, "01dc24d3-edb2-495d-81ea-a450f0dfe802", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEF1vxc2gQxnn5hGIQCciU2ImgaUnxyA9nK0/dLgkqG2lP49FRYr9PQaijSiMb61GcA==", null, false, "32d728a3-c247-41d2-a0f5-0c4bb973dab2", false, "Eduardo" },
+                    { "c7b55ecd-bf08-479d-bb75-51807321b60a", 0, "799e5eaf-5031-4d9c-b930-25ca3e1c0b8e", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEE8bj26aL3b3y1uhicRP3YesRrt1m8dLte9KY+lR9aBblHAJMXGqNPaRig5XG6V7Bw==", null, false, "112f945e-caef-4d78-870b-f38a5d069985", false, "dametto" },
+                    { "fc22a09b-024f-4a91-89ab-8d226cb0bdfb", 0, "0a3eb839-e1a8-4dc3-8d01-6e8081522007", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEFYzXbBwJRUhGzT4pYOY8U6S1LHm94LxE8uW8qrPpD6h4JbuHo+L812rCwBi9pYsCw==", null, false, "73718bf9-99b4-45c5-8c3e-7538ba17469a", false, "any" }
                 });
 
             migrationBuilder.InsertData(
@@ -506,15 +506,15 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc" },
-                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "62ee8333-73d6-4eb5-902b-47fa8e6e85e3" },
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "62ee8333-73d6-4eb5-902b-47fa8e6e85e3" },
-                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "6a8cdf36-e717-4c62-bef6-68e337489672" },
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "6a8cdf36-e717-4c62-bef6-68e337489672" },
-                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "81726fdc-c170-4ed9-afe4-84d957401dd4" },
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "81726fdc-c170-4ed9-afe4-84d957401dd4" },
-                    { "22479a7b-263c-4fe4-b75d-763d4e195284", "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f" },
-                    { "aae4d008-20f6-4785-9683-d3eb3ce4e010", "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f" }
+                    { "84a5edfa-e663-40c8-98ed-3041523534e3", "35d5da4a-ee6f-48c3-9b91-d565d75d17b3" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", "35d5da4a-ee6f-48c3-9b91-d565d75d17b3" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", "3f3db2bd-8a40-4f45-abcb-1ac07d81746a" },
+                    { "84a5edfa-e663-40c8-98ed-3041523534e3", "b8486a01-17bd-4e14-bf3d-e406a4ad57a9" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", "b8486a01-17bd-4e14-bf3d-e406a4ad57a9" },
+                    { "84a5edfa-e663-40c8-98ed-3041523534e3", "c7b55ecd-bf08-479d-bb75-51807321b60a" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", "c7b55ecd-bf08-479d-bb75-51807321b60a" },
+                    { "84a5edfa-e663-40c8-98ed-3041523534e3", "fc22a09b-024f-4a91-89ab-8d226cb0bdfb" },
+                    { "9218ef5b-ba4c-4924-ac84-b7d99711658c", "fc22a09b-024f-4a91-89ab-8d226cb0bdfb" }
                 });
 
             migrationBuilder.InsertData(
@@ -809,7 +809,43 @@ namespace AAETravel.Migrations
                     { 285, "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.", "", "Diariamente, consulte o site oficial para horários.", -35.302076119326806, "Canberra (Território da Capital Australiana)", 149.12973409632815, " Old Parliament House (Canberra)", 8, "+61 2 6270 8222" },
                     { 286, "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.", "", "Diariamente, 10h00 às 17h00", -35.281008478037741, "Canberra, Território da Capital Australiana", 149.14848634050563, "Australian War Memorial", 8, "+61 2 6243 4211" },
                     { 287, "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.", "", "Diariamente, das 9h às 18h.", -33.871566082771189, "Sydney (Nova Gales do Sul)", 151.20681508462258, "Queen Victoria Building (Sydney)", 8, "+61 2 9265 6800" },
-                    { 288, "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.", "", "Varia de acordo com a época do ano", -43.145487137733632, "Tasmânia", 147.8506213813647, "Port Arthur Historic Site", 8, "+61 (0)3 6251 2310" }
+                    { 288, "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.", "", "Varia de acordo com a época do ano", -43.145487137733632, "Tasmânia", 147.8506213813647, "Port Arthur Historic Site", 8, "+61 (0)3 6251 2310" },
+                    { 289, "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.", "https://www.example.com/seoraksan_national_park.jpg", "Todos os dias da 09:00- 18:00", 38.162040054168628, "Sokcho, Gangwon-do", 128.43547951753388, "Seoraksan National Park", 9, " +82 33-801-0900" },
+                    { 290, "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.", "https://www.example.com/ilha_de_jeju.jpg", "24 horas", 33.381994844092603, "Mar do Sul da Coreia", 126.56739146760108, "Ilha de Jeju", 9, "Não possui" },
+                    { 291, "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.", "https://www.example.com/bukhansan_national_park.jpg", "Todos os dias das 04:00–17:00", 37.619183288027905, "Seul e Gyeonggi-do", 126.99695839666964, "Bukhansan National Park", 9, "Não possui" },
+                    { 292, "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.", "https://www.example.com/gyeongbokgung_palace.jpg", "Todos os dias 09:00–18:00", 35.339839452939394, "Damyang", 127.04863580520106, "Juknokwon", 9, "Não possui" },
+                    { 293, "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.", "https://www.example.com/cheonggyecheon_stream.jpg", "24 horas", 37.571407361070051, "Seul", 126.97883994360866, "Cheonggyecheon Stream", 9, "Não possui" },
+                    { 294, "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.", "https://www.example.com/ulleungdo_island.jpg", "24 horas", 37.508101591795793, "Mar do Leste da Coreia", 130.85698171738426, "Ulleungdo Island", 9, "" },
+                    { 295, "Restaurante de alta gastronomia com pratos coreanos contemporâneos.", "https://www.example.com/myeongdong_food.jpg", " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.", 37.525880264601184, "Seul", 127.04104456015547, "Jungsik Seoul", 9, " +82 2-517-4654" },
+                    { 296, "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.", "https://www.example.com/namdaemun_food.jpg", "Todos os Dias 17:00–00:00", 37.561266653553076, "Seul", 126.9204677408502, "Hangong-Gan", 9, "+821072234247" },
+                    { 297, "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.", "https://www.example.com/gwangjang_market_food.jpg", "Terça a Domindo das 11:30–21:00", 37.551514700472801, "Seul", 126.92417224226679, "Gusto Taco", 9, "+82 2-338-8226" },
+                    { 298, "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).", "https://www.example.com/insadong_restaurant.jpg", "De Terça a Domingo, 12:00–22:00", 37.538975573074808, "Seul", 126.98970825048039, "Copacabana Grill", 9, "+82 2-796-1660" },
+                    { 299, "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.", "https://www.example.com/gangnam_restaurant.jpg", "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.", 36.966148797274222, "Seul", 127.04390477691267, "Braai Republic", 9, " +82 31-657-7580" },
+                    { 300, "Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).", "https://www.example.com/jeju_seafood.jpg", "Segunda-feira a domingo, das 11h às 22h.", 37.568076793506258, "Seoul", 126.98423216079435, "Myeongdong Kyoja", 9, " +82 2-776-5348" },
+                    { 301, "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.", "https://www.example.com/octagon_seoul.jpg", "Varia de acordo com a noite", 37.671613968424538, "Gangnam, Seul", 126.78319992538519, "Octagon", 9, " +821073288182" },
+                    { 302, "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.", "https://www.example.com/ellui_seul.jpg", "Varia de acordo com a noite", 37.526219712374321, "Gangnam, Seul", 127.05424524232673, "Ellui", 9, " +8225188556" },
+                    { 303, "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.", "https://www.example.com/nb2_seoul.jpg", "Varia de acordo com a noite", 37.550977824366974, "Itaewon, Seul", 126.92321046930688, "NB2", 9, " +821085550856" },
+                    { 304, "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.", "https://www.example.com/arena_seoul.jpg", "Varia de acordo com a noite", 37.553065552028634, "Hongdae, Seul", 126.92185292159981, "Hongdae Club Aura", 9, " +821066676460" },
+                    { 305, "Um Local de dança para descontrai e se divertir a noite", "https://www.example.com/masquerade_seul.jpg", "Todods os dias: 20:00–02:00", 937.51750000000004, "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul", 127.0275, "Club Bonita", 1, " +821092183132" },
+                    { 306, "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.", "https://www.example.com/club_fabric_seul.jpg", "Varia de acordo com a noite", 37.537720597792983, "Itaewon, Seul", 126.99454040411936, "Itaewon club Gathering", 9, " +821092123793" },
+                    { 307, "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.", "https://www.example.com/bulguksa_temple.jpg", "Diariamente, 09h00 às 18h00", 35.790334613450185, "Gyeongju, Gyeongsangbuk-do", 129.33206679374007, "Bulguksa Temple", 9, " +82547469913" },
+                    { 308, "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.", "https://www.example.com/seokguram_grotto.jpg", "Diariamente, 09h00 às 18h00", 35.795315316118931, "Gyeongju, Gyeongsangbuk-do", 129.35042241181617, "Seokguram Grotto", 9, " +82547469933" },
+                    { 309, "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.", "https://www.example.com/jongmyo_shrine.jpg", "Diariamente, 09h00 às 18h00", 37.574710520662755, "Seul", 126.99418591189087, "Jongmyo Shrine", 9, " +8227650195" },
+                    { 310, "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.", "https://www.example.com/haedong_yonggungsa_temple.jpg", "Diariamente, 04h00 às 19h00", 35.188629656940748, "Busan", 129.22328750993472, "Haedong Yonggungsa Temple", 9, " +82517227744" },
+                    { 311, "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.", "https://www.example.com/bongeunsa_temple.jpg", "Diariamente, 04h00 às 19h00", 37.515056213325501, "Seul", 127.05728003701194, "Bongeunsa Temple", 9, " +82232184800" },
+                    { 312, "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.", "https://www.example.com/jeongdong_cathedral.jpg", "Diariamente, 09h00 às 18h00", 35.813508477630528, "Seul", 127.14931062716347, "Jeongdong Cathedral", 9, " +82632843222" },
+                    { 313, "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.", "https://www.example.com/myeongdong.jpg", "Varia de loja para loja", 37.560785672420124, "Seul", 126.98585614550366, "Myeongdong", 9, "Não Possui" },
+                    { 314, "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.", "https://www.example.com/namdaemun_market.jpg", "De Segunda a Sabado das 09:00–17:00", 37.559250864567474, "Seul", 126.97761555248368, "Namdaemun Market", 9, "+8227532805" },
+                    { 315, "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.", "https://www.example.com/insadong.jpg", "Varia de loja para loja", 37.571966584843238, "Seul", 126.98614014456358, "Insadong", 9, "Não Possui" },
+                    { 316, "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.", "https://www.example.com/gangnam.jpg", "Varia de loja para loja", 37.503753420280923, "Seul", 127.06245889811935, "Gangnam", 9, "Não Possui" },
+                    { 317, "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.", "https://www.example.com/dongdaemun_design_plaza.jpg", "Diariamente, das 10h às 20h", 37.566657386535091, "Seul", 127.00926651201372, "Dongdaemun Design Plaza (DDP)", 9, "+82221530000" },
+                    { 318, "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.", "https://www.example.com/gwangjang_market.jpg", "Diariamente, das 10h às 22h", 37.570839149843785, "Seul", 126.99973234706955, "Mercado de Gwangjang", 9, "Não Possui" },
+                    { 319, "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.", "https://www.example.com/gyeongbokgung_palace.jpg", "Diariamente, 09h00 às 18h00", 37.579753014697339, "Seul", 126.97694443701472, "Gyeongbokgung Palace", 9, " +82237003900" },
+                    { 320, "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.", "https://www.example.com/bukchon_hanok_village.jpg", "Aberto 24 horas", 37.581694907138093, "Seul", 126.98494116748547, "Bukchon Hanok Village", 9, " +82221331371" },
+                    { 321, "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.", "https://www.example.com/gyeongju_historic_area.jpg", "Varia de local para local", 35.834269819304161, "Gyeongju, Gyeongsangbuk-do", 129.21686418298106, "Gyeongju Historic Area", 9, " +82547798742" },
+                    { 322, "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.", "https://www.example.com/national_museum_of_korea.jpg", "Diariamente, 10h00 às 18h00", 37.524088824745704, "Seul", 126.98055602723529, "National Museum of Korea", 9, " +82220779000" },
+                    { 323, "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.", "https://www.example.com/dmz.jpg", "Varia de acordo com a excursão", 38.360230188077217, "Fronteira entre a Coreia do Sul e a Coreia do Norte", 127.47325686815884, "DMZ (Zona Desmilitarizada)", 9, " Não tem" },
+                    { 324, "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.", "https://www.example.com/jeonju_hanok_village.jpg", "Aberto 24 horas", 35.817798567596171, "Jeonju, Jeollabuk-do", 127.15204169647048, "Jeonju Hanok Village", 9, " +82632821330" }
                 });
 
             migrationBuilder.InsertData(
@@ -817,11 +853,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
-                    { "62ee8333-73d6-4eb5-902b-47fa8e6e85e3", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
-                    { "6a8cdf36-e717-4c62-bef6-68e337489672", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
-                    { "81726fdc-c170-4ed9-afe4-84d957401dd4", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" }
+                    { "35d5da4a-ee6f-48c3-9b91-d565d75d17b3", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
+                    { "3f3db2bd-8a40-4f45-abcb-1ac07d81746a", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
+                    { "b8486a01-17bd-4e14-bf3d-e406a4ad57a9", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
+                    { "c7b55ecd-bf08-479d-bb75-51807321b60a", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
+                    { "fc22a09b-024f-4a91-89ab-8d226cb0bdfb", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" }
                 });
 
             migrationBuilder.InsertData(
@@ -877,6 +913,12 @@ namespace AAETravel.Migrations
                     { 1, 256 },
                     { 1, 257 },
                     { 1, 258 },
+                    { 1, 289 },
+                    { 1, 290 },
+                    { 1, 291 },
+                    { 1, 292 },
+                    { 1, 293 },
+                    { 1, 294 },
                     { 2, 7 },
                     { 2, 8 },
                     { 2, 9 },
@@ -925,6 +967,12 @@ namespace AAETravel.Migrations
                     { 2, 262 },
                     { 2, 263 },
                     { 2, 264 },
+                    { 2, 295 },
+                    { 2, 296 },
+                    { 2, 297 },
+                    { 2, 298 },
+                    { 2, 299 },
+                    { 2, 300 },
                     { 3, 13 },
                     { 3, 14 },
                     { 3, 15 },
@@ -973,6 +1021,12 @@ namespace AAETravel.Migrations
                     { 3, 268 },
                     { 3, 269 },
                     { 3, 270 },
+                    { 3, 301 },
+                    { 3, 302 },
+                    { 3, 303 },
+                    { 3, 304 },
+                    { 3, 305 },
+                    { 3, 306 },
                     { 4, 19 },
                     { 4, 20 },
                     { 4, 21 },
@@ -1022,6 +1076,12 @@ namespace AAETravel.Migrations
                     { 4, 275 },
                     { 4, 276 },
                     { 4, 277 },
+                    { 4, 307 },
+                    { 4, 308 },
+                    { 4, 309 },
+                    { 4, 310 },
+                    { 4, 311 },
+                    { 4, 312 },
                     { 5, 25 },
                     { 5, 26 },
                     { 5, 27 },
@@ -1069,6 +1129,12 @@ namespace AAETravel.Migrations
                     { 5, 280 },
                     { 5, 281 },
                     { 5, 282 },
+                    { 5, 313 },
+                    { 5, 314 },
+                    { 5, 315 },
+                    { 5, 316 },
+                    { 5, 317 },
+                    { 5, 318 },
                     { 6, 31 },
                     { 6, 32 },
                     { 6, 33 },
@@ -1116,7 +1182,13 @@ namespace AAETravel.Migrations
                     { 6, 285 },
                     { 6, 286 },
                     { 6, 287 },
-                    { 6, 288 }
+                    { 6, 288 },
+                    { 6, 319 },
+                    { 6, 320 },
+                    { 6, 321 },
+                    { 6, 322 },
+                    { 6, 323 },
+                    { 6, 324 }
                 });
 
             migrationBuilder.CreateIndex(

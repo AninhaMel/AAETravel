@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AAETravel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241014175614_AAETravelfirst")]
+    [Migration("20241015201434_AAETravelfirst")]
     partial class AAETravelfirst
     {
         /// <inheritdoc />
@@ -1720,6 +1720,186 @@ namespace AAETravel.Migrations
                         {
                             ExperienciaId = 6,
                             LocalId = 288
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 289
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 290
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 291
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 292
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 293
+                        },
+                        new
+                        {
+                            ExperienciaId = 1,
+                            LocalId = 294
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 295
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 296
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 297
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 298
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 299
+                        },
+                        new
+                        {
+                            ExperienciaId = 2,
+                            LocalId = 300
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 301
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 302
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 303
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 304
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 305
+                        },
+                        new
+                        {
+                            ExperienciaId = 3,
+                            LocalId = 306
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 307
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 308
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 309
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 310
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 311
+                        },
+                        new
+                        {
+                            ExperienciaId = 4,
+                            LocalId = 312
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 313
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 314
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 315
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 316
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 317
+                        },
+                        new
+                        {
+                            ExperienciaId = 5,
+                            LocalId = 318
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 319
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 320
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 321
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 322
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 323
+                        },
+                        new
+                        {
+                            ExperienciaId = 6,
+                            LocalId = 324
                         });
                 });
 
@@ -5534,6 +5714,474 @@ namespace AAETravel.Migrations
                             Nome = "Port Arthur Historic Site",
                             PaisId = 8,
                             Telefone = "+61 (0)3 6251 2310"
+                        },
+                        new
+                        {
+                            Id = 289,
+                            Descricao = "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.",
+                            Foto = "https://www.example.com/seoraksan_national_park.jpg",
+                            HorarioFuncionamento = "Todos os dias da 09:00- 18:00",
+                            Latitude = 38.162040054168628,
+                            Localizacao = "Sokcho, Gangwon-do",
+                            Longitude = 128.43547951753388,
+                            Nome = "Seoraksan National Park",
+                            PaisId = 9,
+                            Telefone = " +82 33-801-0900"
+                        },
+                        new
+                        {
+                            Id = 290,
+                            Descricao = "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.",
+                            Foto = "https://www.example.com/ilha_de_jeju.jpg",
+                            HorarioFuncionamento = "24 horas",
+                            Latitude = 33.381994844092603,
+                            Localizacao = "Mar do Sul da Coreia",
+                            Longitude = 126.56739146760108,
+                            Nome = "Ilha de Jeju",
+                            PaisId = 9,
+                            Telefone = "Não possui"
+                        },
+                        new
+                        {
+                            Id = 291,
+                            Descricao = "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.",
+                            Foto = "https://www.example.com/bukhansan_national_park.jpg",
+                            HorarioFuncionamento = "Todos os dias das 04:00–17:00",
+                            Latitude = 37.619183288027905,
+                            Localizacao = "Seul e Gyeonggi-do",
+                            Longitude = 126.99695839666964,
+                            Nome = "Bukhansan National Park",
+                            PaisId = 9,
+                            Telefone = "Não possui"
+                        },
+                        new
+                        {
+                            Id = 292,
+                            Descricao = "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.",
+                            Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+                            HorarioFuncionamento = "Todos os dias 09:00–18:00",
+                            Latitude = 35.339839452939394,
+                            Localizacao = "Damyang",
+                            Longitude = 127.04863580520106,
+                            Nome = "Juknokwon",
+                            PaisId = 9,
+                            Telefone = "Não possui"
+                        },
+                        new
+                        {
+                            Id = 293,
+                            Descricao = "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.",
+                            Foto = "https://www.example.com/cheonggyecheon_stream.jpg",
+                            HorarioFuncionamento = "24 horas",
+                            Latitude = 37.571407361070051,
+                            Localizacao = "Seul",
+                            Longitude = 126.97883994360866,
+                            Nome = "Cheonggyecheon Stream",
+                            PaisId = 9,
+                            Telefone = "Não possui"
+                        },
+                        new
+                        {
+                            Id = 294,
+                            Descricao = "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.",
+                            Foto = "https://www.example.com/ulleungdo_island.jpg",
+                            HorarioFuncionamento = "24 horas",
+                            Latitude = 37.508101591795793,
+                            Localizacao = "Mar do Leste da Coreia",
+                            Longitude = 130.85698171738426,
+                            Nome = "Ulleungdo Island",
+                            PaisId = 9,
+                            Telefone = ""
+                        },
+                        new
+                        {
+                            Id = 295,
+                            Descricao = "Restaurante de alta gastronomia com pratos coreanos contemporâneos.",
+                            Foto = "https://www.example.com/myeongdong_food.jpg",
+                            HorarioFuncionamento = " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.",
+                            Latitude = 37.525880264601184,
+                            Localizacao = "Seul",
+                            Longitude = 127.04104456015547,
+                            Nome = "Jungsik Seoul",
+                            PaisId = 9,
+                            Telefone = " +82 2-517-4654"
+                        },
+                        new
+                        {
+                            Id = 296,
+                            Descricao = "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.",
+                            Foto = "https://www.example.com/namdaemun_food.jpg",
+                            HorarioFuncionamento = "Todos os Dias 17:00–00:00",
+                            Latitude = 37.561266653553076,
+                            Localizacao = "Seul",
+                            Longitude = 126.9204677408502,
+                            Nome = "Hangong-Gan",
+                            PaisId = 9,
+                            Telefone = "+821072234247"
+                        },
+                        new
+                        {
+                            Id = 297,
+                            Descricao = "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.",
+                            Foto = "https://www.example.com/gwangjang_market_food.jpg",
+                            HorarioFuncionamento = "Terça a Domindo das 11:30–21:00",
+                            Latitude = 37.551514700472801,
+                            Localizacao = "Seul",
+                            Longitude = 126.92417224226679,
+                            Nome = "Gusto Taco",
+                            PaisId = 9,
+                            Telefone = "+82 2-338-8226"
+                        },
+                        new
+                        {
+                            Id = 298,
+                            Descricao = "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).",
+                            Foto = "https://www.example.com/insadong_restaurant.jpg",
+                            HorarioFuncionamento = "De Terça a Domingo, 12:00–22:00",
+                            Latitude = 37.538975573074808,
+                            Localizacao = "Seul",
+                            Longitude = 126.98970825048039,
+                            Nome = "Copacabana Grill",
+                            PaisId = 9,
+                            Telefone = "+82 2-796-1660"
+                        },
+                        new
+                        {
+                            Id = 299,
+                            Descricao = "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.",
+                            Foto = "https://www.example.com/gangnam_restaurant.jpg",
+                            HorarioFuncionamento = "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.",
+                            Latitude = 36.966148797274222,
+                            Localizacao = "Seul",
+                            Longitude = 127.04390477691267,
+                            Nome = "Braai Republic",
+                            PaisId = 9,
+                            Telefone = " +82 31-657-7580"
+                        },
+                        new
+                        {
+                            Id = 300,
+                            Descricao = "Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).",
+                            Foto = "https://www.example.com/jeju_seafood.jpg",
+                            HorarioFuncionamento = "Segunda-feira a domingo, das 11h às 22h.",
+                            Latitude = 37.568076793506258,
+                            Localizacao = "Seoul",
+                            Longitude = 126.98423216079435,
+                            Nome = "Myeongdong Kyoja",
+                            PaisId = 9,
+                            Telefone = " +82 2-776-5348"
+                        },
+                        new
+                        {
+                            Id = 301,
+                            Descricao = "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.",
+                            Foto = "https://www.example.com/octagon_seoul.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a noite",
+                            Latitude = 37.671613968424538,
+                            Localizacao = "Gangnam, Seul",
+                            Longitude = 126.78319992538519,
+                            Nome = "Octagon",
+                            PaisId = 9,
+                            Telefone = " +821073288182"
+                        },
+                        new
+                        {
+                            Id = 302,
+                            Descricao = "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.",
+                            Foto = "https://www.example.com/ellui_seul.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a noite",
+                            Latitude = 37.526219712374321,
+                            Localizacao = "Gangnam, Seul",
+                            Longitude = 127.05424524232673,
+                            Nome = "Ellui",
+                            PaisId = 9,
+                            Telefone = " +8225188556"
+                        },
+                        new
+                        {
+                            Id = 303,
+                            Descricao = "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.",
+                            Foto = "https://www.example.com/nb2_seoul.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a noite",
+                            Latitude = 37.550977824366974,
+                            Localizacao = "Itaewon, Seul",
+                            Longitude = 126.92321046930688,
+                            Nome = "NB2",
+                            PaisId = 9,
+                            Telefone = " +821085550856"
+                        },
+                        new
+                        {
+                            Id = 304,
+                            Descricao = "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.",
+                            Foto = "https://www.example.com/arena_seoul.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a noite",
+                            Latitude = 37.553065552028634,
+                            Localizacao = "Hongdae, Seul",
+                            Longitude = 126.92185292159981,
+                            Nome = "Hongdae Club Aura",
+                            PaisId = 9,
+                            Telefone = " +821066676460"
+                        },
+                        new
+                        {
+                            Id = 305,
+                            Descricao = "Um Local de dança para descontrai e se divertir a noite",
+                            Foto = "https://www.example.com/masquerade_seul.jpg",
+                            HorarioFuncionamento = "Todods os dias: 20:00–02:00",
+                            Latitude = 937.51750000000004,
+                            Localizacao = "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul",
+                            Longitude = 127.0275,
+                            Nome = "Club Bonita",
+                            PaisId = 1,
+                            Telefone = " +821092183132"
+                        },
+                        new
+                        {
+                            Id = 306,
+                            Descricao = "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.",
+                            Foto = "https://www.example.com/club_fabric_seul.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a noite",
+                            Latitude = 37.537720597792983,
+                            Localizacao = "Itaewon, Seul",
+                            Longitude = 126.99454040411936,
+                            Nome = "Itaewon club Gathering",
+                            PaisId = 9,
+                            Telefone = " +821092123793"
+                        },
+                        new
+                        {
+                            Id = 307,
+                            Descricao = "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.",
+                            Foto = "https://www.example.com/bulguksa_temple.jpg",
+                            HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
+                            Latitude = 35.790334613450185,
+                            Localizacao = "Gyeongju, Gyeongsangbuk-do",
+                            Longitude = 129.33206679374007,
+                            Nome = "Bulguksa Temple",
+                            PaisId = 9,
+                            Telefone = " +82547469913"
+                        },
+                        new
+                        {
+                            Id = 308,
+                            Descricao = "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.",
+                            Foto = "https://www.example.com/seokguram_grotto.jpg",
+                            HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
+                            Latitude = 35.795315316118931,
+                            Localizacao = "Gyeongju, Gyeongsangbuk-do",
+                            Longitude = 129.35042241181617,
+                            Nome = "Seokguram Grotto",
+                            PaisId = 9,
+                            Telefone = " +82547469933"
+                        },
+                        new
+                        {
+                            Id = 309,
+                            Descricao = "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.",
+                            Foto = "https://www.example.com/jongmyo_shrine.jpg",
+                            HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
+                            Latitude = 37.574710520662755,
+                            Localizacao = "Seul",
+                            Longitude = 126.99418591189087,
+                            Nome = "Jongmyo Shrine",
+                            PaisId = 9,
+                            Telefone = " +8227650195"
+                        },
+                        new
+                        {
+                            Id = 310,
+                            Descricao = "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.",
+                            Foto = "https://www.example.com/haedong_yonggungsa_temple.jpg",
+                            HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
+                            Latitude = 35.188629656940748,
+                            Localizacao = "Busan",
+                            Longitude = 129.22328750993472,
+                            Nome = "Haedong Yonggungsa Temple",
+                            PaisId = 9,
+                            Telefone = " +82517227744"
+                        },
+                        new
+                        {
+                            Id = 311,
+                            Descricao = "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.",
+                            Foto = "https://www.example.com/bongeunsa_temple.jpg",
+                            HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
+                            Latitude = 37.515056213325501,
+                            Localizacao = "Seul",
+                            Longitude = 127.05728003701194,
+                            Nome = "Bongeunsa Temple",
+                            PaisId = 9,
+                            Telefone = " +82232184800"
+                        },
+                        new
+                        {
+                            Id = 312,
+                            Descricao = "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.",
+                            Foto = "https://www.example.com/jeongdong_cathedral.jpg",
+                            HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
+                            Latitude = 35.813508477630528,
+                            Localizacao = "Seul",
+                            Longitude = 127.14931062716347,
+                            Nome = "Jeongdong Cathedral",
+                            PaisId = 9,
+                            Telefone = " +82632843222"
+                        },
+                        new
+                        {
+                            Id = 313,
+                            Descricao = "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.",
+                            Foto = "https://www.example.com/myeongdong.jpg",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = 37.560785672420124,
+                            Localizacao = "Seul",
+                            Longitude = 126.98585614550366,
+                            Nome = "Myeongdong",
+                            PaisId = 9,
+                            Telefone = "Não Possui"
+                        },
+                        new
+                        {
+                            Id = 314,
+                            Descricao = "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.",
+                            Foto = "https://www.example.com/namdaemun_market.jpg",
+                            HorarioFuncionamento = "De Segunda a Sabado das 09:00–17:00",
+                            Latitude = 37.559250864567474,
+                            Localizacao = "Seul",
+                            Longitude = 126.97761555248368,
+                            Nome = "Namdaemun Market",
+                            PaisId = 9,
+                            Telefone = "+8227532805"
+                        },
+                        new
+                        {
+                            Id = 315,
+                            Descricao = "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.",
+                            Foto = "https://www.example.com/insadong.jpg",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = 37.571966584843238,
+                            Localizacao = "Seul",
+                            Longitude = 126.98614014456358,
+                            Nome = "Insadong",
+                            PaisId = 9,
+                            Telefone = "Não Possui"
+                        },
+                        new
+                        {
+                            Id = 316,
+                            Descricao = "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.",
+                            Foto = "https://www.example.com/gangnam.jpg",
+                            HorarioFuncionamento = "Varia de loja para loja",
+                            Latitude = 37.503753420280923,
+                            Localizacao = "Seul",
+                            Longitude = 127.06245889811935,
+                            Nome = "Gangnam",
+                            PaisId = 9,
+                            Telefone = "Não Possui"
+                        },
+                        new
+                        {
+                            Id = 317,
+                            Descricao = "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.",
+                            Foto = "https://www.example.com/dongdaemun_design_plaza.jpg",
+                            HorarioFuncionamento = "Diariamente, das 10h às 20h",
+                            Latitude = 37.566657386535091,
+                            Localizacao = "Seul",
+                            Longitude = 127.00926651201372,
+                            Nome = "Dongdaemun Design Plaza (DDP)",
+                            PaisId = 9,
+                            Telefone = "+82221530000"
+                        },
+                        new
+                        {
+                            Id = 318,
+                            Descricao = "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.",
+                            Foto = "https://www.example.com/gwangjang_market.jpg",
+                            HorarioFuncionamento = "Diariamente, das 10h às 22h",
+                            Latitude = 37.570839149843785,
+                            Localizacao = "Seul",
+                            Longitude = 126.99973234706955,
+                            Nome = "Mercado de Gwangjang",
+                            PaisId = 9,
+                            Telefone = "Não Possui"
+                        },
+                        new
+                        {
+                            Id = 319,
+                            Descricao = "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.",
+                            Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+                            HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
+                            Latitude = 37.579753014697339,
+                            Localizacao = "Seul",
+                            Longitude = 126.97694443701472,
+                            Nome = "Gyeongbokgung Palace",
+                            PaisId = 9,
+                            Telefone = " +82237003900"
+                        },
+                        new
+                        {
+                            Id = 320,
+                            Descricao = "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.",
+                            Foto = "https://www.example.com/bukchon_hanok_village.jpg",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = 37.581694907138093,
+                            Localizacao = "Seul",
+                            Longitude = 126.98494116748547,
+                            Nome = "Bukchon Hanok Village",
+                            PaisId = 9,
+                            Telefone = " +82221331371"
+                        },
+                        new
+                        {
+                            Id = 321,
+                            Descricao = "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.",
+                            Foto = "https://www.example.com/gyeongju_historic_area.jpg",
+                            HorarioFuncionamento = "Varia de local para local",
+                            Latitude = 35.834269819304161,
+                            Localizacao = "Gyeongju, Gyeongsangbuk-do",
+                            Longitude = 129.21686418298106,
+                            Nome = "Gyeongju Historic Area",
+                            PaisId = 9,
+                            Telefone = " +82547798742"
+                        },
+                        new
+                        {
+                            Id = 322,
+                            Descricao = "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.",
+                            Foto = "https://www.example.com/national_museum_of_korea.jpg",
+                            HorarioFuncionamento = "Diariamente, 10h00 às 18h00",
+                            Latitude = 37.524088824745704,
+                            Localizacao = "Seul",
+                            Longitude = 126.98055602723529,
+                            Nome = "National Museum of Korea",
+                            PaisId = 9,
+                            Telefone = " +82220779000"
+                        },
+                        new
+                        {
+                            Id = 323,
+                            Descricao = "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.",
+                            Foto = "https://www.example.com/dmz.jpg",
+                            HorarioFuncionamento = "Varia de acordo com a excursão",
+                            Latitude = 38.360230188077217,
+                            Localizacao = "Fronteira entre a Coreia do Sul e a Coreia do Norte",
+                            Longitude = 127.47325686815884,
+                            Nome = "DMZ (Zona Desmilitarizada)",
+                            PaisId = 9,
+                            Telefone = " Não tem"
+                        },
+                        new
+                        {
+                            Id = 324,
+                            Descricao = "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.",
+                            Foto = "https://www.example.com/jeonju_hanok_village.jpg",
+                            HorarioFuncionamento = "Aberto 24 horas",
+                            Latitude = 35.817798567596171,
+                            Localizacao = "Jeonju, Jeollabuk-do",
+                            Longitude = 127.15204169647048,
+                            Nome = "Jeonju Hanok Village",
+                            PaisId = 9,
+                            Telefone = " +82632821330"
                         });
                 });
 
@@ -5679,7 +6327,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
+                            UsuarioId = "b8486a01-17bd-4e14-bf3d-e406a4ad57a9",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -5688,7 +6336,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
+                            UsuarioId = "35d5da4a-ee6f-48c3-9b91-d565d75d17b3",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -5697,7 +6345,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
+                            UsuarioId = "c7b55ecd-bf08-479d-bb75-51807321b60a",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -5706,7 +6354,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "6a8cdf36-e717-4c62-bef6-68e337489672",
+                            UsuarioId = "fc22a09b-024f-4a91-89ab-8d226cb0bdfb",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -5715,7 +6363,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
+                            UsuarioId = "3f3db2bd-8a40-4f45-abcb-1ac07d81746a",
                             Cidade = "Mundo Afora",
                             Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
                             Foto = "/img/User/Joao.jpg",
@@ -5752,13 +6400,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "22479a7b-263c-4fe4-b75d-763d4e195284",
+                            Id = "84a5edfa-e663-40c8-98ed-3041523534e3",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "aae4d008-20f6-4785-9683-d3eb3ce4e010",
+                            Id = "9218ef5b-ba4c-4924-ac84-b7d99711658c",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -5855,81 +6503,81 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "81726fdc-c170-4ed9-afe4-84d957401dd4",
+                            Id = "b8486a01-17bd-4e14-bf3d-e406a4ad57a9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cea6d217-dcb4-43e4-8107-eedb48b1679d",
+                            ConcurrencyStamp = "01dc24d3-edb2-495d-81ea-a450f0dfe802",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEA5x6dCcno5UeLXBxoiqY1deRGuOc8Rcc1ADP2GVnusoPmD80VO0J3kIQWb2YiOUCw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEF1vxc2gQxnn5hGIQCciU2ImgaUnxyA9nK0/dLgkqG2lP49FRYr9PQaijSiMb61GcA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "21614db8-57ca-4f51-8fc1-575380e4c04e",
+                            SecurityStamp = "32d728a3-c247-41d2-a0f5-0c4bb973dab2",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
+                            Id = "35d5da4a-ee6f-48c3-9b91-d565d75d17b3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c585388e-8280-4751-b060-e26e8e341c66",
+                            ConcurrencyStamp = "3a676b69-f047-45c4-88f6-3eb4e243d817",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHY8lPnIcUmrTCgDNUY+Q39y45hDjjXFcFU/8J9eormPJXWx8gR6giEVKp9sZl9x0A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH25eOLGEpKWbjsj72bP534DDBIjb71Tj88WxT93eUjcgn1SXckjuSIJQZil/slXNg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1eb41e7a-a079-47dd-81fb-819dada5a205",
+                            SecurityStamp = "7d33469c-6e92-454b-958c-48e938d32e0f",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
+                            Id = "c7b55ecd-bf08-479d-bb75-51807321b60a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a22911ef-aa8a-46bd-816b-83594eeceb43",
+                            ConcurrencyStamp = "799e5eaf-5031-4d9c-b930-25ca3e1c0b8e",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEORZcPoKw6132KA+01J4o1zmByB9TJKodgjNNvi750TozdDHATVBmN2fCWCMknkEiA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE8bj26aL3b3y1uhicRP3YesRrt1m8dLte9KY+lR9aBblHAJMXGqNPaRig5XG6V7Bw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "565998a4-8069-4111-9236-dcb47624b3c3",
+                            SecurityStamp = "112f945e-caef-4d78-870b-f38a5d069985",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "6a8cdf36-e717-4c62-bef6-68e337489672",
+                            Id = "fc22a09b-024f-4a91-89ab-8d226cb0bdfb",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f96376e3-a469-4abc-98a7-d397b318d5da",
+                            ConcurrencyStamp = "0a3eb839-e1a8-4dc3-8d01-6e8081522007",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEL9LD8xplEG+pIPJOP1CjJMjGwg6mxSfmbI6Rr+kaxtPFdWlrG/0q5AW2pEmtrSUbQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFYzXbBwJRUhGzT4pYOY8U6S1LHm94LxE8uW8qrPpD6h4JbuHo+L812rCwBi9pYsCw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "04d520f6-5210-4049-b647-ece7f25879a3",
+                            SecurityStamp = "73718bf9-99b4-45c5-8c3e-7538ba17469a",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         },
                         new
                         {
-                            Id = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
+                            Id = "3f3db2bd-8a40-4f45-abcb-1ac07d81746a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "78aa2562-4ec4-44b3-8e44-59c912efce12",
+                            ConcurrencyStamp = "b9bd386a-08ea-48b3-9362-ebf7fc9f11fa",
                             Email = "joaosouza@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
                             NormalizedUserName = "JOAO",
-                            PasswordHash = "AQAAAAIAAYagAAAAENGRAB/ArjDWc8MOyO+aRmZwPGJwlMiYMBXs4bM1KTdARFwEQxMuUJR4Mi6EBRM3Ag==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOW+ZnF6BCemTPFQ1Gv7NtoV9PwWYNYOVY9BIn9muprqiSOjzQC9isarar3ZJZSxrA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8a8a9048-de49-4fb5-ad69-06dfd91100f0",
+                            SecurityStamp = "d800b9d9-976b-47ef-b310-2750d145635f",
                             TwoFactorEnabled = false,
                             UserName = "joao"
                         });
@@ -5999,48 +6647,48 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
-                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
+                            UserId = "b8486a01-17bd-4e14-bf3d-e406a4ad57a9",
+                            RoleId = "84a5edfa-e663-40c8-98ed-3041523534e3"
                         },
                         new
                         {
-                            UserId = "81726fdc-c170-4ed9-afe4-84d957401dd4",
-                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                            UserId = "b8486a01-17bd-4e14-bf3d-e406a4ad57a9",
+                            RoleId = "9218ef5b-ba4c-4924-ac84-b7d99711658c"
                         },
                         new
                         {
-                            UserId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
-                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
+                            UserId = "35d5da4a-ee6f-48c3-9b91-d565d75d17b3",
+                            RoleId = "84a5edfa-e663-40c8-98ed-3041523534e3"
                         },
                         new
                         {
-                            UserId = "c7d075a6-ab2c-4c8c-b4c7-2314546c0d9f",
-                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                            UserId = "35d5da4a-ee6f-48c3-9b91-d565d75d17b3",
+                            RoleId = "9218ef5b-ba4c-4924-ac84-b7d99711658c"
                         },
                         new
                         {
-                            UserId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
-                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
+                            UserId = "c7b55ecd-bf08-479d-bb75-51807321b60a",
+                            RoleId = "84a5edfa-e663-40c8-98ed-3041523534e3"
                         },
                         new
                         {
-                            UserId = "62ee8333-73d6-4eb5-902b-47fa8e6e85e3",
-                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                            UserId = "c7b55ecd-bf08-479d-bb75-51807321b60a",
+                            RoleId = "9218ef5b-ba4c-4924-ac84-b7d99711658c"
                         },
                         new
                         {
-                            UserId = "6a8cdf36-e717-4c62-bef6-68e337489672",
-                            RoleId = "22479a7b-263c-4fe4-b75d-763d4e195284"
+                            UserId = "fc22a09b-024f-4a91-89ab-8d226cb0bdfb",
+                            RoleId = "84a5edfa-e663-40c8-98ed-3041523534e3"
                         },
                         new
                         {
-                            UserId = "6a8cdf36-e717-4c62-bef6-68e337489672",
-                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                            UserId = "fc22a09b-024f-4a91-89ab-8d226cb0bdfb",
+                            RoleId = "9218ef5b-ba4c-4924-ac84-b7d99711658c"
                         },
                         new
                         {
-                            UserId = "1dfe3e8c-d26d-4627-8f3f-3bb9cae353fc",
-                            RoleId = "aae4d008-20f6-4785-9683-d3eb3ce4e010"
+                            UserId = "3f3db2bd-8a40-4f45-abcb-1ac07d81746a",
+                            RoleId = "9218ef5b-ba4c-4924-ac84-b7d99711658c"
                         });
                 });
 

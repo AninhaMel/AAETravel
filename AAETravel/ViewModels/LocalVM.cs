@@ -9,4 +9,5 @@ public class LocalVM
     public Experiencia Experiencias { get; set; }
     public Local Locais { get; set; }
     public List<Lista> Lista { get; set; }
+    public bool Favoritado { get; set; } = false;
 }

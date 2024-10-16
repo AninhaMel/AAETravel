@@ -15,7 +15,7 @@
     <header id="header">
         <a class="voltar" asp-action="Experiencia" asp-route-pais="@Model.PaisId"
             asp-route-experiencia="@Model.ExperienciaId">
-            <i class="bi bi-box-arrow-left"></i>
+            <i class='bi bi-box-arrow-left'></i>
             Voltar
         </a>
         <a style="height: 100%;" asp-action="Index" asp-controller="Home">
@@ -38,9 +38,12 @@
             </div>
             <div class="descricao">
                 <h3>Mais informações do local:
-                    <form id="favoritarForm" data-local-id="@Model.Locais.Id">
-                        <button type="button" id="favoritarBtn" class="btn btn-primary">
-                            <i class="bi bi-heart-fill" id="favoritarIcon"></i>
+                    <form asp-action="Favoritar" id="favoritarForm">
+                        <div id="msg"></div>
+                        <input type="hidden" name="localId" value="@Model.Locais.Id">
+                        <input type="hidden" name="experienciaId" value="@Model.ExperienciaId">
+                        <button type="submit" id="favoritarBtn" class="btn btn-primary">
+                            <i class='bi bi-heart-fill @(Model.Favoritado ? "icon-red" : "")' id="favoritarIcon"></i>
                         </button>
                     </form>
 
@@ -175,48 +178,52 @@
     // Estilo do mapa (pode ser preenchido com estilos personalizados)
     const mapStyle = [];
 
-    // Função para inicializar o mapa
-    async function initMap() {
-        // Importando bibliotecas necessárias do Google Maps
-        const { Map, Marker } = await google.maps.importLibrary("maps");
-
-        // Garantindo que latitude e longitude sejam corretamente convertidas para números
-        const latitude = parseFloat("@Model.Locais.Latitude".replace(",", "."));
-        const longitude = parseFloat("@Model.Locais.Longitude".replace(",", "."));
-
-        // Exibindo valores no console para verificar se estão corretos
-        console.log("Latitude:", latitude);
-        console.log("Longitude:", longitude);
-
-        // Inicializando o mapa com as coordenadas corretas e o nível de zoom ajustado
-        map = new Map(document.getElementById("map"), {
-            center: { lat: latitude, lng: longitude }, // Centraliza no local correto
-            zoom: 16, // Define um zoom mais próximo do local
-            styles: mapStyle  // Aplicando estilos (mesmo vazio no momento)
-        });
-
-        // Verificando se as coordenadas são válidas antes de adicionar o marcador
-        if (!isNaN(latitude) && !isNaN(longitude)) {
-            // Adicionando marcador no mapa no local indicado pelas coordenadas
-            const marker = new Marker({
-                position: { lat: latitude, lng: longitude },
-                map: map,
-                title: "Localização Específica"
-            });
-
-            console.log("Marcador adicionado com sucesso!");
-        } else {
-            console.error("Coordenadas inválidas: Latitude ou Longitude não são números.");
-        }
-    }
-
     // Função para executar o código quando a página estiver pronta
     $(document).ready(function () {
         // Ação para o botão de favoritar
         $('#favoritarBtn').click(function () {
             // Alterna a cor do ícone de favoritar ao clicar
-            $('#favoritarIcon').toggleClass('icon-red');
+            var url = "/Home/Favoritar";
+            var localid = $("#localId").val();
+            var experienciaid = $("#experienciaId").val();
+            $.post(url, { localId: localid, experienciaId: experienciaid }, function (data) {
+            });
         });
+
+        // Função para inicializar o mapa
+        async function initMap() {
+            // Importando bibliotecas necessárias do Google Maps
+            const { Map, Marker } = await google.maps.importLibrary("maps");
+
+            // Garantindo que latitude e longitude sejam corretamente convertidas para números
+            const latitude = parseFloat("@Model.Locais.Latitude".replace(",", "."));
+            const longitude = parseFloat("@Model.Locais.Longitude".replace(",", "."));
+
+            // Exibindo valores no console para verificar se estão corretos
+            console.log("Latitude:", latitude);
+            console.log("Longitude:", longitude);
+
+            // Inicializando o mapa com as coordenadas corretas e o nível de zoom ajustado
+            map = new Map(document.getElementById("map"), {
+                center: { lat: latitude, lng: longitude }, // Centraliza no local correto
+                zoom: 16, // Define um zoom mais próximo do local
+                styles: mapStyle  // Aplicando estilos (mesmo vazio no momento)
+            });
+
+            // Verificando se as coordenadas são válidas antes de adicionar o marcador
+            if (!isNaN(latitude) && !isNaN(longitude)) {
+                // Adicionando marcador no mapa no local indicado pelas coordenadas
+                const marker = new Marker({
+                    position: { lat: latitude, lng: longitude },
+                    map: map,
+                    title: "Localização Específica"
+                });
+
+                console.log("Marcador adicionado com sucesso!");
+            } else {
+                console.error("Coordenadas inválidas: Latitude ou Longitude não são números.");
+            }
+        }
     });
 
 </script>

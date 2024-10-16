@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AAETravel.Migrations
 {
     /// <inheritdoc />
-    public partial class AAEfirst : Migration
+    public partial class criarBanco : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -44,7 +44,7 @@ namespace AAETravel.Migrations
                 name: "AspNetRoles",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Name = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -63,7 +63,7 @@ namespace AAETravel.Migrations
                 name: "AspNetUsers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UserName = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -167,7 +167,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -192,7 +192,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -215,13 +215,13 @@ namespace AAETravel.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ProviderKey = table.Column<string>(type: "varchar(95)", nullable: false)
+                    ProviderKey = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ProviderDisplayName = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -240,9 +240,9 @@ namespace AAETravel.Migrations
                 name: "AspNetUserRoles",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -267,11 +267,11 @@ namespace AAETravel.Migrations
                 name: "AspNetUserTokens",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Name = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Name = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Value = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -292,7 +292,7 @@ namespace AAETravel.Migrations
                 name: "Usuario",
                 columns: table => new
                 {
-                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nome = table.Column<string>(type: "varchar(60)", maxLength: 60, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -406,9 +406,8 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    DataCadastro = table.Column<string>(type: "longtext", nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: true)
+                    DataCadastro = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     LocalId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -445,8 +444,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", null, "Visitante", "VISITANTE" },
-                    { "af9f1bab-fefe-42d7-89fc-ffc954506a89", null, "Administrador", "ADMINISTRADOR" }
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", null, "Visitante", "VISITANTE" },
+                    { "76339ba3-fae1-46bd-9b64-49534182a689", null, "Administrador", "ADMINISTRADOR" }
                 });
 
             migrationBuilder.InsertData(
@@ -454,11 +453,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "0d8d0106-e74b-4e21-a119-c1642501fe74", 0, "6dbd2029-4be1-4ace-8b37-afc3f4d8ab3c", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAEHYor8cQ9KamIHFEQqRGl0f2v2Wo+8q9lGGCbEPE2guLgRwRaldHoqgHB3+2uVBEEg==", null, false, "eac0fc88-a948-4945-a70b-956834b8eb54", false, "joao" },
-                    { "7ace761f-eb7b-46b6-a029-4d8507d4bd67", 0, "66d836ba-93c6-4b3f-81b0-47b6b2214b50", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEFYhLIpeBSf84AB562Sn4C+CbPrl+z4ofLAN2J5r3bK2Gw6LRbWs1OAkKCLT5kSEXg==", null, false, "d675914e-daef-463c-ae26-e50d2eb8ddb3", false, "ana" },
-                    { "8649bc67-5915-42af-94cd-6936bd4beb2a", 0, "0704890f-e3a1-4240-892c-389b39b8ab1d", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEG1RXqQfKksatS4M6JWadc+8WAjhLm3kuhyk1oNLhwqXijjf885dChwJEJGiGYE/rA==", null, false, "2ca93f72-51eb-41ef-b5f9-856a477bc304", false, "dametto" },
-                    { "9f75a5cd-9369-4c79-845d-ccd3a41573ad", 0, "10c7ae15-b56b-4af1-beea-cf30d5bf8c27", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEF76NoysTLT+1ADQevvI5hCd+ntBPegR/9xLbAk9ZLdEuaTJd/6Iye9L+w3QsILUgw==", null, false, "4162602b-bdd5-41f9-808b-4ec6f19ad1fe", false, "Eduardo" },
-                    { "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c", 0, "e39eb12f-c30a-4a61-8a6d-f1430ff2662f", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEHvsY1+Yb+hIZ0mnLT8EM5SrGBRbxIHf1tsWsl2tm8aZ6h0voyYIvbq5wir/pElPzA==", null, false, "51b6b7a6-f3de-44a9-8dfd-8f3594182e73", false, "any" }
+                    { "5a77beee-9a2a-4ac6-b8fb-390c209a2152", 0, "7bdaae47-da76-413f-b266-1804020737de", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEP0J8UklYpM2Mlm0YrPkagAcMK7EZfi5VQlA0rlJ9pqjKm3vvNNNqG+FwEnWv01o7A==", null, false, "5ae7038f-9cfd-4cfb-8df4-10209aae82f1", false, "any" },
+                    { "80f41a70-951e-4356-9ec2-8dddc2fc598a", 0, "c3d2cedc-8c4a-426f-8a0b-8eb7fe050753", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAEHTdTYCF0x/3KA/W8j502bU47fdWy/myt0fgg0wKMTF+0JKpJ1KJr2M4fnSQxE7vmg==", null, false, "fdf94c1e-b272-431c-b4aa-06bc919bfb96", false, "joao" },
+                    { "b6ca8249-53d1-4907-b6e8-dabf2673df15", 0, "71b5b903-9877-43d7-95a5-9db2410ee73c", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEGmFnmz721y+YCN1oUxy89XoNazXSWucasGMT995UqjJW9MJzPY2mC01kZG/yA8kbg==", null, false, "d3e4fd6e-2f60-4c36-a88f-0785f4633abb", false, "dametto" },
+                    { "d99ee5a6-68bc-463d-8e38-c5e471ab55fb", 0, "88074177-a5d5-4645-9fbd-88deefdd2ae8", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAENA3+TLoMNMT32RUpFlW95sda9j+PSPeRT5V0k9M46mJoh2hFqRDqfyXPDYVljZJNQ==", null, false, "9a16a0ec-5bc8-4aa0-8e4f-81854d890843", false, "ana" },
+                    { "de36459b-fa4d-4eda-bdc3-12b9eb14c516", 0, "48870601-ae41-4e5f-bb15-16df70e21872", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEMGqfwRRcPMYt0thyuMRmuwc91E117enoZzZ1JVppEeTNiDMx/52mWuvJ0pw8U+HbQ==", null, false, "7462ec0e-872b-482a-94a5-313e675b4678", false, "Eduardo" }
                 });
 
             migrationBuilder.InsertData(
@@ -506,15 +505,15 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", "0d8d0106-e74b-4e21-a119-c1642501fe74" },
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", "7ace761f-eb7b-46b6-a029-4d8507d4bd67" },
-                    { "af9f1bab-fefe-42d7-89fc-ffc954506a89", "7ace761f-eb7b-46b6-a029-4d8507d4bd67" },
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", "8649bc67-5915-42af-94cd-6936bd4beb2a" },
-                    { "af9f1bab-fefe-42d7-89fc-ffc954506a89", "8649bc67-5915-42af-94cd-6936bd4beb2a" },
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", "9f75a5cd-9369-4c79-845d-ccd3a41573ad" },
-                    { "af9f1bab-fefe-42d7-89fc-ffc954506a89", "9f75a5cd-9369-4c79-845d-ccd3a41573ad" },
-                    { "45f766fd-f354-418f-a657-4590e27c80ab", "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c" },
-                    { "af9f1bab-fefe-42d7-89fc-ffc954506a89", "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c" }
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", "5a77beee-9a2a-4ac6-b8fb-390c209a2152" },
+                    { "76339ba3-fae1-46bd-9b64-49534182a689", "5a77beee-9a2a-4ac6-b8fb-390c209a2152" },
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", "80f41a70-951e-4356-9ec2-8dddc2fc598a" },
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", "b6ca8249-53d1-4907-b6e8-dabf2673df15" },
+                    { "76339ba3-fae1-46bd-9b64-49534182a689", "b6ca8249-53d1-4907-b6e8-dabf2673df15" },
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", "d99ee5a6-68bc-463d-8e38-c5e471ab55fb" },
+                    { "76339ba3-fae1-46bd-9b64-49534182a689", "d99ee5a6-68bc-463d-8e38-c5e471ab55fb" },
+                    { "1dad88c0-d861-4b60-8df7-71eb657bbf8e", "de36459b-fa4d-4eda-bdc3-12b9eb14c516" },
+                    { "76339ba3-fae1-46bd-9b64-49534182a689", "de36459b-fa4d-4eda-bdc3-12b9eb14c516" }
                 });
 
             migrationBuilder.InsertData(
@@ -826,7 +825,7 @@ namespace AAETravel.Migrations
                     { 302, "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.", "https://www.example.com/ellui_seul.jpg", "Varia de acordo com a noite", 37.526219712374321, "Gangnam, Seul", 127.05424524232673, "Ellui", 9, " +8225188556" },
                     { 303, "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.", "https://www.example.com/nb2_seoul.jpg", "Varia de acordo com a noite", 37.550977824366974, "Itaewon, Seul", 126.92321046930688, "NB2", 9, " +821085550856" },
                     { 304, "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.", "https://www.example.com/arena_seoul.jpg", "Varia de acordo com a noite", 37.553065552028634, "Hongdae, Seul", 126.92185292159981, "Hongdae Club Aura", 9, " +821066676460" },
-                    { 305, "Um Local de dança para descontrai e se divertir a noite", "https://www.example.com/masquerade_seul.jpg", "Todods os dias: 20:00–02:00", 937.51750000000004, "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul", 127.0275, "Club Bonita", 1, " +821092183132" },
+                    { 305, "Um Local de dança para descontrai e se divertir a noite", "https://www.example.com/masquerade_seul.jpg", "Todods os dias: 20:00–02:00", 937.51750000000004, "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul", 127.0275, "Club Bonita", 9, " +821092183132" },
                     { 306, "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.", "https://www.example.com/club_fabric_seul.jpg", "Varia de acordo com a noite", 37.537720597792983, "Itaewon, Seul", 126.99454040411936, "Itaewon club Gathering", 9, " +821092123793" },
                     { 307, "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.", "https://www.example.com/bulguksa_temple.jpg", "Diariamente, 09h00 às 18h00", 35.790334613450185, "Gyeongju, Gyeongsangbuk-do", 129.33206679374007, "Bulguksa Temple", 9, " +82547469913" },
                     { 308, "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.", "https://www.example.com/seokguram_grotto.jpg", "Diariamente, 09h00 às 18h00", 35.795315316118931, "Gyeongju, Gyeongsangbuk-do", 129.35042241181617, "Seokguram Grotto", 9, " +82547469933" },
@@ -853,11 +852,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "0d8d0106-e74b-4e21-a119-c1642501fe74", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
-                    { "7ace761f-eb7b-46b6-a029-4d8507d4bd67", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
-                    { "8649bc67-5915-42af-94cd-6936bd4beb2a", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
-                    { "9f75a5cd-9369-4c79-845d-ccd3a41573ad", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" }
+                    { "5a77beee-9a2a-4ac6-b8fb-390c209a2152", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
+                    { "80f41a70-951e-4356-9ec2-8dddc2fc598a", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
+                    { "b6ca8249-53d1-4907-b6e8-dabf2673df15", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
+                    { "d99ee5a6-68bc-463d-8e38-c5e471ab55fb", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
+                    { "de36459b-fa4d-4eda-bdc3-12b9eb14c516", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" }
                 });
 
             migrationBuilder.InsertData(

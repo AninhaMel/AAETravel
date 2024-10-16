@@ -111,12 +111,13 @@ header {
         i {
             color: #fff;
             font-size: 30pt;
+            cursor: pointer;
         }
     }
 }
 
 .icon-red {
-    color: red;
+    color: red !important;
 }
 
 

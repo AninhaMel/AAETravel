@@ -82,6 +82,11 @@ namespace AAETravel.Controllers
                 Experiencias = experienciaModel
             };
 
+            var userId = _userManager.GetUserId(User);
+            if (userId != null)
+            {
+                model.Favoritado = _context.Listas.Any(f => f.UsuarioId == userId && f.LocalId == local.Id);
+            }
             return View(model);
         }
 
@@ -95,9 +100,15 @@ namespace AAETravel.Controllers
         }
 
         [Authorize]
-        public IActionResult Favoritado()
+        public async Task<IActionResult> Favoritado()
         {
-            return View();
+            var usuarioId = _userManager.GetUserId(User);  // Obtém o ID do usuário logado
+            var listas = await _context.Listas
+                .Where(f => f.UsuarioId == usuarioId)  // Filtro pelo ID do usuário
+                .Include(f => f.Local)  // Inclui as informações do local favoritado
+                .ToListAsync() ?? new List<Lista>();  // Garante que uma lista vazia seja passada se não houver favoritos
+
+            return View(listas);  // Passa a lista para a view
         }
 
         public IActionResult Perfil()
@@ -127,7 +138,7 @@ namespace AAETravel.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Favoritar(int localId)
+        public async Task<IActionResult> Favoritar(int localId, int experienciaId)
         {
             var userId = _userManager.GetUserId(User);
             var favoritoExistente = _context.Listas.FirstOrDefault(f => f.UsuarioId == userId && f.LocalId == localId);
@@ -137,25 +148,19 @@ namespace AAETravel.Controllers
                 var favorito = new Lista
                 {
                     UsuarioId = userId,
-                    LocalId = localId
+                    LocalId = localId,
+                    DataCadastro = DateTime.Now
                 };
-
                 _context.Listas.Add(favorito);
                 await _context.SaveChangesAsync();
             }
-            return Json(new { success = true });
+            else
+            {
+                _context.Listas.Remove(favoritoExistente);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction("Local", new { id = localId, experiencia = experienciaId });
         }
 
-
-        public async Task<IActionResult> Favoritos()
-        {
-            var usuarioId = _userManager.GetUserId(User);  // Obtém o ID do usuário logado
-            var listas = await _context.Listas
-                .Where(f => f.UsuarioId == usuarioId)  // Filtro pelo ID do usuário
-                .Include(f => f.Local)  // Inclui as informações do local favoritado
-                .ToListAsync() ?? new List<Lista>();  // Garante que uma lista vazia seja passada se não houver favoritos
-
-            return View(listas);  // Passa a lista para a view
-        }
     }
 }

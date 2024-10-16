@@ -9,7 +9,7 @@ public class Lista
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string DataCadastro { get; set; }
+        public DateTime DataCadastro { get; set; }
         public string UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
         public Usuario Usuario { get; set; }

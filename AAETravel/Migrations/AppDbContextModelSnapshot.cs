@@ -1908,14 +1908,14 @@ namespace AAETravel.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("DataCadastro")
-                        .HasColumnType("longtext");
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<int>("LocalId")
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -5930,7 +5930,7 @@ namespace AAETravel.Migrations
                             Localizacao = "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul",
                             Longitude = 127.0275,
                             Nome = "Club Bonita",
-                            PaisId = 1,
+                            PaisId = 9,
                             Telefone = " +821092183132"
                         },
                         new
@@ -6297,7 +6297,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -6324,7 +6324,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "9f75a5cd-9369-4c79-845d-ccd3a41573ad",
+                            UsuarioId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -6333,7 +6333,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "7ace761f-eb7b-46b6-a029-4d8507d4bd67",
+                            UsuarioId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -6342,7 +6342,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "8649bc67-5915-42af-94cd-6936bd4beb2a",
+                            UsuarioId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -6351,7 +6351,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c",
+                            UsuarioId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -6360,7 +6360,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "0d8d0106-e74b-4e21-a119-c1642501fe74",
+                            UsuarioId = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
                             Cidade = "Mundo Afora",
                             Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
                             Foto = "/img/User/Joao.jpg",
@@ -6372,7 +6372,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -6397,13 +6397,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "af9f1bab-fefe-42d7-89fc-ffc954506a89",
+                            Id = "76339ba3-fae1-46bd-9b64-49534182a689",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "45f766fd-f354-418f-a657-4590e27c80ab",
+                            Id = "1dad88c0-d861-4b60-8df7-71eb657bbf8e",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -6425,7 +6425,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -6437,7 +6437,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -6500,81 +6500,81 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9f75a5cd-9369-4c79-845d-ccd3a41573ad",
+                            Id = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "10c7ae15-b56b-4af1-beea-cf30d5bf8c27",
+                            ConcurrencyStamp = "48870601-ae41-4e5f-bb15-16df70e21872",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEF76NoysTLT+1ADQevvI5hCd+ntBPegR/9xLbAk9ZLdEuaTJd/6Iye9L+w3QsILUgw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMGqfwRRcPMYt0thyuMRmuwc91E117enoZzZ1JVppEeTNiDMx/52mWuvJ0pw8U+HbQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4162602b-bdd5-41f9-808b-4ec6f19ad1fe",
+                            SecurityStamp = "7462ec0e-872b-482a-94a5-313e675b4678",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "7ace761f-eb7b-46b6-a029-4d8507d4bd67",
+                            Id = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "66d836ba-93c6-4b3f-81b0-47b6b2214b50",
+                            ConcurrencyStamp = "88074177-a5d5-4645-9fbd-88deefdd2ae8",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFYhLIpeBSf84AB562Sn4C+CbPrl+z4ofLAN2J5r3bK2Gw6LRbWs1OAkKCLT5kSEXg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENA3+TLoMNMT32RUpFlW95sda9j+PSPeRT5V0k9M46mJoh2hFqRDqfyXPDYVljZJNQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d675914e-daef-463c-ae26-e50d2eb8ddb3",
+                            SecurityStamp = "9a16a0ec-5bc8-4aa0-8e4f-81854d890843",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "8649bc67-5915-42af-94cd-6936bd4beb2a",
+                            Id = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0704890f-e3a1-4240-892c-389b39b8ab1d",
+                            ConcurrencyStamp = "71b5b903-9877-43d7-95a5-9db2410ee73c",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG1RXqQfKksatS4M6JWadc+8WAjhLm3kuhyk1oNLhwqXijjf885dChwJEJGiGYE/rA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGmFnmz721y+YCN1oUxy89XoNazXSWucasGMT995UqjJW9MJzPY2mC01kZG/yA8kbg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2ca93f72-51eb-41ef-b5f9-856a477bc304",
+                            SecurityStamp = "d3e4fd6e-2f60-4c36-a88f-0785f4633abb",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c",
+                            Id = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e39eb12f-c30a-4a61-8a6d-f1430ff2662f",
+                            ConcurrencyStamp = "7bdaae47-da76-413f-b266-1804020737de",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHvsY1+Yb+hIZ0mnLT8EM5SrGBRbxIHf1tsWsl2tm8aZ6h0voyYIvbq5wir/pElPzA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEP0J8UklYpM2Mlm0YrPkagAcMK7EZfi5VQlA0rlJ9pqjKm3vvNNNqG+FwEnWv01o7A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "51b6b7a6-f3de-44a9-8dfd-8f3594182e73",
+                            SecurityStamp = "5ae7038f-9cfd-4cfb-8df4-10209aae82f1",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         },
                         new
                         {
-                            Id = "0d8d0106-e74b-4e21-a119-c1642501fe74",
+                            Id = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6dbd2029-4be1-4ace-8b37-afc3f4d8ab3c",
+                            ConcurrencyStamp = "c3d2cedc-8c4a-426f-8a0b-8eb7fe050753",
                             Email = "joaosouza@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
                             NormalizedUserName = "JOAO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHYor8cQ9KamIHFEQqRGl0f2v2Wo+8q9lGGCbEPE2guLgRwRaldHoqgHB3+2uVBEEg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHTdTYCF0x/3KA/W8j502bU47fdWy/myt0fgg0wKMTF+0JKpJ1KJr2M4fnSQxE7vmg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "eac0fc88-a948-4945-a70b-956834b8eb54",
+                            SecurityStamp = "fdf94c1e-b272-431c-b4aa-06bc919bfb96",
                             TwoFactorEnabled = false,
                             UserName = "joao"
                         });
@@ -6596,7 +6596,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
 
@@ -6608,17 +6608,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -6630,10 +6630,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -6644,61 +6644,61 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "9f75a5cd-9369-4c79-845d-ccd3a41573ad",
-                            RoleId = "af9f1bab-fefe-42d7-89fc-ffc954506a89"
+                            UserId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
+                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
                         },
                         new
                         {
-                            UserId = "9f75a5cd-9369-4c79-845d-ccd3a41573ad",
-                            RoleId = "45f766fd-f354-418f-a657-4590e27c80ab"
+                            UserId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
+                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
                         },
                         new
                         {
-                            UserId = "7ace761f-eb7b-46b6-a029-4d8507d4bd67",
-                            RoleId = "af9f1bab-fefe-42d7-89fc-ffc954506a89"
+                            UserId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
+                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
                         },
                         new
                         {
-                            UserId = "7ace761f-eb7b-46b6-a029-4d8507d4bd67",
-                            RoleId = "45f766fd-f354-418f-a657-4590e27c80ab"
+                            UserId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
+                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
                         },
                         new
                         {
-                            UserId = "8649bc67-5915-42af-94cd-6936bd4beb2a",
-                            RoleId = "af9f1bab-fefe-42d7-89fc-ffc954506a89"
+                            UserId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
+                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
                         },
                         new
                         {
-                            UserId = "8649bc67-5915-42af-94cd-6936bd4beb2a",
-                            RoleId = "45f766fd-f354-418f-a657-4590e27c80ab"
+                            UserId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
+                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
                         },
                         new
                         {
-                            UserId = "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c",
-                            RoleId = "af9f1bab-fefe-42d7-89fc-ffc954506a89"
+                            UserId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
+                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
                         },
                         new
                         {
-                            UserId = "e022c4a4-30cc-44f1-8ddf-7d1d2cd7981c",
-                            RoleId = "45f766fd-f354-418f-a657-4590e27c80ab"
+                            UserId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
+                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
                         },
                         new
                         {
-                            UserId = "0d8d0106-e74b-4e21-a119-c1642501fe74",
-                            RoleId = "45f766fd-f354-418f-a657-4590e27c80ab"
+                            UserId = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
+                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
                         });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(95)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

@@ -4285,7 +4285,7 @@ public class AppDbSeed
 					Telefone = " +821092183132",
 			        Descricao = "Um Local de dança para descontrai e se divertir a noite",
 			        Foto = "https://www.example.com/masquerade_seul.jpg",
-			        PaisId = 1,
+			        PaisId = 9,
 			        Latitude = 937.5175,
 			        Longitude = 127.0275
 			    },

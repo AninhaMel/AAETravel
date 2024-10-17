@@ -1915,7 +1915,7 @@ namespace AAETravel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -5248,7 +5248,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 253,
                             Descricao = "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/barreira de coral.png",
                             HorarioFuncionamento = "Varia de acordo com as empresas de turismo",
                             Latitude = -18.284454495545621,
                             Localizacao = "Costa nordeste da Austrália",
@@ -5261,7 +5261,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 254,
                             Descricao = "Um monólito sagrado para os aborígenes australianos, com uma rica história cultural. Oferece paisagens espetaculares e caminhadas ao redor da base.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/ULURU.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -25.342560283824174,
                             Localizacao = "Território do Norte",
@@ -5274,7 +5274,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 255,
                             Descricao = "Um dos maiores parques nacionais da Austrália, com uma rica biodiversidade, pinturas rupestres aborígenes e paisagens desérticas. Ideal para trilhas e safáris.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/kakadu.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -13.092909562659729,
                             Localizacao = "Território do Norte",
@@ -5287,7 +5287,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 256,
                             Descricao = "Uma série de pilhas de calcário formadas pela erosão, localizadas na Grande Oceano Road. Um dos ícones da natureza australiana.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/doze apostolos.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -38.654479165472168,
                             Localizacao = "Grande Oceano Road, Victoria",
@@ -5300,7 +5300,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 257,
                             Descricao = "A floresta tropical mais antiga do mundo, com uma rica biodiversidade e paisagens exuberantes. Ideal para trilhas e observação de pássaros.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/daintree.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -16.168648396918627,
                             Localizacao = "Queensland",
@@ -5313,7 +5313,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 258,
                             Descricao = "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Natureza/quay.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -25.3444,
                             Localizacao = "Queensland",
@@ -5326,7 +5326,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 259,
                             Descricao = "Considerado um dos melhores restaurantes da Austrália, o Quay oferece uma experiência gastronômica de alta qualidade com vista espetacular para a Opera House. O chef Peter Gilmore cria pratos inovadores que celebram os produtos sazonais australianos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/quay.png",
                             HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
                             Latitude = -33.858029216926781,
                             Localizacao = "The Rocks, Sydney",
@@ -5339,7 +5339,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 260,
                             Descricao = "Sydney combina paisagens espetaculares com uma cena gastronômica vibrante. Desfrute de frutos do mar frescos nos restaurantes do Circular Quay, ou explore os diversos bairros como Surry Hills e Chinatown.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/attica.png",
                             HorarioFuncionamento = "Varia de restaurante para restaurante",
                             Latitude = -37.874406184806915,
                             Localizacao = "Ripponlea, Melbourne",
@@ -5352,7 +5352,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 261,
                             Descricao = "Fundado pelo renomado chef Neil Perry, o Rockpool é um ícone da gastronomia australiana. O restaurante oferece uma ampla variedade de pratos, com destaque para carnes de alta qualidade e frutos do mar frescos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/Rockpool.png",
                             HorarioFuncionamento = " Consulte o site oficial para horários atualizados",
                             Latitude = -33.86607057393735,
                             Localizacao = "Várias localizações em Sydney",
@@ -5365,7 +5365,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 262,
                             Descricao = "Sepia é conhecido por sua cozinha moderna e elegante, com foco em ingredientes sazonais e técnicas culinárias japonesas. O restaurante oferece um menu degustação inovador que muda regularmente.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/sepia.png",
                             HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
                             Latitude = -33.872166529508725,
                             Localizacao = "Surry Hills  (Sydney)",
@@ -5378,7 +5378,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 263,
                             Descricao = "Localizado em uma fazenda nos arredores de Melbourne, Brae oferece uma experiência gastronômica única, com um menu degustação que muda diariamente de acordo com a disponibilidade dos ingredientes frescos da fazenda.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/Brae_restaurant.png",
                             HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
                             Latitude = -38.346504984376246,
                             Localizacao = "Birregurra (Victoria)",
@@ -5391,7 +5391,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 264,
                             Descricao = "Criado pelo famoso chef David Chang, Momofuku Seiobo oferece uma experiência gastronômica moderna e descontraída, com um menu que mistura influências asiáticas com ingredientes australianos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Restaurantes/Momofuku-Seiobo.png",
                             HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
                             Latitude = -33.868818153800405,
                             Localizacao = "Barangaroo (Sydney)",
@@ -5404,7 +5404,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 265,
                             Descricao = "Conhecido como o coração da vida noturna de Sydney, Kings Cross oferece uma variedade de bares, clubes e restaurantes. É um local vibrante e cheio de energia.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/kings-cross-sydney.png",
                             HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
                             Latitude = -33.873323771097475,
                             Localizacao = "Sydney, Nova Gales do Sul",
@@ -5417,7 +5417,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 266,
                             Descricao = "O centro de Melbourne é um labirinto de bares, restaurantes e clubes. Desde bares de jazz até clubes underground, há algo para todos os gostos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/melbourne-cbd.png",
                             HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
                             Latitude = -37.810166598097403,
                             Localizacao = "Melbourne, Victoria",
@@ -5430,7 +5430,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 267,
                             Descricao = "Um dos clubes mais famosos da Austrália, o Ivy é um complexo de entretenimento com várias áreas, incluindo um restaurante, bar e pista de dança. A programação musical é variada, com DJs tocando os últimos hits.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/ivy.png",
                             HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
                             Latitude = -33.86639531322637,
                             Localizacao = "Sydney CBD",
@@ -5443,7 +5443,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 268,
                             Descricao = "Um dos bares de praia mais famosos da Austrália, o The Beach oferece vistas espetaculares do oceano Pacífico. É o lugar perfeito para tomar um drink enquanto admira o pôr do sol.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/bondi beach.png",
                             HorarioFuncionamento = " Varia de acordo com a estação.",
                             Latitude = -33.891448064008806,
                             Localizacao = "Bondi Beach, Sydney",
@@ -5456,7 +5456,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 269,
                             Descricao = " Inspirado nos clubes de Nova York dos anos 1920, o Cloudland é um local elegante e sofisticado, com decoração luxuosa e música ao vivo.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/cloudland brisbane.png",
                             HorarioFuncionamento = "Varia de acordo com o dia da semana e evento.",
                             Latitude = -27.458229554203985,
                             Localizacao = "Fortitude Valley, Brisbane",
@@ -5469,7 +5469,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 270,
                             Descricao = "Um dos clubes mais populares de Melbourne, The Bird é conhecido por sua música eletrônica e atmosfera vibrante.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Vida Noturna/the bird.png",
                             HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
                             Latitude = -37.808745319025711,
                             Localizacao = "Melbourne CBD",
@@ -5482,7 +5482,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 271,
                             Descricao = "A maior catedral católica da Austrália, com uma arquitetura neogótica impressionante. Um marco histórico e espiritual da cidade de Sydney.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/St. Mary's Cathedral, Sydney.png",
                             HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
                             Latitude = -33.871025700485021,
                             Localizacao = "Sydney, New South Wales",
@@ -5495,7 +5495,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 272,
                             Descricao = "A maior catedral católica da Austrália, com uma rica história e arquitetura gótica. Um local de peregrinação para muitos católicos australianos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/st patrick.png",
                             HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
                             Latitude = -37.809934964845247,
                             Localizacao = "Melbourne, Victoria",
@@ -5508,7 +5508,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 273,
                             Descricao = "A Mesquita de Melbourne é a maior mesquita da Austrália. Sua arquitetura islâmica impressionante e os jardins tranquilos oferecem um refúgio para a comunidade muçulmana e para todos aqueles que buscam um momento de paz.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/mesquita de melbourne.png",
                             HorarioFuncionamento = " Consulte o site oficial para horários de oração.",
                             Latitude = -37.818019039589863,
                             Localizacao = "Hoppers Crossing (Melbourne)",
@@ -5521,7 +5521,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 274,
                             Descricao = "O Templo Chinês de Melbourne é um dos maiores templos budistas fora da China. Sua arquitetura elaborada e os jardins exuberantes criam um ambiente sereno e inspirador.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/templo chines de melbourne.png",
                             HorarioFuncionamento = "Diariamente, das 9h às 17h.",
                             Latitude = -37.836665168697905,
                             Localizacao = "Melbourne CBD",
@@ -5534,7 +5534,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 275,
                             Descricao = "O maior templo hindu da Austrália, dedicado a Lord Venkateswara, oferece um ambiente colorido e vibrante para a prática religiosa. A arquitetura elaborada e os rituais religiosos criam uma atmosfera única.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/Sri_Venkateswara_Temple.png",
                             HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de puja (oração)",
                             Latitude = -33.029137081703965,
                             Localizacao = "O templo foi construído no topo de uma colina a 120 metros acima do nível do mar.",
@@ -5547,7 +5547,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 276,
                             Descricao = "Um dos maiores templos budistas fora da Ásia, o Nan Tien oferece um retiro espiritual completo, com templos, jardins, um centro de meditação e um instituto budista.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Fé/nan-tien-temple.png",
                             HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de meditação e eventos.",
                             Latitude = -34.465869468514718,
                             Localizacao = "Wollongong (Nova Gales do Sul)",
@@ -5560,7 +5560,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 277,
                             Descricao = "Um dos maiores mercados públicos do Hemisfério Sul, oferecendo uma vasta gama de produtos, desde frutas e legumes frescos até roupas, artesanato e souvenirs. Um ótimo lugar para experimentar a cultura local e encontrar produtos únicos.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/queen victoria.png",
                             HorarioFuncionamento = "Variável, consulte o site oficial",
                             Latitude = -37.807347223191265,
                             Localizacao = "Melbourne",
@@ -5573,7 +5573,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 278,
                             Descricao = "Uma das principais ruas comerciais de Sydney, com lojas de marcas internacionais, boutiques e grandes armazéns. Um destino popular para quem busca moda e acessórios.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/Pitt-Street-Mall.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = -33.869482113113264,
                             Localizacao = "Sydney",
@@ -5586,7 +5586,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 279,
                             Descricao = "Uma rua conhecida por suas lojas vintage, boutiques independentes e cafés charmosos. Um lugar ideal para quem busca peças únicas e um ambiente mais alternativo.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/CHAPEL-ST.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = -37.853167467111582,
                             Localizacao = "Melbourne",
@@ -5599,7 +5599,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 280,
                             Descricao = "Uma das maiores redes de lojas de departamentos da Austrália, oferecendo uma ampla variedade de produtos, desde moda e beleza até eletrodomésticos e artigos para casa.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/myer-centre-adelaide.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = -34.005971651605591,
                             Localizacao = "Várias cidades (Sydney, Melbourne, Brisbane, etc.)",
@@ -5612,7 +5612,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 281,
                             Descricao = "Uma das principais ruas comerciais de Brisbane, com lojas de marcas internacionais, boutiques e centros comerciais. Um ótimo lugar para fazer compras ao ar livre.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/queen street mall.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = -27.469331635865686,
                             Localizacao = "Brisbane",
@@ -5625,7 +5625,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 282,
                             Descricao = "Adelaide é conhecida por seus diversos mercados, como o Central Market e o Adelaide Central Market Arcade. Estes oferecem uma variedade de produtos frescos, artesanato local e comidas deliciosas.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Compras/adelaide-central-market.png",
                             HorarioFuncionamento = "Variável, consulte o site oficial",
                             Latitude = -34.921902913454595,
                             Localizacao = "Adelaide",
@@ -5638,7 +5638,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 283,
                             Descricao = "Ícone da Austrália, a Ópera de Sydney é uma obra-prima da arquitetura moderna e um Patrimônio Mundial da UNESCO. Além dos espetáculos, oferece tours guiados e vistas deslumbrantes da cidade.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/sydney opera house.png",
                             HorarioFuncionamento = "Varia de acordo com a atração",
                             Latitude = -33.856610636313498,
                             Localizacao = "Sydney, Nova Gales do Sul",
@@ -5651,7 +5651,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 284,
                             Descricao = "Construído para a Exposição Internacional de 1880, o Royal Exhibition Building é um marco da arquitetura vitoriana e um Patrimônio Mundial da UNESCO. Hoje, ele abriga o Museu Melbourne e diversos eventos culturais.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/royal exhibition.png",
                             HorarioFuncionamento = "Varia de acordo com os eventos, consulte o site oficial.",
                             Latitude = -37.804515295216014,
                             Localizacao = "Melbourne (Victoria)",
@@ -5664,7 +5664,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 285,
                             Descricao = "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/old parliment house.png",
                             HorarioFuncionamento = "Diariamente, consulte o site oficial para horários.",
                             Latitude = -35.302076119326806,
                             Localizacao = "Canberra (Território da Capital Australiana)",
@@ -5677,7 +5677,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 286,
                             Descricao = "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/Australian-War-Memorial.png",
                             HorarioFuncionamento = "Diariamente, 10h00 às 17h00",
                             Latitude = -35.281008478037741,
                             Localizacao = "Canberra, Território da Capital Australiana",
@@ -5690,7 +5690,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 287,
                             Descricao = "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/Queen Victoria Building (Sydney).png",
                             HorarioFuncionamento = "Diariamente, das 9h às 18h.",
                             Latitude = -33.871566082771189,
                             Localizacao = "Sydney (Nova Gales do Sul)",
@@ -5703,7 +5703,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 288,
                             Descricao = "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.",
-                            Foto = "",
+                            Foto = "/imgpaises/imgAustralia/Cultura/port arthur historic site australia.png",
                             HorarioFuncionamento = "Varia de acordo com a época do ano",
                             Latitude = -43.145487137733632,
                             Localizacao = "Tasmânia",
@@ -5716,7 +5716,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 289,
                             Descricao = "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.",
-                            Foto = "https://www.example.com/seoraksan_national_park.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.jpg",
                             HorarioFuncionamento = "Todos os dias da 09:00- 18:00",
                             Latitude = 38.162040054168628,
                             Localizacao = "Sokcho, Gangwon-do",
@@ -5729,7 +5729,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 290,
                             Descricao = "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.",
-                            Foto = "https://www.example.com/ilha_de_jeju.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.jpg",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 33.381994844092603,
                             Localizacao = "Mar do Sul da Coreia",
@@ -5742,7 +5742,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 291,
                             Descricao = "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.",
-                            Foto = "https://www.example.com/bukhansan_national_park.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.jpg",
                             HorarioFuncionamento = "Todos os dias das 04:00–17:00",
                             Latitude = 37.619183288027905,
                             Localizacao = "Seul e Gyeonggi-do",
@@ -5755,7 +5755,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 292,
                             Descricao = "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.",
-                            Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.jpg",
                             HorarioFuncionamento = "Todos os dias 09:00–18:00",
                             Latitude = 35.339839452939394,
                             Localizacao = "Damyang",
@@ -5768,7 +5768,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 293,
                             Descricao = "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.",
-                            Foto = "https://www.example.com/cheonggyecheon_stream.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.jpg",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 37.571407361070051,
                             Localizacao = "Seul",
@@ -5781,7 +5781,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 294,
                             Descricao = "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.",
-                            Foto = "https://www.example.com/ulleungdo_island.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.jpg",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 37.508101591795793,
                             Localizacao = "Mar do Leste da Coreia",
@@ -5794,7 +5794,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 295,
                             Descricao = "Restaurante de alta gastronomia com pratos coreanos contemporâneos.",
-                            Foto = "https://www.example.com/myeongdong_food.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.jpg",
                             HorarioFuncionamento = " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.",
                             Latitude = 37.525880264601184,
                             Localizacao = "Seul",
@@ -5807,7 +5807,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 296,
                             Descricao = "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.",
-                            Foto = "https://www.example.com/namdaemun_food.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.jpg",
                             HorarioFuncionamento = "Todos os Dias 17:00–00:00",
                             Latitude = 37.561266653553076,
                             Localizacao = "Seul",
@@ -5820,7 +5820,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 297,
                             Descricao = "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.",
-                            Foto = "https://www.example.com/gwangjang_market_food.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.jpg",
                             HorarioFuncionamento = "Terça a Domindo das 11:30–21:00",
                             Latitude = 37.551514700472801,
                             Localizacao = "Seul",
@@ -5833,7 +5833,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 298,
                             Descricao = "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).",
-                            Foto = "https://www.example.com/insadong_restaurant.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.jpg",
                             HorarioFuncionamento = "De Terça a Domingo, 12:00–22:00",
                             Latitude = 37.538975573074808,
                             Localizacao = "Seul",
@@ -5846,7 +5846,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 299,
                             Descricao = "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.",
-                            Foto = "https://www.example.com/gangnam_restaurant.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.jpg",
                             HorarioFuncionamento = "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.",
                             Latitude = 36.966148797274222,
                             Localizacao = "Seul",
@@ -5859,7 +5859,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 300,
                             Descricao = "Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).",
-                            Foto = "https://www.example.com/jeju_seafood.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.jpg",
                             HorarioFuncionamento = "Segunda-feira a domingo, das 11h às 22h.",
                             Latitude = 37.568076793506258,
                             Localizacao = "Seoul",
@@ -5872,7 +5872,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 301,
                             Descricao = "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.",
-                            Foto = "https://www.example.com/octagon_seoul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.jpg",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.671613968424538,
                             Localizacao = "Gangnam, Seul",
@@ -5885,7 +5885,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 302,
                             Descricao = "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.",
-                            Foto = "https://www.example.com/ellui_seul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.jpg",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.526219712374321,
                             Localizacao = "Gangnam, Seul",
@@ -5898,7 +5898,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 303,
                             Descricao = "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.",
-                            Foto = "https://www.example.com/nb2_seoul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.jpg",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.550977824366974,
                             Localizacao = "Itaewon, Seul",
@@ -5911,7 +5911,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 304,
                             Descricao = "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.",
-                            Foto = "https://www.example.com/arena_seoul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.jpg",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.553065552028634,
                             Localizacao = "Hongdae, Seul",
@@ -5924,7 +5924,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 305,
                             Descricao = "Um Local de dança para descontrai e se divertir a noite",
-                            Foto = "https://www.example.com/masquerade_seul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.jpg",
                             HorarioFuncionamento = "Todods os dias: 20:00–02:00",
                             Latitude = 937.51750000000004,
                             Localizacao = "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul",
@@ -5937,7 +5937,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 306,
                             Descricao = "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.",
-                            Foto = "https://www.example.com/club_fabric_seul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.jpg",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.537720597792983,
                             Localizacao = "Itaewon, Seul",
@@ -5950,7 +5950,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 307,
                             Descricao = "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.",
-                            Foto = "https://www.example.com/bulguksa_temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.jpg",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.790334613450185,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -5963,7 +5963,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 308,
                             Descricao = "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.",
-                            Foto = "https://www.example.com/seokguram_grotto.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.jpg",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.795315316118931,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -5976,7 +5976,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 309,
                             Descricao = "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.",
-                            Foto = "https://www.example.com/jongmyo_shrine.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.jpg",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 37.574710520662755,
                             Localizacao = "Seul",
@@ -5989,7 +5989,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 310,
                             Descricao = "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.",
-                            Foto = "https://www.example.com/haedong_yonggungsa_temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.jpg",
                             HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
                             Latitude = 35.188629656940748,
                             Localizacao = "Busan",
@@ -6002,7 +6002,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 311,
                             Descricao = "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.",
-                            Foto = "https://www.example.com/bongeunsa_temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.jpg",
                             HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
                             Latitude = 37.515056213325501,
                             Localizacao = "Seul",
@@ -6015,7 +6015,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 312,
                             Descricao = "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.",
-                            Foto = "https://www.example.com/jeongdong_cathedral.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.jpg",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.813508477630528,
                             Localizacao = "Seul",
@@ -6028,7 +6028,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 313,
                             Descricao = "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.",
-                            Foto = "https://www.example.com/myeongdong.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.jpg",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.560785672420124,
                             Localizacao = "Seul",
@@ -6041,7 +6041,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 314,
                             Descricao = "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.",
-                            Foto = "https://www.example.com/namdaemun_market.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.jpg",
                             HorarioFuncionamento = "De Segunda a Sabado das 09:00–17:00",
                             Latitude = 37.559250864567474,
                             Localizacao = "Seul",
@@ -6054,7 +6054,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 315,
                             Descricao = "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.",
-                            Foto = "https://www.example.com/insadong.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.jpg",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.571966584843238,
                             Localizacao = "Seul",
@@ -6067,7 +6067,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 316,
                             Descricao = "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.",
-                            Foto = "https://www.example.com/gangnam.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.jpg",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.503753420280923,
                             Localizacao = "Seul",
@@ -6080,7 +6080,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 317,
                             Descricao = "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.",
-                            Foto = "https://www.example.com/dongdaemun_design_plaza.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).jpg",
                             HorarioFuncionamento = "Diariamente, das 10h às 20h",
                             Latitude = 37.566657386535091,
                             Localizacao = "Seul",
@@ -6093,7 +6093,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 318,
                             Descricao = "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.",
-                            Foto = "https://www.example.com/gwangjang_market.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.jpg",
                             HorarioFuncionamento = "Diariamente, das 10h às 22h",
                             Latitude = 37.570839149843785,
                             Localizacao = "Seul",
@@ -6106,7 +6106,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 319,
                             Descricao = "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.",
-                            Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.jpg",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 37.579753014697339,
                             Localizacao = "Seul",
@@ -6119,7 +6119,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 320,
                             Descricao = "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.",
-                            Foto = "https://www.example.com/bukchon_hanok_village.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.jpg",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = 37.581694907138093,
                             Localizacao = "Seul",
@@ -6132,7 +6132,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 321,
                             Descricao = "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.",
-                            Foto = "https://www.example.com/gyeongju_historic_area.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.jpg",
                             HorarioFuncionamento = "Varia de local para local",
                             Latitude = 35.834269819304161,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -6145,7 +6145,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 322,
                             Descricao = "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.",
-                            Foto = "https://www.example.com/national_museum_of_korea.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.jpg",
                             HorarioFuncionamento = "Diariamente, 10h00 às 18h00",
                             Latitude = 37.524088824745704,
                             Localizacao = "Seul",
@@ -6158,7 +6158,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 323,
                             Descricao = "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.",
-                            Foto = "https://www.example.com/dmz.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).jpg",
                             HorarioFuncionamento = "Varia de acordo com a excursão",
                             Latitude = 38.360230188077217,
                             Localizacao = "Fronteira entre a Coreia do Sul e a Coreia do Norte",
@@ -6171,7 +6171,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 324,
                             Descricao = "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.",
-                            Foto = "https://www.example.com/jeonju_hanok_village.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.jpg",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = 35.817798567596171,
                             Localizacao = "Jeonju, Jeollabuk-do",
@@ -6297,7 +6297,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("AAETravel.Models.Usuario", b =>
                 {
                     b.Property<string>("UsuarioId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Cidade")
                         .HasColumnType("longtext");
@@ -6324,7 +6324,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
+                            UsuarioId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -6333,7 +6333,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
+                            UsuarioId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -6342,7 +6342,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
+                            UsuarioId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -6351,7 +6351,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
+                            UsuarioId = "98b6f384-f93b-49e3-b29e-4768295853aa",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -6360,7 +6360,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
+                            UsuarioId = "102cec9d-ab69-498a-a0aa-123d056299d1",
                             Cidade = "Mundo Afora",
                             Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
                             Foto = "/img/User/Joao.jpg",
@@ -6372,7 +6372,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -6397,13 +6397,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "76339ba3-fae1-46bd-9b64-49534182a689",
+                            Id = "3a2afb85-d0e1-4179-aa82-72ad5bde971b",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "1dad88c0-d861-4b60-8df7-71eb657bbf8e",
+                            Id = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -6425,7 +6425,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -6437,7 +6437,7 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -6500,81 +6500,81 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
+                            Id = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "48870601-ae41-4e5f-bb15-16df70e21872",
+                            ConcurrencyStamp = "2dcf34c1-23ba-4026-989f-2393d89b0cbe",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMGqfwRRcPMYt0thyuMRmuwc91E117enoZzZ1JVppEeTNiDMx/52mWuvJ0pw8U+HbQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN3iQvM0MTJWrzeZYa3DAYOGdzrre/NRev4OEhRaHH88t8ysNLICSyJE1mlE5bx8Ww==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7462ec0e-872b-482a-94a5-313e675b4678",
+                            SecurityStamp = "7a14431b-4e51-4991-8ea2-c6a39e71d0bf",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
+                            Id = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "88074177-a5d5-4645-9fbd-88deefdd2ae8",
+                            ConcurrencyStamp = "7a36eefb-6c42-46de-b8ea-ea8a7692a551",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAENA3+TLoMNMT32RUpFlW95sda9j+PSPeRT5V0k9M46mJoh2hFqRDqfyXPDYVljZJNQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJkXLHcsJBAq8gK89dCMBms/zBRPt/XEgZoSN0mt1Uki0xSYcN60QpGxmUq6MN3kuw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9a16a0ec-5bc8-4aa0-8e4f-81854d890843",
+                            SecurityStamp = "b2e3573f-181d-43c1-b538-477813814d46",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
+                            Id = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "71b5b903-9877-43d7-95a5-9db2410ee73c",
+                            ConcurrencyStamp = "f9ed05ed-1223-4617-aab5-3e51ff348de5",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGmFnmz721y+YCN1oUxy89XoNazXSWucasGMT995UqjJW9MJzPY2mC01kZG/yA8kbg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPr7DnCccyO3iBeCDIk2CLi+1Y34aL3JrhFksECX/TSstSkAWix2JhS9/S0PTq5Xng==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d3e4fd6e-2f60-4c36-a88f-0785f4633abb",
+                            SecurityStamp = "249ef6c2-6c22-4edb-b782-690b2de01a5a",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
+                            Id = "98b6f384-f93b-49e3-b29e-4768295853aa",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7bdaae47-da76-413f-b266-1804020737de",
+                            ConcurrencyStamp = "57addadf-c8da-47f7-bd6e-eddb0fe116b2",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAEP0J8UklYpM2Mlm0YrPkagAcMK7EZfi5VQlA0rlJ9pqjKm3vvNNNqG+FwEnWv01o7A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELiUf84CV3uVo9ARz2xqFF+zPS+X6NKhJhCANIaHaPS0NwOo61l/LwJe5DAdrrwo9A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5ae7038f-9cfd-4cfb-8df4-10209aae82f1",
+                            SecurityStamp = "c5a4f7c5-6009-42f3-b7fd-c0b8933f0a36",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         },
                         new
                         {
-                            Id = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
+                            Id = "102cec9d-ab69-498a-a0aa-123d056299d1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c3d2cedc-8c4a-426f-8a0b-8eb7fe050753",
+                            ConcurrencyStamp = "082314cc-3246-4513-ab32-ebd4ce68db43",
                             Email = "joaosouza@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
                             NormalizedUserName = "JOAO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHTdTYCF0x/3KA/W8j502bU47fdWy/myt0fgg0wKMTF+0JKpJ1KJr2M4fnSQxE7vmg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIYHE55dYtq269/g2XrcP4qWxejeESfuhC6Tkc62AUnMM6rZBP9bgQVmlgQQ6Vll9g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "fdf94c1e-b272-431c-b4aa-06bc919bfb96",
+                            SecurityStamp = "df30879c-e3a0-4a6d-8027-4cc682bfbea8",
                             TwoFactorEnabled = false,
                             UserName = "joao"
                         });
@@ -6596,7 +6596,7 @@ namespace AAETravel.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("Id");
 
@@ -6608,17 +6608,17 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -6630,10 +6630,10 @@ namespace AAETravel.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -6644,61 +6644,61 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
-                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
+                            UserId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
+                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
                         },
                         new
                         {
-                            UserId = "de36459b-fa4d-4eda-bdc3-12b9eb14c516",
-                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
+                            UserId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
+                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
                         },
                         new
                         {
-                            UserId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
-                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
+                            UserId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
+                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
                         },
                         new
                         {
-                            UserId = "d99ee5a6-68bc-463d-8e38-c5e471ab55fb",
-                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
+                            UserId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
+                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
                         },
                         new
                         {
-                            UserId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
-                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
+                            UserId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
+                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
                         },
                         new
                         {
-                            UserId = "b6ca8249-53d1-4907-b6e8-dabf2673df15",
-                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
+                            UserId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
+                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
                         },
                         new
                         {
-                            UserId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
-                            RoleId = "76339ba3-fae1-46bd-9b64-49534182a689"
+                            UserId = "98b6f384-f93b-49e3-b29e-4768295853aa",
+                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
                         },
                         new
                         {
-                            UserId = "5a77beee-9a2a-4ac6-b8fb-390c209a2152",
-                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
+                            UserId = "98b6f384-f93b-49e3-b29e-4768295853aa",
+                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
                         },
                         new
                         {
-                            UserId = "80f41a70-951e-4356-9ec2-8dddc2fc598a",
-                            RoleId = "1dad88c0-d861-4b60-8df7-71eb657bbf8e"
+                            UserId = "102cec9d-ab69-498a-a0aa-123d056299d1",
+                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
                         });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(95)");
 
                     b.Property<string>("Value")
                         .HasColumnType("longtext");

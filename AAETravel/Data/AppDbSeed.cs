@@ -3550,7 +3550,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Varia de acordo com as empresas de turismo",
     			    Descricao = "A maior barreira de coral do mundo, um Patrimônio Mundial da UNESCO. Oferece uma variedade incrível de vida marinha e atividades como mergulho e snorkeling.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/barreira de coral.png",
     			    PaisId = 8,
     			    Latitude = -18.28445449554562, 
     			    Longitude = 147.6978174704872
@@ -3564,7 +3564,7 @@ public class AppDbSeed
     			    Telefone = "+61 8 8956 1128",
 					HorarioFuncionamento = "Aberto 24 horas",
     			    Descricao = "Um monólito sagrado para os aborígenes australianos, com uma rica história cultural. Oferece paisagens espetaculares e caminhadas ao redor da base.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/ULURU.png",
     			    PaisId = 8,
     			    Latitude = -25.342560283824174, 
     			    Longitude = 131.0382545115754
@@ -3578,7 +3578,7 @@ public class AppDbSeed
     			    Telefone = "+61 8 8938 1120",
 					HorarioFuncionamento = "Aberto 24 horas",
     			    Descricao = "Um dos maiores parques nacionais da Austrália, com uma rica biodiversidade, pinturas rupestres aborígenes e paisagens desérticas. Ideal para trilhas e safáris.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/kakadu.png",
     			    PaisId = 8,
     			    Latitude = -13.09290956265973, 
     			    Longitude = 132.39168872401842
@@ -3592,7 +3592,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Aberto 24 horas",
     			    Descricao = "Uma série de pilhas de calcário formadas pela erosão, localizadas na Grande Oceano Road. Um dos ícones da natureza australiana.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/doze apostolos.png",
     			    PaisId = 8,
     			    Latitude = -38.65447916547217, 
     			    Longitude = 143.10439194560004
@@ -3606,7 +3606,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Aberto 24 horas",
     			    Descricao = "A floresta tropical mais antiga do mundo, com uma rica biodiversidade e paisagens exuberantes. Ideal para trilhas e observação de pássaros.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/daintree.png",
     			    PaisId = 8,
     			    Latitude = -16.168648396918627, 
     			    Longitude = 145.41707107799928
@@ -3620,7 +3620,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Aberto 24 horas",
     			    Descricao = "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Natureza/quay (2).png",
     			    PaisId = 8,
     			    Latitude = -25.3444,
     			    Longitude = 153.1236
@@ -3636,7 +3636,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9251 5600",
 					HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
     			    Descricao = "Considerado um dos melhores restaurantes da Austrália, o Quay oferece uma experiência gastronômica de alta qualidade com vista espetacular para a Opera House. O chef Peter Gilmore cria pratos inovadores que celebram os produtos sazonais australianos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/quay.png",
     			    PaisId = 8,
     			    Latitude = -33.85802921692678, 
     			    Longitude = 151.2100702956208
@@ -3650,7 +3650,7 @@ public class AppDbSeed
     			    Telefone = "+61 3 9530 0111",
 					HorarioFuncionamento = "Varia de restaurante para restaurante",
     			    Descricao = "Sydney combina paisagens espetaculares com uma cena gastronômica vibrante. Desfrute de frutos do mar frescos nos restaurantes do Circular Quay, ou explore os diversos bairros como Surry Hills e Chinatown.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/attica.png",
     			    PaisId = 8,
     			    Latitude = -37.874406184806915, 
     			    Longitude =  144.99867885080727
@@ -3664,7 +3664,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 8099 7077",
 					HorarioFuncionamento = " Consulte o site oficial para horários atualizados",
     			    Descricao = "Fundado pelo renomado chef Neil Perry, o Rockpool é um ícone da gastronomia australiana. O restaurante oferece uma ampla variedade de pratos, com destaque para carnes de alta qualidade e frutos do mar frescos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/Rockpool.png",
     			    PaisId = 8,
     			    Latitude = -33.86607057393735,
     			    Longitude = 151.20951250450756
@@ -3678,7 +3678,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
     			    Descricao = "Sepia é conhecido por sua cozinha moderna e elegante, com foco em ingredientes sazonais e técnicas culinárias japonesas. O restaurante oferece um menu degustação inovador que muda regularmente.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/sepia.png",
     			    PaisId = 8,
     			    Latitude = -33.872166529508725, 
     			    Longitude = 151.2035934232869
@@ -3692,7 +3692,7 @@ public class AppDbSeed
     			    Telefone = "+61 3 5236 2226",
 					HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
     			    Descricao = "Localizado em uma fazenda nos arredores de Melbourne, Brae oferece uma experiência gastronômica única, com um menu degustação que muda diariamente de acordo com a disponibilidade dos ingredientes frescos da fazenda.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/Brae_restaurant.png",
     			    PaisId = 8,
     			    Latitude = -38.346504984376246, 
     			    Longitude =  143.8072213
@@ -3706,7 +3706,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9657 9169",
 					HorarioFuncionamento = "Consulte o site oficial para horários atualizados",
     			    Descricao = "Criado pelo famoso chef David Chang, Momofuku Seiobo oferece uma experiência gastronômica moderna e descontraída, com um menu que mistura influências asiáticas com ingredientes australianos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Restaurantes/Momofuku-Seiobo.png",
     			    PaisId = 8,
     			    Latitude = -33.868818153800405,
     			    Longitude = 151.19572048465736
@@ -3722,7 +3722,7 @@ public class AppDbSeed
     			    Telefone = "(02) 9331 9900",
 					HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
     			    Descricao = "Conhecido como o coração da vida noturna de Sydney, Kings Cross oferece uma variedade de bares, clubes e restaurantes. É um local vibrante e cheio de energia.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/kings-cross-sydney.png",
     			    PaisId = 8,
     			    Latitude = -33.873323771097475, 
     			    Longitude = 151.2242298504318
@@ -3736,7 +3736,7 @@ public class AppDbSeed
     			    Telefone = "+61 3 9658 9658",
 					HorarioFuncionamento = "Varia de estabelecimento para estabelecimento",
     			    Descricao = "O centro de Melbourne é um labirinto de bares, restaurantes e clubes. Desde bares de jazz até clubes underground, há algo para todos os gostos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/melbourne-cbd.png",
     			    PaisId = 8,
     			    Latitude = -37.8101665980974,
     			    Longitude = 144.9616471561118
@@ -3750,7 +3750,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9240 3000",
 					HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
     			    Descricao = "Um dos clubes mais famosos da Austrália, o Ivy é um complexo de entretenimento com várias áreas, incluindo um restaurante, bar e pista de dança. A programação musical é variada, com DJs tocando os últimos hits.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/ivy.png",
     			    PaisId = 8,
     			    Latitude = -33.86639531322637, 
     			    Longitude = 151.2075121107099
@@ -3764,7 +3764,7 @@ public class AppDbSeed
     			    Telefone = "(02) 9130 7247",
 					HorarioFuncionamento = " Varia de acordo com a estação.",
     			    Descricao = "Um dos bares de praia mais famosos da Austrália, o The Beach oferece vistas espetaculares do oceano Pacífico. É o lugar perfeito para tomar um drink enquanto admira o pôr do sol.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/bondi beach.png",
     			    PaisId = 8,
     			    Latitude = -33.891448064008806, 
     			    Longitude = 151.27599320605552
@@ -3778,7 +3778,7 @@ public class AppDbSeed
     			    Telefone = "+61 7 3872 6600",
 					HorarioFuncionamento = "Varia de acordo com o dia da semana e evento.",
     			    Descricao = " Inspirado nos clubes de Nova York dos anos 1920, o Cloudland é um local elegante e sofisticado, com decoração luxuosa e música ao vivo.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/cloudland brisbane.png",
     			    PaisId = 8,
     			    Latitude = -27.458229554203985, 
     			    Longitude = 153.03490788956412
@@ -3792,7 +3792,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Varia de acordo com o dia da semana e evento. Consulte o site oficial para horários atualizados.",
     			    Descricao = "Um dos clubes mais populares de Melbourne, The Bird é conhecido por sua música eletrônica e atmosfera vibrante.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Vida Noturna/the bird.png",
     			    PaisId = 8,
     			    Latitude = -37.80874531902571,
     			    Longitude = 144.9577479697401
@@ -3808,7 +3808,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9220 0400",
 					HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
     			    Descricao = "A maior catedral católica da Austrália, com uma arquitetura neogótica impressionante. Um marco histórico e espiritual da cidade de Sydney.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/St. Mary's Cathedral, Sydney.png",
     			    PaisId = 8,
     			    Latitude = -33.87102570048502, 
     			    Longitude = 151.21338977301392
@@ -3822,7 +3822,7 @@ public class AppDbSeed
     			    Telefone = "03 9662 2233",
 					HorarioFuncionamento = "Diariamente, 07h00 às 19h00",
     			    Descricao = "A maior catedral católica da Austrália, com uma rica história e arquitetura gótica. Um local de peregrinação para muitos católicos australianos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/st patrick.png",
     			    PaisId = 8,
     			    Latitude = -37.80993496484525, 
     			    Longitude =  144.97647034417824
@@ -3836,7 +3836,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = " Consulte o site oficial para horários de oração.",
     			    Descricao = "A Mesquita de Melbourne é a maior mesquita da Austrália. Sua arquitetura islâmica impressionante e os jardins tranquilos oferecem um refúgio para a comunidade muçulmana e para todos aqueles que buscam um momento de paz.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/mesquita de melbourne.png",
     			    PaisId = 8,
     			    Latitude = -37.81801903958986, 
     			    Longitude = 144.9828807240133
@@ -3850,7 +3850,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Diariamente, das 9h às 17h.",
     			    Descricao = "O Templo Chinês de Melbourne é um dos maiores templos budistas fora da China. Sua arquitetura elaborada e os jardins exuberantes criam um ambiente sereno e inspirador.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/templo chines de melbourne.png",
     			    PaisId = 8,
     			    Latitude = -37.836665168697905, 
     			    Longitude = 144.9632451
@@ -3864,7 +3864,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de puja (oração)",
     			    Descricao = "O maior templo hindu da Austrália, dedicado a Lord Venkateswara, oferece um ambiente colorido e vibrante para a prática religiosa. A arquitetura elaborada e os rituais religiosos criam uma atmosfera única.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/Sri_Venkateswara_Temple.png",
     			    PaisId = 8,
     			    Latitude = -33.029137081703965, 
     			    Longitude = 152.24249413814792
@@ -3878,7 +3878,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 4272 0600",
 					HorarioFuncionamento = "Diariamente, consulte o site oficial para horários de meditação e eventos.",
     			    Descricao = "Um dos maiores templos budistas fora da Ásia, o Nan Tien oferece um retiro espiritual completo, com templos, jardins, um centro de meditação e um instituto budista.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Fé/nan-tien-temple.png",
     			    PaisId = 8,
     			    Latitude = -34.46586946851472, 
     			    Longitude = 150.8485088443963
@@ -3894,7 +3894,7 @@ public class AppDbSeed
     			    Telefone = "+61 3 9320 5822",
 					HorarioFuncionamento = "Variável, consulte o site oficial",
     			    Descricao = "Um dos maiores mercados públicos do Hemisfério Sul, oferecendo uma vasta gama de produtos, desde frutas e legumes frescos até roupas, artesanato e souvenirs. Um ótimo lugar para experimentar a cultura local e encontrar produtos únicos.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/queen victoria.png",
     			    PaisId = 8,
     			    Latitude = -37.807347223191265, 
     			    Longitude =  144.95673266657596
@@ -3908,7 +3908,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Varia de loja para loja",
     			    Descricao = "Uma das principais ruas comerciais de Sydney, com lojas de marcas internacionais, boutiques e grandes armazéns. Um destino popular para quem busca moda e acessórios.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/Pitt-Street-Mall.png",
     			    PaisId = 8,
     			    Latitude = -33.869482113113264, 
     			    Longitude = 151.2085933404443
@@ -3922,7 +3922,7 @@ public class AppDbSeed
     			    Telefone = "Não possui",
 					HorarioFuncionamento = "Varia de loja para loja",
     			    Descricao = "Uma rua conhecida por suas lojas vintage, boutiques independentes e cafés charmosos. Um lugar ideal para quem busca peças únicas e um ambiente mais alternativo.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/CHAPEL-ST.png",
     			    PaisId = 8,
     			    Latitude = -37.85316746711158, 
     			    Longitude = 144.99314134062274
@@ -3936,7 +3936,7 @@ public class AppDbSeed
     			    Telefone = "+61 8 8212 1200",
 					HorarioFuncionamento = "Varia de loja para loja",
     			    Descricao = "Uma das maiores redes de lojas de departamentos da Austrália, oferecendo uma ampla variedade de produtos, desde moda e beleza até eletrodomésticos e artigos para casa.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/myer-centre-adelaide.png",
     			    PaisId = 8,
     			    Latitude = -34.00597165160559, 
     			    Longitude =  138.88094509840045
@@ -3950,7 +3950,7 @@ public class AppDbSeed
     			    Telefone = "+61 7 3403 8888",
 					HorarioFuncionamento = "Varia de loja para loja",
     			    Descricao = "Uma das principais ruas comerciais de Brisbane, com lojas de marcas internacionais, boutiques e centros comerciais. Um ótimo lugar para fazer compras ao ar livre.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/queen street mall.png",
     			    PaisId = 8,
     			    Latitude = -27.469331635865686, 
     			    Longitude = 153.02529526718047
@@ -3964,7 +3964,7 @@ public class AppDbSeed
     			    Telefone = "+61 8 8203 7494",
 					HorarioFuncionamento = "Variável, consulte o site oficial",
     			    Descricao = "Adelaide é conhecida por seus diversos mercados, como o Central Market e o Adelaide Central Market Arcade. Estes oferecem uma variedade de produtos frescos, artesanato local e comidas deliciosas.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Compras/adelaide-central-market.png",
     			    PaisId = 8,
     			    Latitude = -34.921902913454595, 
     			    Longitude = 138.59902553627143
@@ -3980,7 +3980,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9250 7111",
 					HorarioFuncionamento = "Varia de acordo com a atração",
     			    Descricao = "Ícone da Austrália, a Ópera de Sydney é uma obra-prima da arquitetura moderna e um Patrimônio Mundial da UNESCO. Além dos espetáculos, oferece tours guiados e vistas deslumbrantes da cidade.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/sydney opera house.png",
     			    PaisId = 8,
     			    Latitude = -33.8566106363135, 
     			    Longitude = 151.21533961160804
@@ -3994,7 +3994,7 @@ public class AppDbSeed
     			    Telefone = "+61 131102",
 					HorarioFuncionamento = "Varia de acordo com os eventos, consulte o site oficial.",
     			    Descricao = "Construído para a Exposição Internacional de 1880, o Royal Exhibition Building é um marco da arquitetura vitoriana e um Patrimônio Mundial da UNESCO. Hoje, ele abriga o Museu Melbourne e diversos eventos culturais.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/royal exhibition.png",
     			    PaisId = 8,
     			    Latitude = -37.804515295216014, 
     			    Longitude = 144.97166092527775
@@ -4008,7 +4008,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 6270 8222",
 					HorarioFuncionamento = "Diariamente, consulte o site oficial para horários.",
     			    Descricao = "O antigo prédio do Parlamento australiano é um testemunho da história política do país. Hoje, ele abriga o Museu da Democracia, que explora a história da democracia australiana e o papel do Parlamento.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/old parliment house.png",
     			    PaisId = 8,
     			    Latitude = -35.302076119326806, 
     			    Longitude = 149.12973409632815
@@ -4022,7 +4022,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 6243 4211",
 					HorarioFuncionamento = "Diariamente, 10h00 às 17h00",
     			    Descricao = "Um memorial dedicado aos australianos que serviram nas forças armadas. Abriga coleções, exposições e um cenotáfio, contando a história militar da Austrália.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/Australian-War-Memorial.png",
     			    PaisId = 8,
     			    Latitude = -35.28100847803774, 
     			    Longitude = 149.14848634050563
@@ -4036,7 +4036,7 @@ public class AppDbSeed
     			    Telefone = "+61 2 9265 6800",
 					HorarioFuncionamento = "Diariamente, das 9h às 18h.",
     			    Descricao = "Construído em estilo vitoriano, o Queen Victoria Building é um dos shoppings mais antigos de Sydney. Sua arquitetura imponente e as lojas de luxo fazem dele um destino popular para compras e para conhecer um pouco da história da cidade.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/Queen Victoria Building (Sydney).png",
     			    PaisId = 8,
     			    Latitude = -33.87156608277119,
     			    Longitude = 151.20681508462258
@@ -4050,7 +4050,7 @@ public class AppDbSeed
     			    Telefone = "+61 (0)3 6251 2310",
 					HorarioFuncionamento = "Varia de acordo com a época do ano",
     			    Descricao = "Um sítio histórico que conta a história da colonização penal da Tasmânia. Um local sombrio, mas importante para entender o passado da Austrália.",
-    			    Foto = "",
+    			    Foto = "/imgpaises/imgAustralia/Cultura/port arthur historic site australia.png",
     			    PaisId = 8,
     			    Latitude = -43.14548713773363, 
     			    Longitude = 147.8506213813647
@@ -4069,7 +4069,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias da 09:00- 18:00",
 					Telefone =" +82 33-801-0900",
 			        Descricao = "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.",
-			        Foto = "https://www.example.com/seoraksan_national_park.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.jpg",
 			        PaisId = 9,
 			        Latitude = 38.16204005416863, 
 			        Longitude = 128.43547951753388
@@ -4082,7 +4082,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "Não possui",
 			        Descricao = "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.",
-			        Foto = "https://www.example.com/ilha_de_jeju.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.jpg",
 			        PaisId = 9,
 			        Latitude = 33.3819948440926, 
 			        Longitude = 126.56739146760108
@@ -4095,7 +4095,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias das 04:00–17:00",
 					Telefone = "Não possui",
 			        Descricao = "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.",
-			        Foto = "https://www.example.com/bukhansan_national_park.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.jpg",
 			        PaisId = 9,
 			        Latitude = 37.619183288027905, 
 			        Longitude = 126.99695839666964
@@ -4108,7 +4108,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias 09:00–18:00",
 					Telefone = "Não possui",
 			        Descricao = "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.",
-			        Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.jpg",
 			        PaisId = 9,
 			        Latitude = 35.339839452939394,
 			        Longitude = 127.04863580520106
@@ -4121,7 +4121,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "Não possui",
 			        Descricao = "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.",
-			        Foto = "https://www.example.com/cheonggyecheon_stream.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.jpg",
 			        PaisId = 9,
 			        Latitude = 37.57140736107005,
 			        Longitude =  126.97883994360866
@@ -4134,7 +4134,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "",
 			        Descricao = "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.",
-			        Foto = "https://www.example.com/ulleungdo_island.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.jpg",
 			        PaisId = 9,
 			        Latitude =37.50810159179579, 
 			        Longitude = 130.85698171738426
@@ -4150,7 +4150,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.",
 					Telefone = " +82 2-517-4654",
 			        Descricao = "Restaurante de alta gastronomia com pratos coreanos contemporâneos.",
-			        Foto = "https://www.example.com/myeongdong_food.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.jpg",
 			        PaisId = 9,
 			        Latitude = 37.525880264601184, 
 			        Longitude = 127.04104456015547
@@ -4163,7 +4163,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os Dias 17:00–00:00",
 					Telefone = "+821072234247",
 			        Descricao = "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.",
-			        Foto = "https://www.example.com/namdaemun_food.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.jpg",
 			        PaisId = 9,
 			        Latitude = 37.561266653553076, 
 			        Longitude = 126.9204677408502
@@ -4176,7 +4176,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Terça a Domindo das 11:30–21:00",
 					Telefone = "+82 2-338-8226",
 			        Descricao = "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.",
-			        Foto = "https://www.example.com/gwangjang_market_food.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.jpg",
 			        PaisId = 9,
 			        Latitude = 37.5515147004728, 
 			        Longitude = 126.92417224226679
@@ -4189,7 +4189,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "De Terça a Domingo, 12:00–22:00",
 					Telefone = "+82 2-796-1660",
 			        Descricao = "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).",
-			        Foto = "https://www.example.com/insadong_restaurant.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.jpg",
 			        PaisId = 9,
 			        Latitude = 37.53897557307481, 
 			        Longitude = 126.98970825048039
@@ -4202,7 +4202,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.",
 					Telefone = " +82 31-657-7580",
 			        Descricao = "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.",
-			        Foto = "https://www.example.com/gangnam_restaurant.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.jpg",
 			        PaisId = 9,
 			        Latitude = 36.96614879727422, 
 			        Longitude = 127.04390477691267
@@ -4215,7 +4215,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Segunda-feira a domingo, das 11h às 22h.",
 					Telefone = " +82 2-776-5348",
 			        Descricao="Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).",
-			        Foto = "https://www.example.com/jeju_seafood.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.jpg",
 			        PaisId = 9,
 			        Latitude = 37.56807679350626, 
 			        Longitude = 126.98423216079435
@@ -4232,7 +4232,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821073288182",
 			        Descricao = "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.",
-			        Foto = "https://www.example.com/octagon_seoul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.jpg",
 			        PaisId = 9,
 			        Latitude = 37.67161396842454, 
 			        Longitude = 126.78319992538519
@@ -4245,7 +4245,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +8225188556",
 			        Descricao = "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.",
-			        Foto = "https://www.example.com/ellui_seul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.jpg",
 			        PaisId = 9,
 			        Latitude = 37.52621971237432,
 			        Longitude = 127.05424524232673
@@ -4258,7 +4258,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821085550856",
 			        Descricao = "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.",
-			        Foto = "https://www.example.com/nb2_seoul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.jpg",
 			        PaisId = 9,
 			        Latitude = 37.550977824366974, 
 			        Longitude = 126.92321046930688
@@ -4271,7 +4271,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821066676460",
 			        Descricao = "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.",
-			        Foto = "https://www.example.com/arena_seoul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.jpg",
 			        PaisId = 9,
 			        Latitude = 37.553065552028634, 
 			        Longitude = 126.92185292159981
@@ -4284,7 +4284,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todods os dias: 20:00–02:00",
 					Telefone = " +821092183132",
 			        Descricao = "Um Local de dança para descontrai e se divertir a noite",
-			        Foto = "https://www.example.com/masquerade_seul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.jpg",
 			        PaisId = 9,
 			        Latitude = 937.5175,
 			        Longitude = 127.0275
@@ -4297,7 +4297,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821092123793",
 			        Descricao = "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.",
-			        Foto = "https://www.example.com/club_fabric_seul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.jpg",
 			        PaisId = 9,
 			        Latitude = 37.53772059779298,
 			        Longitude =  126.99454040411936
@@ -4313,7 +4313,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82547469913",
 			        Descricao = "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.",
-			        Foto = "https://www.example.com/bulguksa_temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.jpg",
 			        PaisId = 9,
 			        Latitude = 35.790334613450185, 
 			        Longitude = 129.33206679374007
@@ -4326,7 +4326,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82547469933",
 			        Descricao = "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.",
-			        Foto = "https://www.example.com/seokguram_grotto.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.jpg",
 			        PaisId = 9,
 			        Latitude = 35.79531531611893,
 			        Longitude =  129.35042241181617
@@ -4339,7 +4339,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +8227650195",
 			        Descricao = "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.",
-			        Foto = "https://www.example.com/jongmyo_shrine.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.jpg",
 			        PaisId = 9,
 			        Latitude = 37.574710520662755,
 			        Longitude = 126.99418591189087
@@ -4352,7 +4352,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
 					Telefone = " +82517227744",
 			        Descricao = "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.",
-			        Foto = "https://www.example.com/haedong_yonggungsa_temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.jpg",
 			        PaisId = 9,
 			        Latitude = 35.18862965694075, 
 			        Longitude = 129.22328750993472
@@ -4365,7 +4365,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
 					Telefone = " +82232184800",
 			        Descricao = "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.",
-			        Foto = "https://www.example.com/bongeunsa_temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.jpg",
 			        PaisId = 9,
 			        Latitude = 37.5150562133255, 
 			        Longitude = 127.05728003701194
@@ -4378,7 +4378,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82632843222",
 			        Descricao = "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.",
-			        Foto = "https://www.example.com/jeongdong_cathedral.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.jpg",
 			        PaisId = 9,
 			        Latitude = 35.81350847763053, 
 			        Longitude = 127.14931062716347
@@ -4394,7 +4394,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.",
-			        Foto = "https://www.example.com/myeongdong.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.jpg",
 			        PaisId = 9,
 			        Latitude = 37.560785672420124, 
 			        Longitude = 126.98585614550366
@@ -4407,7 +4407,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "De Segunda a Sabado das 09:00–17:00",
 					Telefone = "+8227532805",
 			        Descricao = "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.",
-			        Foto = "https://www.example.com/namdaemun_market.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.jpg",
 			        PaisId = 9,
 			        Latitude = 37.559250864567474, 
 			        Longitude = 126.97761555248368
@@ -4420,7 +4420,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.",
-			        Foto = "https://www.example.com/insadong.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.jpg",
 			        PaisId = 9,
 			        Latitude = 37.57196658484324, 
 			        Longitude = 126.98614014456358
@@ -4433,7 +4433,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.",
-			        Foto = "https://www.example.com/gangnam.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.jpg",
 			        PaisId = 9,
 			        Latitude = 37.50375342028092, 
 			        Longitude = 127.06245889811935
@@ -4446,7 +4446,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, das 10h às 20h",
 					Telefone = "+82221530000",
 			        Descricao = "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.",
-			        Foto = "https://www.example.com/dongdaemun_design_plaza.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).jpg",
 			        PaisId = 9,
 			        Latitude = 37.56665738653509, 
 			        Longitude = 127.00926651201372
@@ -4459,7 +4459,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, das 10h às 22h",
 					Telefone = "Não Possui",
 			        Descricao = "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.",
-			        Foto = "https://www.example.com/gwangjang_market.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.jpg",
 			        PaisId = 9,
 			        Latitude = 37.570839149843785, 
 			        Longitude = 126.99973234706955
@@ -4475,7 +4475,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82237003900",
 			        Descricao = "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.",
-			        Foto = "https://www.example.com/gyeongbokgung_palace.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.jpg",
 			        PaisId = 9,
 			        Latitude = 37.57975301469734, 
 			        Longitude = 126.97694443701472
@@ -4488,7 +4488,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Aberto 24 horas",
 					Telefone = " +82221331371",
 			        Descricao = "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.",
-			        Foto = "https://www.example.com/bukchon_hanok_village.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.jpg",
 			        PaisId = 9,
 			        Latitude = 37.58169490713809,
 			        Longitude =  126.98494116748547
@@ -4501,7 +4501,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de local para local",
 					Telefone = " +82547798742",
 			        Descricao = "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.",
-			        Foto = "https://www.example.com/gyeongju_historic_area.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.jpg",
 			        PaisId = 9,
 			        Latitude = 35.83426981930416,
 			        Longitude =  129.21686418298106
@@ -4514,7 +4514,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 10h00 às 18h00",
 					Telefone = " +82220779000",
 			        Descricao = "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.",
-			        Foto = "https://www.example.com/national_museum_of_korea.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.jpg",
 			        PaisId = 9,
 			        Latitude = 37.524088824745704, 
 			        Longitude = 126.9805560272353
@@ -4527,7 +4527,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a excursão",
 					Telefone = " Não tem",
 			        Descricao = "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.",
-			        Foto = "https://www.example.com/dmz.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).jpg",
 			        PaisId = 9,
 			        Latitude = 38.36023018807722, 
 			        Longitude = 127.47325686815884
@@ -4540,7 +4540,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Aberto 24 horas",
 					Telefone = " +82632821330",
 			        Descricao = "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.",
-			        Foto = "https://www.example.com/jeonju_hanok_village.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.jpg",
 			        PaisId = 9,
 			        Latitude = 35.81779856759617, 
 			        Longitude = 127.15204169647048
@@ -5660,7 +5660,7 @@ public class AppDbSeed
 			},
 			new ExperienciaLocal() {
 			LocalId =       277 ,
-			ExperienciaId =     4
+			ExperienciaId =     5
 			},
 			new ExperienciaLocal() {
 			LocalId =       278 ,

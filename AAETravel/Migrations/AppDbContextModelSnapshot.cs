@@ -1660,7 +1660,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            ExperienciaId = 4,
+                            ExperienciaId = 5,
                             LocalId = 277
                         },
                         new
@@ -1911,7 +1911,13 @@ namespace AAETravel.Migrations
                     b.Property<DateTime>("DataCadastro")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<int?>("ExperienciaId")
+                        .HasColumnType("int");
+
                     b.Property<int>("LocalId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PaisId")
                         .HasColumnType("int");
 
                     b.Property<string>("UsuarioId")
@@ -1919,7 +1925,11 @@ namespace AAETravel.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ExperienciaId");
+
                     b.HasIndex("LocalId");
+
+                    b.HasIndex("PaisId");
 
                     b.HasIndex("UsuarioId");
 
@@ -5313,7 +5323,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 258,
                             Descricao = "A maior ilha de areia do mundo, com dunas, lagos cristalinos e florestas. Ideal para 4x4, camping e observação da vida selvagem.",
-                            Foto = "/imgpaises/imgAustralia/Natureza/quay.png",
+                            Foto = "/imgpaises/imgAustralia/Natureza/quay (2).png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = -25.3444,
                             Localizacao = "Queensland",
@@ -5716,7 +5726,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 289,
                             Descricao = "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.png",
                             HorarioFuncionamento = "Todos os dias da 09:00- 18:00",
                             Latitude = 38.162040054168628,
                             Localizacao = "Sokcho, Gangwon-do",
@@ -5729,7 +5739,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 290,
                             Descricao = "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.png",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 33.381994844092603,
                             Localizacao = "Mar do Sul da Coreia",
@@ -5742,7 +5752,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 291,
                             Descricao = "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.png",
                             HorarioFuncionamento = "Todos os dias das 04:00–17:00",
                             Latitude = 37.619183288027905,
                             Localizacao = "Seul e Gyeonggi-do",
@@ -5755,7 +5765,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 292,
                             Descricao = "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.png",
                             HorarioFuncionamento = "Todos os dias 09:00–18:00",
                             Latitude = 35.339839452939394,
                             Localizacao = "Damyang",
@@ -5768,7 +5778,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 293,
                             Descricao = "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.png",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 37.571407361070051,
                             Localizacao = "Seul",
@@ -5781,7 +5791,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 294,
                             Descricao = "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.",
-                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.png",
                             HorarioFuncionamento = "24 horas",
                             Latitude = 37.508101591795793,
                             Localizacao = "Mar do Leste da Coreia",
@@ -5794,7 +5804,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 295,
                             Descricao = "Restaurante de alta gastronomia com pratos coreanos contemporâneos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.png",
                             HorarioFuncionamento = " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.",
                             Latitude = 37.525880264601184,
                             Localizacao = "Seul",
@@ -5807,7 +5817,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 296,
                             Descricao = "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.png",
                             HorarioFuncionamento = "Todos os Dias 17:00–00:00",
                             Latitude = 37.561266653553076,
                             Localizacao = "Seul",
@@ -5820,7 +5830,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 297,
                             Descricao = "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.png",
                             HorarioFuncionamento = "Terça a Domindo das 11:30–21:00",
                             Latitude = 37.551514700472801,
                             Localizacao = "Seul",
@@ -5833,7 +5843,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 298,
                             Descricao = "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.png",
                             HorarioFuncionamento = "De Terça a Domingo, 12:00–22:00",
                             Latitude = 37.538975573074808,
                             Localizacao = "Seul",
@@ -5846,7 +5856,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 299,
                             Descricao = "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.png",
                             HorarioFuncionamento = "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.",
                             Latitude = 36.966148797274222,
                             Localizacao = "Seul",
@@ -5859,7 +5869,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 300,
                             Descricao = "Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).",
-                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.png",
                             HorarioFuncionamento = "Segunda-feira a domingo, das 11h às 22h.",
                             Latitude = 37.568076793506258,
                             Localizacao = "Seoul",
@@ -5872,7 +5882,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 301,
                             Descricao = "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.png",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.671613968424538,
                             Localizacao = "Gangnam, Seul",
@@ -5885,7 +5895,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 302,
                             Descricao = "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.png",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.526219712374321,
                             Localizacao = "Gangnam, Seul",
@@ -5898,7 +5908,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 303,
                             Descricao = "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.png",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.550977824366974,
                             Localizacao = "Itaewon, Seul",
@@ -5911,7 +5921,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 304,
                             Descricao = "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.png",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.553065552028634,
                             Localizacao = "Hongdae, Seul",
@@ -5924,7 +5934,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 305,
                             Descricao = "Um Local de dança para descontrai e se divertir a noite",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.png",
                             HorarioFuncionamento = "Todods os dias: 20:00–02:00",
                             Latitude = 937.51750000000004,
                             Localizacao = "191 Donggyo-ro, Mapo-gu, Seoul, Coreia do Sul",
@@ -5937,7 +5947,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 306,
                             Descricao = "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.",
-                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.png",
                             HorarioFuncionamento = "Varia de acordo com a noite",
                             Latitude = 37.537720597792983,
                             Localizacao = "Itaewon, Seul",
@@ -5950,7 +5960,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 307,
                             Descricao = "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.png",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.790334613450185,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -5963,7 +5973,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 308,
                             Descricao = "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.png",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.795315316118931,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -5976,7 +5986,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 309,
                             Descricao = "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.png",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 37.574710520662755,
                             Localizacao = "Seul",
@@ -5989,7 +5999,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 310,
                             Descricao = "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.png",
                             HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
                             Latitude = 35.188629656940748,
                             Localizacao = "Busan",
@@ -6002,7 +6012,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 311,
                             Descricao = "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.png",
                             HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
                             Latitude = 37.515056213325501,
                             Localizacao = "Seul",
@@ -6015,7 +6025,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 312,
                             Descricao = "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.",
-                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.png",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 35.813508477630528,
                             Localizacao = "Seul",
@@ -6028,7 +6038,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 313,
                             Descricao = "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.560785672420124,
                             Localizacao = "Seul",
@@ -6041,7 +6051,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 314,
                             Descricao = "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.png",
                             HorarioFuncionamento = "De Segunda a Sabado das 09:00–17:00",
                             Latitude = 37.559250864567474,
                             Localizacao = "Seul",
@@ -6054,7 +6064,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 315,
                             Descricao = "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.571966584843238,
                             Localizacao = "Seul",
@@ -6067,7 +6077,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 316,
                             Descricao = "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.png",
                             HorarioFuncionamento = "Varia de loja para loja",
                             Latitude = 37.503753420280923,
                             Localizacao = "Seul",
@@ -6080,7 +6090,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 317,
                             Descricao = "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).png",
                             HorarioFuncionamento = "Diariamente, das 10h às 20h",
                             Latitude = 37.566657386535091,
                             Localizacao = "Seul",
@@ -6093,7 +6103,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 318,
                             Descricao = "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.png",
                             HorarioFuncionamento = "Diariamente, das 10h às 22h",
                             Latitude = 37.570839149843785,
                             Localizacao = "Seul",
@@ -6106,7 +6116,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 319,
                             Descricao = "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.png",
                             HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
                             Latitude = 37.579753014697339,
                             Localizacao = "Seul",
@@ -6119,7 +6129,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 320,
                             Descricao = "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = 37.581694907138093,
                             Localizacao = "Seul",
@@ -6132,7 +6142,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 321,
                             Descricao = "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.png",
                             HorarioFuncionamento = "Varia de local para local",
                             Latitude = 35.834269819304161,
                             Localizacao = "Gyeongju, Gyeongsangbuk-do",
@@ -6145,7 +6155,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 322,
                             Descricao = "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.png",
                             HorarioFuncionamento = "Diariamente, 10h00 às 18h00",
                             Latitude = 37.524088824745704,
                             Localizacao = "Seul",
@@ -6158,7 +6168,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 323,
                             Descricao = "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).png",
                             HorarioFuncionamento = "Varia de acordo com a excursão",
                             Latitude = 38.360230188077217,
                             Localizacao = "Fronteira entre a Coreia do Sul e a Coreia do Norte",
@@ -6171,7 +6181,7 @@ namespace AAETravel.Migrations
                         {
                             Id = 324,
                             Descricao = "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.",
-                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.jpg",
+                            Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.png",
                             HorarioFuncionamento = "Aberto 24 horas",
                             Latitude = 35.817798567596171,
                             Localizacao = "Jeonju, Jeollabuk-do",
@@ -6324,7 +6334,7 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UsuarioId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
+                            UsuarioId = "a0f33e28-8c02-4e12-9546-369ddc6b2f3f",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Nunes.png",
@@ -6333,7 +6343,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
+                            UsuarioId = "e0d102a0-c817-4496-8e89-4047a9a83774",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Ana.jpg",
@@ -6342,7 +6352,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
+                            UsuarioId = "11a56c02-8c39-45cc-9661-c6cb68f727f2",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/dametto.png",
@@ -6351,7 +6361,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "98b6f384-f93b-49e3-b29e-4768295853aa",
+                            UsuarioId = "c8d31e16-b253-4b5f-8c93-e86f9c390489",
                             Cidade = "Barra Bonita, SP",
                             Descricao = "Programador junior",
                             Foto = "/img/Criador/Any.png",
@@ -6360,7 +6370,7 @@ namespace AAETravel.Migrations
                         },
                         new
                         {
-                            UsuarioId = "102cec9d-ab69-498a-a0aa-123d056299d1",
+                            UsuarioId = "d47bf329-dc46-44ec-a512-1dee36c4a3af",
                             Cidade = "Mundo Afora",
                             Descricao = "Viajante profissional, amante de café e contador de histórias ruins.",
                             Foto = "/img/User/Joao.jpg",
@@ -6397,13 +6407,13 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3a2afb85-d0e1-4179-aa82-72ad5bde971b",
+                            Id = "4cbad0e7-dca9-41db-8a60-cccdf24c2277",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9",
+                            Id = "d47c19d9-8b8b-49c0-bd14-a29086840ce1",
                             Name = "Visitante",
                             NormalizedName = "VISITANTE"
                         });
@@ -6500,81 +6510,81 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
+                            Id = "a0f33e28-8c02-4e12-9546-369ddc6b2f3f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2dcf34c1-23ba-4026-989f-2393d89b0cbe",
+                            ConcurrencyStamp = "6ab05fbd-4091-4d22-b9c5-ec90c1d66ab4",
                             Email = "eduardo.oliveira@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.OLIVEIRA@AAETRAVEL.COM",
                             NormalizedUserName = "EDUARDO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEN3iQvM0MTJWrzeZYa3DAYOGdzrre/NRev4OEhRaHH88t8ysNLICSyJE1mlE5bx8Ww==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE9CgVjSawmeXj4M2GNOpcTAaMsmmV1mzS0VKK+pWt/Zd47cqZNuNJrBVwjUqW1uXg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7a14431b-4e51-4991-8ea2-c6a39e71d0bf",
+                            SecurityStamp = "e26d8be2-27c7-40ba-940a-5d7de4b22b3d",
                             TwoFactorEnabled = false,
                             UserName = "Eduardo"
                         },
                         new
                         {
-                            Id = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
+                            Id = "e0d102a0-c817-4496-8e89-4047a9a83774",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7a36eefb-6c42-46de-b8ea-ea8a7692a551",
+                            ConcurrencyStamp = "2c4bdf7e-1fdb-42a7-9541-720f45a4d22e",
                             Email = "ana.silva@aaetravel.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANA.SILVA@AAETRAVEL.COM",
                             NormalizedUserName = "ANA",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJkXLHcsJBAq8gK89dCMBms/zBRPt/XEgZoSN0mt1Uki0xSYcN60QpGxmUq6MN3kuw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI2A5jE3JntEMqmTuTgXFIpL8ATPuHQBwJrJEcga1TFJ27cmBH5UhoKrFmVECgzcdA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b2e3573f-181d-43c1-b538-477813814d46",
+                            SecurityStamp = "3c259212-e1cc-49e9-a89f-274caff326ea",
                             TwoFactorEnabled = false,
                             UserName = "ana"
                         },
                         new
                         {
-                            Id = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
+                            Id = "11a56c02-8c39-45cc-9661-c6cb68f727f2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f9ed05ed-1223-4617-aab5-3e51ff348de5",
+                            ConcurrencyStamp = "d989137e-89e3-4e2d-bcfb-2f231114636e",
                             Email = "eduardo.dametto@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "EDUARDO.DAMETTO@GMAIL.COM",
                             NormalizedUserName = "DAMETTO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPr7DnCccyO3iBeCDIk2CLi+1Y34aL3JrhFksECX/TSstSkAWix2JhS9/S0PTq5Xng==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFbPERoHgWaSErXHjJRHxpGM7zlBK9fTkP/EbYke2PrNc4xR/fsA5hzjVZJuh9xU7g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "249ef6c2-6c22-4edb-b782-690b2de01a5a",
+                            SecurityStamp = "7cfed136-6c2a-4356-8607-4d7cb9bd99cf",
                             TwoFactorEnabled = false,
                             UserName = "dametto"
                         },
                         new
                         {
-                            Id = "98b6f384-f93b-49e3-b29e-4768295853aa",
+                            Id = "c8d31e16-b253-4b5f-8c93-e86f9c390489",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "57addadf-c8da-47f7-bd6e-eddb0fe116b2",
+                            ConcurrencyStamp = "b76d6141-ddf1-4b64-a6b0-7e845cbec13d",
                             Email = "any.lima@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ANY.LIMA@GMAIL.COM",
                             NormalizedUserName = "ANY",
-                            PasswordHash = "AQAAAAIAAYagAAAAELiUf84CV3uVo9ARz2xqFF+zPS+X6NKhJhCANIaHaPS0NwOo61l/LwJe5DAdrrwo9A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBdSTE0zdGhonewrmtXZ26u5eSng4S6dHOSrHigOt2eMDnrvBAKQfwi00Z6cho/X1Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c5a4f7c5-6009-42f3-b7fd-c0b8933f0a36",
+                            SecurityStamp = "ec574b2a-8055-40f5-8bc5-3c695d7a0778",
                             TwoFactorEnabled = false,
                             UserName = "any"
                         },
                         new
                         {
-                            Id = "102cec9d-ab69-498a-a0aa-123d056299d1",
+                            Id = "d47bf329-dc46-44ec-a512-1dee36c4a3af",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "082314cc-3246-4513-ab32-ebd4ce68db43",
+                            ConcurrencyStamp = "0adac4cb-ed48-459b-8d0d-442b8d504d01",
                             Email = "joaosouza@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "JOAOSOUZA@GMAIL.COM",
                             NormalizedUserName = "JOAO",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIYHE55dYtq269/g2XrcP4qWxejeESfuhC6Tkc62AUnMM6rZBP9bgQVmlgQQ6Vll9g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJjp8516vGxKJLctvNuDPa/VcAOb1079YNTMA38fXL18lhldc2wDuYYArQKmeyGoeg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "df30879c-e3a0-4a6d-8027-4cc682bfbea8",
+                            SecurityStamp = "32b1c64c-689b-4042-a392-36c46c4c9dd1",
                             TwoFactorEnabled = false,
                             UserName = "joao"
                         });
@@ -6644,48 +6654,48 @@ namespace AAETravel.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
-                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
+                            UserId = "a0f33e28-8c02-4e12-9546-369ddc6b2f3f",
+                            RoleId = "4cbad0e7-dca9-41db-8a60-cccdf24c2277"
                         },
                         new
                         {
-                            UserId = "29b5c9a4-a7f5-4da3-b445-8bc00578bcba",
-                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
+                            UserId = "a0f33e28-8c02-4e12-9546-369ddc6b2f3f",
+                            RoleId = "d47c19d9-8b8b-49c0-bd14-a29086840ce1"
                         },
                         new
                         {
-                            UserId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
-                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
+                            UserId = "e0d102a0-c817-4496-8e89-4047a9a83774",
+                            RoleId = "4cbad0e7-dca9-41db-8a60-cccdf24c2277"
                         },
                         new
                         {
-                            UserId = "fabf1202-b588-4aa1-92c9-ec6e798b1498",
-                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
+                            UserId = "e0d102a0-c817-4496-8e89-4047a9a83774",
+                            RoleId = "d47c19d9-8b8b-49c0-bd14-a29086840ce1"
                         },
                         new
                         {
-                            UserId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
-                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
+                            UserId = "11a56c02-8c39-45cc-9661-c6cb68f727f2",
+                            RoleId = "4cbad0e7-dca9-41db-8a60-cccdf24c2277"
                         },
                         new
                         {
-                            UserId = "4cffb6ba-10f6-495e-a5ac-6d3957a3bda1",
-                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
+                            UserId = "11a56c02-8c39-45cc-9661-c6cb68f727f2",
+                            RoleId = "d47c19d9-8b8b-49c0-bd14-a29086840ce1"
                         },
                         new
                         {
-                            UserId = "98b6f384-f93b-49e3-b29e-4768295853aa",
-                            RoleId = "3a2afb85-d0e1-4179-aa82-72ad5bde971b"
+                            UserId = "c8d31e16-b253-4b5f-8c93-e86f9c390489",
+                            RoleId = "4cbad0e7-dca9-41db-8a60-cccdf24c2277"
                         },
                         new
                         {
-                            UserId = "98b6f384-f93b-49e3-b29e-4768295853aa",
-                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
+                            UserId = "c8d31e16-b253-4b5f-8c93-e86f9c390489",
+                            RoleId = "d47c19d9-8b8b-49c0-bd14-a29086840ce1"
                         },
                         new
                         {
-                            UserId = "102cec9d-ab69-498a-a0aa-123d056299d1",
-                            RoleId = "8b17a106-d1c3-4002-9d7e-9f2eb4b7d9c9"
+                            UserId = "d47bf329-dc46-44ec-a512-1dee36c4a3af",
+                            RoleId = "d47c19d9-8b8b-49c0-bd14-a29086840ce1"
                         });
                 });
 
@@ -6740,17 +6750,29 @@ namespace AAETravel.Migrations
 
             modelBuilder.Entity("AAETravel.Models.Lista", b =>
                 {
+                    b.HasOne("AAETravel.Models.Experiencia", "Experiencia")
+                        .WithMany()
+                        .HasForeignKey("ExperienciaId");
+
                     b.HasOne("AAETravel.Models.Local", "Local")
                         .WithMany("Listas")
                         .HasForeignKey("LocalId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("AAETravel.Models.Pais", "Pais")
+                        .WithMany()
+                        .HasForeignKey("PaisId");
+
                     b.HasOne("AAETravel.Models.Usuario", "Usuario")
                         .WithMany("Listas")
                         .HasForeignKey("UsuarioId");
 
+                    b.Navigation("Experiencia");
+
                     b.Navigation("Local");
+
+                    b.Navigation("Pais");
 
                     b.Navigation("Usuario");
                 });

@@ -28,10 +28,13 @@
     {
         @foreach (var lista in Model)
         {
-            <div class="lugares">
-                <img src="@lista.Local.Foto">
-                <h1>@lista.Local.Nome</h1>
-                <a href="informacoes.html">Saiba Mais</a>
+            <div class="lugares" style="--Cor: @lista.Experiencia.Cor">
+                <a class="link" asp-action="Local" asp-route-id="@lista.Local.Id" asp-route-experiencia="@lista.Experiencia.Id">
+                    <img src="@lista.Local.Foto">
+                    <h1>@lista.Local.Nome</h1>
+                    <div>Saiba
+                        Mais</div>
+                </a>
             </div>
         }
     }

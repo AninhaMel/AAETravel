@@ -102,13 +102,15 @@ namespace AAETravel.Controllers
         [Authorize]
         public async Task<IActionResult> Favoritado()
         {
-            var usuarioId = _userManager.GetUserId(User);  // Obtém o ID do usuário logado
+            var usuarioId = _userManager.GetUserId(User);  
             var listas = await _context.Listas
-                .Where(f => f.UsuarioId == usuarioId)  // Filtro pelo ID do usuário
-                .Include(f => f.Local)  // Inclui as informações do local favoritado
-                .ToListAsync() ?? new List<Lista>();  // Garante que uma lista vazia seja passada se não houver favoritos
+                .Where(f => f.UsuarioId == usuarioId)  
+                .Include(f => f.Local)  
+                .Include(f => f.Experiencia)  
+                .Include(f => f.Pais)  
+                .ToListAsync() ?? new List<Lista>(); 
 
-            return View(listas);  // Passa a lista para a view
+            return View(listas);  
         }
 
         public IActionResult Perfil()

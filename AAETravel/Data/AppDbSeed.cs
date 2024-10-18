@@ -4069,7 +4069,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias da 09:00- 18:00",
 					Telefone =" +82 33-801-0900",
 			        Descricao = "Um dos parques nacionais mais populares da Coreia do Sul, conhecido por suas montanhas majestosas, trilhas desafiadoras e paisagens deslumbrantes. O pico mais alto, o Seoraksan, oferece vistas panorâmicas espetaculares.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Seoraksan National Park.png",
 			        PaisId = 9,
 			        Latitude = 38.16204005416863, 
 			        Longitude = 128.43547951753388
@@ -4082,7 +4082,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "Não possui",
 			        Descricao = "A maior ilha da Coreia do Sul, famosa por suas belas praias, vulcões adormecidos, cachoeiras e a Ilha Hallasan, o ponto mais alto da Coreia do Sul. Um destino popular para lua de mel.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ilha de Jeju.png",
 			        PaisId = 9,
 			        Latitude = 33.3819948440926, 
 			        Longitude = 126.56739146760108
@@ -4095,7 +4095,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias das 04:00–17:00",
 					Telefone = "Não possui",
 			        Descricao = "Um parque nacional facilmente acessível a partir de Seul, oferecendo uma variedade de trilhas para caminhadas e escalada. É um ótimo lugar para fugir da agitação da cidade e apreciar a natureza.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Bukhansan National Park.png",
 			        PaisId = 9,
 			        Latitude = 37.619183288027905, 
 			        Longitude = 126.99695839666964
@@ -4108,7 +4108,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os dias 09:00–18:00",
 					Telefone = "Não possui",
 			        Descricao = "Juknokwon é a floresta de bambu mais renomada da Coreia do Sul, oferecendo uma mistura única de beleza natural e herança cultural. Aninhada em Damyang, o coração da Poesia Coreana Clássica da Dinastia Joseon, Juknokwon apresenta uma densa floresta de bambu e uma vila cultural de pavilhões.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Juknokwon.png",
 			        PaisId = 9,
 			        Latitude = 35.339839452939394,
 			        Longitude = 127.04863580520106
@@ -4121,7 +4121,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "Não possui",
 			        Descricao = "Um rio urbano revitalizado que corta o centro de Seul. Um ótimo lugar para um passeio relaxante, com paisagismo exuberante e pontes charmosas.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Cheonggyecheon Stream.png",
 			        PaisId = 9,
 			        Latitude = 37.57140736107005,
 			        Longitude =  126.97883994360866
@@ -4134,7 +4134,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "24 horas",
 					Telefone = "",
 			        Descricao = "Uma ilha vulcânica com paisagens dramáticas, incluindo falésias, cavernas e cachoeiras. É um destino popular para quem busca aventuras ao ar livre e paisagens únicas.",
-			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Natureza/Ulleungdo Island.png",
 			        PaisId = 9,
 			        Latitude =37.50810159179579, 
 			        Longitude = 130.85698171738426
@@ -4150,7 +4150,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = " Segunda-feira a domingo, das 12h às 15h e das 17h30 às 22h.",
 					Telefone = " +82 2-517-4654",
 			        Descricao = "Restaurante de alta gastronomia com pratos coreanos contemporâneos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Jungsik Seoul.png",
 			        PaisId = 9,
 			        Latitude = 37.525880264601184, 
 			        Longitude = 127.04104456015547
@@ -4163,7 +4163,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todos os Dias 17:00–00:00",
 					Telefone = "+821072234247",
 			        Descricao = "  Restaurante de comida de rua coreana com pratos tradicionais e modernos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Hangong-Gan.png",
 			        PaisId = 9,
 			        Latitude = 37.561266653553076, 
 			        Longitude = 126.9204677408502
@@ -4176,7 +4176,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Terça a Domindo das 11:30–21:00",
 					Telefone = "+82 2-338-8226",
 			        Descricao = "Restaurante de tacos mexicanos com ingredientes frescos e autênticos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Gusto Taco.png",
 			        PaisId = 9,
 			        Latitude = 37.5515147004728, 
 			        Longitude = 126.92417224226679
@@ -4189,7 +4189,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "De Terça a Domingo, 12:00–22:00",
 					Telefone = "+82 2-796-1660",
 			        Descricao = "Restaurante de churrasco brasileiro com carnes grelhadas e acompanhamentos.).",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Copacabana Grill.png",
 			        PaisId = 9,
 			        Latitude = 37.53897557307481, 
 			        Longitude = 126.98970825048039
@@ -4202,7 +4202,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Segunda-feira, das 17h às 21h. Terça-feira a sábado, das 12h às 21h. Domingo, das 12h às 20h30.",
 					Telefone = " +82 31-657-7580",
 			        Descricao = "Restaurante de churrasco sul-africano com carnes grelhadas e acompanhamentos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Braai Republic.png",
 			        PaisId = 9,
 			        Latitude = 36.96614879727422, 
 			        Longitude = 127.04390477691267
@@ -4215,7 +4215,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Segunda-feira a domingo, das 11h às 22h.",
 					Telefone = " +82 2-776-5348",
 			        Descricao="Restaurante de caldos de mandu (bolinhos de carne) e kalguksu (macarrão de massa fina).",
-			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Restaurantes/Myeongdong Kyoja.png",
 			        PaisId = 9,
 			        Latitude = 37.56807679350626, 
 			        Longitude = 126.98423216079435
@@ -4232,7 +4232,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821073288182",
 			        Descricao = "Considerada uma das maiores e mais famosas boates da Ásia, o Octagon é conhecido por sua música eletrônica, DJs renomados e ambiente luxuoso. É um ponto de encontro para a elite e amantes da música eletrônica.",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Octagon.png",
 			        PaisId = 9,
 			        Latitude = 37.67161396842454, 
 			        Longitude = 126.78319992538519
@@ -4245,7 +4245,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +8225188556",
 			        Descricao = "Outra grande boate em Gangnam, o Ellui é conhecido por sua atmosfera vibrante e música variada. É um lugar popular para quem busca uma noite de dança e diversão.",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Ellui.png",
 			        PaisId = 9,
 			        Latitude = 37.52621971237432,
 			        Longitude = 127.05424524232673
@@ -4258,7 +4258,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821085550856",
 			        Descricao = "Localizado no bairro multicultural de Itaewon, o NB2 é conhecido por sua atmosfera internacional e música variada. É um lugar popular para quem busca uma noite divertida e multicultural.",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/NB2.png",
 			        PaisId = 9,
 			        Latitude = 37.550977824366974, 
 			        Longitude = 126.92321046930688
@@ -4271,7 +4271,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821066676460",
 			        Descricao = "Localizado no vibrante bairro de Hongdae, o Club Aura é conhecido por sua música eletrônica e atmosfera jovem. É um lugar popular para estudantes e jovens adultos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Hongdae Club Aura.png",
 			        PaisId = 9,
 			        Latitude = 37.553065552028634, 
 			        Longitude = 126.92185292159981
@@ -4284,7 +4284,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Todods os dias: 20:00–02:00",
 					Telefone = " +821092183132",
 			        Descricao = "Um Local de dança para descontrai e se divertir a noite",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Club Bonita.png",
 			        PaisId = 9,
 			        Latitude = 937.5175,
 			        Longitude = 127.0275
@@ -4297,7 +4297,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a noite",
 					Telefone = " +821092123793",
 			        Descricao = "Conhecido por sua música underground e atmosfera alternativa, o Itaewon club Gathering atrai um público mais jovem e descontraído. É um lugar para quem busca uma experiência musical mais autêntica.",
-			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Vida Noturna/Itaewon club Gathering.png",
 			        PaisId = 9,
 			        Latitude = 37.53772059779298,
 			        Longitude =  126.99454040411936
@@ -4313,7 +4313,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82547469913",
 			        Descricao = "Um dos templos budistas mais antigos e importantes da Coreia do Sul, conhecido por sua arquitetura deslumbrante e esculturas budistas. Um Patrimônio Mundial da UNESCO.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bulguksa Temple.png",
 			        PaisId = 9,
 			        Latitude = 35.790334613450185, 
 			        Longitude = 129.33206679374007
@@ -4326,7 +4326,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82547469933",
 			        Descricao = "Uma gruta budista esculpida em uma montanha, abrigando uma estátua de Buda de granito. Famosa por sua harmonia entre natureza e arte budista.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Seokguram Grotto.png",
 			        PaisId = 9,
 			        Latitude = 35.79531531611893,
 			        Longitude =  129.35042241181617
@@ -4339,7 +4339,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +8227650195",
 			        Descricao = "Um santuário confucionista dedicado aos ancestrais da dinastia Joseon. Um lugar sagrado para cerimônias confucionistas e um exemplo excepcional da arquitetura tradicional coreana.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jongmyo Shrine.png",
 			        PaisId = 9,
 			        Latitude = 37.574710520662755,
 			        Longitude = 126.99418591189087
@@ -4352,7 +4352,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
 					Telefone = " +82517227744",
 			        Descricao = "Um templo budista localizado em um penhasco com vista para o mar. Um dos templos mais bonitos da Coreia do Sul, conhecido por sua arquitetura única e localização pitoresca.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Haedong Yonggungsa Temple.png",
 			        PaisId = 9,
 			        Latitude = 35.18862965694075, 
 			        Longitude = 129.22328750993472
@@ -4365,7 +4365,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 04h00 às 19h00",
 					Telefone = " +82232184800",
 			        Descricao = "Um dos templos budistas mais antigos de Seul, localizado em um parque urbano. Um lugar tranquilo para meditação e apreciação da natureza.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Bongeunsa Temple.png",
 			        PaisId = 9,
 			        Latitude = 37.5150562133255, 
 			        Longitude = 127.05728003701194
@@ -4378,7 +4378,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82632843222",
 			        Descricao = "A primeira catedral católica romana da Coreia do Sul, com uma rica história e arquitetura gótica. Um marco importante para a comunidade católica coreana.",
-			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Fé/Jeongdong Cathedral.png",
 			        PaisId = 9,
 			        Latitude = 35.81350847763053, 
 			        Longitude = 127.14931062716347
@@ -4394,7 +4394,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Um dos distritos comerciais mais populares de Seul, conhecido por suas lojas de cosméticos, moda e restaurantes. É um paraíso para os amantes de compras.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Myeongdong.png",
 			        PaisId = 9,
 			        Latitude = 37.560785672420124, 
 			        Longitude = 126.98585614550366
@@ -4407,7 +4407,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "De Segunda a Sabado das 09:00–17:00",
 					Telefone = "+8227532805",
 			        Descricao = "Um dos mercados tradicionais mais antigos de Seul, oferecendo uma vasta variedade de produtos, desde roupas e acessórios até alimentos e souvenirs.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Namdaemun Market.png",
 			        PaisId = 9,
 			        Latitude = 37.559250864567474, 
 			        Longitude = 126.97761555248368
@@ -4420,7 +4420,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Um bairro histórico conhecido por suas lojas de artesanato, galerias de arte e casas de chá tradicionais. É um ótimo lugar para encontrar presentes únicos e experimentar a cultura coreana.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Insadong.png",
 			        PaisId = 9,
 			        Latitude = 37.57196658484324, 
 			        Longitude = 126.98614014456358
@@ -4433,7 +4433,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de loja para loja",
 					Telefone = "Não Possui",
 			        Descricao = "Conhecido mundialmente pela música K-pop, Gangnam também é um distrito de compras de luxo, com lojas de marcas internacionais e boutiques de moda coreana.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Gangnam.png",
 			        PaisId = 9,
 			        Latitude = 37.50375342028092, 
 			        Longitude = 127.06245889811935
@@ -4446,7 +4446,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, das 10h às 20h",
 					Telefone = "+82221530000",
 			        Descricao = "Um complexo de design e compras futurístico, abrigando diversas lojas de moda, restaurantes e espaços de exposições. É um ponto de encontro para os jovens e amantes da moda.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Dongdaemun Design Plaza (DDP).png",
 			        PaisId = 9,
 			        Latitude = 37.56665738653509, 
 			        Longitude = 127.00926651201372
@@ -4459,7 +4459,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, das 10h às 22h",
 					Telefone = "Não Possui",
 			        Descricao = "Um dos mercados tradicionais mais antigos de Seul, famoso por sua comida de rua e produtos têxteis. É um ótimo lugar para experimentar a culinária coreana e comprar tecidos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Compras/Mercado de Gwangjang.png",
 			        PaisId = 9,
 			        Latitude = 37.570839149843785, 
 			        Longitude = 126.99973234706955
@@ -4475,7 +4475,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 09h00 às 18h00",
 					Telefone = " +82237003900",
 			        Descricao = "O maior e mais representativo dos Cinco Grandes Palácios da Dinastia Joseon, o Gyeongbokgung oferece uma visão da arquitetura tradicional coreana e da vida da realeza.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongbokgung Palace.png",
 			        PaisId = 9,
 			        Latitude = 37.57975301469734, 
 			        Longitude = 126.97694443701472
@@ -4488,7 +4488,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Aberto 24 horas",
 					Telefone = " +82221331371",
 			        Descricao = "Uma vila tradicional coreana com casas hanok bem preservadas. Um lugar perfeito para experimentar a vida cotidiana coreana e apreciar a arquitetura tradicional.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Bukchon Hanok Village.png",
 			        PaisId = 9,
 			        Latitude = 37.58169490713809,
 			        Longitude =  126.98494116748547
@@ -4501,7 +4501,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de local para local",
 					Telefone = " +82547798742",
 			        Descricao = "A antiga capital do reino de Silla, Gyeongju abriga numerosos túmulos reais, templos budistas e outros monumentos históricos, oferecendo uma visão da história milenar da Coreia.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Gyeongju Historic Area.png",
 			        PaisId = 9,
 			        Latitude = 35.83426981930416,
 			        Longitude =  129.21686418298106
@@ -4514,7 +4514,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Diariamente, 10h00 às 18h00",
 					Telefone = " +82220779000",
 			        Descricao = "O maior museu da Coreia do Sul, com uma vasta coleção de artefatos que contam a história e a cultura do país desde a pré-história até os tempos modernos.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/National Museum of Korea.png",
 			        PaisId = 9,
 			        Latitude = 37.524088824745704, 
 			        Longitude = 126.9805560272353
@@ -4527,7 +4527,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Varia de acordo com a excursão",
 					Telefone = " Não tem",
 			        Descricao = "A zona desmilitarizada que separa as duas Coreias é um lembrete da divisão da península coreana e oferece uma visão única da história recente da região.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/DMZ (Zona Desmilitarizada).png",
 			        PaisId = 9,
 			        Latitude = 38.36023018807722, 
 			        Longitude = 127.47325686815884
@@ -4540,7 +4540,7 @@ public class AppDbSeed
 			        HorarioFuncionamento = "Aberto 24 horas",
 					Telefone = " +82632821330",
 			        Descricao = "Uma vila tradicional coreana bem preservada, com casas hanok, ruas estreitas e mercados tradicionais. Um lugar perfeito para experimentar a vida cotidiana coreana.",
-			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.jpg",
+			        Foto = "/imgpaises/imgCoreiaSul/Cultura/Jeonju Hanok Village.png",
 			        PaisId = 9,
 			        Latitude = 35.81779856759617, 
 			        Longitude = 127.15204169647048

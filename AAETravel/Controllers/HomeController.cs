@@ -102,9 +102,9 @@ namespace AAETravel.Controllers
         [Authorize]
         public async Task<IActionResult> Favoritado()
         {
-            var usuarioId = _userManager.GetUserId(User);  
+            var usuarioId = _userManager.GetUserId(User);
             var listas = await _context.Listas
-                .Where(f => f.UsuarioId == usuarioId) 
+                .Where(f => f.UsuarioId == usuarioId)
                 .Include(f => f.Local)
                 .ThenInclude(l => l.ExperienciasLocais)
                 .ThenInclude(el => el.Experiencia)
@@ -113,13 +113,14 @@ namespace AAETravel.Controllers
             var listaVM = new List<ListaVM>();
             foreach (var item in listas)
             {
-                ListaVM lista = new() {
+                ListaVM lista = new()
+                {
                     Local = item.Local,
                     Experiencia = item.Local.ExperienciasLocais[0].Experiencia,
                 };
                 listaVM.Add(lista);
             }
-            return View(listaVM);  
+            return View(listaVM);
         }
 
         public IActionResult Perfil()
@@ -173,5 +174,38 @@ namespace AAETravel.Controllers
             return RedirectToAction("Local", new { id = localId, experiencia = experienciaId });
         }
 
+        [HttpPost]
+        public async Task<IActionResult> EditarPerfil(Usuario usuario, IFormFile foto)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var usuarioExistente = await _context.Usuarios.FindAsync(usuarioId);
+
+                if (usuarioExistente != null)
+                {
+                    usuarioExistente.Nome = usuario.Nome;
+                    usuarioExistente.Telefone = usuario.Telefone;
+                    usuarioExistente.Descricao = usuario.Descricao;
+                    usuarioExistente.Cidade = usuario.Cidade;
+
+                    if (foto != null && foto.Length > 0)
+                    {
+                        var caminho = Path.Combine("wwwroot/img/perfis", foto.FileName); 
+                        using (var stream = new FileStream(caminho, FileMode.Create))
+                        {
+                            await foto.CopyToAsync(stream);
+                        }
+                        usuarioExistente.Foto = $"/img/perfis/{foto.FileName}"; 
+                    }
+
+                    // Salva as alterações no banco de dados
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Perfil"); 
+                }
+            }
+
+            return View(usuario);
+        }
     }
 }

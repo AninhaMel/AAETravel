@@ -16,6 +16,22 @@ body {
     scroll-behavior: smooth;
 }
 
+.voltar{
+    left: 2%;
+    top: 10%;
+    position: absolute;
+    color: white;
+    font-size: 40pt;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+    &:hover{
+        transition: 0.3s ease-in-out;
+        background-color: white;
+        color: black;
+    }
+}
+
 main {
     width: 100vw;
     height: 100vh;
@@ -81,22 +97,24 @@ main {
                 align-items: center;
                 justify-content: space-between;
 
-                & .logout a {
+                & .Sair{
                     color: white;
-                    padding: 15%;
-                    background-color: rgb(158, 4, 4);
+                    padding:  20%;
+                    background-color: rgb(155, 6, 6);
                     border-radius: 10px;
                     filter: drop-shadow(0 0 3px white);
                     transition: 0.2s ease-in-out;
                     cursor: pointer;
                     text-decoration: none;
+                    font-size: 12pt;
 
                     &:hover {
                         background-color: black;
-                        color: rgb(158, 4, 4);
-                        filter: drop-shadow(0 0 5px rgb(158, 4, 4));
+                        color: rgb(155, 6, 6);
+                        filter: drop-shadow(0 0 5px rgb(155, 6, 6));
                         transition: 0.2s ease-in-out;
                     }
+
                 }
 
                 & .editar-perfil a {

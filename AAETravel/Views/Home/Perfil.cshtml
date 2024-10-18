@@ -10,7 +10,9 @@
 
 
 <body>
-
+    <a class="voltar" asp-action="Favoritado" asp-controller="Home">
+        <i class="bi bi-arrow-left-short"></i>
+    </a>
     <main>
         <div class="container">
             <div class="bloco-first">
@@ -24,9 +26,13 @@
                 <p><strong>Descrição:</strong> @Model.Descricao</p>
                 <p><strong>Cidade:</strong> @Model.Cidade</p>
                 <div class="menu">
-                    <div class="logout">
-                        <a>Desconectar</a>
-                    </div>
+
+                    <form method="POST" asp-action="Logout" asp-controller="Account">
+                        <button type="submit" class="dropdown-item Sair">
+                            Desconectar
+                        </button>
+                    </form>
+
                     <div class="editar-perfil">
                         <a asp-action="EditarPerfil" asp-controller="Home">Editar</a>
                     </div>

@@ -175,14 +175,10 @@
 <script>
     let map;
 
-    // Estilo do mapa (pode ser preenchido com estilos personalizados)
     const mapStyle = [];
 
-    // Função para executar o código quando a página estiver pronta
     $(document).ready(function () {
-        // Ação para o botão de favoritar
         $('#favoritarBtn').click(function () {
-            // Alterna a cor do ícone de favoritar ao clicar
             var url = "/Home/Favoritar";
             var localid = $("#localId").val();
             var experienciaid = $("#experienciaId").val();
@@ -190,29 +186,22 @@
             });
         });
 
-        // Função para inicializar o mapa
         async function initMap() {
-            // Importando bibliotecas necessárias do Google Maps
             const { Map, Marker } = await google.maps.importLibrary("maps");
 
-            // Garantindo que latitude e longitude sejam corretamente convertidas para números
             const latitude = parseFloat("@Model.Locais.Latitude".replace(",", "."));
             const longitude = parseFloat("@Model.Locais.Longitude".replace(",", "."));
 
-            // Exibindo valores no console para verificar se estão corretos
             console.log("Latitude:", latitude);
             console.log("Longitude:", longitude);
 
-            // Inicializando o mapa com as coordenadas corretas e o nível de zoom ajustado
             map = new Map(document.getElementById("map"), {
-                center: { lat: latitude, lng: longitude }, // Centraliza no local correto
-                zoom: 16, // Define um zoom mais próximo do local
-                styles: mapStyle  // Aplicando estilos (mesmo vazio no momento)
+                center: { lat: latitude, lng: longitude },
+                zoom: 16, 
+                styles: mapStyle 
             });
 
-            // Verificando se as coordenadas são válidas antes de adicionar o marcador
             if (!isNaN(latitude) && !isNaN(longitude)) {
-                // Adicionando marcador no mapa no local indicado pelas coordenadas
                 const marker = new Marker({
                     position: { lat: latitude, lng: longitude },
                     map: map,

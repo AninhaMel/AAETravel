@@ -17,6 +17,4 @@ public class Lista
         public int LocalId { get; set; }
         [ForeignKey("LocalId")]
         public Local Local { get; set; }
-        public Experiencia Experiencia { get; set; }
-        public Pais Pais { get; set; }
 }

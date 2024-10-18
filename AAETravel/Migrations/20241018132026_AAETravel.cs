@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AAETravel.Migrations
 {
     /// <inheritdoc />
-    public partial class AAETravelfirst : Migration
+    public partial class AAETravel : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -44,7 +44,7 @@ namespace AAETravel.Migrations
                 name: "AspNetRoles",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Name = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -63,7 +63,7 @@ namespace AAETravel.Migrations
                 name: "AspNetUsers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UserName = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -167,7 +167,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -192,7 +192,7 @@ namespace AAETravel.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ClaimType = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -215,13 +215,13 @@ namespace AAETravel.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ProviderKey = table.Column<string>(type: "varchar(95)", nullable: false)
+                    ProviderKey = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ProviderDisplayName = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -240,9 +240,9 @@ namespace AAETravel.Migrations
                 name: "AspNetUserRoles",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    RoleId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    RoleId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -267,11 +267,11 @@ namespace AAETravel.Migrations
                 name: "AspNetUserTokens",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LoginProvider = table.Column<string>(type: "varchar(95)", nullable: false)
+                    LoginProvider = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Name = table.Column<string>(type: "varchar(95)", nullable: false)
+                    Name = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Value = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -292,7 +292,7 @@ namespace AAETravel.Migrations
                 name: "Usuario",
                 columns: table => new
                 {
-                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: false)
+                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nome = table.Column<string>(type: "varchar(60)", maxLength: 60, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -407,31 +407,19 @@ namespace AAETravel.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     DataCadastro = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    UsuarioId = table.Column<string>(type: "varchar(95)", nullable: true)
+                    UsuarioId = table.Column<string>(type: "varchar(255)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LocalId = table.Column<int>(type: "int", nullable: false),
-                    ExperienciaId = table.Column<int>(type: "int", nullable: true),
-                    PaisId = table.Column<int>(type: "int", nullable: true)
+                    LocalId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Lista", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Lista_Experiencia_ExperienciaId",
-                        column: x => x.ExperienciaId,
-                        principalTable: "Experiencia",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Lista_Local_LocalId",
                         column: x => x.LocalId,
                         principalTable: "Local",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Lista_Pais_PaisId",
-                        column: x => x.PaisId,
-                        principalTable: "Pais",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Lista_Usuario_UsuarioId",
                         column: x => x.UsuarioId,
@@ -456,8 +444,8 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "4cbad0e7-dca9-41db-8a60-cccdf24c2277", null, "Administrador", "ADMINISTRADOR" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", null, "Visitante", "VISITANTE" }
+                    { "ad748cd5-8fd1-4b78-bfe5-b34e436d000d", null, "Administrador", "ADMINISTRADOR" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", null, "Visitante", "VISITANTE" }
                 });
 
             migrationBuilder.InsertData(
@@ -465,11 +453,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "11a56c02-8c39-45cc-9661-c6cb68f727f2", 0, "d989137e-89e3-4e2d-bcfb-2f231114636e", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAEFbPERoHgWaSErXHjJRHxpGM7zlBK9fTkP/EbYke2PrNc4xR/fsA5hzjVZJuh9xU7g==", null, false, "7cfed136-6c2a-4356-8607-4d7cb9bd99cf", false, "dametto" },
-                    { "a0f33e28-8c02-4e12-9546-369ddc6b2f3f", 0, "6ab05fbd-4091-4d22-b9c5-ec90c1d66ab4", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEE9CgVjSawmeXj4M2GNOpcTAaMsmmV1mzS0VKK+pWt/Zd47cqZNuNJrBVwjUqW1uXg==", null, false, "e26d8be2-27c7-40ba-940a-5d7de4b22b3d", false, "Eduardo" },
-                    { "c8d31e16-b253-4b5f-8c93-e86f9c390489", 0, "b76d6141-ddf1-4b64-a6b0-7e845cbec13d", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEBdSTE0zdGhonewrmtXZ26u5eSng4S6dHOSrHigOt2eMDnrvBAKQfwi00Z6cho/X1Q==", null, false, "ec574b2a-8055-40f5-8bc5-3c695d7a0778", false, "any" },
-                    { "d47bf329-dc46-44ec-a512-1dee36c4a3af", 0, "0adac4cb-ed48-459b-8d0d-442b8d504d01", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAEJjp8516vGxKJLctvNuDPa/VcAOb1079YNTMA38fXL18lhldc2wDuYYArQKmeyGoeg==", null, false, "32b1c64c-689b-4042-a392-36c46c4c9dd1", false, "joao" },
-                    { "e0d102a0-c817-4496-8e89-4047a9a83774", 0, "2c4bdf7e-1fdb-42a7-9541-720f45a4d22e", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAEI2A5jE3JntEMqmTuTgXFIpL8ATPuHQBwJrJEcga1TFJ27cmBH5UhoKrFmVECgzcdA==", null, false, "3c259212-e1cc-49e9-a89f-274caff326ea", false, "ana" }
+                    { "1c41e85c-7292-4951-bcae-87ed996a4955", 0, "18e911b4-babd-44a9-a2cb-28a2c6d8de9b", "any.lima@gmail.com", true, true, null, "ANY.LIMA@GMAIL.COM", "ANY", "AQAAAAIAAYagAAAAEGQunBtXmxnEXTdSsoDQ7O/U8nWsyfQQcvQAo7EGLgfRUhT/dQ9PIn1hs90hexXmcg==", null, false, "04ce9e80-b2f0-4120-8fe6-6dd95fd94e31", false, "any" },
+                    { "3b2be0af-2f21-4f5d-b724-ebe75dfb9b1a", 0, "d7aee24a-99d7-4ee6-a913-259be4515314", "ana.silva@aaetravel.com", true, true, null, "ANA.SILVA@AAETRAVEL.COM", "ANA", "AQAAAAIAAYagAAAAELYCrmwOMmLfuCwX0yKhi65biG2uRULg4nwRPWAZX5jEoN/heyKAK57jFcuZ06sbmQ==", null, false, "3f679399-2bbf-4012-8a40-34981e2c07b8", false, "ana" },
+                    { "777cc12a-ca19-4fa6-a867-416b924ecefa", 0, "4852d802-8bd1-4eb1-a526-ed66ae56d0fc", "joaosouza@gmail.com", true, true, null, "JOAOSOUZA@GMAIL.COM", "JOAO", "AQAAAAIAAYagAAAAENAR7V0tRJUjjPeRk3EIMNpZK/ksRgHGRzapKZluDgaRJEbjMgL2wI+bkTknOAZZow==", null, false, "07bba459-b09c-483a-bc96-08e6c27eb06c", false, "joao" },
+                    { "e2d291de-978d-4e26-9a4f-f5dead936156", 0, "d3710173-e247-4890-ba94-3b68d19ae436", "eduardo.oliveira@aaetravel.com", true, true, null, "EDUARDO.OLIVEIRA@AAETRAVEL.COM", "EDUARDO", "AQAAAAIAAYagAAAAEO467/ULKIzrQ3eVcreS/fOzDl3F0XUl2xg0D8oWfRgSPbyLqhEPPLantGvhQ9rcMg==", null, false, "fb40584c-33a7-40ad-869e-0135a0c77dc6", false, "Eduardo" },
+                    { "f729df13-bc73-480f-9062-6b451750f858", 0, "b3600404-022c-495a-92e8-2557b7602a83", "eduardo.dametto@gmail.com", true, true, null, "EDUARDO.DAMETTO@GMAIL.COM", "DAMETTO", "AQAAAAIAAYagAAAAENNhJiAt1njzC0gpv3Ph9UlUtuJ9B+KOhBgonNy3XGYj7LFNyoK8DjNOryGtpMzmxw==", null, false, "b0512693-4c44-4c7d-80a4-cb6c8847c90f", false, "dametto" }
                 });
 
             migrationBuilder.InsertData(
@@ -517,15 +505,15 @@ namespace AAETravel.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "4cbad0e7-dca9-41db-8a60-cccdf24c2277", "11a56c02-8c39-45cc-9661-c6cb68f727f2" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", "11a56c02-8c39-45cc-9661-c6cb68f727f2" },
-                    { "4cbad0e7-dca9-41db-8a60-cccdf24c2277", "a0f33e28-8c02-4e12-9546-369ddc6b2f3f" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", "a0f33e28-8c02-4e12-9546-369ddc6b2f3f" },
-                    { "4cbad0e7-dca9-41db-8a60-cccdf24c2277", "c8d31e16-b253-4b5f-8c93-e86f9c390489" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", "c8d31e16-b253-4b5f-8c93-e86f9c390489" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", "d47bf329-dc46-44ec-a512-1dee36c4a3af" },
-                    { "4cbad0e7-dca9-41db-8a60-cccdf24c2277", "e0d102a0-c817-4496-8e89-4047a9a83774" },
-                    { "d47c19d9-8b8b-49c0-bd14-a29086840ce1", "e0d102a0-c817-4496-8e89-4047a9a83774" }
+                    { "ad748cd5-8fd1-4b78-bfe5-b34e436d000d", "1c41e85c-7292-4951-bcae-87ed996a4955" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", "1c41e85c-7292-4951-bcae-87ed996a4955" },
+                    { "ad748cd5-8fd1-4b78-bfe5-b34e436d000d", "3b2be0af-2f21-4f5d-b724-ebe75dfb9b1a" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", "3b2be0af-2f21-4f5d-b724-ebe75dfb9b1a" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", "777cc12a-ca19-4fa6-a867-416b924ecefa" },
+                    { "ad748cd5-8fd1-4b78-bfe5-b34e436d000d", "e2d291de-978d-4e26-9a4f-f5dead936156" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", "e2d291de-978d-4e26-9a4f-f5dead936156" },
+                    { "ad748cd5-8fd1-4b78-bfe5-b34e436d000d", "f729df13-bc73-480f-9062-6b451750f858" },
+                    { "fccc0d9e-f27b-4d7a-b94a-feeefe0fd834", "f729df13-bc73-480f-9062-6b451750f858" }
                 });
 
             migrationBuilder.InsertData(
@@ -864,11 +852,11 @@ namespace AAETravel.Migrations
                 columns: new[] { "UsuarioId", "Cidade", "Descricao", "Foto", "Nome", "Telefone" },
                 values: new object[,]
                 {
-                    { "11a56c02-8c39-45cc-9661-c6cb68f727f2", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" },
-                    { "a0f33e28-8c02-4e12-9546-369ddc6b2f3f", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
-                    { "c8d31e16-b253-4b5f-8c93-e86f9c390489", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
-                    { "d47bf329-dc46-44ec-a512-1dee36c4a3af", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
-                    { "e0d102a0-c817-4496-8e89-4047a9a83774", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" }
+                    { "1c41e85c-7292-4951-bcae-87ed996a4955", "Barra Bonita, SP", "Programador junior", "/img/Criador/Any.png", "Any Gabriele de Lima", "(14)99844-1425" },
+                    { "3b2be0af-2f21-4f5d-b724-ebe75dfb9b1a", "Barra Bonita, SP", "Programador junior", "/img/Criador/Ana.jpg", "Ana Clara Mello da Silva", "(14)99632-9433" },
+                    { "777cc12a-ca19-4fa6-a867-416b924ecefa", "Mundo Afora", "Viajante profissional, amante de café e contador de histórias ruins.", "/img/User/Joao.jpg", "João Aventureiro Souza", "(00)00000-0000" },
+                    { "e2d291de-978d-4e26-9a4f-f5dead936156", "Barra Bonita, SP", "Programador junior", "/img/Criador/Nunes.png", "Eduardo Nunes de Oliveira", "(14)99107-8235" },
+                    { "f729df13-bc73-480f-9062-6b451750f858", "Barra Bonita, SP", "Programador junior", "/img/Criador/dametto.png", "Eduardo Dametto", "(14)98112-0019" }
                 });
 
             migrationBuilder.InsertData(
@@ -1250,19 +1238,9 @@ namespace AAETravel.Migrations
                 column: "LocalId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Lista_ExperienciaId",
-                table: "Lista",
-                column: "ExperienciaId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Lista_LocalId",
                 table: "Lista",
                 column: "LocalId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lista_PaisId",
-                table: "Lista",
-                column: "PaisId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Lista_UsuarioId",

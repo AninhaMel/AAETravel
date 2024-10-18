@@ -105,12 +105,21 @@ namespace AAETravel.Controllers
             var usuarioId = _userManager.GetUserId(User);  
             var listas = await _context.Listas
                 .Where(f => f.UsuarioId == usuarioId)  
-                .Include(f => f.Local)  
-                .Include(f => f.Experiencia)  
-                .Include(f => f.Pais)  
-                .ToListAsync() ?? new List<Lista>(); 
+                .Include(f => f.Local)
+                .ThenInclude(l => l.ExperienciasLocais)
+                .ThenInclude(el => el.Experiencia)
+                .ToListAsync();
 
-            return View(listas);  
+            var listaVM = new List<ListaVM>();
+            foreach (var item in listas)
+            {
+                ListaVM lista = new() {
+                    Local = item.Local,
+                    Experiencia = item.Local.ExperienciasLocais[0].Experiencia
+                };
+                listaVM.Add(lista);
+            }
+            return View(listaVM);  
         }
 
         public IActionResult Perfil()

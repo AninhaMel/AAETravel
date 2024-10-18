@@ -1,4 +1,4 @@
-@model IEnumerable<AAETravel.Models.Lista>
+@model List<AAETravel.ViewModels.ListaVM>
 @{
     ViewData["Title"] = "Favoritados";
 }
@@ -26,12 +26,12 @@
 <section>
     @if (Model != null)
     {
-        @foreach (var lista in Model)
+        @foreach (var item in Model)
         {
-            <div class="lugares" style="--Cor: @lista.Experiencia.Cor">
-                <a class="link" asp-action="Local" asp-route-id="@lista.Local.Id" asp-route-experiencia="@lista.Experiencia.Id">
-                    <img src="@lista.Local.Foto">
-                    <h1>@lista.Local.Nome</h1>
+            <div class="lugares" style="--Cor:@item.Experiencia.Cor">
+                <a class="link" asp-action="Local" asp-route-id="@item.Local.Id" asp-route-experiencia="@item.Experiencia.Id">
+                    <img src="@item.Local.Foto">
+                    <h1>@item.Local.Nome</h1>
                     <div>Saiba
                         Mais</div>
                 </a>

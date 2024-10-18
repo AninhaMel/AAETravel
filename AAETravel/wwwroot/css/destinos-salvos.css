@@ -120,6 +120,11 @@ section {
     gap: 15px;
 }
 
+.link {
+    text-decoration: none;
+    border-radius: 30px;
+}
+
 .lugares {
     max-width: 25%;
     height: 100%;

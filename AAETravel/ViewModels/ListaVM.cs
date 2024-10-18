@@ -6,4 +6,5 @@ public class ListaVM
 {
     public Local Local { get; set; }
     public Experiencia Experiencia { get; set; }
+
 }

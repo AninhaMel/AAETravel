@@ -104,7 +104,7 @@ namespace AAETravel.Controllers
         {
             var usuarioId = _userManager.GetUserId(User);  
             var listas = await _context.Listas
-                .Where(f => f.UsuarioId == usuarioId)  
+                .Where(f => f.UsuarioId == usuarioId) 
                 .Include(f => f.Local)
                 .ThenInclude(l => l.ExperienciasLocais)
                 .ThenInclude(el => el.Experiencia)
@@ -115,7 +115,7 @@ namespace AAETravel.Controllers
             {
                 ListaVM lista = new() {
                     Local = item.Local,
-                    Experiencia = item.Local.ExperienciasLocais[0].Experiencia
+                    Experiencia = item.Local.ExperienciasLocais[0].Experiencia,
                 };
                 listaVM.Add(lista);
             }

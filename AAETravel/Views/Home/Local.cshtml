@@ -185,34 +185,33 @@
             $.post(url, { localId: localid, experienciaId: experienciaid }, function (data) {
             });
         });
-
-        async function initMap() {
-            const { Map, Marker } = await google.maps.importLibrary("maps");
-
-            const latitude = parseFloat("@Model.Locais.Latitude".replace(",", "."));
-            const longitude = parseFloat("@Model.Locais.Longitude".replace(",", "."));
-
-            console.log("Latitude:", latitude);
-            console.log("Longitude:", longitude);
-
-            map = new Map(document.getElementById("map"), {
-                center: { lat: latitude, lng: longitude },
-                zoom: 16, 
-                styles: mapStyle 
-            });
-
-            if (!isNaN(latitude) && !isNaN(longitude)) {
-                const marker = new Marker({
-                    position: { lat: latitude, lng: longitude },
-                    map: map,
-                    title: "Localização Específica"
-                });
-
-                console.log("Marcador adicionado com sucesso!");
-            } else {
-                console.error("Coordenadas inválidas: Latitude ou Longitude não são números.");
-            }
-        }
     });
 
+    async function initMap() {
+        const { Map, Marker } = await google.maps.importLibrary("maps");
+
+        const latitude = parseFloat("@Model.Locais.Latitude".replace(",", "."));
+        const longitude = parseFloat("@Model.Locais.Longitude".replace(",", "."));
+
+        console.log("Latitude:", latitude);
+        console.log("Longitude:", longitude);
+
+        map = new Map(document.getElementById("map"), {
+            center: { lat: latitude, lng: longitude },
+            zoom: 16,
+            styles: mapStyle
+        });
+
+        if (!isNaN(latitude) && !isNaN(longitude)) {
+            const marker = new Marker({
+                position: { lat: latitude, lng: longitude },
+                map: map,
+                title: "Localização Específica"
+            });
+
+            console.log("Marcador adicionado com sucesso!");
+        } else {
+            console.error("Coordenadas inválidas: Latitude ou Longitude não são números.");
+        }
+    }
 </script>

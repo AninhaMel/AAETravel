@@ -7,13 +7,14 @@ public class EmailSender : IEmailSender
 {
     public async Task SendEmailAsync(string emailAddress, string subject, string htmlMessage)
     {
-        var mail = "aaetravel834499@gmail.com";
+        var mail = "aaetravel@outlook.com";
         var pw = "834499Travel";
 
-        var client = new SmtpClient("smtp-mail.gmail.com", 587)
+        var client = new SmtpClient("smtp-mail.outlook.com", 587)
         {
             EnableSsl = true,
-            Credentials = new NetworkCredential(mail, pw)
+            Credentials = new NetworkCredential(mail, pw),
+            UseDefaultCredentials = false
         };
 
         MailMessage sendMail = new(

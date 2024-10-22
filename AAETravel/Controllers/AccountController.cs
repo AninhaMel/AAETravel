@@ -14,7 +14,6 @@ public class AccountController : Controller
         IUsuarioService usuarioService
     )
     {
-        //Url.Action
         _logger = logger;
         _usuarioService = usuarioService;
     }

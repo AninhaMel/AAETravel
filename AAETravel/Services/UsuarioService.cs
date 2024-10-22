@@ -129,7 +129,7 @@ public class UsuarioService : IUsuarioService
             code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
             var url = $"http://localhost:5143/Account/ConfirmarEmail?userId={userId}&code={code}";
 
-            await _userManager.AddToRoleAsync(user, "Usuário");
+            await _userManager.AddToRoleAsync(user, "Visitante");
 
             await _emailSender.SendEmailAsync(registro.Email, "GCook - Criação de Conta", GetConfirmEmailHtml(HtmlEncoder.Default.Encode(url)));
 

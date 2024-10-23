@@ -191,7 +191,7 @@ namespace AAETravel.Controllers
 
                     if (foto != null && foto.Length > 0)
                     {
-                        var caminho = Path.Combine("wwwroot/img/perfis", foto.FileName); 
+                        var caminho = Path.Combine("/img/perfis", foto.FileName); 
                         using (var stream = new FileStream(caminho, FileMode.Create))
                         {
                             await foto.CopyToAsync(stream);
@@ -199,7 +199,6 @@ namespace AAETravel.Controllers
                         usuarioExistente.Foto = $"/img/perfis/{foto.FileName}"; 
                     }
 
-                    // Salva as alterações no banco de dados
                     await _context.SaveChangesAsync();
                     return RedirectToAction("Perfil"); 
                 }

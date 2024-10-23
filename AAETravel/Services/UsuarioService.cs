@@ -115,7 +115,6 @@ public class UsuarioService : IUsuarioService
     public async Task<List<string>> RegistrarUsuario(RegistroVM registro)
     {
         var user = Activator.CreateInstance<IdentityUser>();
-
         await _userStore.SetUserNameAsync(user, registro.Email, CancellationToken.None);
         await _emailStore.SetEmailAsync(user, registro.Email, CancellationToken.None);
         var result = await _userManager.CreateAsync(user, registro.Senha);
@@ -125,13 +124,13 @@ public class UsuarioService : IUsuarioService
             _logger.LogInformation($"Novo usuário registrado com o email {user.Email}.");
 
             var userId = await _userManager.GetUserIdAsync(user);
-            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-            var url = $"http://localhost:5143/Account/ConfirmarEmail?userId={userId}&code={code}";
+            //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            //code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+            //var url = $"http://localhost:5143/Account/ConfirmarEmail?userId={userId}&code={code}";
 
             await _userManager.AddToRoleAsync(user, "Visitante");
 
-            await _emailSender.SendEmailAsync(registro.Email, "GCook - Criação de Conta", GetConfirmEmailHtml(HtmlEncoder.Default.Encode(url)));
+            //await _emailSender.SendEmailAsync(registro.Email, "GCook - Criação de Conta", GetConfirmEmailHtml(HtmlEncoder.Default.Encode(url)));
 
             // Cria a conta pessoal do usuário
             Usuario usuario = new()

@@ -14,6 +14,7 @@ body {
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
+    overflow-y: hidden;   
 }
 
 main {
@@ -27,112 +28,112 @@ main {
 
 }
 
-& .container {
+.container {
     width: 70%;
     height: 80vh;
     background-color: #7748CF;
     display: flex;
     border-radius: 30px;
+}
 
-    & .bloco1 {
-        width: 50%;
+.container .bloco1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
 
-        & .editar-perfil {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
+.container .bloco1 .editar {
+    background-color: black;
+    box-shadow: 4px 4px 1px 6px white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: -10%;
+    margin-left: -45%;
+}
 
-            & .editar {
-                background-color: black;
-                box-shadow: 4px 4px 1px 6px white;
-                border-radius: 5px;
-                padding: 5px 10px;
-                margin-left: -50%;
-                margin-top: -10%;
+.container .bloco1 .editar h1 {
+    color: white;
+}
 
-                & h1 {
-                    color: white;
-                }
-            }
+.container .bloco1 .foto {
+    width: 60%;
+}
 
-            & .logo {
-                width: 70%;
-                border-radius: 50px;
+.container .bloco1 .foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
 
-                & img {
-                    width: 100%;
-                }
-            }
+.container .bloco1 button {
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18pt;
+    font-weight: 700;
+    margin-top: -50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-            & button {
-                width: 250px;
-                height: 60px;
-                border-radius: 15px;
-                color: black;
-                font-size: 18pt;
-                font-weight: 700;
-                margin-top: -50px;
-                cursor: pointer;
-                transition: 0.3s;
+.container .bloco1 button:hover {
+    color: #7748CF;
+    background-color: black;
+    transition: 0.3s;
+}
 
-                &:hover {
-                    color: #7748CF;
-                    background-color: black;
-                    transition: 0.3s;
-                }
-            }
-        }
-    }
+.container .bloco2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    & .bloco2 {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.container .bloco2 form {
+    display: flex;
+    flex-direction: column;
+    background-color: #290a66cc;
+    padding: 15px 15px;
+    border-radius: 30px;
+}
 
-        & form {
-            display: flex;
-            flex-direction: column;
-            background-color: #290a66cc;
-            padding: 15px 15px;
-            border-radius: 30px;
+.container .bloco2 form label {
+    font-size: 12pt;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
 
-            & label {
-                font-size: 12pt;
-                margin-bottom: 5px;
-                font-weight: 700;
-                color: white;
-            }
+.container .bloco2 form input {
+    margin-bottom: 1.3%;
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
 
-            & input {
-                margin-bottom: 1.3%;
-                height: 40px;
-                width: 400px;
-                padding: 10px;
-                border-radius: 5px;
-            }
-            & input[type="submit"]{
-                position: absolute;
-                width: 200px;
-                bottom: 15%;
-                right: 25%;
-                border-radius: 30px;
-                color: black;
-                font-size: 15pt;
-                font-weight: 700;
-                padding-bottom: 30px;
-                cursor: pointer;
-                transition: 0.3s;
+.container .bloco2 form input[type="submit"] {
+    position: absolute;
+    width: 200px;
+    bottom: 12%;
+    right: 25%;
+    border-radius: 30px;
+    color: black;
+    font-size: 15pt;
+    font-weight: 700;
+    padding-bottom: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-                &:hover{
-                    color: #7748CF;
-                    background-color: black;
-                    transition: 0.3s;
-                }
-            }
-        }
-    }
+.container .bloco2 form input[type="submit"]:hover {
+    color: #7748CF;
+    background-color: black;
+    transition: 0.3s;
 }

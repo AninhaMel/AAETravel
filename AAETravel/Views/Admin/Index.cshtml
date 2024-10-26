@@ -10,25 +10,25 @@
             <div class="col-sm-8">
                 <img src="~/img/experiencias/agencias/Booking.png" alt="Booking Logo"> Booking.com
             </div>
-            <div class="col-sm-4 text-right">5 acessos</div>
+            <div class="col-sm-4 text-right text">5 acessos</div>
         </div>
         <div class="row agencia-row">
             <div class="col-sm-8">
                 <img src="~/img/experiencias/agencias/Expedia.png" alt="Expedia Logo"> Expedia
             </div>
-            <div class="col-sm-4 text-right">1 acesso</div>
+            <div class="col-sm-4 text-right text">1 acesso</div>
         </div>
         <div class="row agencia-row">
             <div class="col-sm-8">
                 <img src="~/img/experiencias/agencias/STA Travel.png" alt="STA Travel Logo"> STA Travel
             </div>
-            <div class="col-sm-4 text-right">9 acessos</div>
+            <div class="col-sm-4 text-right text">9 acessos</div>
         </div>
         <div class="row agencia-row">
             <div class="col-sm-8">
                 <img src="~/img/experiencias/agencias/TripAdvisor.png" alt="TripAdvisor Logo"> TripAdvisor
             </div>
-            <div class="col-sm-4 text-right">21 acessos</div>
+            <div class="col-sm-4 text-right text">21 acessos</div>
         </div>
     </div>
 
@@ -74,108 +74,118 @@
 
 <style>
     body {
-    background-color: black; 
-    color: #e0e0e0; 
-    font-family: 'Roboto', sans-serif;
-}
+        background-color: black;
+        color: #e0e0e0;
+        font-family: 'Roboto', sans-serif;
+    }
 
-.container {
-    z-index: -1;
-    width: 60%;
-    padding: 2rem 5%;
-    margin: 0 auto;
-}
+    .container {
+        width: 60%;
+        padding: 2rem 5%;
+        margin: 0 auto;
+    }
 
-.agencias-table {
-    background-color: #282828;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    filter: drop-shadow(5px 5px 10px rgba(122, 122, 122, 0.386));
-}
+    .agencias-table {
+        background-color: #282828;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        filter: drop-shadow(5px 5px 10px rgba(122, 122, 122, 0.386));
+    }
 
-.agencias-table h4 {
-    color: #7748CF;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-}
+    .agencias-table h4 {
+        color: #7748CF;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
 
-.agencia-row {
-    background-color: #333333;
-    padding: 15px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    transition: background-color 0.3s ease;
-}
+    .text {
+        color: rgba(255, 255, 255, 0.422);
+    }
 
-.agencia-row:hover {
-    background-color: #7748CF;
-}
+    .agencia-row {
+        background-color: #333333;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
 
-.agencia-row img {
-    margin-right: 12px;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-}
+    }
 
-.card {
-    background-color: #232323;
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-    margin-bottom: 2rem;
-    transition: transform 0.3s ease;
-}
+    .agencia-row:hover {
+        transition: 0.3s ease-in-out;
+        background-color: #7748CF;
 
-.card:hover {
-    transform: translateY(-10px);
-}
+        & .text {
+            color: white;
+        }
+    }
 
-.card img {
-    width: 100%;
-    border-radius: 12px 12px 0 0;
-    object-fit: cover;
-}
+    .agencia-row img {
+        margin-right: 12px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
 
-.card-body {
-    padding: 1.5rem;
-    text-align: center;
-}
+    .card {
+        background-color: #232323;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        margin-bottom: 2rem;
+        transition: transform 0.3s ease;
+    }
 
-.card-text {
-    color: #7748CF;
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-top: 1rem;
-}
+    .card:hover {
+        transform: translateY(-10px);
+    }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem; 
-}
+    .card img {
+        width: 100%;
+        border-radius: 12px 12px 0 0;
+        object-fit: cover;
+    }
 
-.col-sm-6 {
-    flex: 1 1 calc(50% - 2rem); 
-}
+    .card-body {
+        padding: 1.5rem;
+        text-align: center;
+    }
 
-/* Scrollbar customizado */
-::-webkit-scrollbar {
-    width: 8px;
-}
+    .card-text {
+        color: #7748CF;
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
 
-::-webkit-scrollbar-track {
-    background: #1e1e1e;
-}
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 
-::-webkit-scrollbar-thumb {
-    background-color: #7748CF;
-    border-radius: 10px;
-    border: 2px solid #1e1e1e;
-}
+    .col-sm-6 {
+        flex: 1 1 calc(50% - 2rem);
+    }
 
+    /* Scrollbar customizado */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #7748CF;
+        border-radius: 10px;
+        border: 2px solid #1e1e1e;
+    }
 </style>

@@ -48,7 +48,7 @@ namespace AAETravel.Controllers
         // GET: Locais/Create
         public IActionResult Create()
         {
-            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Id");
+            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Nome");
             return View();
         }
 

@@ -64,6 +64,7 @@ main {
                 & img {
                     width: 100%;
                     filter: drop-shadow(0 0 10px white);
+                    border-radius: 20px;
                 }
             }
         }
@@ -100,7 +101,7 @@ main {
                 & .Sair{
                     color: white;
                     padding:  20%;
-                    background-color: rgb(155, 6, 6);
+                    background-color: #3a0b91;
                     border-radius: 10px;
                     filter: drop-shadow(0 0 3px white);
                     transition: 0.2s ease-in-out;

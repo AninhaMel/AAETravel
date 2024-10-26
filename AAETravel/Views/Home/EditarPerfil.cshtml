@@ -20,16 +20,18 @@
                 <h1>Editar Perfil</h1>
             </div>
             <div class="foto">
-                <img src="@(!string.IsNullOrEmpty(Model.Foto) ? Model.Foto : Url.Content("~/img/usuarios/no-photo.png"))"
+                <img src='@(Model.Foto ?? Url.Content("~/img/outros/icon-user.png"))'
                     alt="Foto de perfil de @Model.Nome" width="100" height="100">
             </div>
-            <input type="file" id="foto" name="foto" accept="image/*" style="display:none;">
             <button type="button" onclick="document.getElementById('foto').click();">Editar Foto</button>
         </div>
 
         <div class="bloco2">
             <form method="post" enctype="multipart/form-data">
                 <input type="hidden" name="UsuarioId" value="@Model.UsuarioId" />
+
+                <input type="file" id="foto" name="foto" accept="image/*" style="display:none;">
+            
 
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="Nome" value="@Model.Nome" required placeholder="ex...Ricardo Bueno...">

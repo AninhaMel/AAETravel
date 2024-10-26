@@ -191,20 +191,29 @@ namespace AAETravel.Controllers
 
                     if (foto != null && foto.Length > 0)
                     {
-                        var caminho = Path.Combine("/img/perfis", foto.FileName); 
-                        using (var stream = new FileStream(caminho, FileMode.Create))
+                        var caminhoDiretorio = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "perfis");
+
+                        if (!Directory.Exists(caminhoDiretorio))
+                        {
+                            Directory.CreateDirectory(caminhoDiretorio);
+                        }
+
+                        var filePath = Path.Combine(caminhoDiretorio, foto.FileName);
+                        using (var stream = new FileStream(filePath, FileMode.Create))
                         {
                             await foto.CopyToAsync(stream);
                         }
-                        usuarioExistente.Foto = $"/img/perfis/{foto.FileName}"; 
+
+                        usuarioExistente.Foto = $"/img/perfis/{foto.FileName}";
                     }
 
                     await _context.SaveChangesAsync();
-                    return RedirectToAction("Perfil"); 
+                    return RedirectToAction("Perfil");
                 }
             }
 
             return View(usuario);
         }
+
     }
 }

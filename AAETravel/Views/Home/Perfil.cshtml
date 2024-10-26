@@ -17,7 +17,7 @@
         <div class="container">
             <div class="bloco-first">
                 <div class="perfil-img">
-                    <img src="@Model.Foto">
+                    <img src='@(Model.Foto ?? Url.Content("~/img/outros/icon-user.png"))'>
                 </div>
             </div>
             <div class="bloco-second">

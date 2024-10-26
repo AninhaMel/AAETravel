@@ -96,4 +96,10 @@ public class AccountController : Controller
     {
         return View("Error!");
     }
+
+    public IActionResult AcessoNegado()
+    {
+        return View();
+    }
+
 }

@@ -70,21 +70,39 @@ namespace AAETravel.Controllers
         }
 
         // GET: Locais/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Local local, IFormFile foto)
         {
-            if (id == null)
+            if (id != local.Id)
             {
                 return NotFound();
             }
 
-            var local = await _context.Locais.FindAsync(id);
-            if (local == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                if (foto != null && foto.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", foto.FileName);
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await foto.CopyToAsync(stream);
+                    }
+
+                    local.Foto = $"/images/{foto.FileName}";
+                }
+
+                // Atualiza o local no banco de dados
+                _context.Update(local);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
             }
-            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Id", local.PaisId);
+            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Nome", local.PaisId);
             return View(local);
         }
+
 
         // POST: Locais/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -118,7 +136,7 @@ namespace AAETravel.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Id", local.PaisId);
+            ViewData["PaisId"] = new SelectList(_context.Paises, "Id", "Nome", local.PaisId);
             return View(local);
         }
 

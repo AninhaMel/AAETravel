@@ -2,6 +2,8 @@ git config --global user.name AninhaMel
 git config --global user.email ana.silva5134@etec.sp.gov.br
 git config --global user.name EduardoDametto25
 git config --global user.email damettoed@gmail.com
+git config --global user.name EduardoNunes1
+git config --global user.email eduardonunes8349@gmail.com
 
 dotnet ef migrations add AAETravel
 

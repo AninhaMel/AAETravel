@@ -7,8 +7,7 @@ using AAETravel.Helpers;
 using AAETravel.Models;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Text;
-using System.Text.Encodings.Web;
-using Microsoft.AspNetCore.Mvc.Razor;
+
 
 
 namespace AAETravel.Services;
@@ -68,7 +67,8 @@ public class UsuarioService : IUsuarioService
             return null;
         }
         var userAccount = await _userManager.FindByIdAsync(userId);
-        var usuario = await _contexto.Usuarios.Where(u => u.UsuarioId == userId).SingleOrDefaultAsync();
+        var usuario = await _contexto.Usuarios.Where(u => u.UsuarioId == userAccount.Id).SingleOrDefaultAsync();
+        if (usuario == null) return null;
         var perfis = string.Join(", ", await _userManager.GetRolesAsync(userAccount));
         var admin = await _userManager.IsInRoleAsync(userAccount, "Administrador");
         UsuarioVM usuarioVM = new()
@@ -141,15 +141,15 @@ public class UsuarioService : IUsuarioService
             if (registro.Foto != null)
             {
                 string fileName = userId + Path.GetExtension(registro.Foto.FileName);
-                string uploads = Path.Combine(_hostEnvironment.WebRootPath, @"img\usuarios");
+                string uploads = Path.Combine(_hostEnvironment.WebRootPath, @"img\User");
                 string newFile = Path.Combine(uploads, fileName);
                 using (var stream = new FileStream(newFile, FileMode.Create))
                 {
                     registro.Foto.CopyTo(stream);
                 }
-                usuario.Foto = @"\img\usuarios\" + fileName;
+                usuario.Foto = @"\img\User\" + fileName;
             }
-            _contexto.Add(usuario);
+            _contexto.Usuarios.Add(usuario);
             await _contexto.SaveChangesAsync();
 
             return null;

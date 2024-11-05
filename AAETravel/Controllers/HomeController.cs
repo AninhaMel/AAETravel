@@ -1,14 +1,11 @@
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.Linq;
-using System.Threading.Tasks;
 using AAETravel.Models;
 using AAETravel.Data;
 using AAETravel.ViewModels;
 using System.Security.Claims;
+using AAETravel.Services;
 
 namespace AAETravel.Controllers
 {
@@ -16,13 +13,13 @@ namespace AAETravel.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly AppDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly IUsuarioService _usuarioService;
 
-        public HomeController(ILogger<HomeController> logger, AppDbContext context, UserManager<IdentityUser> userManager)
+        public HomeController(ILogger<HomeController> logger, AppDbContext context, IUsuarioService usuarioService)
         {
             _logger = logger;
             _context = context;
-            _userManager = userManager;
+            _usuarioService = usuarioService;
         }
 
         public IActionResult Index()
@@ -69,7 +66,7 @@ namespace AAETravel.Controllers
             return View(experienciaPais);
         }
 
-        public IActionResult Local(int id, int experiencia)
+        public async Task<IActionResult> Local(int id, int experiencia)
         {
             var local = _context.Locais.AsNoTracking().FirstOrDefault(l => l.Id == id);
             var experienciaModel = _context.Experiencias.AsNoTracking().FirstOrDefault(e => e.Id == experiencia);
@@ -82,10 +79,10 @@ namespace AAETravel.Controllers
                 Experiencias = experienciaModel
             };
 
-            var userId = _userManager.GetUserId(User);
-            if (userId != null)
+            var user = await _usuarioService.GetUsuarioLogado();
+            if (user != null)
             {
-                model.Favoritado = _context.Listas.Any(f => f.UsuarioId == userId && f.LocalId == local.Id);
+                model.Favoritado = _context.Listas.Any(f => f.UsuarioId == user.UsuarioId && f.LocalId == local.Id);
             }
             return View(model);
         }
@@ -102,9 +99,10 @@ namespace AAETravel.Controllers
         [Authorize]
         public async Task<IActionResult> Favoritado()
         {
-            var usuarioId = _userManager.GetUserId(User);
+
+            var user = await _usuarioService.GetUsuarioLogado();
             var listas = await _context.Listas
-                .Where(f => f.UsuarioId == usuarioId)
+                .Where(f => f.UsuarioId == user.UsuarioId)
                 .Include(f => f.Local)
                 .ThenInclude(l => l.ExperienciasLocais)
                 .ThenInclude(el => el.Experiencia)
@@ -127,6 +125,8 @@ namespace AAETravel.Controllers
         {
             var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var usuario = _context.Usuarios.Find(usuarioId);
+            if (usuario == null)
+                return RedirectToAction("Login", "Account");
 
             if (usuario == null)
             {
@@ -140,6 +140,8 @@ namespace AAETravel.Controllers
         {
             var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var usuario = _context.Usuarios.Find(usuarioId);
+            if (usuario == null)
+                return RedirectToAction("Login", "Account");
 
             if (usuario == null)
             {
@@ -152,14 +154,16 @@ namespace AAETravel.Controllers
         [HttpPost]
         public async Task<IActionResult> Favoritar(int localId, int experienciaId)
         {
-            var userId = _userManager.GetUserId(User);
-            var favoritoExistente = _context.Listas.FirstOrDefault(f => f.UsuarioId == userId && f.LocalId == localId);
+            var user = await _usuarioService.GetUsuarioLogado();
+            if (user == null)
+                return RedirectToAction("Login", "Account");
+            var favoritoExistente = _context.Listas.FirstOrDefault(f => f.UsuarioId == user.UsuarioId && f.LocalId == localId);
 
             if (favoritoExistente == null)
             {
                 var favorito = new Lista
                 {
-                    UsuarioId = userId,
+                    UsuarioId = user.UsuarioId,
                     LocalId = localId,
                     DataCadastro = DateTime.Now
                 };
@@ -181,6 +185,8 @@ namespace AAETravel.Controllers
             {
                 var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 var usuarioExistente = await _context.Usuarios.FindAsync(usuarioId);
+                if (usuarioExistente == null)
+                return RedirectToAction("Login", "Account");
 
                 if (usuarioExistente != null)
                 {

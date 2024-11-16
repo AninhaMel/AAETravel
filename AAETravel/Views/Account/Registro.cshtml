@@ -10,10 +10,9 @@
     <div class="text-center text-white mb-4">
         <a asp-action="Index" asp-controller="Home" class="text-decoration-none">
             <div class="login-img">
-                <img class="mb-2" src="~/img/outros/favcon.png" alt="Logo" width="180" height="180">
+                <img class="mb-2" src="~/img/outros/favcon.png" alt="Logo">
             </div>
         </a>
-        <p class="h3 mt-2">@ViewData["SubTitle"]</p>
     </div>
     @if (!Model.Enviado)
     {
@@ -62,7 +61,7 @@
             <div class="col-12 ps-2 mt-2 mb-3">
                 <div class="form-check text-white fs-6">
                     <input class="form-check-input text-danger fs-5" asp-for="Termos" onclick="verificarTermos()" />
-                    <label class="form-check-label mt-1" asp-for="Termos">
+                    <label class="form-check-label mt-1 text-white" asp-for="Termos">
                         Eu concordo com os
                         <a class="link" href="javascript:void(0);">termos e politica de privacidade</a>
                     </label>
@@ -154,6 +153,7 @@
         background-attachment: fixed;
         filter: drop-shadow(0 0 80px rgb(0, 0, 0));
     }
+
 
     .container {
         background: rgba(0, 0, 0, 0.75);
